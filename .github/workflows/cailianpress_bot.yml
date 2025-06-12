@@ -15,7 +15,7 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -27,18 +27,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests pytz
     
-    - name: Create frequency_words.txt if not exists
-      run: |
-        if [ ! -f frequency_words.txt ]; then
-          echo "Creating empty frequency_words.txt file"
-          touch frequency_words.txt
-        fi
-    
     - name: Run crawler
       env:
         FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
         GITHUB_ACTIONS: true
-      run: python main.py
+      run: python cls_to_feishu.py
     
     - name: Commit and push if changes
       run: |
