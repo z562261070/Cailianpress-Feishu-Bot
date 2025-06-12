@@ -198,7 +198,7 @@ class TelegramFileManager:
         """获取特定日期的文件路径"""
         return self.output_dir / f"财联社电报_{date_str}.md"
 
-    def _parse_telegram_from_line(self, line: str, is_red_category: bool) -> dict | None:
+    def _parse_telegram_from_line(self, line: str, is_red_category: bool) -> Optional[dict]:
         """
         从文件行中解析单个电报的数据。
         由于Markdown格式不存储原始时间戳，这里会将其设为None。
