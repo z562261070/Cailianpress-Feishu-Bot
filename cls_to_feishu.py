@@ -230,7 +230,8 @@ class FileWriter:
         return existing_ids
 
     @staticmethod
-    def _build_file_content(telegrams):
+    def _build_file_content(date_str, telegrams):
+        
         """构建文件内容"""
         # 这里的 telegrams 已经是针对特定日期且已排序的新电报
         if not telegrams:
