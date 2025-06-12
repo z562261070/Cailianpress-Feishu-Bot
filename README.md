@@ -1,49 +1,30 @@
 # 财联社电报到飞书推送工具
 
-这个工具可以自动获取财联社当天的电报信息，并将其发送到飞书群聊中，方便团队成员及时了解财经动态。
+这个工具可以自动获取财联社当天的电报信息，并将其保存到本地文件中，方便用户随时查看和管理。
 
 ## 功能特点
 
 - **自动获取财联社电报**：获取当天的财联社电报信息
 - **智能分类展示**：将重要电报（包含关键词的）和一般电报分开展示
-- **飞书群聊推送**：将格式化后的电报信息推送到飞书群聊
-- **可自定义配置**：支持自定义飞书Webhook URL、最大获取电报数量、标红关键词等
+- **本地文件保存**：将格式化后的电报信息保存到本地Markdown文件
+- **可自定义配置**：支持自定义输出目录、最大获取电报数量、标红关键词等
 
 ## 使用方法
 
-### 1. 设置飞书机器人
+### 1. 配置脚本
 
-1. 在飞书群聊中添加自定义机器人：
-   - 打开飞书群聊 -> 点击群设置 -> 群机器人 -> 添加机器人 -> 自定义机器人
-   - 设置机器人名称（如"财联社电报推送"）
-   - 获取并保存Webhook URL
-
-### 2. 配置脚本
-
-有两种方式配置Webhook URL：
-
-#### 方式一：直接修改脚本中的配置
-
-打开`cls_to_feishu.py`文件，找到CONFIG部分，修改`FEISHU_WEBHOOK_URL`：
+打开`cls_to_feishu.py`文件，找到CONFIG部分，修改相关配置：
 
 ```python
 CONFIG = {
-    "FEISHU_WEBHOOK_URL": "https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxx",  # 替换为你的Webhook URL
+    "OUTPUT_DIR": "./output/财联社电报",  # 电报保存目录，默认为脚本所在目录下的 output/财联社电报
+    "FEISHU_WEBHOOK_URL": "",  # 飞书自动化 Webhook URL，用于触发飞书云文档创建
     # 其他配置...
 }
 ```
 
-#### 方式二：使用环境变量（推荐）
-
-设置环境变量`FEISHU_WEBHOOK_URL`：
-
-```bash
-# Windows
-set FEISHU_WEBHOOK_URL=https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxx
-
-# Linux/Mac
-export FEISHU_WEBHOOK_URL=https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxx
-```
+-   **`OUTPUT_DIR`**：电报将以Markdown格式保存到此目录，文件名包含日期，例如 `财联社电报_2023-10-27.md`。每次运行脚本，新的电报内容将追加到当天的文件中。
+-   **`FEISHU_WEBHOOK_URL`**：如果你希望在本地保存文件的同时，也触发飞书自动化流程（例如在飞书云空间创建文档），请在此处填写飞书自动化工作流的 Webhook URL。你需要根据飞书自动化平台的要求，配置接收 Webhook 的步骤，并处理脚本发送的 JSON 数据（包含 `telegrams` 和 `date` 字段）。
 
 ### 3. 安装依赖
 
@@ -63,10 +44,10 @@ python cls_to_feishu.py
 
 ```python
 CONFIG = {
-    "FEISHU_SEPARATOR": "━━━━━━━━━━━━━━━━━━━",  # 飞书消息分割线
-    "FEISHU_WEBHOOK_URL": "",  # 飞书机器人的webhook URL
+    "OUTPUT_DIR": "./output/财联社电报",  # 输出目录
     "MAX_TELEGRAMS": 50,  # 最大获取电报数量
     "RED_KEYWORDS": ["利好", "利空", "重要", "突发", "紧急", "关注", "提醒"],  # 标红关键词
+    "FILE_SEPARATOR": "━━━━━━━━━━━━━━━━━━━",  # 文件内容分割线
 }
 ```
 
@@ -86,11 +67,12 @@ CONFIG = {
 crontab -e
 
 # 添加定时任务（每小时运行一次）
-0 * * * * export FEISHU_WEBHOOK_URL=https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxx; /usr/bin/python /path/to/cls_to_feishu.py
+0 * * * * /usr/bin/python /path/to/cls_to_feishu.py
 ```
 
 ## 注意事项
 
-1. 脚本默认获取当天（北京时间）的电报信息
-2. 包含特定关键词的电报会被标记为重要电报并在飞书消息中标红显示
-3. 确保网络环境能够访问财联社API和飞书API
+1.  脚本默认获取当天（北京时间）的电报信息。
+2.  包含特定关键词的电报会被标记为重要电报并在文件中标红显示。
+3.  确保网络环境能够访问财联社API。
+4.  如果配置了 `FEISHU_WEBHOOK_URL`，请确保该 URL 有效，并且飞书自动化工作流能够正确接收和处理脚本发送的 JSON 数据。
