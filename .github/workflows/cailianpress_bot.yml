@@ -1,0 +1,20 @@
+steps:
+- name: Checkout repository
+  uses: actions/checkout@v4
+
+- name: Set up Python
+  uses: actions/setup-python@v5
+  with:
+    python-version: '3.9'
+
+- name: Install dependencies
+  run: pip install requests pytz
+
+- name: Run Cailianpress Feishu Bot
+  env:
+    FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+  run: python cls_to_feishu.py
+```
+
+*   `cron: '*/10 * * * *'` 表示每 10 分钟运行一次。您可以根据需求调整这个时间，例如 `0 */1 * * *` 表示每小时运行一次。
+*   `workflow_dispatch` 允许您在 GitHub Actions 页面手动触发此工作流。
