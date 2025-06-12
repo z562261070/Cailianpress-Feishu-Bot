@@ -201,7 +201,7 @@ class FileWriter:
             # 对新电报按原始时间戳倒序排序
             new_telegrams_for_day.sort(key=lambda x: int(x.get("timestamp_raw", 0)), reverse=True)
 
-            content = FileWriter._build_file_content(new_telegrams_for_day)
+            content = FileWriter._build_file_content(date_str, new_telegrams_for_day)
 
             try:
                 with open(file_path, "a", encoding="utf-8") as f:
