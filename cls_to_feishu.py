@@ -204,11 +204,7 @@ class TelegramFileManager:
         由于Markdown格式不存储原始时间戳，这里会将其设为None。
         """
         line = line.strip()
-        # 匹配带有URL的加粗标题（重要电报）或普通标题（一般电报）
-        # pattern_with_url = re.compile(r'^\s*\d+\.\s*\[(\d{2}:\d{2})\]\s*(?:\*\*)?\[(.*?)\]\(https://www.cls.cn/detail/(\d+)\)(?:\*\*)?\s*$')
-        # 匹配不带URL的加粗标题（重要电报）或普通标题（一般电报）
-        # pattern_no_url = re.compile(r'^\s*\d+\.\s*\[(\d{2}:\d{2})\]\s*(?:\*\*)?(.*?)(?:\*\*)?\s*$')
-
+        
         # 统一匹配模式，先尝试匹配有URL的，再匹配没有URL的
         # 注意：这里假设内容中不会出现Markdown链接的特殊字符，否则需要更复杂的解析库
         match_url = re.match(r'^\s*\d+\.\s*\[(\d{2}:\d{2})\]\s*(?:\*\*)?\[(.*?)\]\(https://www.cls.cn/detail/(\d+)\)(?:\*\*)?$', line)
@@ -233,7 +229,7 @@ class TelegramFileManager:
             print(f"[{TimeHelper.format_datetime()}] 警告: 文件中发现无URL/ID的电报 '{item_content}'，跳过加载。")
             return None # 不加载无ID的电报
 
-        return None
+        return None # 如果所有匹配都失败，返回None
 
     def load_existing_telegrams(self, date_str: str) -> list[dict]:
         """
@@ -264,7 +260,7 @@ class TelegramFileManager:
                     continue
 
                 telegram = self._parse_telegram_from_line(line, is_red_category)
-                if telegram:
+                if telegram: # 只有当成功解析到电报（不是None）时才添加
                     existing_telegrams.append(telegram)
             
             print(f"[{TimeHelper.format_datetime()}] 从文件 '{file_path}' 加载了 {len(existing_telegrams)} 条现有电报。")
@@ -453,6 +449,7 @@ def main():
 
     new_telegrams_for_notification = []
     for t in fetched_telegrams:
+        # 只有当电报有ID且文件中没有这个ID时，才认为是新的，用于通知
         if t.get("id") and t["id"] not in existing_ids_today:
             new_telegrams_for_notification.append(t)
     
