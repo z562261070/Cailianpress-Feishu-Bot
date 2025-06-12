@@ -13,10 +13,11 @@ import pytz
 
 # 配置常量
 CONFIG = {
-    "FEISHU_SEPARATOR": "━━━━━━━━━━━━━━━━━━━",  # 飞书消息分割线
-    "FEISHU_WEBHOOK_URL": "",  # 飞书机器人的 webhook URL，可以通过环境变量设置
+    "OUTPUT_DIR": "./output/财联社电报",  # 输出目录
+    "FEISHU_WEBHOOK_URL": "",  # 飞书自动化 Webhook URL，用于触发飞书云文档创建
     "MAX_TELEGRAMS": 50,  # 最大获取电报数量
     "RED_KEYWORDS": ["利好", "利空", "重要", "突发", "紧急", "关注", "提醒"],  # 标红关键词
+    "FILE_SEPARATOR": "━━━━━━━━━━━━━━━━━━━",  # 文件内容分割线
 }
 
 
@@ -133,101 +134,98 @@ class CailianpressAPI:
             return []
 
 
-class FeishuSender:
-    """飞书消息发送器"""
+class FileWriter:
+    """文件写入工具"""
 
     @staticmethod
-    def send_to_feishu(telegrams):
-        """发送数据到飞书"""
-        webhook_url = os.environ.get("FEISHU_WEBHOOK_URL", CONFIG["FEISHU_WEBHOOK_URL"])
+    def save_telegrams_to_file(telegrams):
+        """将电报内容保存到文件"""
+        output_dir = Path(CONFIG["OUTPUT_DIR"])
+        output_dir.mkdir(parents=True, exist_ok=True)
 
-        if not webhook_url:
-            print(f"警告: FEISHU_WEBHOOK_URL未设置，跳过飞书通知")
-            return False
+        today_date = TimeHelper.get_beijing_time().strftime("%Y-%m-%d")
+        file_path = output_dir / f"财联社电报_{today_date}.md"
 
-        headers = {"Content-Type": "application/json"}
-        text_content = FeishuSender._build_feishu_content(telegrams)
-
-        now = TimeHelper.get_beijing_time()
-        payload = {
-            "msg_type": "text",
-            "content": {
-                "text": text_content,
-            },
-        }
+        content = FileWriter._build_file_content(telegrams)
 
         try:
-            response = requests.post(webhook_url, headers=headers, json=payload)
-            if response.status_code == 200:
-                print(f"数据发送到飞书成功")
-                return True
-            else:
-                print(f"发送到飞书失败，状态码：{response.status_code}，响应：{response.text}")
-                return False
+            with open(file_path, "a", encoding="utf-8") as f:
+                f.write(content)
+            print(f"财联社电报已保存到: {file_path}")
+            return True
         except Exception as e:
-            print(f"发送到飞书时出错：{e}")
+            print(f"保存电报到文件失败: {e}")
             return False
 
     @staticmethod
-    def _build_feishu_content(telegrams):
-        """构建飞书消息内容"""
+    def _build_file_content(telegrams):
+        """构建文件内容"""
         if not telegrams:
-            return "📭 今日暂无财联社电报"
+            return f"\n\n---\n\n### {TimeHelper.format_datetime()} - 今日暂无财联社电报\n\n" # 添加时间戳和分割线
 
-        text_content = f"📊 **财联社电报 - {TimeHelper.format_date()}**\n\n"
+        text_content = f"\n\n---\n\n### {TimeHelper.format_datetime()} - 财联社电报\n\n"
 
         # 先显示标红的电报
         red_telegrams = [t for t in telegrams if t.get("is_red")]
         normal_telegrams = [t for t in telegrams if not t.get("is_red")]
 
         if red_telegrams:
-            text_content += "🔴 **重要电报**\n\n"
+            text_content += "**🔴 重要电报**\n\n"
             for i, telegram in enumerate(red_telegrams, 1):
                 title = telegram.get("content", "")
                 time = telegram.get("time", "")
                 url = telegram.get("url", "")
 
                 if url:
-                    text_content += f"  {i}. <font color='red'>[{time}]</font> [{title}]({url})\n\n"
+                    text_content += f"  {i}. [{time}] **[{title}]({url})**\n\n"
                 else:
-                    text_content += f"  {i}. <font color='red'>[{time}]</font> {title}\n\n"
+                    text_content += f"  {i}. [{time}] **{title}**\n\n"
 
             # 添加分割线
             if normal_telegrams:
-                text_content += f"{CONFIG['FEISHU_SEPARATOR']}\n\n"
+                text_content += f"{CONFIG['FILE_SEPARATOR']}\n\n"
 
         if normal_telegrams:
-            text_content += "📰 **一般电报**\n\n"
+            text_content += "**📰 一般电报**\n\n"
             for i, telegram in enumerate(normal_telegrams, 1):
                 title = telegram.get("content", "")
                 time = telegram.get("time", "")
                 url = telegram.get("url", "")
 
                 if url:
-                    text_content += f"  {i}. <font color='grey'>[{time}]</font> [{title}]({url})\n\n"
+                    text_content += f"  {i}. [{time}] [{title}]({url})\n\n"
                 else:
-                    text_content += f"  {i}. <font color='grey'>[{time}]</font> {title}\n\n"
-
-        # 添加更新时间
-        text_content += f"\n<font color='grey'>更新时间：{TimeHelper.format_datetime()}</font>"
+                    text_content += f"  {i}. [{time}] {title}\n\n"
 
         return text_content
 
 
 def main():
-    """程序入口"""
-    print(f"开始运行财联社电报到飞书程序...")
-    print(f"当前北京时间: {TimeHelper.format_datetime()}")
-
-    # 获取财联社电报
     telegrams = CailianpressAPI.fetch_telegrams()
-    
-    if not telegrams:
-        print("未获取到电报数据，程序退出")
-        return
-    
-    # 发送到飞书
-    FeishuSender.send_to_feishu(telegrams)
+    if telegrams:
+        FileWriter.save_telegrams_to_file(telegrams)
+
+        # 尝试发送 Webhook 到飞书自动化
+        webhook_url = CONFIG["FEISHU_WEBHOOK_URL"]
+        if webhook_url:
+            try:
+                # 构建发送到飞书 Webhook 的内容，这里可以根据飞书自动化接收的格式进行调整
+                # 假设飞书自动化需要一个包含电报内容的 JSON 字符串
+                payload = {
+                    "telegrams": telegrams,
+                    "date": TimeHelper.format_date()
+                }
+                response = requests.post(webhook_url, json=payload)
+                if response.status_code == 200:
+                    print("成功发送 Webhook 到飞书自动化。")
+                else:
+                    print(f"发送 Webhook 到飞书自动化失败，状态码：{response.status_code}，响应：{response.text}")
+            except Exception as e:
+                print(f"发送 Webhook 到飞书自动化时出错：{e}")
+        else:
+            print("警告: FEISHU_WEBHOOK_URL未设置，跳过飞书自动化 Webhook 发送。")
+    else:
+        print("未获取到财联社电报或获取失败。")
 
 
 if __name__ == "__main__":
