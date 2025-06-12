@@ -170,7 +170,14 @@ class FileWriter:
         today_date = TimeHelper.get_beijing_time().strftime("%Y-%m-%d")
         file_path = output_dir / f"财联社电报_{today_date}.md"
 
-        content = FileWriter._build_file_content(telegrams)
+        existing_ids = FileWriter._get_existing_telegram_ids(file_path)
+        new_telegrams = [t for t in telegrams if str(t.get("id")) not in existing_ids]
+
+        if not new_telegrams:
+            print("没有新的财联社电报需要保存。")
+            return False
+
+        content = FileWriter._build_file_content(new_telegrams)
 
         try:
             with open(file_path, "a", encoding="utf-8") as f:
@@ -180,6 +187,23 @@ class FileWriter:
         except Exception as e:
             print(f"保存电报到文件失败: {e}")
             return False
+
+    @staticmethod
+    def _get_existing_telegram_ids(file_path):
+        """从文件中读取已存在的电报ID"""
+        existing_ids = set()
+        if file_path.exists():
+            try:
+                with open(file_path, "r", encoding="utf-8") as f:
+                    content = f.read()
+                # 使用正则表达式或其他方式从内容中提取ID，这里假设ID在URL中
+                # 示例：[23:29] **[韩国将对尹锡悦夫妇展开独立调查](https://www.cls.cn/detail/2056087)**
+                import re
+                ids = re.findall(r'https://www.cls.cn/detail/(\d+)', content)
+                existing_ids.update(ids)
+            except Exception as e:
+                print(f"读取文件 {file_path} 失败: {e}")
+        return existing_ids
 
     @staticmethod
     def _build_file_content(telegrams):
@@ -226,30 +250,45 @@ class FileWriter:
 
 def main():
     telegrams = CailianpressAPI.fetch_telegrams()
-    if telegrams:
-        FileWriter.save_telegrams_to_file(telegrams)
-
-        # 尝试发送 Webhook 到飞书自动化
-        webhook_url = CONFIG["FEISHU_WEBHOOK_URL"]
-        if webhook_url:
-            try:
-                # 构建发送到飞书 Webhook 的内容，这里可以根据飞书自动化接收的格式进行调整
-                # 假设飞书自动化需要一个包含电报内容的 JSON 字符串
-                payload = {
-                    "telegrams": telegrams,
-                    "date": TimeHelper.format_date()
-                }
-                response = requests.post(webhook_url, json=payload)
-                if response.status_code == 200:
-                    print("成功发送 Webhook 到飞书自动化。")
-                else:
-                    print(f"发送 Webhook 到飞书自动化失败，状态码：{response.status_code}，响应：{response.text}")
-            except Exception as e:
-                print(f"发送 Webhook 到飞书自动化时出错：{e}")
-        else:
-            print("警告: FEISHU_WEBHOOK_URL未设置，跳过飞书自动化 Webhook 发送。")
-    else:
+    if not telegrams:
         print("未获取到财联社电报或获取失败。")
+        return
+
+    # 获取当天已保存的电报ID，用于去重
+    output_dir = Path(CONFIG["OUTPUT_DIR"])
+    today_date = TimeHelper.get_beijing_time().strftime("%Y-%m-%d")
+    file_path = output_dir / f"财联社电报_{today_date}.md"
+    existing_ids = FileWriter._get_existing_telegram_ids(file_path)
+
+    # 过滤掉已存在的电报
+    new_telegrams = [t for t in telegrams if str(t.get("id")) not in existing_ids]
+
+    if not new_telegrams:
+        print("没有新的财联社电报需要保存或发送。")
+        return
+
+    # 保存新的电报到文件
+    FileWriter.save_telegrams_to_file(new_telegrams)
+
+    # 尝试发送 Webhook 到飞书自动化 (只发送新的电报)
+    webhook_url = CONFIG["FEISHU_WEBHOOK_URL"]
+    if webhook_url:
+        try:
+            # 构建发送到飞书 Webhook 的内容，这里可以根据飞书自动化接收的格式进行调整
+            # 假设飞书自动化需要一个包含电报内容的 JSON 字符串
+            payload = {
+                "telegrams": new_telegrams,
+                "date": TimeHelper.format_date()
+            }
+            response = requests.post(webhook_url, json=payload)
+            if response.status_code == 200:
+                print("成功发送 Webhook 到飞书自动化。")
+            else:
+                print(f"发送 Webhook 到飞书自动化失败，状态码：{response.status_code}，响应：{response.text}")
+        except Exception as e:
+            print(f"发送 Webhook 到飞书自动化时出错：{e}")
+    else:
+        print("警告: FEISHU_WEBHOOK_URL未设置，跳过飞书自动化 Webhook 发送。")
 
 
 if __name__ == "__main__":
