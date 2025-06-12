@@ -201,11 +201,19 @@ class FileWriter:
             # 对新电报按原始时间戳倒序排序
             new_telegrams_for_day.sort(key=lambda x: int(x.get("timestamp_raw", 0)), reverse=True)
 
+            # 检查文件是否存在，如果不存在则创建新文件，如果存在则追加内容
+            file_exists = file_path.exists()
             content = FileWriter._build_file_content(date_str, new_telegrams_for_day)
-
+            
             try:
-                with open(file_path, "a", encoding="utf-8") as f:
-                    f.write(content)
+                # 如果文件不存在，创建新文件并写入内容
+                if not file_exists:
+                    with open(file_path, "w", encoding="utf-8") as f:
+                        f.write(content)
+                else:
+                    # 如果文件已存在，追加内容
+                    with open(file_path, "a", encoding="utf-8") as f:
+                        f.write(content)
                 print(f"日期 {date_str} 的财联社电报已保存到: {file_path}")
                 saved_any_new = True
             except Exception as e:
@@ -237,20 +245,8 @@ class FileWriter:
         if not telegrams:
             return "" # 如果没有电报，不返回任何内容
 
-        # 使用第一条电报的原始时间戳来确定本次写入的日期时间标题
-        # 因为电报已经按时间倒序排序，所以第一条是最新的
-        latest_telegram_timestamp = telegrams[0].get("timestamp_raw")
-        if latest_telegram_timestamp:
-            try:
-                latest_datetime = datetime.fromtimestamp(int(latest_telegram_timestamp), pytz.timezone("Asia/Shanghai"))
-                formatted_datetime = latest_datetime.strftime("%Y-%m-%d %H:%M:%S")
-            except (ValueError, TypeError):
-                formatted_datetime = TimeHelper.format_datetime() # Fallback to current time
-        else:
-            formatted_datetime = TimeHelper.format_datetime() # Fallback to current time
-
-
-        text_content = f"\n\n---\n\n### {formatted_datetime} - 财联社电报\n\n"
+        # 不再添加时间戳标题，直接开始电报内容
+        text_content = "\n\n"
 
         # 先显示标红的电报
         red_telegrams = [t for t in telegrams if t.get("is_red")]
