@@ -10,6 +10,7 @@ from pathlib import Path
 import re
 import hashlib
 import urllib.parse
+from typing import Optional
 
 import requests
 import pytz
