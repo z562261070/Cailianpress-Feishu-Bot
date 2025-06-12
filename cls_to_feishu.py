@@ -145,7 +145,8 @@ class CailianpressAPI:
                         "content": content,
                         "time": item_time,
                         "url": url,
-                        "is_red": is_red
+                        "is_red": is_red,
+                        "timestamp_raw": timestamp # 添加原始时间戳
                     })
                 
                 print(f"处理后的电报数量: {len(processed_telegrams)}")
@@ -163,30 +164,54 @@ class FileWriter:
 
     @staticmethod
     def save_telegrams_to_file(telegrams):
-        """将电报内容保存到文件"""
+        """将电报内容保存到文件，并按日期归档和排序"""
         output_dir = Path(CONFIG["OUTPUT_DIR"])
         output_dir.mkdir(parents=True, exist_ok=True)
 
-        today_date = TimeHelper.get_beijing_time().strftime("%Y-%m-%d")
-        file_path = output_dir / f"财联社电报_{today_date}.md"
+        # 按日期分组电报
+        telegrams_by_date = {}
+        for t in telegrams:
+            if "timestamp_raw" in t and t["timestamp_raw"]:
+                try:
+                    # 将时间戳转换为日期
+                    item_datetime = datetime.fromtimestamp(int(t["timestamp_raw"]), pytz.timezone("Asia/Shanghai"))
+                    item_date_str = item_datetime.strftime("%Y-%m-%d")
+                    if item_date_str not in telegrams_by_date:
+                        telegrams_by_date[item_date_str] = []
+                    telegrams_by_date[item_date_str].append(t)
+                except (ValueError, TypeError):
+                    print(f"警告: 无法解析电报时间戳 {t.get('timestamp_raw')}，跳过此电报的日期归档。")
+                    continue
+            else:
+                print(f"警告: 电报缺少原始时间戳，跳过此电报的日期归档。电报ID: {t.get('id')}")
+                continue
 
-        existing_ids = FileWriter._get_existing_telegram_ids(file_path)
-        new_telegrams = [t for t in telegrams if str(t.get("id")) not in existing_ids]
+        saved_any_new = False
+        for date_str, daily_telegrams in telegrams_by_date.items():
+            file_path = output_dir / f"财联社电报_{date_str}.md"
+            existing_ids = FileWriter._get_existing_telegram_ids(file_path)
 
-        if not new_telegrams:
-            print("没有新的财联社电报需要保存。")
-            return False
+            # 过滤掉已存在的电报
+            new_telegrams_for_day = [t for t in daily_telegrams if str(t.get("id")) not in existing_ids]
 
-        content = FileWriter._build_file_content(new_telegrams)
+            if not new_telegrams_for_day:
+                print(f"日期 {date_str} 没有新的财联社电报需要保存。")
+                continue
 
-        try:
-            with open(file_path, "a", encoding="utf-8") as f:
-                f.write(content)
-            print(f"财联社电报已保存到: {file_path}")
-            return True
-        except Exception as e:
-            print(f"保存电报到文件失败: {e}")
-            return False
+            # 对新电报按原始时间戳倒序排序
+            new_telegrams_for_day.sort(key=lambda x: int(x.get("timestamp_raw", 0)), reverse=True)
+
+            content = FileWriter._build_file_content(new_telegrams_for_day)
+
+            try:
+                with open(file_path, "a", encoding="utf-8") as f:
+                    f.write(content)
+                print(f"日期 {date_str} 的财联社电报已保存到: {file_path}")
+                saved_any_new = True
+            except Exception as e:
+                print(f"保存日期 {date_str} 的电报到文件失败: {e}")
+        
+        return saved_any_new
 
     @staticmethod
     def _get_existing_telegram_ids(file_path):
@@ -196,10 +221,9 @@ class FileWriter:
             try:
                 with open(file_path, "r", encoding="utf-8") as f:
                     content = f.read()
-                # 使用正则表达式或其他方式从内容中提取ID，这里假设ID在URL中
-                # 示例：[23:29] **[韩国将对尹锡悦夫妇展开独立调查](https://www.cls.cn/detail/2056087)**
                 import re
-                ids = re.findall(r'https://www.cls.cn/detail/(\d+)', content)
+                # 匹配两种URL格式，确保能提取ID
+                ids = re.findall(r'https://www.cls.cn/detail/(\\d+)', content)
                 existing_ids.update(ids)
             except Exception as e:
                 print(f"读取文件 {file_path} 失败: {e}")
@@ -208,10 +232,24 @@ class FileWriter:
     @staticmethod
     def _build_file_content(telegrams):
         """构建文件内容"""
+        # 这里的 telegrams 已经是针对特定日期且已排序的新电报
         if not telegrams:
-            return f"\n\n---\n\n### {TimeHelper.format_datetime()} - 今日暂无财联社电报\n\n" # 添加时间戳和分割线
+            return "" # 如果没有电报，不返回任何内容
 
-        text_content = f"\n\n---\n\n### {TimeHelper.format_datetime()} - 财联社电报\n\n"
+        # 使用第一条电报的原始时间戳来确定本次写入的日期时间标题
+        # 因为电报已经按时间倒序排序，所以第一条是最新的
+        latest_telegram_timestamp = telegrams[0].get("timestamp_raw")
+        if latest_telegram_timestamp:
+            try:
+                latest_datetime = datetime.fromtimestamp(int(latest_telegram_timestamp), pytz.timezone("Asia/Shanghai"))
+                formatted_datetime = latest_datetime.strftime("%Y-%m-%d %H:%M:%S")
+            except (ValueError, TypeError):
+                formatted_datetime = TimeHelper.format_datetime() # Fallback to current time
+        else:
+            formatted_datetime = TimeHelper.format_datetime() # Fallback to current time
+
+
+        text_content = f"\n\n---\n\n### {formatted_datetime} - 财联社电报\n\n"
 
         # 先显示标红的电报
         red_telegrams = [t for t in telegrams if t.get("is_red")]
@@ -260,32 +298,33 @@ def main():
     file_path = output_dir / f"财联社电报_{today_date}.md"
     existing_ids = FileWriter._get_existing_telegram_ids(file_path)
 
-    # 过滤掉已存在的电报
-    new_telegrams = [t for t in telegrams if str(t.get("id")) not in existing_ids]
+    # 过滤掉已存在的电报，得到真正需要处理的新电报
+    new_telegrams_to_process = [t for t in telegrams if str(t.get("id")) not in existing_ids]
 
-    if not new_telegrams:
+    if not new_telegrams_to_process:
         print("没有新的财联社电报需要保存或发送。")
         return
 
-    # 保存新的电报到文件
-    FileWriter.save_telegrams_to_file(new_telegrams)
+    # 对需要处理的新电报按原始时间戳倒序排序，确保飞书接收到的也是按时间倒序的
+    new_telegrams_to_process.sort(key=lambda x: int(x.get("timestamp_raw", 0)), reverse=True)
 
-    # 尝试发送 Webhook 到飞书自动化 (只发送新的电报)
+    # 保存新的电报到文件 (FileWriter.save_telegrams_to_file 内部会按日期归档和去重)
+    FileWriter.save_telegrams_to_file(new_telegrams_to_process)
+
+    # 尝试发送 Webhook 到飞书自动化 (只发送当天新获取并已排序的电报)
     webhook_url = CONFIG["FEISHU_WEBHOOK_URL"]
     if webhook_url:
         try:
-            # 构建发送到飞书 Webhook 的内容，这里可以根据飞书自动化接收的格式进行调整
-            # 假设飞书自动化需要一个包含电报内容的 JSON 字符串
-            # 将所有新电报的内容合并成一个字符串，并添加换行符
+            # 构建发送到飞书 Webhook 的内容
             combined_telegram_content = "\n\n".join([
                 f"[{t.get('time', '')}] {t.get('content', '')} - {t.get('url', '')}"
-                for t in new_telegrams
+                for t in new_telegrams_to_process
             ])
 
             payload = {
                 "content": {
                     "text": combined_telegram_content,
-                    "total_titles": len(new_telegrams),
+                    "total_titles": len(new_telegrams_to_process),
                     "timestamp": TimeHelper.format_datetime(),
                     "report_type": "财联社电报"
                 }
