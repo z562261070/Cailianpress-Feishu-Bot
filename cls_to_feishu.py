@@ -18,6 +18,8 @@ CONFIG = {
     "MAX_TELEGRAMS": 50,  # 最大获取电报数量
     "RED_KEYWORDS": ["利好", "利空", "重要", "突发", "紧急", "关注", "提醒"],  # 标红关键词
     "FILE_SEPARATOR": "━━━━━━━━━━━━━━━━━━━",  # 文件内容分割线
+    "USE_PROXY": False,  # 是否启用代理，默认为 False，如果需要请设置为 True
+    "DEFAULT_PROXY": "http://127.0.0.1:10086", # 默认代理地址
 }
 
 
@@ -44,88 +46,74 @@ class TimeHelper:
         """返回日期时间格式"""
         return TimeHelper.get_beijing_time().strftime("%Y-%m-%d %H:%M:%S")
 
-    @staticmethod
-    def get_today_timestamp() -> int:
-        """获取今天0点的时间戳（秒）"""
-        now = TimeHelper.get_beijing_time()
-        today = datetime(now.year, now.month, now.day, tzinfo=pytz.timezone("Asia/Shanghai"))
-        return int(today.timestamp())
+
 
 
 class CailianpressAPI:
     """财联社API"""
 
     @staticmethod
-    def md5(text):
-        """计算MD5哈希"""
-        import hashlib
-        return hashlib.md5(text.encode()).hexdigest()
-
-    @staticmethod
-    def sha1(text):
-        """计算SHA-1哈希"""
-        import hashlib
-        return hashlib.sha1(text.encode()).hexdigest()
-
-    @staticmethod
-    async def get_cls_params(more_params={}):
-        """获取财联社API请求参数"""
-        static_params = {
-            "app_name": "CailianpressWeb",
-            "os": "web",
-            "sv": "7.7.5",
-        }
-        all_params = {**static_params, **more_params}
-        search_params = []
-        
-        # 参数排序对于签名很重要
-        sorted_keys = sorted(all_params.keys())
-        for key in sorted_keys:
-            search_params.append(f"{key}={all_params[key]}")
-        
-        params_string = "&".join(search_params)
-        
-        # 签名逻辑: md5(sha1(sorted_params_string))
-        signature = CailianpressAPI.md5(CailianpressAPI.sha1(params_string))
-        return f"{params_string}&sign={signature}"
-
-    @staticmethod
     def fetch_telegrams(max_count=CONFIG["MAX_TELEGRAMS"]):
         """获取财联社电报"""
         try:
             # 获取今天的时间戳
-            today_timestamp = TimeHelper.get_today_timestamp()
-            
             # 构建API URL
-            api_url = f"https://www.cls.cn/nodeapi/telegraphList?app=CailianpressWeb&last_time={today_timestamp}&page=1&refresh_type=0&rn={max_count}&sv=7.7.5"
+            api_url = "https://newsnow.busiyi.world/api/s?id=telegraphList&latest"
             
+            proxies = None
+            if CONFIG["USE_PROXY"]:
+                proxies = {"http": CONFIG["DEFAULT_PROXY"], "https": CONFIG["DEFAULT_PROXY"]}
+
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+                "Connection": "keep-alive",
+                "Cache-Control": "no-cache",
+            }
+
             print(f"请求财联社API: {api_url}")
-            response = requests.get(api_url, timeout=10)
+            response = requests.get(api_url, proxies=proxies, headers=headers, timeout=10)
             response.raise_for_status()
             
             data = response.json()
-            if data.get("status") == "ok" and "data" in data and "roll_data" in data["data"]:
-                telegrams = data["data"]["roll_data"]
+            if data.get("status") in ["success", "cache"] and "items" in data:
+                telegrams = data["items"]
                 print(f"成功获取 {len(telegrams)} 条财联社电报")
                 
-                # 过滤今天的电报
-                today_telegrams = []
+                processed_telegrams = []
                 for item in telegrams:
-                    # 检查是否为今天的电报
-                    if item.get("ctime", 0) >= today_timestamp:
-                        # 过滤广告
-                        if not item.get("is_ad", False):
-                            today_telegrams.append({
-                                "id": item.get("id"),
-                                "title": item.get("title") or item.get("brief", ""),  # 有些可能只有brief
-                                "content": item.get("brief", ""),
-                                "time": datetime.fromtimestamp(item.get("ctime", 0), pytz.timezone("Asia/Shanghai")).strftime("%H:%M"),
-                                "url": f"https://www.cls.cn/detail/{item.get('id')}",
-                                "is_red": any(keyword in (item.get("title") or item.get("brief", "")) for keyword in CONFIG["RED_KEYWORDS"])
-                            })
+                    # 提取所需信息
+                    title = item.get("title", "")
+                    content = item.get("brief", "") or title # 优先使用brief，没有则用title
+                    item_id = item.get("id")
+                    url = f"https://www.cls.cn/detail/{item_id}" if item_id else ""
+                    
+                    # 尝试从 ctime 或 pub_time 获取时间，并格式化
+                    timestamp = item.get("ctime") or item.get("pub_time")
+                    if timestamp:
+                        # 确保时间戳是整数或可以转换为整数
+                        try:
+                            timestamp = int(timestamp)
+                            item_time = datetime.fromtimestamp(timestamp, pytz.timezone("Asia/Shanghai")).strftime("%H:%M")
+                        except (ValueError, TypeError):
+                            item_time = ""
+                    else:
+                        item_time = ""
+
+                    is_red = any(keyword in (title + content) for keyword in CONFIG["RED_KEYWORDS"])
+
+                    processed_telegrams.append({
+                        "id": item_id,
+                        "title": title,
+                        "content": content,
+                        "time": item_time,
+                        "url": url,
+                        "is_red": is_red
+                    })
                 
-                print(f"今天的电报数量: {len(today_telegrams)}")
-                return today_telegrams
+                print(f"处理后的电报数量: {len(processed_telegrams)}")
+                return processed_telegrams
             else:
                 print(f"API返回格式错误: {data}")
                 return []
