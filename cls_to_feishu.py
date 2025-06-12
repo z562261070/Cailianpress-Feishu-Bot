@@ -113,7 +113,7 @@ class CailianpressAPI:
             response.raise_for_status()
             
             data = response.json()
-            if data.get("code") == 0 and data.get("data") and data["data"].get("roll_data"):
+            if data.get("error") == 0 and data.get("data") and data["data"].get("roll_data"):
                 telegrams = data["data"]["roll_data"]
                 print(f"成功获取 {len(telegrams)} 条财联社电报")
                 
