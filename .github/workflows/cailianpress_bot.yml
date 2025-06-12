@@ -31,7 +31,7 @@ jobs:
       env:
         FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
         GITHUB_ACTIONS: true
-        USE_PROXY: true
+        USE_PROXY: false
       run: python cls_to_feishu.py
     
     - name: Commit and push if changes
