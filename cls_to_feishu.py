@@ -14,12 +14,14 @@ import pytz
 # 配置常量
 CONFIG = {
     "OUTPUT_DIR": "./output/财联社电报",  # 输出目录
-    "FEISHU_WEBHOOK_URL": "",  # 飞书自动化 Webhook URL，用于触发飞书云文档创建
+    "FEISHU_WEBHOOK_URL": os.getenv("FEISHU_WEBHOOK_URL", ""),  # 飞书自动化 Webhook URL
     "MAX_TELEGRAMS": 50,  # 最大获取电报数量
     "RED_KEYWORDS": ["利好", "利空", "重要", "突发", "紧急", "关注", "提醒"],  # 标红关键词
     "FILE_SEPARATOR": "━━━━━━━━━━━━━━━━━━━",  # 文件内容分割线
-    "USE_PROXY": False,  # 是否启用代理，默认为 False，如果需要请设置为 True
-    "DEFAULT_PROXY": "http://127.0.0.1:10086", # 默认代理地址
+    # 从环境变量读取 USE_PROXY，如果未设置，默认为 False
+    "USE_PROXY": os.getenv("USE_PROXY", "False").lower() == "true",
+    # 从环境变量读取 DEFAULT_PROXY，如果未设置，使用默认值
+    "DEFAULT_PROXY": os.getenv("DEFAULT_PROXY", "http://127.0.0.1:10086"),
 }
 
 
