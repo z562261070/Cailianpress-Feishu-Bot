@@ -276,9 +276,19 @@ def main():
         try:
             # 构建发送到飞书 Webhook 的内容，这里可以根据飞书自动化接收的格式进行调整
             # 假设飞书自动化需要一个包含电报内容的 JSON 字符串
+            # 将所有新电报的内容合并成一个字符串，并添加换行符
+            combined_telegram_content = "\n\n".join([
+                f"[{t.get('time', '')}] {t.get('content', '')} - {t.get('url', '')}"
+                for t in new_telegrams
+            ])
+
             payload = {
-                "telegrams": new_telegrams,
-                "date": TimeHelper.format_date()
+                "content": {
+                    "text": combined_telegram_content,
+                    "total_titles": len(new_telegrams),
+                    "timestamp": TimeHelper.format_datetime(),
+                    "report_type": "财联社电报"
+                }
             }
             response = requests.post(webhook_url, json=payload)
             if response.status_code == 200:
