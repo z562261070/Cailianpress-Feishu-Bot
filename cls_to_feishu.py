@@ -358,10 +358,7 @@ class TelegramFileManager:
                 time_str = telegram.get("time", "")
                 url = telegram.get("url", "")
 
-                if url:
-                    text_content += f"  {i}. [{time_str}] **[{title}]({url})**\n\n"
-                else:
-                    text_content += f"  {i}. [{time_str}] **{title}**\n\n"
+                text_content += f"  {i}. [{time_str}] **{title}**\n\n"
 
             if normal_telegrams:
                 text_content += f"{CONFIG['FILE_SEPARATOR']}\n\n"
@@ -373,10 +370,7 @@ class TelegramFileManager:
                 time_str = telegram.get("time", "")
                 url = telegram.get("url", "")
 
-                if url:
-                    text_content += f"  {i}. [{time_str}] [{title}]({url})\n\n"
-                else:
-                    text_content += f"  {i}. [{time_str}] {title}\n\n"
+                text_content += f"  {i}. [{time_str}] {title}\n\n"
 
         return text_content
 
