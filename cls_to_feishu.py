@@ -201,31 +201,32 @@ class FileWriter:
             # 对新电报按原始时间戳倒序排序
             new_telegrams_for_day.sort(key=lambda x: int(x.get("timestamp_raw", 0)), reverse=True)
 
-            # 合并新电报和旧电报，并去重
-            all_telegrams_for_day = new_telegrams_for_day
-            if file_path.exists():
-                existing_telegrams = FileWriter._parse_existing_telegrams(file_path)
-                all_telegrams_for_day.extend(existing_telegrams)
-                # 根据ID去重
-                seen_ids = set()
-                unique_telegrams = []
-                for t in all_telegrams_for_day:
-                    if str(t.get("id")) not in seen_ids:
-                        unique_telegrams.append(t)
-                        seen_ids.add(str(t.get("id")))
-                all_telegrams_for_day = unique_telegrams
-
-            # 对所有电报按原始时间戳倒序排序
-            all_telegrams_for_day.sort(key=lambda x: int(x.get("timestamp_raw", 0)), reverse=True)
-
             # 构建文件内容
-            content = FileWriter._build_file_content(date_str, all_telegrams_for_day)
+            content = FileWriter._build_file_content(date_str, new_telegrams_for_day)
             if not content:
                 continue
             
             try:
-                with open(file_path, "w", encoding="utf-8") as f:
-                    f.write(content)
+                # 如果文件不存在，创建新文件并写入内容
+                if not file_path.exists():
+                    with open(file_path, "w", encoding="utf-8") as f:
+                        f.write(content)
+                else:
+                    # 如果文件已存在，先读取内容，然后重写整个文件
+                    # 这样可以避免重复内容和确保排序一致性
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        existing_content = f.read()
+                    
+                    # 检查文件是否已经包含了分类标题
+                    if "**🔴 重要电报**" in existing_content or "**📰 一般电报**" in existing_content:
+                        # 如果已经有内容，则完全重写文件
+                        with open(file_path, "w", encoding="utf-8") as f:
+                            f.write(content)
+                    else:
+                        # 如果文件存在但没有内容，直接写入
+                        with open(file_path, "w", encoding="utf-8") as f:
+                            f.write(content)
+                            
                 print(f"日期 {date_str} 的财联社电报已保存到: {file_path}")
                 saved_any_new = True
             except Exception as e:
@@ -243,69 +244,16 @@ class FileWriter:
                     content = f.read()
                 import re
                 # 匹配两种URL格式，确保能提取ID
-                ids = re.findall(r'https://www.cls.cn/detail/(\d+)', content)
+                ids = re.findall(r'https://www.cls.cn/detail/(\\d+)', content)
                 existing_ids.update(ids)
             except Exception as e:
                 print(f"读取文件 {file_path} 失败: {e}")
         return existing_ids
 
     @staticmethod
-    def _parse_existing_telegrams(file_path):
-        """从文件中解析已存在的电报内容，返回电报列表"""
-        telegrams = []
-        if file_path.exists():
-            try:
-                with open(file_path, "r", encoding="utf-8") as f:
-                    content = f.read()
-                
-                # 使用正则表达式匹配电报条目
-                # 匹配格式：  1. [00:56] [【台风黄色预警生效 广东湛江全市停课】财联社6月13日电，...](https://www.cls.cn/detail/2056133)
-                # 或者：      1. [00:56] 【台风黄色预警生效 广东湛江全市停课】财联社6月13日电，...
-                # 注意：这里假设URL是可选的，并且内容可能包含方括号
-                # 匹配时间、内容和可选的URL及ID
-                # 改进的正则表达式，更健壮地匹配时间、内容和URL
-                # 匹配模式：数字. [时间] [内容](URL) 或 数字. [时间] 内容
-                # 考虑到内容中可能包含方括号，使用非贪婪匹配
-                # 匹配重要电报和一般电报两种格式
-                matches = re.findall(r'\d+\.\s*\[(\d{2}:\d{2})\]\s*(?:\*?\[([^\]]+)\]\((https://www\.cls\.cn/detail/(\d+))\)\*?|\*?([^*]+)\*?)\n\n', content)
-
-                for match in matches:
-                    item_time = match[0] # 时间
-                    # 根据匹配组判断是带URL的还是不带URL的
-                    if match[1] and match[2] and match[3]: # 带URL的格式
-                        item_content = match[1]
-                        item_url = match[2]
-                        item_id = match[3]
-                    else: # 不带URL的格式
-                        item_content = match[4]
-                        item_url = ""
-                        item_id = ""
-                    
-                    # 尝试从URL中提取timestamp_raw，如果URL不存在则跳过
-                    timestamp_raw = None
-                    if item_id:
-                        try:
-                            # 假设ID就是timestamp_raw的一部分或者可以用来生成一个唯一的timestamp_raw
-                            # 这里我们简单地用ID作为timestamp_raw，或者可以根据实际情况进行更复杂的转换
-                            # 为了避免重复，我们使用一个简单的哈希值或者直接使用ID
-                            timestamp_raw = int(item_id) # 假设ID可以直接作为时间戳
-                        except ValueError:
-                            pass # 如果ID不是数字，则跳过
-
-                    telegrams.append({
-                        "id": item_id,
-                        "content": item_content,
-                        "time": item_time,
-                        "url": item_url,
-                        "timestamp_raw": timestamp_raw # 确保有这个字段
-                    })
-            except Exception as e:
-                print(f"解析文件 {file_path} 失败: {e}")
-        return telegrams
-
-    @staticmethod
     def _build_file_content(date_str, telegrams):
         """构建文件内容"""
+        # 这里的 telegrams 已经是针对特定日期且已排序的新电报
         if not telegrams:
             return "" # 如果没有电报，不返回任何内容
 
@@ -317,27 +265,31 @@ class FileWriter:
 
         if red_telegrams:
             text_content += "**🔴 重要电报**\n\n"
-            for i, t in enumerate(red_telegrams):
-                # 格式化时间，例如：[07:00]
-                formatted_time = f"[{t.get('time', '')}]"
-                # 构建电报内容，如果is_red为True，则加粗
-                telegram_content = f"【{t.get('title', '')}】{t.get('content', '')}"
-                # 构建URL部分，如果存在
-                url_part = f"({t.get('url', '')})" if t.get('url') else ""
-                text_content += f"{i+1}. {formatted_time} **[{telegram_content}]{url_part}**\n\n"
+            for i, telegram in enumerate(red_telegrams, 1):
+                title = telegram.get("content", "")
+                time = telegram.get("time", "")
+                url = telegram.get("url", "")
+
+                if url:
+                    text_content += f"  {i}. [{time}] **[{title}]({url})**\n\n"
+                else:
+                    text_content += f"  {i}. [{time}] **{title}**\n\n"
+
+            # 添加分割线
+            if normal_telegrams:
+                text_content += f"{CONFIG['FILE_SEPARATOR']}\n\n"
 
         if normal_telegrams:
-            if red_telegrams:
-                text_content += "\n" # 如果有重要电报，加一个空行分隔
             text_content += "**📰 一般电报**\n\n"
-            for i, t in enumerate(normal_telegrams):
-                # 格式化时间，例如：[07:00]
-                formatted_time = f"[{t.get('time', '')}]"
-                # 构建电报内容
-                telegram_content = f"【{t.get('title', '')}】{t.get('content', '')}"
-                # 构建URL部分，如果存在
-                url_part = f"({t.get('url', '')})" if t.get('url') else ""
-                text_content += f"{i+1}. {formatted_time} [{telegram_content}]{url_part}\n\n"
+            for i, telegram in enumerate(normal_telegrams, 1):
+                title = telegram.get("content", "")
+                time = telegram.get("time", "")
+                url = telegram.get("url", "")
+
+                if url:
+                    text_content += f"  {i}. [{time}] [{title}]({url})\n\n"
+                else:
+                    text_content += f"  {i}. [{time}] {title}\n\n"
 
         return text_content
 
