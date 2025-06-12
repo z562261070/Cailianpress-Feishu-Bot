@@ -51,16 +51,50 @@ class TimeHelper:
 
 
 
+import hashlib
+import urllib.parse
+
 class CailianpressAPI:
     """财联社API"""
+
+    @staticmethod
+    def _md5(text):
+        return hashlib.md5(text.encode('utf-8')).hexdigest()
+
+    @staticmethod
+    def _sha1(text):
+        return hashlib.sha1(text.encode('utf-8')).hexdigest()
+
+    @staticmethod
+    def _get_cls_params(more_params=None):
+        if more_params is None:
+            more_params = {}
+        static_params = {
+            "app_name": "CailianpressWeb",
+            "os": "web",
+            "sv": "7.7.5",
+        }
+        all_params = {**static_params, **more_params}
+        
+        # 参数排序对于签名很重要
+        sorted_keys = sorted(all_params.keys())
+        params_list = []
+        for key in sorted_keys:
+            params_list.append(f"{key}={all_params[key]}")
+        params_string = "&".join(params_list)
+        
+        signature = CailianpressAPI._md5(CailianpressAPI._sha1(params_string))
+        all_params["sign"] = signature
+        return all_params
 
     @staticmethod
     def fetch_telegrams(max_count=CONFIG["MAX_TELEGRAMS"]):
         """获取财联社电报"""
         try:
-            # 获取今天的时间戳
-            # 构建API URL
-            api_url = "https://newsnow.busiyi.world/api/s?id=telegraphList&latest"
+            api_url = "https://www.cls.cn/nodeapi/updateTelegraphList"
+            
+            params = CailianpressAPI._get_cls_params()
+            full_url = f"{api_url}?{urllib.parse.urlencode(params)}"
             
             proxies = None
             if CONFIG["USE_PROXY"]:
@@ -74,27 +108,27 @@ class CailianpressAPI:
                 "Cache-Control": "no-cache",
             }
 
-            print(f"请求财联社API: {api_url}")
-            response = requests.get(api_url, proxies=proxies, headers=headers, timeout=10)
+            print(f"请求财联社API: {full_url}")
+            response = requests.get(full_url, proxies=proxies, headers=headers, timeout=10)
             response.raise_for_status()
             
             data = response.json()
-            if data.get("status") in ["success", "cache"] and "items" in data:
-                telegrams = data["items"]
+            if data.get("code") == 0 and data.get("data") and data["data"].get("roll_data"):
+                telegrams = data["data"]["roll_data"]
                 print(f"成功获取 {len(telegrams)} 条财联社电报")
                 
                 processed_telegrams = []
                 for item in telegrams:
-                    # 提取所需信息
+                    if item.get("is_ad"): # 过滤广告
+                        continue
+                    
                     title = item.get("title", "")
                     content = item.get("brief", "") or title # 优先使用brief，没有则用title
                     item_id = item.get("id")
                     url = f"https://www.cls.cn/detail/{item_id}" if item_id else ""
                     
-                    # 尝试从 ctime 或 pub_time 获取时间，并格式化
-                    timestamp = item.get("ctime") or item.get("pub_time")
+                    timestamp = item.get("ctime")
                     if timestamp:
-                        # 确保时间戳是整数或可以转换为整数
                         try:
                             timestamp = int(timestamp)
                             item_time = datetime.fromtimestamp(timestamp, pytz.timezone("Asia/Shanghai")).strftime("%H:%M")
@@ -117,7 +151,7 @@ class CailianpressAPI:
                 print(f"处理后的电报数量: {len(processed_telegrams)}")
                 return processed_telegrams
             else:
-                print(f"API返回格式错误: {data}")
+                print(f"API返回格式错误或无数据: {data}")
                 return []
         except Exception as e:
             print(f"获取财联社电报失败: {e}")
