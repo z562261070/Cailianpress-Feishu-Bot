@@ -205,32 +205,55 @@ class TelegramFileManager:
         由于Markdown格式不存储原始时间戳，这里会将其设为None。
         """
         line = line.strip()
-        
-        # 统一匹配模式，先尝试匹配有URL的，再匹配没有URL的
-        # 注意：这里假设内容中不会出现Markdown链接的特殊字符，否则需要更复杂的解析库
-        match_url = re.match(r'^\s*\d+\.\s*\[(\d{2}:\d{2})\]\s*(?:\*\*)?\[(.*?)\]\(https://www.cls.cn/detail/(\d+)\)(?:\*\*)?$', line)
-        if match_url:
-            item_time, item_content, item_id = match_url.groups()
+
+        # 修正后的正则表达式，可以同时匹配普通和加粗的Markdown链接
+        # 模式解释:
+        # ^\s*\d+\.\s* - 匹配行首的 "1. "
+        # \[(\d{2}:\d{2})\]\s* - 匹配并捕获时间 "[HH:MM]"
+        # (\*\*?)                          - 捕获可选的加粗标记 "**" (Group 2)
+        # \[                               - 匹配链接的起始 "["
+        # (.*?)                            - 捕获链接内的文本 (非贪婪) (Group 3)
+        # \]                               - 匹配链接的结束 "]"
+        # \(https:\/\/www.cls.cn\/detail\/(\d+)\) # 匹配并捕获URL中的ID (Group 4)
+        # \2                               # 反向引用，确保前后加粗标记匹配
+        # $                                - 匹配行尾
+        pattern_url = re.compile(
+            r'^\s*\d+\.\s*'
+            r'\[(\d{2}:\d{2})\]\s*'
+            r'(\*\*?)'  # 捕获起始的** (Group 2)
+            r'\[(.*?)\]'  # 捕获内容 (Group 3)
+            r'\(https://www.cls.cn/detail/(\d+)\)'  # 捕获ID (Group 4)
+            r'\2'  # 确保闭合的**与起始匹配
+            r'$'
+        )
+
+        match = pattern_url.match(line)
+        if match:
+            item_time, _, item_content, item_id = match.groups()
+            is_red_from_markdown = line.count('**') >= 2 # 通过检查**来判断是否是重要电报
+
             return {
                 "id": item_id,
                 "content": item_content,
                 "time": item_time,
                 "url": f"https://www.cls.cn/detail/{item_id}",
-                "is_red": is_red_category,
+                "is_red": is_red_from_markdown, # 根据Markdown格式判断，而非传入的类别
                 "timestamp_raw": None # 从文件中无法获取原始时间戳
             }
-        
+
+        # 保留对无URL格式的兼容，尽管当前逻辑下不太会生成这种格式
         match_no_url = re.match(r'^\s*\d+\.\s*\[(\d{2}:\d{2})\]\s*(?:\*\*)?(.*?)(?:\*\*)?$', line)
         if match_no_url:
             item_time, item_content = match_no_url.groups()
-            # 对于没有ID的电报，我们无法去重。
-            # 为了确保数据的完整性和排序，这里只添加有ID的电报。
-            # 如果需要保留所有电报，则需要更复杂的去重策略，例如基于内容和时间。
-            # 暂时我们只处理带ID的电报，因为这是主要的去重依据。
+            # 对于没有ID的电报，我们无法去重，选择跳过
             print(f"[{TimeHelper.format_datetime()}] 警告: 文件中发现无URL/ID的电报 '{item_content}'，跳过加载。")
-            return None # 不加载无ID的电报
+            return None
 
-        return None # 如果所有匹配都失败，返回None
+        # 如果所有匹配都失败，并且行不为空，则打印警告
+        if line:
+            print(f"[{TimeHelper.format_datetime()}] 警告: 无法解析文件中的行: '{line}'")
+            
+        return None
 
     def load_existing_telegrams(self, date_str: str) -> list[dict]:
         """
@@ -306,7 +329,8 @@ class TelegramFileManager:
 
             if not truly_new_telegrams_for_day:
                 print(f"[{TimeHelper.format_datetime()}] 日期 {date_str} 没有真正新的财联社电报需要保存。")
-                continue
+                # 即使没有新电报，也继续执行合并和重写，以防文件格式需要更新
+                # continue 
 
             # 3. 合并所有电报 (旧的和新的)
             all_telegrams_for_day = existing_telegrams + truly_new_telegrams_for_day
@@ -334,7 +358,8 @@ class TelegramFileManager:
                     f.write(content_to_write)
                             
                 print(f"[{TimeHelper.format_datetime()}] 日期 {date_str} 的财联社电报已更新并保存到: {file_path}")
-                saved_any_new = True
+                if truly_new_telegrams_for_day: # 仅当有真正的新电报时才标记为True
+                    saved_any_new = True
             except Exception as e:
                 print(f"[{TimeHelper.format_datetime()}] 错误: 保存日期 {date_str} 的电报到文件失败: {e}")
         
@@ -359,9 +384,9 @@ class TelegramFileManager:
                 url = telegram.get("url", "")
 
                 if url:
-                    text_content += f"  {i}. [{time_str}] **[{title}]({url})**\n\n"
+                    text_content += f"  {i}. [{time_str}] **[{title}]({url})**\n\n"
                 else:
-                    text_content += f"  {i}. [{time_str}] **{title}**\n\n"
+                    text_content += f"  {i}. [{time_str}] **{title}**\n\n"
 
             if normal_telegrams:
                 text_content += f"{CONFIG['FILE_SEPARATOR']}\n\n"
@@ -374,9 +399,9 @@ class TelegramFileManager:
                 url = telegram.get("url", "")
 
                 if url:
-                    text_content += f"  {i}. [{time_str}] [{title}]({url})\n\n"
+                    text_content += f"  {i}. [{time_str}] [{title}]({url})\n\n"
                 else:
-                    text_content += f"  {i}. [{time_str}] {title}\n\n"
+                    text_content += f"  {i}. [{time_str}] {title}\n\n"
 
         return text_content
 
