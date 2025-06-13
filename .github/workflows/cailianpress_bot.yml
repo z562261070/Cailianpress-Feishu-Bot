@@ -6,7 +6,7 @@ on:
   schedule:
     # 使用 cron 语法，每3分钟运行一次
     # 注意：GitHub Actions 的定时任务可能存在延迟
-    - cron: '*/10 * * * *'
+    - cron: '*/3 * * * *'
   # 允许在 GitHub Actions 页面手动触发此工作流
   workflow_dispatch:
 
