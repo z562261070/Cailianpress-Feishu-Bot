@@ -206,50 +206,34 @@ class TelegramFileManager:
         """
         line = line.strip()
 
-        # 修正后的正则表达式，可以同时匹配普通和加粗的Markdown链接
+        # 【关键修改2】: 正则表达式现在匹配以 "-" 开头的项目符号列表，而不是数字列表
         # 模式解释:
-        # ^\s*\d+\.\s* - 匹配行首的 "1. "
-        # \[(\d{2}:\d{2})\]\s* - 匹配并捕获时间 "[HH:MM]"
-        # (\*\*?)                          - 捕获可选的加粗标记 "**" (Group 2)
-        # \[                               - 匹配链接的起始 "["
-        # (.*?)                            - 捕获链接内的文本 (非贪婪) (Group 3)
-        # \]                               - 匹配链接的结束 "]"
-        # \(https:\/\/www.cls.cn\/detail\/(\d+)\) # 匹配并捕获URL中的ID (Group 4)
-        # \2                               # 反向引用，确保前后加粗标记匹配
-        # $                                - 匹配行尾
+        # ^\s*-\s* - 匹配行首的 " - "
+        # ...其余部分与之前类似
         pattern_url = re.compile(
-            r'^\s*\d+\.\s*'
+            r'^\s*-\s*'  # <--- 修改点: 匹配项目符号 "-"
             r'\[(\d{2}:\d{2})\]\s*'
-            r'(\*\*?)'  # 捕获起始的** (Group 2)
-            r'\[(.*?)\]'  # 捕获内容 (Group 3)
-            r'\(https://www.cls.cn/detail/(\d+)\)'  # 捕获ID (Group 4)
-            r'\2'  # 确保闭合的**与起始匹配
+            r'(\*\*?)'
+            r'\[(.*?)\]'
+            r'\(https://www.cls.cn/detail/(\d+)\)'
+            r'\2'
             r'$'
         )
 
         match = pattern_url.match(line)
         if match:
             item_time, _, item_content, item_id = match.groups()
-            is_red_from_markdown = line.count('**') >= 2 # 通过检查**来判断是否是重要电报
+            is_red_from_markdown = line.count('**') >= 2
 
             return {
                 "id": item_id,
                 "content": item_content,
                 "time": item_time,
                 "url": f"https://www.cls.cn/detail/{item_id}",
-                "is_red": is_red_from_markdown, # 根据Markdown格式判断，而非传入的类别
-                "timestamp_raw": None # 从文件中无法获取原始时间戳
+                "is_red": is_red_from_markdown,
+                "timestamp_raw": None
             }
-
-        # 保留对无URL格式的兼容，尽管当前逻辑下不太会生成这种格式
-        match_no_url = re.match(r'^\s*\d+\.\s*\[(\d{2}:\d{2})\]\s*(?:\*\*)?(.*?)(?:\*\*)?$', line)
-        if match_no_url:
-            item_time, item_content = match_no_url.groups()
-            # 对于没有ID的电报，我们无法去重，选择跳过
-            print(f"[{TimeHelper.format_datetime()}] 警告: 文件中发现无URL/ID的电报 '{item_content}'，跳过加载。")
-            return None
-
-        # 如果所有匹配都失败，并且行不为空，则打印警告
+        
         if line:
             print(f"[{TimeHelper.format_datetime()}] 警告: 无法解析文件中的行: '{line}'")
             
@@ -284,7 +268,7 @@ class TelegramFileManager:
                     continue
 
                 telegram = self._parse_telegram_from_line(line, is_red_category)
-                if telegram: # 只有当成功解析到电报（不是None）时才添加
+                if telegram:
                     existing_telegrams.append(telegram)
             
             print(f"[{TimeHelper.format_datetime()}] 从文件 '{file_path}' 加载了 {len(existing_telegrams)} 条现有电报。")
@@ -301,7 +285,6 @@ class TelegramFileManager:
         """
         telegrams_by_date_new = {}
         for t in telegrams_to_save:
-            # 必须有原始时间戳才能正确归档和排序
             if t.get("timestamp_raw") is None:
                 print(f"[{TimeHelper.format_datetime()}] 警告: 电报ID {t.get('id')} 缺少原始时间戳，跳过文件保存。")
                 continue
@@ -317,11 +300,9 @@ class TelegramFileManager:
         for date_str, current_batch_telegrams in telegrams_by_date_new.items():
             file_path = self._get_file_path(date_str)
             
-            # 1. 加载现有电报
             existing_telegrams = self.load_existing_telegrams(date_str)
-            existing_ids = {t['id'] for t in existing_telegrams if t.get('id')} # 只考虑有ID的电报进行去重
+            existing_ids = {t['id'] for t in existing_telegrams if t.get('id')}
 
-            # 2. 识别真正的新电报 (本次抓取到的，且文件中没有的)
             truly_new_telegrams_for_day = [
                 t for t in current_batch_telegrams 
                 if t.get("id") and t["id"] not in existing_ids
@@ -329,36 +310,37 @@ class TelegramFileManager:
 
             if not truly_new_telegrams_for_day:
                 print(f"[{TimeHelper.format_datetime()}] 日期 {date_str} 没有真正新的财联社电报需要保存。")
-                # 即使没有新电报，也继续执行合并和重写，以防文件格式需要更新
-                # continue 
 
-            # 3. 合并所有电报 (旧的和新的)
             all_telegrams_for_day = existing_telegrams + truly_new_telegrams_for_day
             
-            # 4. 再次去重 (使用字典保持唯一性，并保留最新的数据)
-            # 注意：这里如果ID相同，且新旧数据有差异，会保留`truly_new_telegrams_for_day`中的新数据
             unique_telegrams_map = {t['id']: t for t in all_telegrams_for_day if t.get('id')}
             all_telegrams_for_day_unique = list(unique_telegrams_map.values())
 
-            # 5. 对所有电报按原始时间戳倒序排序
-            # 这里的排序键处理了 timestamp_raw 为 None 的情况，将其视为 0 进行排序
             all_telegrams_for_day_unique.sort(
                 key=lambda x: int(x["timestamp_raw"]) if x.get("timestamp_raw") is not None else 0,
                 reverse=True
             )
 
-            # 6. 构建文件内容并写入
             content_to_write = self._build_file_content(date_str, all_telegrams_for_day_unique)
             if not content_to_write:
                 print(f"[{TimeHelper.format_datetime()}] 警告: 日期 {date_str} 构建文件内容为空。")
                 continue
             
             try:
-                with open(file_path, "w", encoding="utf-8") as f:
-                    f.write(content_to_write)
-                            
-                print(f"[{TimeHelper.format_datetime()}] 日期 {date_str} 的财联社电报已更新并保存到: {file_path}")
-                if truly_new_telegrams_for_day: # 仅当有真正的新电报时才标记为True
+                # 检查文件内容是否有变化，避免无意义的写入操作
+                current_content = ""
+                if file_path.exists():
+                    current_content = file_path.read_text(encoding="utf-8")
+                
+                if content_to_write != current_content:
+                    with open(file_path, "w", encoding="utf-8") as f:
+                        f.write(content_to_write)
+                                
+                    print(f"[{TimeHelper.format_datetime()}] 日期 {date_str} 的财联社电报已更新并保存到: {file_path}")
+                else:
+                    print(f"[{TimeHelper.format_datetime()}] 日期 {date_str} 的内容无变化，无需写入文件。")
+                
+                if truly_new_telegrams_for_day:
                     saved_any_new = True
             except Exception as e:
                 print(f"[{TimeHelper.format_datetime()}] 错误: 保存日期 {date_str} 的电报到文件失败: {e}")
@@ -370,7 +352,6 @@ class TelegramFileManager:
         if not telegrams:
             return ""
 
-        # 分类电报
         red_telegrams = [t for t in telegrams if t.get("is_red")]
         normal_telegrams = [t for t in telegrams if not t.get("is_red")]
 
@@ -378,30 +359,34 @@ class TelegramFileManager:
 
         if red_telegrams:
             text_content += "**🔴 重要电报**\n\n"
-            for i, telegram in enumerate(red_telegrams, 1):
+            # 【关键修改1】: 不再使用 enumerate 生成数字，而是使用固定的 "-"
+            for telegram in red_telegrams:
                 title = telegram.get("content", "")
                 time_str = telegram.get("time", "")
                 url = telegram.get("url", "")
 
                 if url:
-                    text_content += f"  {i}. [{time_str}] **[{title}]({url})**\n\n"
+                    # <--- 修改点: "  {i}. " 变为 "  - "
+                    text_content += f"  - [{time_str}] **[{title}]({url})**\n\n"
                 else:
-                    text_content += f"  {i}. [{time_str}] **{title}**\n\n"
+                    text_content += f"  - [{time_str}] **{title}**\n\n"
 
             if normal_telegrams:
                 text_content += f"{CONFIG['FILE_SEPARATOR']}\n\n"
 
         if normal_telegrams:
             text_content += "**📰 一般电报**\n\n"
-            for i, telegram in enumerate(normal_telegrams, 1):
+            # 【关键修改1】: 不再使用 enumerate 生成数字，而是使用固定的 "-"
+            for telegram in normal_telegrams:
                 title = telegram.get("content", "")
                 time_str = telegram.get("time", "")
                 url = telegram.get("url", "")
 
                 if url:
-                    text_content += f"  {i}. [{time_str}] [{title}]({url})\n\n"
+                    # <--- 修改点: "  {i}. " 变为 "  - "
+                    text_content += f"  - [{time_str}] [{title}]({url})\n\n"
                 else:
-                    text_content += f"  {i}. [{time_str}] {title}\n\n"
+                    text_content += f"  - [{time_str}] {title}\n\n"
 
         return text_content
 
@@ -425,8 +410,6 @@ class FeishuNotifier:
             print(f"[{TimeHelper.format_datetime()}] 没有新的电报内容可供飞书推送。")
             return
 
-        # 构建发送到飞书 Webhook 的内容
-        # 确保时间戳从字符串 HH:MM 格式转换为可读的时间
         combined_telegram_content = "\n\n".join([
             f"[{t.get('time', '未知时间')}] {t.get('content', '无内容')} - {t.get('url', '无链接')}"
             for t in new_telegrams
@@ -457,45 +440,36 @@ def main():
     print(f"\n--- 财联社电报抓取与通知程序启动 ---")
     print(f"[{TimeHelper.format_datetime()}]")
 
-    # 初始化文件管理器和通知器
     file_manager = TelegramFileManager(CONFIG["OUTPUT_DIR"])
     feishu_notifier = FeishuNotifier(CONFIG["FEISHU_WEBHOOK_URL"])
 
-    # 1. 获取财联社电报
     fetched_telegrams = CailianpressAPI.fetch_telegrams()
     if not fetched_telegrams:
         print(f"[{TimeHelper.format_datetime()}] 未获取到任何财联社电报，程序退出。")
         return
 
-    # 2. 识别真正的新电报 (用于飞书通知)
-    # 首先加载当天已保存的电报，以便进行去重
+    # 在保存文件前，确定哪些是用于通知的新电报
     today_date_str = TimeHelper.get_beijing_time().strftime("%Y-%m-%d")
-    existing_telegrams_today = file_manager.load_existing_telegrams(today_date_str)
-    existing_ids_today = {t['id'] for t in existing_telegrams_today if t.get('id')}
+    # 这里加载一次，仅用于判断哪些是新条目，避免重复加载
+    existing_ids_today = {t['id'] for t in file_manager.load_existing_telegrams(today_date_str) if t.get('id')}
 
     new_telegrams_for_notification = []
     for t in fetched_telegrams:
-        # 只有当电报有ID且文件中没有这个ID时，才认为是新的，用于通知
         if t.get("id") and t["id"] not in existing_ids_today:
             new_telegrams_for_notification.append(t)
     
-    # 对用于通知的新电报也进行排序，确保飞书收到的是有序的
     new_telegrams_for_notification.sort(
         key=lambda x: int(x["timestamp_raw"]) if x.get("timestamp_raw") is not None else 0,
         reverse=True
     )
 
-    if not new_telegrams_for_notification:
-        print(f"[{TimeHelper.format_datetime()}] 本次运行没有发现新的电报需要通知，但会更新文件。")
-    else:
+    if new_telegrams_for_notification:
         print(f"[{TimeHelper.format_datetime()}] 发现 {len(new_telegrams_for_notification)} 条新的电报用于通知。")
 
-
-    # 3. 保存电报到文件 (该方法内部已处理加载、合并、去重和排序)
-    # 传入所有本次抓取到的电报，让文件管理器去处理增量更新
+    # 保存文件（方法内部会处理加载、合并、去重、排序和写入的完整逻辑）
     file_manager.save_telegrams(fetched_telegrams)
 
-    # 4. 发送飞书通知 (只发送真正的新电报)
+    # 发送通知
     feishu_notifier.send_notification(new_telegrams_for_notification)
 
     print(f"\n--- 财联社电报抓取与通知程序完成 ---")
