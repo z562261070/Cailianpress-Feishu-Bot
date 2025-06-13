@@ -1,0 +1,17 @@
+# 工作流名称
+name: Scheduled Task Debugger
+
+on:
+  schedule:
+    # 【修改点】将频率改为每5分钟，这是GitHub推荐的最短稳定间隔
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  # 定义一个最简单的测试任务
+  test-schedule:
+    runs-on: ubuntu-latest
+    steps:
+      # 步骤只包含一条打印当前时间的命令
+      - name: Echo the time
+        run: echo "Debug workflow ran successfully at $(date)"
