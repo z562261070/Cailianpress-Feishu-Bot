@@ -1,42 +1,68 @@
+# 工作流名称
 name: Hot News Crawler
 
+# 工作流触发条件
 on:
   schedule:
-    - cron: '*/10 * * * *'  # 每10分钟运行一次
+    # 使用 cron 语法，每10分钟运行一次
+    # 注意：GitHub Actions 的定时任务可能存在延迟
+    - cron: '*/10 * * * *'
+  # 允许在 GitHub Actions 页面手动触发此工作流
   workflow_dispatch:
 
-# 添加权限设置
+# 为工作流授予权限
 permissions:
+  # 授予 GITHUB_TOKEN 对仓库内容的写权限，以便提交和推送代码
   contents: write
 
 jobs:
+  # 定义一个名为 "crawl" 的任务
   crawl:
+    # 指定任务运行在最新版的 Ubuntu 虚拟机上
     runs-on: ubuntu-latest
     
     steps:
+    # 第1步：检出仓库代码
     - name: Checkout repository
+      # 使用官方的 actions/checkout@v4 来获取您的仓库代码
       uses: actions/checkout@v4
     
+    # 第2步：设置 Python 环境
     - name: Set up Python
+      # 使用官方的 actions/setup-python@v4 来设置 Python 环境
       uses: actions/setup-python@v4
       with:
+        # 指定使用的 Python 版本
         python-version: '3.9'
     
+    # 第3步：安装 Python 依赖库
     - name: Install dependencies
       run: |
+        # 升级 pip 工具
         python -m pip install --upgrade pip
+        # 安装脚本所需的库
         pip install requests pytz
     
+    # 第4步：运行爬虫脚本
     - name: Run crawler
       env:
+        # 从仓库的 Secrets 中读取飞书 Webhook URL，确保安全
         FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
         GITHUB_ACTIONS: true
         USE_PROXY: false
+      # ！！！核心修改！！！
+      # 此处的文件名已更新为您最新的脚本文件名。
+      # 如果您的文件名不同，请修改下面这一行。
       run: python cls_to_feishu.py
     
+    # 第5步：提交并推送更改
     - name: Commit and push if changes
       run: |
+        # 配置 git 用户名和邮箱
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
+        # 添加所有更改到暂存区
         git add -A
+        # 检查是否有文件更改，只有在有更改时才执行提交和推送操作
+        # `TZ=Asia/Shanghai date` 用于生成带时区的提交信息
         git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update by GitHub Actions at $(TZ=Asia/Shanghai date)" && git push)
