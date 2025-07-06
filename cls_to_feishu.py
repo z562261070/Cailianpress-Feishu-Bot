@@ -252,7 +252,149 @@ class TelegramFileManager:
         except Exception as e:
             print(f"[{TimeHelper.format_datetime()}] 文件清理过程中出错: {e}")
 
-# --- 5. 飞书通知类 ---
+# --- 5. 五天整合文件管理类 ---
+class FiveDaysSummaryManager:
+    """负责生成最近5天的整合文件"""
+    def __init__(self, output_dir: str):
+        self.base_output_dir = Path(output_dir)
+        self.summary_dir = self.base_output_dir / "5days"
+        self.summary_dir.mkdir(parents=True, exist_ok=True)
+    
+    def generate_five_days_summary(self) -> None:
+        """生成最近5天的整合文件"""
+        print(f"[{TimeHelper.format_datetime()}] 开始生成最近5天的整合文件...")
+        
+        current_time = TimeHelper.get_beijing_time()
+        summary_lines = []
+        summary_lines.append(f"# 财联社电报 - 最近5天整合")
+        summary_lines.append(f"")
+        summary_lines.append(f"**生成时间**: {TimeHelper.format_datetime()}")
+        summary_lines.append(f"**数据范围**: {(current_time - timedelta(days=4)).strftime('%Y-%m-%d')} 至 {current_time.strftime('%Y-%m-%d')}")
+        summary_lines.append(f"")
+        summary_lines.append(CONFIG["FILE_SEPARATOR"])
+        summary_lines.append(f"")
+        
+        total_telegrams = 0
+        
+        # 遍历最近5天
+        for day_offset in range(5):
+            target_date = current_time - timedelta(days=day_offset)
+            date_str = target_date.strftime("%Y-%m-%d")
+            file_path = self.base_output_dir / f"cls_{date_str}.md"
+            
+            summary_lines.append(f"## {target_date.strftime('%Y年%m月%d日')} ({target_date.strftime('%A')})")
+            summary_lines.append(f"")
+            
+            if file_path.exists():
+                try:
+                    content = file_path.read_text(encoding="utf-8")
+                    
+                    # 提取重要电报部分
+                    red_section = self._extract_section(content, "**🔴 重要电报**")
+                    if red_section:
+                        summary_lines.append("### 🔴 重要电报")
+                        summary_lines.append("")
+                        summary_lines.extend(red_section)
+                        summary_lines.append("")
+                        total_telegrams += len([line for line in red_section if line.strip().startswith("- ")])
+                    
+                    # 提取一般电报部分
+                    normal_section = self._extract_section(content, "**📰 一般电报**")
+                    if normal_section:
+                        summary_lines.append("### 📰 一般电报")
+                        summary_lines.append("")
+                        summary_lines.extend(normal_section)
+                        summary_lines.append("")
+                        total_telegrams += len([line for line in normal_section if line.strip().startswith("- ")])
+                    
+                    if not red_section and not normal_section:
+                        summary_lines.append("*该日期暂无电报数据*")
+                        summary_lines.append("")
+                        
+                except Exception as e:
+                    print(f"[{TimeHelper.format_datetime()}] 读取文件 {file_path} 失败: {e}")
+                    summary_lines.append("*读取该日期数据时出错*")
+                    summary_lines.append("")
+            else:
+                summary_lines.append("*该日期文件不存在*")
+                summary_lines.append("")
+            
+            summary_lines.append(CONFIG["FILE_SEPARATOR"])
+            summary_lines.append("")
+        
+        # 添加统计信息
+        summary_lines.append(f"## 📊 统计信息")
+        summary_lines.append(f"")
+        summary_lines.append(f"- **总电报数量**: {total_telegrams} 条")
+        summary_lines.append(f"- **数据来源**: 财联社")
+        summary_lines.append(f"- **整合范围**: 最近5天")
+        summary_lines.append(f"")
+        
+        # 保存整合文件
+        summary_filename = f"财联社电报_最近5天_{current_time.strftime('%Y%m%d_%H%M%S')}.md"
+        summary_file_path = self.summary_dir / summary_filename
+        
+        try:
+            summary_file_path.write_text("\n".join(summary_lines), encoding="utf-8")
+            print(f"[{TimeHelper.format_datetime()}] 5天整合文件已生成: {summary_file_path}")
+            print(f"[{TimeHelper.format_datetime()}] 整合了 {total_telegrams} 条电报数据")
+            
+            # 清理旧的整合文件，只保留最新的3个
+            self._cleanup_old_summary_files()
+            
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 生成整合文件失败: {e}")
+    
+    def _extract_section(self, content: str, section_title: str) -> List[str]:
+        """从文件内容中提取指定章节的内容"""
+        lines = content.split('\n')
+        section_lines = []
+        in_section = False
+        
+        for line in lines:
+            if line.strip() == section_title:
+                in_section = True
+                continue
+            elif in_section and line.strip().startswith("**") and "电报" in line:
+                # 遇到下一个章节标题，停止提取
+                break
+            elif in_section and line.strip() == CONFIG["FILE_SEPARATOR"]:
+                # 遇到分隔符，停止提取
+                break
+            elif in_section:
+                section_lines.append(line)
+        
+        # 移除末尾的空行
+        while section_lines and not section_lines[-1].strip():
+            section_lines.pop()
+        
+        return section_lines
+    
+    def _cleanup_old_summary_files(self, keep_count: int = 3) -> None:
+        """清理旧的整合文件，只保留最新的几个"""
+        try:
+            pattern = "财联社电报_最近5天_*.md"
+            files = list(self.summary_dir.glob(pattern))
+            
+            if len(files) <= keep_count:
+                return
+            
+            # 按文件的修改时间排序，最新的在前
+            files.sort(key=lambda f: f.stat().st_mtime, reverse=True)
+            
+            # 删除多余的文件
+            files_to_delete = files[keep_count:]
+            for file_path in files_to_delete:
+                try:
+                    file_path.unlink()
+                    print(f"[{TimeHelper.format_datetime()}] 已删除旧的整合文件: {file_path.name}")
+                except Exception as e:
+                    print(f"[{TimeHelper.format_datetime()}] 删除整合文件失败 {file_path.name}: {e}")
+                    
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 清理整合文件时出错: {e}")
+
+# --- 6. 飞书通知类 ---
 class FeishuNotifier:
     """负责向飞书自动化发送通知"""
     def __init__(self, webhook_url: str): self.webhook_url = webhook_url
@@ -282,6 +424,7 @@ def main():
 
     file_manager = TelegramFileManager(CONFIG["OUTPUT_DIR"])
     feishu_notifier = FeishuNotifier(CONFIG["FEISHU_WEBHOOK_URL"])
+    summary_manager = FiveDaysSummaryManager(CONFIG["OUTPUT_DIR"])
 
     # 1. 获取财联社电报
     fetched_telegrams = CailianpressAPI.fetch_telegrams()
@@ -306,10 +449,28 @@ def main():
     # 4. 发送飞书通知
     feishu_notifier.send_notification(new_telegrams)
 
-    # 5. 清理旧文件，保留最近指定数量的文件
+    # 5. 生成最近5天的整合文件
+    summary_manager.generate_five_days_summary()
+
+    # 6. 清理旧文件，保留最近指定数量的文件
     file_manager.cleanup_old_files(keep_count=CONFIG["KEEP_FILES_COUNT"])
 
     print(f"--- 财联社电报抓取与通知程序完成 --- [{TimeHelper.format_datetime()}]\n")
 
+def generate_five_days_summary_only():
+    """独立运行：仅生成最近5天的整合文件"""
+    print(f"\n--- 财联社电报5天整合程序启动 --- [{TimeHelper.format_datetime()}]")
+    
+    summary_manager = FiveDaysSummaryManager(CONFIG["OUTPUT_DIR"])
+    summary_manager.generate_five_days_summary()
+    
+    print(f"--- 财联社电报5天整合程序完成 --- [{TimeHelper.format_datetime()}]\n")
+
 if __name__ == "__main__":
-    main()
+    import sys
+    
+    # 检查命令行参数
+    if len(sys.argv) > 1 and sys.argv[1] == "--summary":
+        generate_five_days_summary_only()
+    else:
+        main()
