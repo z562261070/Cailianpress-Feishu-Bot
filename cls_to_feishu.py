@@ -339,7 +339,7 @@ class FiveDaysSummaryManager:
             print(f"[{TimeHelper.format_datetime()}] 5天整合文件已生成: {summary_file_path}")
             print(f"[{TimeHelper.format_datetime()}] 整合了 {total_telegrams} 条电报数据")
             
-            # 清理旧的整合文件，只保留最新的3个
+            # 清理旧的整合文件，只保留最新的1个
             self._cleanup_old_summary_files()
             
         except Exception as e:
@@ -370,8 +370,8 @@ class FiveDaysSummaryManager:
         
         return section_lines
     
-    def _cleanup_old_summary_files(self, keep_count: int = 3) -> None:
-        """清理旧的整合文件，只保留最新的几个"""
+    def _cleanup_old_summary_files(self, keep_count: int = 1) -> None:
+        """清理旧的整合文件，只保留最新的1个"""
         try:
             pattern = "财联社电报_最近5天_*.md"
             files = list(self.summary_dir.glob(pattern))
