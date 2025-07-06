@@ -27,6 +27,7 @@ CONFIG = {
     "REQUEST_TIMEOUT": 15, # 请求超时时间
     "RETRY_ATTEMPTS": 3, # 请求重试次数
     "RETRY_DELAY": 5, # 重试间隔秒数
+    "KEEP_FILES_COUNT": 7, # 保留的文件数量，超过此数量的旧文件将被自动删除
 }
 
 # --- 2. 时间处理工具类 ---
@@ -213,6 +214,44 @@ class TelegramFileManager:
 
         return saved_any_new
 
+    def cleanup_old_files(self, keep_count: int = 7) -> None:
+        """
+        自动清理旧文件，只保留最近创建的指定数量的文件。
+        
+        Args:
+            keep_count: 要保留的文件数量，默认为7个
+        """
+        try:
+            # 获取输出目录中所有的cls_*.md文件
+            pattern = "cls_*.md"
+            files = list(self.output_dir.glob(pattern))
+            
+            if len(files) <= keep_count:
+                print(f"[{TimeHelper.format_datetime()}] 当前文件数量 {len(files)} 未超过保留限制 {keep_count}，无需清理。")
+                return
+            
+            # 按文件的修改时间排序，最新的在前
+            files.sort(key=lambda f: f.stat().st_mtime, reverse=True)
+            
+            # 保留最新的keep_count个文件，删除其余的
+            files_to_keep = files[:keep_count]
+            files_to_delete = files[keep_count:]
+            
+            if files_to_delete:
+                print(f"[{TimeHelper.format_datetime()}] 发现 {len(files)} 个文件，将保留最新的 {keep_count} 个，删除 {len(files_to_delete)} 个旧文件。")
+                
+                for file_path in files_to_delete:
+                    try:
+                        file_path.unlink()  # 删除文件
+                        print(f"[{TimeHelper.format_datetime()}] 已删除旧文件: {file_path.name}")
+                    except Exception as e:
+                        print(f"[{TimeHelper.format_datetime()}] 删除文件失败 {file_path.name}: {e}")
+                
+                print(f"[{TimeHelper.format_datetime()}] 文件清理完成，当前保留文件: {[f.name for f in files_to_keep]}")
+            
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 文件清理过程中出错: {e}")
+
 # --- 5. 飞书通知类 ---
 class FeishuNotifier:
     """负责向飞书自动化发送通知"""
@@ -266,6 +305,9 @@ def main():
 
     # 4. 发送飞书通知
     feishu_notifier.send_notification(new_telegrams)
+
+    # 5. 清理旧文件，保留最近指定数量的文件
+    file_manager.cleanup_old_files(keep_count=CONFIG["KEEP_FILES_COUNT"])
 
     print(f"--- 财联社电报抓取与通知程序完成 --- [{TimeHelper.format_datetime()}]\n")
 
