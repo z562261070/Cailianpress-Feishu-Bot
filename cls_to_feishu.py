@@ -41,7 +41,7 @@ CONFIG = {
     "GITEE_ACCESS_TOKEN": os.getenv("GITEE_ACCESS_TOKEN", ""),  # Gitee个人访问令牌
     "GITEE_OWNER": os.getenv("GITEE_OWNER", ""),  # Gitee用户名或组织名
     "GITEE_REPO": os.getenv("GITEE_REPO", ""),  # Gitee仓库名
-    "GITEE_FILE_PATH": os.getenv("GITEE_FILE_PATH", "feishu_token.json"),  # 存储token的文件路径
+    "GITEE_FILE_PATH": os.getenv("GITEE_FILE_PATH", "new.json"),  # 存储token的文件路径
 }
 
 # --- 2. 时间处理工具类 ---
