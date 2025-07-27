@@ -37,11 +37,14 @@ CONFIG = {
     "FEISHU_MAX_FILE_SIZE": 20 * 1024 * 1024,  # 飞书文件上传最大限制 20MB
     
     # Gitee Token分发配置
-    "ENABLE_GITEE_TOKEN_SHARE": os.getenv("ENABLE_GITEE_TOKEN_SHARE", "True").lower() == "true",  # 是否启用Gitee token分发
+    "ENABLE_GITEE_TOKEN_SHARE": os.getenv("ENABLE_GITEE_TOKEN_SHARE", "False").lower() == "true",  # 默认关闭Gitee
     "GITEE_ACCESS_TOKEN": os.getenv("GITEE_ACCESS_TOKEN", ""),  # Gitee个人访问令牌 - 请设置你的真实token
     "GITEE_OWNER": os.getenv("GITEE_OWNER", "zhanweifu"),  # Gitee用户名或组织名
     "GITEE_REPO": os.getenv("GITEE_REPO", "cailianshewenjian"),  # Gitee仓库名
     "GITEE_FILE_PATH": os.getenv("GITEE_FILE_PATH", "new.json"),  # 存储token的文件路径
+    
+    # 文叔叔 Token分发配置
+    "ENABLE_WENSHUSHU_TOKEN_SHARE": os.getenv("ENABLE_WENSHUSHU_TOKEN_SHARE", "True").lower() == "true",  # 默认启用文叔叔
 }
 
 # --- 2. 时间处理工具类 ---
@@ -680,8 +683,8 @@ class FeishuBotManager:
             print(f"[{TimeHelper.format_datetime()}] 发送文本消息出错: {e}")
             return False
     
-    def get_and_send_app_access_token(self, gitee_distributor: Optional['GiteeTokenDistributor'] = None) -> bool:
-        """获取app_access_token并发送到飞书群，同时可选择分发到Gitee"""
+    def get_and_send_app_access_token(self, gitee_distributor: Optional['GiteeTokenDistributor'] = None, wenshushu_distributor: Optional['WenshushuTokenDistributor'] = None) -> bool:
+        """获取app_access_token并发送到飞书群，同时可选择分发到Gitee或文叔叔"""
         try:
             print(f"[{TimeHelper.format_datetime()}] 正在获取客户端用的app_access_token...")
             
@@ -718,6 +721,12 @@ class FeishuBotManager:
                     print(f"[{TimeHelper.format_datetime()}] 开始分发token到Gitee...")
                     gitee_success = gitee_distributor.distribute_token(app_access_token, expire_time)
                 
+                # 分发token到文叔叔（如果启用）
+                wenshushu_success = True
+                if wenshushu_distributor:
+                    print(f"[{TimeHelper.format_datetime()}] 开始分发token到文叔叔...")
+                    wenshushu_success = wenshushu_distributor.distribute_token(app_access_token, expire_time)
+                
                 if feishu_success:
                     print(f"[{TimeHelper.format_datetime()}] app_access_token已成功发送到飞书群")
                 else:
@@ -729,8 +738,14 @@ class FeishuBotManager:
                     else:
                         print(f"[{TimeHelper.format_datetime()}] app_access_token分发到Gitee失败")
                 
+                if wenshushu_distributor:
+                    if wenshushu_success:
+                        print(f"[{TimeHelper.format_datetime()}] app_access_token已成功分发到文叔叔")
+                    else:
+                        print(f"[{TimeHelper.format_datetime()}] app_access_token分发到文叔叔失败")
+                
                 # 只要有一个成功就返回True
-                return feishu_success or gitee_success
+                return feishu_success or gitee_success or wenshushu_success
             else:
                 print(f"[{TimeHelper.format_datetime()}] 获取app_access_token失败: {data.get('msg', '未知错误')}")
                 return False
@@ -858,6 +873,165 @@ class GiteeTokenDistributor:
             print(f"[{TimeHelper.format_datetime()}] 分发token到Gitee出错: {e}")
             return False
 
+# --- 9. 文叔叔 Token分发类 ---
+class WenshushuTokenDistributor:
+    """负责将access_token分发到文叔叔，供客户端获取"""
+    
+    def __init__(self):
+        self.base_url = "https://www.wenshushu.cn"
+        self.session = requests.Session()
+        self.token = None
+        
+    def _login_anonymous(self) -> bool:
+        """匿名登录获取token"""
+        try:
+            response = self.session.post(
+                f"{self.base_url}/ap/login/anonymous",
+                json={"dev_info": "{}"},
+                timeout=CONFIG["REQUEST_TIMEOUT"]
+            )
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('code') == 0:
+                    self.token = data['data']['token']
+                    return True
+            return False
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 文叔叔匿名登录失败: {str(e)}")
+            return False
+    
+    def _create_upload_task(self, filename: str, filesize: int) -> Optional[dict]:
+        """创建上传任务"""
+        try:
+            response = self.session.post(
+                f"{self.base_url}/ap/task/file",
+                json={
+                    "token": self.token,
+                    "fname": filename,
+                    "fsize": filesize,
+                    "ftype": "application/json"
+                },
+                timeout=CONFIG["REQUEST_TIMEOUT"]
+            )
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('code') == 0:
+                    return data['data']
+            return None
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 创建上传任务失败: {str(e)}")
+            return None
+    
+    def _upload_file_content(self, upload_data: dict, content: str) -> bool:
+        """上传文件内容"""
+        try:
+            files = {
+                'file': ('new.json', content, 'application/json')
+            }
+            
+            response = self.session.post(
+                upload_data['url'],
+                data=upload_data['form'],
+                files=files,
+                timeout=CONFIG["REQUEST_TIMEOUT"]
+            )
+            
+            if response.status_code == 200:
+                return True
+            return False
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 上传文件内容失败: {str(e)}")
+            return False
+    
+    def _get_download_link(self, tid: str) -> Optional[str]:
+        """获取下载链接"""
+        try:
+            response = self.session.post(
+                f"{self.base_url}/ap/task/mgrtask",
+                json={
+                    "tid": tid,
+                    "password": ""
+                },
+                timeout=CONFIG["REQUEST_TIMEOUT"]
+            )
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('code') == 0:
+                    return data['data'].get('url')
+            return None
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 获取下载链接失败: {str(e)}")
+            return None
+    
+    def upload_token_file(self, token_data: dict) -> bool:
+        """上传token文件到文叔叔"""
+        try:
+            # 1. 匿名登录
+            if not self._login_anonymous():
+                print(f"[{TimeHelper.format_datetime()}] 文叔叔登录失败")
+                return False
+            
+            # 2. 准备文件内容
+            content = json.dumps(token_data, ensure_ascii=False, indent=2)
+            filename = "new.json"
+            filesize = len(content.encode('utf-8'))
+            
+            # 3. 创建上传任务
+            upload_data = self._create_upload_task(filename, filesize)
+            if not upload_data:
+                print(f"[{TimeHelper.format_datetime()}] 创建上传任务失败")
+                return False
+            
+            # 4. 上传文件
+            if not self._upload_file_content(upload_data, content):
+                print(f"[{TimeHelper.format_datetime()}] 文件上传失败")
+                return False
+            
+            # 5. 获取下载链接
+            download_url = self._get_download_link(upload_data['tid'])
+            if download_url:
+                print(f"[{TimeHelper.format_datetime()}] Token文件已成功上传到文叔叔")
+                print(f"[{TimeHelper.format_datetime()}] 下载地址: {download_url}")
+                return True
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 获取下载链接失败")
+                return False
+                
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 文叔叔上传异常: {str(e)}")
+            return False
+    
+    def distribute_token(self, app_access_token: str, expire_time: int) -> bool:
+        """分发token到文叔叔"""
+        try:
+            # 计算过期时间
+            expire_datetime = TimeHelper.get_beijing_time() + timedelta(seconds=expire_time)
+            
+            # 构建token数据
+            token_data = {
+                "access_token": app_access_token,
+                "expire_time": expire_datetime.strftime('%Y-%m-%d %H:%M:%S'),
+                "expire_timestamp": int(expire_datetime.timestamp()),
+                "valid_duration_seconds": expire_time,
+                "generated_time": TimeHelper.format_datetime(),
+                "generated_timestamp": int(TimeHelper.get_beijing_time().timestamp()),
+                "source": "财联社自动化系统",
+                "usage": "用于客户端从飞书群获取财联社电报文件",
+                "platform": "文叔叔"
+            }
+            
+            # 上传到文叔叔
+            success = self.upload_token_file(token_data)
+            if success:
+                print(f"[{TimeHelper.format_datetime()}] Token已成功分发到文叔叔")
+                return True
+            else:
+                return False
+                
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 分发token到文叔叔出错: {e}")
+            return False
+
 # --- 9. 主程序逻辑 ---
 def main():
     """主函数，编排整个爬取、保存和通知流程"""
@@ -879,8 +1053,11 @@ def main():
     elif CONFIG["ENABLE_FEISHU_BOT"]:
         print(f"[{TimeHelper.format_datetime()}] 飞书Bot功能已启用，但配置不完整，将跳过飞书推送")
 
-    # 初始化Gitee Token分发器
+    # 初始化Token分发器
     gitee_distributor = None
+    wenshushu_distributor = None
+    
+    # Gitee分发器
     if CONFIG["ENABLE_GITEE_TOKEN_SHARE"] and CONFIG["GITEE_ACCESS_TOKEN"] and CONFIG["GITEE_OWNER"] and CONFIG["GITEE_REPO"]:
         gitee_distributor = GiteeTokenDistributor(
             CONFIG["GITEE_ACCESS_TOKEN"],
@@ -892,6 +1069,12 @@ def main():
         print(f"[{TimeHelper.format_datetime()}] Token将分发到: https://gitee.com/{CONFIG['GITEE_OWNER']}/{CONFIG['GITEE_REPO']}/raw/master/{CONFIG['GITEE_FILE_PATH']}")
     elif CONFIG["ENABLE_GITEE_TOKEN_SHARE"]:
         print(f"[{TimeHelper.format_datetime()}] Gitee Token分发功能已启用，但配置不完整，将跳过Gitee分发")
+    
+    # 文叔叔分发器
+    if CONFIG["ENABLE_WENSHUSHU_TOKEN_SHARE"]:
+        wenshushu_distributor = WenshushuTokenDistributor()
+        print(f"[{TimeHelper.format_datetime()}] 文叔叔 Token分发功能已启用")
+        print(f"[{TimeHelper.format_datetime()}] Token将上传到文叔叔平台（免登录、免配置）")
 
     # 1. 获取财联社电报
     fetched_telegrams = CailianpressAPI.fetch_telegrams()
@@ -943,7 +1126,7 @@ def main():
         
         # 发送access_token
         # 无论是否是定时发送，都尝试发送一次 access_token
-        token_success = feishu_bot.get_and_send_app_access_token(gitee_distributor)
+        token_success = feishu_bot.get_and_send_app_access_token(gitee_distributor, wenshushu_distributor)
         if token_success:
             print(f"[{TimeHelper.format_datetime()}] 客户端access_token已更新")
         else:
