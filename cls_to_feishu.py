@@ -28,6 +28,13 @@ CONFIG = {
     "RETRY_ATTEMPTS": 3, # 请求重试次数
     "RETRY_DELAY": 5, # 重试间隔秒数
     "KEEP_FILES_COUNT": 7, # 保留的文件数量，超过此数量的旧文件将被自动删除
+    
+    # 飞书Bot相关配置
+    "FEISHU_APP_ID": os.getenv("FEISHU_APP_ID", ""),  # 飞书应用ID
+    "FEISHU_APP_SECRET": os.getenv("FEISHU_APP_SECRET", ""),  # 飞书应用密钥
+    "FEISHU_CHAT_ID": os.getenv("FEISHU_CHAT_ID", ""),  # 飞书群聊ID
+    "ENABLE_FEISHU_BOT": os.getenv("ENABLE_FEISHU_BOT", "False").lower() == "true",  # 是否启用飞书Bot推送
+    "FEISHU_MAX_FILE_SIZE": 20 * 1024 * 1024,  # 飞书文件上传最大限制 20MB
 }
 
 # --- 2. 时间处理工具类 ---
@@ -417,7 +424,216 @@ class FeishuNotifier:
         except requests.exceptions.RequestException as e:
             print(f"[{TimeHelper.format_datetime()}] 发送飞书通知出错：{e}")
 
-# --- 6. 主程序逻辑 ---
+# --- 7. 飞书Bot管理类 ---
+class FeishuBotManager:
+    """负责飞书Bot文件上传和群聊推送"""
+    
+    def __init__(self, app_id: str, app_secret: str, chat_id: str):
+        self.app_id = app_id
+        self.app_secret = app_secret
+        self.chat_id = chat_id
+        self.access_token = None
+        self.token_expires_at = 0
+        
+        # 飞书API端点
+        self.token_url = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal/"
+        self.upload_url = "https://open.feishu.cn/open-apis/im/v1/files"
+        self.message_url = "https://open.feishu.cn/open-apis/im/v1/messages"
+    
+    def _is_token_valid(self) -> bool:
+        """检查当前token是否有效"""
+        return self.access_token and time.time() < self.token_expires_at
+    
+    def get_tenant_access_token(self) -> Optional[str]:
+        """获取飞书租户访问令牌"""
+        if self._is_token_valid():
+            return self.access_token
+        
+        payload = {
+            "app_id": self.app_id,
+            "app_secret": self.app_secret
+        }
+        
+        try:
+            print(f"[{TimeHelper.format_datetime()}] 正在获取飞书访问令牌...")
+            response = requests.post(self.token_url, json=payload, timeout=CONFIG["REQUEST_TIMEOUT"])
+            response.raise_for_status()
+            
+            data = response.json()
+            if data.get("code") == 0:
+                self.access_token = data.get("tenant_access_token")
+                # 飞书token有效期为2小时，我们提前5分钟刷新
+                self.token_expires_at = time.time() + data.get("expire", 7200) - 300
+                print(f"[{TimeHelper.format_datetime()}] 飞书访问令牌获取成功")
+                return self.access_token
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 获取飞书访问令牌失败: {data.get('msg', '未知错误')}")
+                return None
+                
+        except requests.exceptions.RequestException as e:
+            print(f"[{TimeHelper.format_datetime()}] 获取飞书访问令牌请求失败: {e}")
+            return None
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 获取飞书访问令牌出错: {e}")
+            return None
+    
+    def upload_file(self, file_path: Path) -> Optional[str]:
+        """上传文件到飞书，返回file_key"""
+        if not file_path.exists():
+            print(f"[{TimeHelper.format_datetime()}] 文件不存在: {file_path}")
+            return None
+        
+        # 检查文件大小
+        file_size = file_path.stat().st_size
+        if file_size > CONFIG["FEISHU_MAX_FILE_SIZE"]:
+            print(f"[{TimeHelper.format_datetime()}] 文件过大，无法上传到飞书: {file_path.name} ({file_size / 1024 / 1024:.2f}MB)")
+            return None
+        
+        token = self.get_tenant_access_token()
+        if not token:
+            return None
+        
+        headers = {
+            "Authorization": f"Bearer {token}"
+        }
+        
+        try:
+            print(f"[{TimeHelper.format_datetime()}] 正在上传文件到飞书: {file_path.name}")
+            
+            with open(file_path, 'rb') as f:
+                files = {
+                    'file': (file_path.name, f, 'text/markdown'),
+                    'file_type': (None, 'stream'),
+                    'file_name': (None, file_path.name)
+                }
+                
+                response = requests.post(self.upload_url, headers=headers, files=files, timeout=CONFIG["REQUEST_TIMEOUT"])
+                response.raise_for_status()
+                
+                data = response.json()
+                if data.get("code") == 0:
+                    file_key = data.get("data", {}).get("file_key")
+                    print(f"[{TimeHelper.format_datetime()}] 文件上传成功: {file_path.name}, file_key: {file_key}")
+                    return file_key
+                else:
+                    print(f"[{TimeHelper.format_datetime()}] 文件上传失败: {data.get('msg', '未知错误')}")
+                    return None
+                    
+        except requests.exceptions.RequestException as e:
+            print(f"[{TimeHelper.format_datetime()}] 文件上传请求失败: {e}")
+            return None
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 文件上传出错: {e}")
+            return None
+    
+    def send_file_message(self, file_key: str, file_name: str) -> bool:
+        """发送文件消息到群聊"""
+        token = self.get_tenant_access_token()
+        if not token:
+            return False
+        
+        headers = {
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json"
+        }
+        
+        # 构建消息内容
+        content = {
+            "file_key": file_key
+        }
+        
+        payload = {
+            "receive_id": self.chat_id,
+            "msg_type": "file",
+            "content": json.dumps(content)
+        }
+        
+        try:
+            print(f"[{TimeHelper.format_datetime()}] 正在发送文件消息到飞书群聊: {file_name}")
+            
+            response = requests.post(
+                f"{self.message_url}?receive_id_type=chat_id",
+                headers=headers,
+                json=payload,
+                timeout=CONFIG["REQUEST_TIMEOUT"]
+            )
+            response.raise_for_status()
+            
+            data = response.json()
+            if data.get("code") == 0:
+                print(f"[{TimeHelper.format_datetime()}] 文件消息发送成功: {file_name}")
+                return True
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 文件消息发送失败: {data.get('msg', '未知错误')}")
+                return False
+                
+        except requests.exceptions.RequestException as e:
+            print(f"[{TimeHelper.format_datetime()}] 发送文件消息请求失败: {e}")
+            return False
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 发送文件消息出错: {e}")
+            return False
+    
+    def upload_and_send_file(self, file_path: Path) -> bool:
+        """上传文件并发送到群聊的组合方法"""
+        if not file_path.exists():
+            print(f"[{TimeHelper.format_datetime()}] 文件不存在，无法发送: {file_path}")
+            return False
+        
+        # 上传文件
+        file_key = self.upload_file(file_path)
+        if not file_key:
+            return False
+        
+        # 发送文件消息
+        return self.send_file_message(file_key, file_path.name)
+    
+    def send_text_message(self, text: str) -> bool:
+        """发送文本消息到群聊"""
+        token = self.get_tenant_access_token()
+        if not token:
+            return False
+        
+        headers = {
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json"
+        }
+        
+        content = {
+            "text": text
+        }
+        
+        payload = {
+            "receive_id": self.chat_id,
+            "msg_type": "text",
+            "content": json.dumps(content)
+        }
+        
+        try:
+            response = requests.post(
+                f"{self.message_url}?receive_id_type=chat_id",
+                headers=headers,
+                json=payload,
+                timeout=CONFIG["REQUEST_TIMEOUT"]
+            )
+            response.raise_for_status()
+            
+            data = response.json()
+            if data.get("code") == 0:
+                print(f"[{TimeHelper.format_datetime()}] 文本消息发送成功")
+                return True
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 文本消息发送失败: {data.get('msg', '未知错误')}")
+                return False
+                
+        except requests.exceptions.RequestException as e:
+            print(f"[{TimeHelper.format_datetime()}] 发送文本消息请求失败: {e}")
+            return False
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 发送文本消息出错: {e}")
+            return False
+
+# --- 8. 主程序逻辑 ---
 def main():
     """主函数，编排整个爬取、保存和通知流程"""
     print(f"\n--- 财联社电报抓取与通知程序启动 --- [{TimeHelper.format_datetime()}]")
@@ -425,6 +641,18 @@ def main():
     file_manager = TelegramFileManager(CONFIG["OUTPUT_DIR"])
     feishu_notifier = FeishuNotifier(CONFIG["FEISHU_WEBHOOK_URL"])
     summary_manager = FiveDaysSummaryManager(CONFIG["OUTPUT_DIR"])
+    
+    # 初始化飞书Bot管理器
+    feishu_bot = None
+    if CONFIG["ENABLE_FEISHU_BOT"] and CONFIG["FEISHU_APP_ID"] and CONFIG["FEISHU_APP_SECRET"] and CONFIG["FEISHU_CHAT_ID"]:
+        feishu_bot = FeishuBotManager(
+            CONFIG["FEISHU_APP_ID"],
+            CONFIG["FEISHU_APP_SECRET"],
+            CONFIG["FEISHU_CHAT_ID"]
+        )
+        print(f"[{TimeHelper.format_datetime()}] 飞书Bot功能已启用")
+    elif CONFIG["ENABLE_FEISHU_BOT"]:
+        print(f"[{TimeHelper.format_datetime()}] 飞书Bot功能已启用，但配置不完整，将跳过飞书推送")
 
     # 1. 获取财联社电报
     fetched_telegrams = CailianpressAPI.fetch_telegrams()
@@ -444,7 +672,7 @@ def main():
         print(f"[{TimeHelper.format_datetime()}] 发现 {len(new_telegrams)} 条新电报需要处理。")
 
     # 3. 将新电报追加到文件
-    file_manager.append_new_telegrams(new_telegrams)
+    has_new_content = file_manager.append_new_telegrams(new_telegrams)
 
     # 4. 发送飞书通知
     feishu_notifier.send_notification(new_telegrams)
@@ -454,6 +682,40 @@ def main():
 
     # 6. 清理旧文件，保留最近指定数量的文件
     file_manager.cleanup_old_files(keep_count=CONFIG["KEEP_FILES_COUNT"])
+
+    # 7. 飞书Bot文件推送
+    if feishu_bot and has_new_content:
+        print(f"[{TimeHelper.format_datetime()}] 开始飞书Bot文件推送...")
+        
+        # 发送今日文件
+        today_file_path = file_manager._get_file_path(today_date_str)
+        if today_file_path.exists():
+            success = feishu_bot.upload_and_send_file(today_file_path)
+            if success:
+                print(f"[{TimeHelper.format_datetime()}] 今日财联社电报文件已推送到飞书群聊")
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 今日财联社电报文件推送失败")
+        
+        # 发送5天整合文件
+        summary_files = list(summary_manager.summary_dir.glob("财联社电报_最近5天_*.md"))
+        if summary_files:
+            # 获取最新的整合文件
+            latest_summary = max(summary_files, key=lambda f: f.stat().st_mtime)
+            success = feishu_bot.upload_and_send_file(latest_summary)
+            if success:
+                print(f"[{TimeHelper.format_datetime()}] 5天整合文件已推送到飞书群聊")
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 5天整合文件推送失败")
+        
+        # 发送汇总消息
+        if new_telegrams:
+            summary_text = f"📰 财联社电报更新通知\n\n" \
+                          f"🕐 更新时间: {TimeHelper.format_datetime()}\n" \
+                          f"📊 新增电报: {len(new_telegrams)} 条\n" \
+                          f"🔴 重要电报: {len([t for t in new_telegrams if t.get('is_red')])} 条\n" \
+                          f"📁 文件已上传，请查看群聊附件获取完整内容"
+            
+            feishu_bot.send_text_message(summary_text)
 
     print(f"--- 财联社电报抓取与通知程序完成 --- [{TimeHelper.format_datetime()}]\n")
 
