@@ -48,6 +48,11 @@ jobs:
       env:
         # 从仓库的 Secrets 中读取飞书 Webhook URL，确保安全
         FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+        # 飞书Bot相关配置
+        FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+        FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+        FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
+        ENABLE_FEISHU_BOT: ${{ secrets.ENABLE_FEISHU_BOT }}
         GITHUB_ACTIONS: true
         USE_PROXY: false
       # ！！！核心修改！！！
