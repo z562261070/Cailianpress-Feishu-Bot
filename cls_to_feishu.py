@@ -600,10 +600,48 @@ class FeishuBotManager:
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json"
         }
-        
-        content = {
-            "text": text
+
+        payload = {
+            "receive_id": self.chat_id,
+            "msg_type": "text",
+            "content": json.dumps({"text": text})
         }
+
+        try:
+            print(f"[{TimeHelper.format_datetime()}] 正在发送文本消息到飞书群聊...")
+            response = requests.post(
+                f"{self.message_url}?receive_id_type=chat_id",
+                headers=headers,
+                json=payload,
+                timeout=CONFIG["REQUEST_TIMEOUT"]
+            )
+            response.raise_for_status()
+
+            data = response.json()
+            if data.get("code") == 0:
+                print(f"[{TimeHelper.format_datetime()}] 文本消息发送成功")
+                return True
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 文本消息发送失败: {data.get('msg', '未知错误')}")
+                return False
+
+        except requests.exceptions.RequestException as e:
+            print(f"[{TimeHelper.format_datetime()}] 发送文本消息请求失败: {e}")
+            return False
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 发送文本消息出错: {e}")
+            return False
+
+    def send_access_token_message(self) -> bool:
+        """发送 access_token 到群聊"""
+        token = self.get_tenant_access_token()
+        if not token:
+            print(f"[{TimeHelper.format_datetime()}] 无法获取 access_token，无法发送消息。")
+            return False
+        
+        message_content = f"[系统消息] 新的飞书 access_token 已更新：{token}"
+        return self.send_text_message(message_content)
+
         
         payload = {
             "receive_id": self.chat_id,
@@ -753,12 +791,13 @@ def main():
                 print(f"[{TimeHelper.format_datetime()}] 定时发送access_token（每90分钟）")
         
         # 发送access_token
-        if should_send_token:
-            token_success = feishu_bot.get_and_send_app_access_token()
-            if token_success:
-                print(f"[{TimeHelper.format_datetime()}] 客户端access_token已更新")
-            else:
-                print(f"[{TimeHelper.format_datetime()}] 客户端access_token更新失败")
+        # 无论是否是定时发送，都尝试发送一次 access_token
+        token_success = feishu_bot.send_access_token_message()
+        if token_success:
+            print(f"[{TimeHelper.format_datetime()}] 客户端access_token已更新")
+        else:
+            print(f"[{TimeHelper.format_datetime()}] 客户端access_token更新失败")
+
         
         # 文件推送（仅在有新内容时）
         if has_new_content:
