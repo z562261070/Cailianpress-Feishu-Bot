@@ -37,10 +37,10 @@ CONFIG = {
     "FEISHU_MAX_FILE_SIZE": 20 * 1024 * 1024,  # 飞书文件上传最大限制 20MB
     
     # Gitee Token分发配置
-    "ENABLE_GITEE_TOKEN_SHARE": os.getenv("ENABLE_GITEE_TOKEN_SHARE", "False").lower() == "true",  # 是否启用Gitee token分发
-    "GITEE_ACCESS_TOKEN": os.getenv("GITEE_ACCESS_TOKEN", ""),  # Gitee个人访问令牌
-    "GITEE_OWNER": os.getenv("GITEE_OWNER", ""),  # Gitee用户名或组织名
-    "GITEE_REPO": os.getenv("GITEE_REPO", ""),  # Gitee仓库名
+    "ENABLE_GITEE_TOKEN_SHARE": os.getenv("ENABLE_GITEE_TOKEN_SHARE", "True").lower() == "true",  # 是否启用Gitee token分发
+    "GITEE_ACCESS_TOKEN": os.getenv("GITEE_ACCESS_TOKEN", ""),  # Gitee个人访问令牌 - 请设置你的真实token
+    "GITEE_OWNER": os.getenv("GITEE_OWNER", "zhanweifu"),  # Gitee用户名或组织名
+    "GITEE_REPO": os.getenv("GITEE_REPO", "cailianshewenjian"),  # Gitee仓库名
     "GITEE_FILE_PATH": os.getenv("GITEE_FILE_PATH", "new.json"),  # 存储token的文件路径
 }
 
