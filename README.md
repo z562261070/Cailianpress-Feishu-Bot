@@ -1,6 +1,6 @@
 # 财联社电报到飞书推送工具
 
-这个工具可以自动获取财联社当天的电报信息，并将其保存到本地文件中，方便用户随时查看和管理。
+这个工具可以自动获取财联社当天的电报信息，并将其保存到本地文件中，同时支持通过飞书Bot推送到群聊，方便用户随时查看和管理。
 
 ## 功能特点
 
@@ -9,7 +9,24 @@
 - **本地文件保存**：将格式化后的电报信息保存到本地Markdown文件
 - **5天数据整合**：自动生成最近5天的整合文件，保存在独立的5days文件夹中
 - **自动文件管理**：自动清理旧文件，默认保留最近7个文件，避免文件过多难以管理
+- **飞书Bot推送**：🆕 支持将文件自动上传到飞书群聊，解决GitHub访问限制问题
 - **可自定义配置**：支持自定义输出目录、最大获取电报数量、标红关键词、文件保留数量等
+
+## 新增功能：飞书Bot推送
+
+### 解决的问题
+- 国内网络偶发无法访问GitHub
+- GitHub针对未登录/未认证请求每小时仅允许约60次访问
+
+### 推送流程
+```
+[抓取脚本] → [GitHub生成md文件] → [上传飞书Bot] → [群聊推送附件] → [下游自动/手动获取]
+```
+
+### 推送内容
+- 📄 当日财联社电报文件（markdown格式）
+- 📊 最近5天整合文件
+- 📝 更新通知消息（包含统计信息）
 
 ## 使用方法
 
@@ -27,6 +44,26 @@ CONFIG = {
 
 -   **`OUTPUT_DIR`**：电报将以Markdown格式保存到此目录，文件名包含日期，例如 `财联社电报_2023-10-27.md`。每次运行脚本，新的电报内容将追加到当天的文件中。
 -   **`FEISHU_WEBHOOK_URL`**：如果你希望在本地保存文件的同时，也触发飞书自动化流程（例如在飞书云空间创建文档），请在此处填写飞书自动化工作流的 Webhook URL。你需要根据飞书自动化平台的要求，配置接收 Webhook 的步骤，并处理脚本发送的 JSON 数据（包含 `telegrams` 和 `date` 字段）。
+
+### 2. 配置飞书Bot（可选）
+
+如果要启用飞书Bot推送功能，需要配置以下环境变量：
+
+```bash
+# Windows (PowerShell)
+$env:FEISHU_APP_ID="cli_xxxxxxxxxxxxxxxx"
+$env:FEISHU_APP_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+$env:FEISHU_CHAT_ID="oc_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+$env:ENABLE_FEISHU_BOT="true"
+
+# Linux/Mac
+export FEISHU_APP_ID="cli_xxxxxxxxxxxxxxxx"
+export FEISHU_APP_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+export FEISHU_CHAT_ID="oc_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+export ENABLE_FEISHU_BOT="true"
+```
+
+详细的飞书Bot配置步骤请参考：[飞书Bot配置说明.md](./飞书Bot配置说明.md)
 
 ### 3. 安装依赖
 
@@ -90,3 +127,6 @@ crontab -e
 7.  **5天整合功能**：每次运行程序时会自动在 `5days` 文件夹中生成最近5天的整合文件，文件名包含生成时间戳。
 8.  整合文件会自动清理，每次生成新的整合文件时会自动删除旧文件，只保留最新的1个整合文件。
 9.  5天整合功能与每日文件完全独立，互不干扰，可以单独使用 `--summary` 参数仅生成整合文件。
+10. **飞书Bot功能**：启用后会自动将文件上传到飞书群聊，需要正确配置应用权限和群聊ID。
+11. **安全提醒**：请妥善保管飞书应用的App Secret，不要在代码中硬编码或公开分享。
+12. **文件大小限制**：飞书文件上传限制为20MB，超过限制的文件将跳过上传。
