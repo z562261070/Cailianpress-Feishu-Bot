@@ -35,6 +35,13 @@ CONFIG = {
     "FEISHU_CHAT_ID": os.getenv("FEISHU_CHAT_ID", ""),  # 飞书群聊ID
     "ENABLE_FEISHU_BOT": os.getenv("ENABLE_FEISHU_BOT", "False").lower() == "true",  # 是否启用飞书Bot推送
     "FEISHU_MAX_FILE_SIZE": 20 * 1024 * 1024,  # 飞书文件上传最大限制 20MB
+    
+    # Gitee Token分发配置
+    "ENABLE_GITEE_TOKEN_SHARE": os.getenv("ENABLE_GITEE_TOKEN_SHARE", "False").lower() == "true",  # 是否启用Gitee token分发
+    "GITEE_ACCESS_TOKEN": os.getenv("GITEE_ACCESS_TOKEN", ""),  # Gitee个人访问令牌
+    "GITEE_OWNER": os.getenv("GITEE_OWNER", ""),  # Gitee用户名或组织名
+    "GITEE_REPO": os.getenv("GITEE_REPO", ""),  # Gitee仓库名
+    "GITEE_FILE_PATH": os.getenv("GITEE_FILE_PATH", "feishu_token.json"),  # 存储token的文件路径
 }
 
 # --- 2. 时间处理工具类 ---
@@ -673,8 +680,8 @@ class FeishuBotManager:
             print(f"[{TimeHelper.format_datetime()}] 发送文本消息出错: {e}")
             return False
     
-    def get_and_send_app_access_token(self) -> bool:
-        """获取app_access_token并发送到飞书群，供客户端使用"""
+    def get_and_send_app_access_token(self, gitee_distributor: Optional['GiteeTokenDistributor'] = None) -> bool:
+        """获取app_access_token并发送到飞书群，同时可选择分发到Gitee"""
         try:
             print(f"[{TimeHelper.format_datetime()}] 正在获取客户端用的app_access_token...")
             
@@ -703,13 +710,27 @@ class FeishuBotManager:
                               f"⚠️ 此token供客户端应用使用，请勿泄露"
                 
                 # 发送token到群聊
-                success = self.send_text_message(token_message)
-                if success:
+                feishu_success = self.send_text_message(token_message)
+                
+                # 分发token到Gitee（如果启用）
+                gitee_success = True
+                if gitee_distributor:
+                    print(f"[{TimeHelper.format_datetime()}] 开始分发token到Gitee...")
+                    gitee_success = gitee_distributor.distribute_token(app_access_token, expire_time)
+                
+                if feishu_success:
                     print(f"[{TimeHelper.format_datetime()}] app_access_token已成功发送到飞书群")
-                    return True
                 else:
-                    print(f"[{TimeHelper.format_datetime()}] app_access_token发送失败")
-                    return False
+                    print(f"[{TimeHelper.format_datetime()}] app_access_token发送到飞书群失败")
+                
+                if gitee_distributor:
+                    if gitee_success:
+                        print(f"[{TimeHelper.format_datetime()}] app_access_token已成功分发到Gitee")
+                    else:
+                        print(f"[{TimeHelper.format_datetime()}] app_access_token分发到Gitee失败")
+                
+                # 只要有一个成功就返回True
+                return feishu_success or gitee_success
             else:
                 print(f"[{TimeHelper.format_datetime()}] 获取app_access_token失败: {data.get('msg', '未知错误')}")
                 return False
@@ -721,7 +742,123 @@ class FeishuBotManager:
             print(f"[{TimeHelper.format_datetime()}] 获取app_access_token出错: {e}")
             return False
 
-# --- 8. 主程序逻辑 ---
+# --- 8. Gitee Token分发类 ---
+class GiteeTokenDistributor:
+    """负责将access_token分发到Gitee仓库，供客户端获取"""
+    
+    def __init__(self, access_token: str, owner: str, repo: str, file_path: str):
+        self.access_token = access_token
+        self.owner = owner
+        self.repo = repo
+        self.file_path = file_path
+        
+        # Gitee API端点
+        self.api_base = "https://gitee.com/api/v5"
+        self.file_url = f"{self.api_base}/repos/{owner}/{repo}/contents/{file_path}"
+    
+    def get_file_info(self) -> Optional[dict]:
+        """获取文件信息，包括SHA值（用于更新文件）"""
+        try:
+            params = {"access_token": self.access_token}
+            response = requests.get(self.file_url, params=params, timeout=CONFIG["REQUEST_TIMEOUT"])
+            
+            if response.status_code == 200:
+                return response.json()
+            elif response.status_code == 404:
+                # 文件不存在
+                return None
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 获取Gitee文件信息失败: {response.status_code} - {response.text}")
+                return None
+                
+        except requests.exceptions.RequestException as e:
+            print(f"[{TimeHelper.format_datetime()}] 获取Gitee文件信息请求失败: {e}")
+            return None
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 获取Gitee文件信息出错: {e}")
+            return None
+    
+    def upload_token_file(self, token_data: dict) -> bool:
+        """上传或更新token文件到Gitee"""
+        try:
+            # 将token数据转换为JSON字符串
+            import base64
+            content = json.dumps(token_data, ensure_ascii=False, indent=2)
+            content_base64 = base64.b64encode(content.encode('utf-8')).decode('utf-8')
+            
+            # 获取现有文件信息
+            file_info = self.get_file_info()
+            
+            # 构建请求数据
+            data = {
+                "access_token": self.access_token,
+                "content": content_base64,
+                "message": f"Update feishu access token - {TimeHelper.format_datetime()}",
+                "branch": "master"
+            }
+            
+            # 如果文件已存在，需要提供SHA值
+            if file_info:
+                data["sha"] = file_info.get("sha")
+                print(f"[{TimeHelper.format_datetime()}] 正在更新Gitee中的token文件...")
+                method = "PUT"
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 正在创建Gitee中的token文件...")
+                method = "POST"
+            
+            # 发送请求
+            if method == "PUT":
+                response = requests.put(self.file_url, json=data, timeout=CONFIG["REQUEST_TIMEOUT"])
+            else:
+                response = requests.post(self.file_url, json=data, timeout=CONFIG["REQUEST_TIMEOUT"])
+            
+            if response.status_code in [200, 201]:
+                result = response.json()
+                download_url = result.get("content", {}).get("download_url", "")
+                print(f"[{TimeHelper.format_datetime()}] Token文件已成功上传到Gitee")
+                print(f"[{TimeHelper.format_datetime()}] 下载地址: {download_url}")
+                return True
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 上传token文件到Gitee失败: {response.status_code} - {response.text}")
+                return False
+                
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 上传token文件到Gitee出错: {e}")
+            return False
+    
+    def distribute_token(self, app_access_token: str, expire_time: int) -> bool:
+        """分发token到Gitee"""
+        try:
+            # 计算过期时间
+            expire_datetime = TimeHelper.get_beijing_time() + timedelta(seconds=expire_time)
+            
+            # 构建token数据
+            token_data = {
+                "access_token": app_access_token,
+                "expire_time": expire_datetime.strftime('%Y-%m-%d %H:%M:%S'),
+                "expire_timestamp": int(expire_datetime.timestamp()),
+                "valid_duration_seconds": expire_time,
+                "generated_time": TimeHelper.format_datetime(),
+                "generated_timestamp": int(TimeHelper.get_beijing_time().timestamp()),
+                "source": "财联社自动化系统",
+                "usage": "用于客户端从飞书群获取财联社电报文件",
+                "download_url": f"https://gitee.com/{self.owner}/{self.repo}/raw/master/{self.file_path}"
+            }
+            
+            # 上传到Gitee
+            success = self.upload_token_file(token_data)
+            if success:
+                print(f"[{TimeHelper.format_datetime()}] Token已成功分发到Gitee，客户端可通过以下地址获取:")
+                print(f"[{TimeHelper.format_datetime()}] {token_data['download_url']}")
+                return True
+            else:
+                return False
+                
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 分发token到Gitee出错: {e}")
+            return False
+
+# --- 9. 主程序逻辑 ---
 def main():
     """主函数，编排整个爬取、保存和通知流程"""
     print(f"\n--- 财联社电报抓取与通知程序启动 --- [{TimeHelper.format_datetime()}]")
@@ -741,6 +878,20 @@ def main():
         print(f"[{TimeHelper.format_datetime()}] 飞书Bot功能已启用")
     elif CONFIG["ENABLE_FEISHU_BOT"]:
         print(f"[{TimeHelper.format_datetime()}] 飞书Bot功能已启用，但配置不完整，将跳过飞书推送")
+
+    # 初始化Gitee Token分发器
+    gitee_distributor = None
+    if CONFIG["ENABLE_GITEE_TOKEN_SHARE"] and CONFIG["GITEE_ACCESS_TOKEN"] and CONFIG["GITEE_OWNER"] and CONFIG["GITEE_REPO"]:
+        gitee_distributor = GiteeTokenDistributor(
+            CONFIG["GITEE_ACCESS_TOKEN"],
+            CONFIG["GITEE_OWNER"],
+            CONFIG["GITEE_REPO"],
+            CONFIG["GITEE_FILE_PATH"]
+        )
+        print(f"[{TimeHelper.format_datetime()}] Gitee Token分发功能已启用")
+        print(f"[{TimeHelper.format_datetime()}] Token将分发到: https://gitee.com/{CONFIG['GITEE_OWNER']}/{CONFIG['GITEE_REPO']}/raw/master/{CONFIG['GITEE_FILE_PATH']}")
+    elif CONFIG["ENABLE_GITEE_TOKEN_SHARE"]:
+        print(f"[{TimeHelper.format_datetime()}] Gitee Token分发功能已启用，但配置不完整，将跳过Gitee分发")
 
     # 1. 获取财联社电报
     fetched_telegrams = CailianpressAPI.fetch_telegrams()
@@ -792,7 +943,7 @@ def main():
         
         # 发送access_token
         # 无论是否是定时发送，都尝试发送一次 access_token
-        token_success = feishu_bot.send_access_token_message()
+        token_success = feishu_bot.get_and_send_app_access_token(gitee_distributor)
         if token_success:
             print(f"[{TimeHelper.format_datetime()}] 客户端access_token已更新")
         else:
