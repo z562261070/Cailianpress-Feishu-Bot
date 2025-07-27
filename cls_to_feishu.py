@@ -449,8 +449,7 @@ class FeishuBotManager:
     
     def get_tenant_access_token(self) -> Optional[str]:
         """获取飞书租户访问令牌"""
-        if self._is_token_valid():
-            return self.access_token
+
         
         payload = {
             "app_id": self.app_id,
