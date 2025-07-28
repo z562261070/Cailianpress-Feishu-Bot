@@ -45,7 +45,7 @@ CONFIG = {
     
     # Cloudflare Workers Token分发配置
 "ENABLE_CLOUDFLARE_TOKEN_SHARE": os.getenv("ENABLE_CLOUDFLARE_TOKEN_SHARE", "True").lower() == "true",  # 默认启用Cloudflare
-"CLOUDFLARE_WORKER_URL": os.getenv("CLOUDFLARE_WORKER_URL", "https://your-worker.your-subdomain.workers.dev"),  # Cloudflare Workers端点
+"CLOUDFLARE_WORKER_URL": os.getenv("CLOUDFLARE_WORKER_URL", "https://feishu-token-distributor.562261070.workers.dev"),  # Cloudflare Workers端点
 }
 
 # --- 2. 时间处理工具类 ---
