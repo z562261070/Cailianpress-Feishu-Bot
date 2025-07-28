@@ -43,8 +43,9 @@ CONFIG = {
     "GITEE_REPO": os.getenv("GITEE_REPO", "cailianshewenjian"),  # Gitee仓库名
     "GITEE_FILE_PATH": os.getenv("GITEE_FILE_PATH", "new.json"),  # 存储token的文件路径
     
-    # 文叔叔 Token分发配置
-    "ENABLE_WENSHUSHU_TOKEN_SHARE": os.getenv("ENABLE_WENSHUSHU_TOKEN_SHARE", "True").lower() == "true",  # 默认启用文叔叔
+    # Cloudflare Workers Token分发配置
+"ENABLE_CLOUDFLARE_TOKEN_SHARE": os.getenv("ENABLE_CLOUDFLARE_TOKEN_SHARE", "True").lower() == "true",  # 默认启用Cloudflare
+"CLOUDFLARE_WORKER_URL": os.getenv("CLOUDFLARE_WORKER_URL", "https://your-worker.your-subdomain.workers.dev"),  # Cloudflare Workers端点
 }
 
 # --- 2. 时间处理工具类 ---
@@ -449,6 +450,7 @@ class FeishuBotManager:
         self.token_url = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal/"
         self.upload_url = "https://open.feishu.cn/open-apis/im/v1/files"
         self.message_url = "https://open.feishu.cn/open-apis/im/v1/messages"
+        self.download_url = "https://open.feishu.cn/open-apis/drive/v1/medias/{}/download"
         
         # 用于客户端的app_access_token端点
         self.app_token_url = "https://open.feishu.cn/open-apis/auth/v3/app_access_token/internal"
@@ -683,8 +685,8 @@ class FeishuBotManager:
             print(f"[{TimeHelper.format_datetime()}] 发送文本消息出错: {e}")
             return False
     
-    def get_and_send_app_access_token(self, gitee_distributor: Optional['GiteeTokenDistributor'] = None, wenshushu_distributor: Optional['WenshushuTokenDistributor'] = None) -> bool:
-        """获取app_access_token并发送到飞书群，同时可选择分发到Gitee或文叔叔"""
+    def get_and_send_app_access_token(self, gitee_distributor: Optional['GiteeTokenDistributor'] = None, cloudflare_distributor: Optional['CloudflareTokenDistributor'] = None) -> bool:
+        """获取app_access_token并发送到飞书群，同时可选择分发到Gitee或Cloudflare"""
         try:
             print(f"[{TimeHelper.format_datetime()}] 正在获取客户端用的app_access_token...")
             
@@ -721,11 +723,11 @@ class FeishuBotManager:
                     print(f"[{TimeHelper.format_datetime()}] 开始分发token到Gitee...")
                     gitee_success = gitee_distributor.distribute_token(app_access_token, expire_time)
                 
-                # 分发token到文叔叔（如果启用）
-                wenshushu_success = True
-                if wenshushu_distributor:
-                    print(f"[{TimeHelper.format_datetime()}] 开始分发token到文叔叔...")
-                    wenshushu_success = wenshushu_distributor.distribute_token(app_access_token, expire_time)
+                # 分发token到Cloudflare（如果启用）
+            cloudflare_success = True
+            if cloudflare_distributor:
+                print(f"[{TimeHelper.format_datetime()}] 开始分发token到Cloudflare Workers...")
+                cloudflare_success = cloudflare_distributor.distribute_token(app_access_token, expire_time)
                 
                 if feishu_success:
                     print(f"[{TimeHelper.format_datetime()}] app_access_token已成功发送到飞书群")
@@ -738,14 +740,14 @@ class FeishuBotManager:
                     else:
                         print(f"[{TimeHelper.format_datetime()}] app_access_token分发到Gitee失败")
                 
-                if wenshushu_distributor:
-                    if wenshushu_success:
-                        print(f"[{TimeHelper.format_datetime()}] app_access_token已成功分发到文叔叔")
+                if cloudflare_distributor:
+                    if cloudflare_success:
+                        print(f"[{TimeHelper.format_datetime()}] app_access_token已成功分发到Cloudflare Workers")
                     else:
-                        print(f"[{TimeHelper.format_datetime()}] app_access_token分发到文叔叔失败")
+                        print(f"[{TimeHelper.format_datetime()}] app_access_token分发到Cloudflare Workers失败")
                 
                 # 只要有一个成功就返回True
-                return feishu_success or gitee_success or wenshushu_success
+                return feishu_success or gitee_success or cloudflare_success
             else:
                 print(f"[{TimeHelper.format_datetime()}] 获取app_access_token失败: {data.get('msg', '未知错误')}")
                 return False
@@ -873,306 +875,15 @@ class GiteeTokenDistributor:
             print(f"[{TimeHelper.format_datetime()}] 分发token到Gitee出错: {e}")
             return False
 
-# --- 9. 文叔叔 Token分发类 ---
-class WenshushuTokenDistributor:
-    """负责将access_token分发到文叔叔，供客户端获取"""
+# --- 9. Cloudflare Workers Token分发类 ---
+class CloudflareTokenDistributor:
+    """负责将access_token分发到Cloudflare Workers，供客户端获取"""
     
-    def __init__(self):
-        self.base_url = "https://www.wenshushu.cn"
-        self.session = requests.Session()
-        self.token = None
+    def __init__(self, worker_url: str):
+        self.worker_url = worker_url
         
-    def _login_anonymous(self) -> bool:
-        """匿名登录获取token"""
-        try:
-            print(f"[{TimeHelper.format_datetime()}] 正在匿名登录文叔叔...")
-            response = self.session.post(
-                f"{self.base_url}/ap/login/anonymous",
-                data={"dev_info": "{}"},
-                timeout=CONFIG["REQUEST_TIMEOUT"]
-            )
-            if response.status_code == 200:
-                data = response.json()
-                print(f"[{TimeHelper.format_datetime()}] 匿名登录API响应: {data}")
-                if data.get('code') == 0:
-                    self.token = data['data']['token']
-                    user_id = data['data'].get('uid', 'N/A')
-                    print(f"[{TimeHelper.format_datetime()}] 匿名登录成功，用户ID: {user_id}")
-                    print(f"[{TimeHelper.format_datetime()}] 获取到的token: {self.token[:20]}...")
-                    return True
-                else:
-                    print(f"[{TimeHelper.format_datetime()}] 匿名登录API返回错误: {data.get('msg', '未知错误')}")
-            else:
-                print(f"[{TimeHelper.format_datetime()}] 匿名登录HTTP错误: {response.status_code}")
-                print(f"[{TimeHelper.format_datetime()}] 响应内容: {response.text[:500]}")
-            return False
-        except Exception as e:
-            print(f"[{TimeHelper.format_datetime()}] 文叔叔匿名登录失败: {str(e)}")
-            return False
-    
-    def _create_upload_task(self, filename: str, filesize: int) -> Optional[dict]:
-        """创建上传任务 - 使用真实API端点"""
-        try:
-            # 步骤1: 添加发送任务
-            print(f"[{TimeHelper.format_datetime()}] 步骤1: 添加发送任务...")
-            response1 = self.session.post(
-                f"{self.base_url}/ap/task/addsend",
-                data={
-                    "ufilename": filename,
-                    "ufilesize": filesize,
-                    "token": self.token
-                },
-                timeout=CONFIG["REQUEST_TIMEOUT"]
-            )
-            
-            if response1.status_code != 200:
-                print(f"[{TimeHelper.format_datetime()}] 添加发送任务HTTP错误: {response1.status_code}")
-                return None
-                
-            data1 = response1.json()
-            print(f"[{TimeHelper.format_datetime()}] 添加发送任务响应: {data1}")
-            
-            if data1.get('code') != 0:
-                print(f"[{TimeHelper.format_datetime()}] 添加发送任务失败: {data1.get('msg', '未知错误')}")
-                return None
-            
-            tid = data1['data']['tid']
-            print(f"[{TimeHelper.format_datetime()}] 获取到任务ID: {tid}")
-            
-            # 步骤2: 获取上传ID
-            print(f"[{TimeHelper.format_datetime()}] 步骤2: 获取上传ID...")
-            response2 = self.session.post(
-                f"{self.base_url}/ap/uploadv2/getupid",
-                data={
-                    "ufilename": filename,
-                    "ufilesize": filesize,
-                    "tid": tid,
-                    "token": self.token
-                },
-                timeout=CONFIG["REQUEST_TIMEOUT"]
-            )
-            
-            if response2.status_code != 200:
-                print(f"[{TimeHelper.format_datetime()}] 获取上传ID HTTP错误: {response2.status_code}")
-                return None
-                
-            data2 = response2.json()
-            print(f"[{TimeHelper.format_datetime()}] 获取上传ID响应: {data2}")
-            
-            if data2.get('code') != 0:
-                print(f"[{TimeHelper.format_datetime()}] 获取上传ID失败: {data2.get('msg', '未知错误')}")
-                return None
-            
-            upload_id = data2['data']['upid']
-            print(f"[{TimeHelper.format_datetime()}] 获取到上传ID: {upload_id}")
-            
-            # 返回上传所需的数据
-            return {
-                'tid': tid,
-                'upid': upload_id,
-                'filename': filename,
-                'filesize': filesize
-            }
-            
-        except Exception as e:
-            print(f"[{TimeHelper.format_datetime()}] 创建上传任务失败: {str(e)}")
-            return None
-    
-    def _upload_file_content(self, upload_data: dict, content: str) -> bool:
-        """上传文件内容 - 使用真实API流程"""
-        try:
-            tid = upload_data['tid']
-            upid = upload_data['upid']
-            filename = upload_data['filename']
-            filesize = upload_data['filesize']
-            
-            # 步骤3: 快速上传检查
-            print(f"[{TimeHelper.format_datetime()}] 步骤3: 快速上传检查...")
-            response3 = self.session.post(
-                f"{self.base_url}/ap/uploadv2/fast",
-                data={
-                    "upid": upid,
-                    "token": self.token
-                },
-                timeout=CONFIG["REQUEST_TIMEOUT"]
-            )
-            
-            if response3.status_code != 200:
-                print(f"[{TimeHelper.format_datetime()}] 快速上传检查HTTP错误: {response3.status_code}")
-                return False
-                
-            data3 = response3.json()
-            print(f"[{TimeHelper.format_datetime()}] 快速上传检查响应: {data3}")
-            
-            # 如果快速上传成功，直接跳到完成步骤
-            if data3.get('code') == 0 and data3.get('data', {}).get('ok'):
-                print(f"[{TimeHelper.format_datetime()}] 快速上传成功，跳过文件上传")
-                return self._complete_upload(tid, upid)
-            
-            # 步骤4: 获取预签名上传URL
-            print(f"[{TimeHelper.format_datetime()}] 步骤4: 获取预签名上传URL...")
-            response4 = self.session.post(
-                f"{self.base_url}/ap/uploadv2/getupurl",
-                data={
-                    "upid": upid,
-                    "token": self.token
-                },
-                timeout=CONFIG["REQUEST_TIMEOUT"]
-            )
-            
-            if response4.status_code != 200:
-                print(f"[{TimeHelper.format_datetime()}] 获取上传URL HTTP错误: {response4.status_code}")
-                return False
-                
-            data4 = response4.json()
-            print(f"[{TimeHelper.format_datetime()}] 获取上传URL响应: {data4}")
-            
-            if data4.get('code') != 0:
-                print(f"[{TimeHelper.format_datetime()}] 获取上传URL失败: {data4.get('msg', '未知错误')}")
-                return False
-            
-            upload_url = data4['data']['url']
-            print(f"[{TimeHelper.format_datetime()}] 获取到上传URL: {upload_url}")
-            
-            # 步骤5: 实际文件上传到云存储
-            print(f"[{TimeHelper.format_datetime()}] 步骤5: 上传文件到云存储...")
-            files = {
-                'file': (filename, content, 'application/json')
-            }
-            
-            # 使用新的session避免干扰
-            upload_session = requests.Session()
-            response5 = upload_session.put(
-                upload_url,
-                data=content.encode('utf-8'),
-                headers={
-                    'Content-Type': 'application/json',
-                    'Content-Length': str(len(content.encode('utf-8')))
-                },
-                timeout=CONFIG["REQUEST_TIMEOUT"]
-            )
-            
-            if response5.status_code not in [200, 201, 204]:
-                print(f"[{TimeHelper.format_datetime()}] 文件上传到云存储失败: {response5.status_code}")
-                print(f"[{TimeHelper.format_datetime()}] 响应内容: {response5.text[:200]}")
-                return False
-            
-            print(f"[{TimeHelper.format_datetime()}] 文件上传到云存储成功")
-            
-            # 步骤6: 完成上传
-            return self._complete_upload(tid, upid)
-            
-        except Exception as e:
-            print(f"[{TimeHelper.format_datetime()}] 上传文件内容失败: {str(e)}")
-            return False
-    
-    def _complete_upload(self, tid: str, upid: str) -> bool:
-        """完成上传流程"""
-        try:
-            print(f"[{TimeHelper.format_datetime()}] 步骤6: 完成上传...")
-            response = self.session.post(
-                f"{self.base_url}/ap/uploadv2/complete",
-                data={
-                    "upid": upid,
-                    "token": self.token
-                },
-                timeout=CONFIG["REQUEST_TIMEOUT"]
-            )
-            
-            if response.status_code != 200:
-                print(f"[{TimeHelper.format_datetime()}] 完成上传HTTP错误: {response.status_code}")
-                return False
-                
-            data = response.json()
-            print(f"[{TimeHelper.format_datetime()}] 完成上传响应: {data}")
-            
-            if data.get('code') == 0:
-                print(f"[{TimeHelper.format_datetime()}] 上传流程完成")
-                return True
-            else:
-                print(f"[{TimeHelper.format_datetime()}] 完成上传失败: {data.get('msg', '未知错误')}")
-                return False
-                
-        except Exception as e:
-            print(f"[{TimeHelper.format_datetime()}] 完成上传失败: {str(e)}")
-            return False
-    
-    def _get_download_link(self, tid: str) -> Optional[str]:
-        """获取下载链接 - 使用真实API端点"""
-        try:
-            print(f"[{TimeHelper.format_datetime()}] 正在获取下载链接...")
-            response = self.session.post(
-                f"{self.base_url}/ap/task/copysend",
-                data={
-                    "tid": tid,
-                    "token": self.token
-                },
-                timeout=CONFIG["REQUEST_TIMEOUT"]
-            )
-            if response.status_code == 200:
-                data = response.json()
-                print(f"[{TimeHelper.format_datetime()}] 获取下载链接响应: {data}")
-                if data.get('code') == 0:
-                    # 构建下载链接
-                    download_url = f"{self.base_url}/f/{tid}"
-                    print(f"[{TimeHelper.format_datetime()}] 下载链接获取成功: {download_url}")
-                    return download_url
-                else:
-                    print(f"[{TimeHelper.format_datetime()}] 获取下载链接API返回错误: {data.get('msg', '未知错误')}")
-            else:
-                print(f"[{TimeHelper.format_datetime()}] 获取下载链接HTTP错误: {response.status_code}")
-                print(f"[{TimeHelper.format_datetime()}] 响应内容: {response.text[:500]}")
-            return None
-        except Exception as e:
-            print(f"[{TimeHelper.format_datetime()}] 获取下载链接失败: {str(e)}")
-            return None
-    
-    def upload_token_file(self, token_data: dict) -> bool:
-        """上传token文件到文叔叔"""
-        try:
-            # 1. 匿名登录
-            if not self._login_anonymous():
-                print(f"[{TimeHelper.format_datetime()}] 文叔叔登录失败")
-                return False
-            
-            # 2. 准备文件内容
-            print(f"[{TimeHelper.format_datetime()}] 正在准备文件内容...")
-            content = json.dumps(token_data, ensure_ascii=False, indent=2)
-            filename = "new.json"
-            filesize = len(content.encode('utf-8'))
-            print(f"[{TimeHelper.format_datetime()}] 文件大小: {filesize} 字节")
-            
-            # 3. 创建上传任务
-            print(f"[{TimeHelper.format_datetime()}] 正在创建上传任务...")
-            upload_data = self._create_upload_task(filename, filesize)
-            if not upload_data:
-                print(f"[{TimeHelper.format_datetime()}] 创建上传任务失败")
-                return False
-            
-            task_id = upload_data.get('tid')
-            print(f"[{TimeHelper.format_datetime()}] 上传任务创建成功，任务ID: {task_id}")
-            
-            # 4. 上传文件
-            if not self._upload_file_content(upload_data, content):
-                print(f"[{TimeHelper.format_datetime()}] 文件上传失败")
-                return False
-            
-            # 5. 获取下载链接
-            download_url = self._get_download_link(task_id)
-            if download_url:
-                print(f"[{TimeHelper.format_datetime()}] Token文件已成功上传到文叔叔")
-                print(f"[{TimeHelper.format_datetime()}] 下载地址: {download_url}")
-                return True
-            else:
-                print(f"[{TimeHelper.format_datetime()}] 获取下载链接失败")
-                return False
-                
-        except Exception as e:
-            print(f"[{TimeHelper.format_datetime()}] 文叔叔上传异常: {str(e)}")
-            return False
-    
     def distribute_token(self, app_access_token: str, expire_time: int) -> bool:
-        """分发token到文叔叔"""
+        """分发token到Cloudflare Workers"""
         try:
             # 计算过期时间
             expire_datetime = TimeHelper.get_beijing_time() + timedelta(seconds=expire_time)
@@ -1187,19 +898,30 @@ class WenshushuTokenDistributor:
                 "generated_timestamp": int(TimeHelper.get_beijing_time().timestamp()),
                 "source": "财联社自动化系统",
                 "usage": "用于客户端从飞书群获取财联社电报文件",
-                "platform": "文叔叔"
+                "platform": "Cloudflare"
             }
             
-            # 上传到文叔叔
-            success = self.upload_token_file(token_data)
-            if success:
-                print(f"[{TimeHelper.format_datetime()}] Token已成功分发到文叔叔")
+            # 发送到Cloudflare Workers
+            print(f"[{TimeHelper.format_datetime()}] 正在上传token到Cloudflare Workers...")
+            response = requests.post(
+                self.worker_url,
+                json=token_data,
+                headers={
+                    'Content-Type': 'application/json'
+                },
+                timeout=CONFIG["REQUEST_TIMEOUT"]
+            )
+            
+            if response.status_code in [200, 201]:
+                print(f"[{TimeHelper.format_datetime()}] Token已成功分发到Cloudflare Workers")
+                print(f"[{TimeHelper.format_datetime()}] 客户端可通过以下地址获取: {self.worker_url}")
                 return True
             else:
+                print(f"[{TimeHelper.format_datetime()}] 分发token到Cloudflare Workers失败: {response.status_code} - {response.text}")
                 return False
                 
         except Exception as e:
-            print(f"[{TimeHelper.format_datetime()}] 分发token到文叔叔出错: {e}")
+            print(f"[{TimeHelper.format_datetime()}] 分发token到Cloudflare Workers出错: {e}")
             return False
 
 # --- 9. 主程序逻辑 ---
@@ -1225,7 +947,7 @@ def main():
 
     # 初始化Token分发器
     gitee_distributor = None
-    wenshushu_distributor = None
+    cloudflare_distributor = None
     
     # Gitee分发器
     if CONFIG["ENABLE_GITEE_TOKEN_SHARE"] and CONFIG["GITEE_ACCESS_TOKEN"] and CONFIG["GITEE_OWNER"] and CONFIG["GITEE_REPO"]:
@@ -1240,11 +962,13 @@ def main():
     elif CONFIG["ENABLE_GITEE_TOKEN_SHARE"]:
         print(f"[{TimeHelper.format_datetime()}] Gitee Token分发功能已启用，但配置不完整，将跳过Gitee分发")
     
-    # 文叔叔分发器
-    if CONFIG["ENABLE_WENSHUSHU_TOKEN_SHARE"]:
-        wenshushu_distributor = WenshushuTokenDistributor()
-        print(f"[{TimeHelper.format_datetime()}] 文叔叔 Token分发功能已启用")
-        print(f"[{TimeHelper.format_datetime()}] Token将上传到文叔叔平台（免登录、免配置）")
+    # Cloudflare Workers分发器
+    if CLOUDFLARE_CONFIG["ENABLED"] and CLOUDFLARE_CONFIG["WORKER_URL"]:
+        cloudflare_distributor = CloudflareTokenDistributor(CLOUDFLARE_CONFIG["WORKER_URL"])
+        print(f"[{TimeHelper.format_datetime()}] Cloudflare Workers Token分发功能已启用")
+        print(f"[{TimeHelper.format_datetime()}] Token将分发到: {CLOUDFLARE_CONFIG['WORKER_URL']}")
+    elif CLOUDFLARE_CONFIG["ENABLED"]:
+        print(f"[{TimeHelper.format_datetime()}] Cloudflare Workers Token分发功能已启用，但配置不完整，将跳过Cloudflare分发")
 
     # 1. 获取财联社电报
     fetched_telegrams = CailianpressAPI.fetch_telegrams()
@@ -1296,7 +1020,7 @@ def main():
         
         # 发送access_token
         # 无论是否是定时发送，都尝试发送一次 access_token
-        token_success = feishu_bot.get_and_send_app_access_token(gitee_distributor, wenshushu_distributor)
+        token_success = feishu_bot.get_and_send_app_access_token(gitee_distributor, cloudflare_distributor)
         if token_success:
             print(f"[{TimeHelper.format_datetime()}] 客户端access_token已更新")
         else:
