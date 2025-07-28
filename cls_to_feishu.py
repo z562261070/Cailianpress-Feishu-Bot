@@ -963,11 +963,11 @@ def main():
         print(f"[{TimeHelper.format_datetime()}] Gitee Token分发功能已启用，但配置不完整，将跳过Gitee分发")
     
     # Cloudflare Workers分发器
-    if CLOUDFLARE_CONFIG["ENABLED"] and CLOUDFLARE_CONFIG["WORKER_URL"]:
-        cloudflare_distributor = CloudflareTokenDistributor(CLOUDFLARE_CONFIG["WORKER_URL"])
+    if CONFIG["ENABLE_CLOUDFLARE_TOKEN_SHARE"] and CONFIG["CLOUDFLARE_WORKER_URL"]:
+        cloudflare_distributor = CloudflareTokenDistributor(CONFIG["CLOUDFLARE_WORKER_URL"])
         print(f"[{TimeHelper.format_datetime()}] Cloudflare Workers Token分发功能已启用")
-        print(f"[{TimeHelper.format_datetime()}] Token将分发到: {CLOUDFLARE_CONFIG['WORKER_URL']}")
-    elif CLOUDFLARE_CONFIG["ENABLED"]:
+        print(f"[{TimeHelper.format_datetime()}] Token将分发到: {CONFIG['CLOUDFLARE_WORKER_URL']}")
+    elif CONFIG["ENABLE_CLOUDFLARE_TOKEN_SHARE"]:
         print(f"[{TimeHelper.format_datetime()}] Cloudflare Workers Token分发功能已启用，但配置不完整，将跳过Cloudflare分发")
 
     # 1. 获取财联社电报
