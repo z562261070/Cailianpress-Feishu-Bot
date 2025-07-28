@@ -885,79 +885,243 @@ class WenshushuTokenDistributor:
     def _login_anonymous(self) -> bool:
         """匿名登录获取token"""
         try:
+            print(f"[{TimeHelper.format_datetime()}] 正在匿名登录文叔叔...")
             response = self.session.post(
                 f"{self.base_url}/ap/login/anonymous",
-                json={"dev_info": "{}"},
+                data={"dev_info": "{}"},
                 timeout=CONFIG["REQUEST_TIMEOUT"]
             )
             if response.status_code == 200:
                 data = response.json()
+                print(f"[{TimeHelper.format_datetime()}] 匿名登录API响应: {data}")
                 if data.get('code') == 0:
                     self.token = data['data']['token']
+                    user_id = data['data'].get('uid', 'N/A')
+                    print(f"[{TimeHelper.format_datetime()}] 匿名登录成功，用户ID: {user_id}")
+                    print(f"[{TimeHelper.format_datetime()}] 获取到的token: {self.token[:20]}...")
                     return True
+                else:
+                    print(f"[{TimeHelper.format_datetime()}] 匿名登录API返回错误: {data.get('msg', '未知错误')}")
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 匿名登录HTTP错误: {response.status_code}")
+                print(f"[{TimeHelper.format_datetime()}] 响应内容: {response.text[:500]}")
             return False
         except Exception as e:
             print(f"[{TimeHelper.format_datetime()}] 文叔叔匿名登录失败: {str(e)}")
             return False
     
     def _create_upload_task(self, filename: str, filesize: int) -> Optional[dict]:
-        """创建上传任务"""
+        """创建上传任务 - 使用真实API端点"""
         try:
-            response = self.session.post(
-                f"{self.base_url}/ap/task/file",
-                json={
-                    "token": self.token,
-                    "fname": filename,
-                    "fsize": filesize,
-                    "ftype": "application/json"
+            # 步骤1: 添加发送任务
+            print(f"[{TimeHelper.format_datetime()}] 步骤1: 添加发送任务...")
+            response1 = self.session.post(
+                f"{self.base_url}/ap/task/addsend",
+                data={
+                    "ufilename": filename,
+                    "ufilesize": filesize,
+                    "token": self.token
                 },
                 timeout=CONFIG["REQUEST_TIMEOUT"]
             )
-            if response.status_code == 200:
-                data = response.json()
-                if data.get('code') == 0:
-                    return data['data']
-            return None
+            
+            if response1.status_code != 200:
+                print(f"[{TimeHelper.format_datetime()}] 添加发送任务HTTP错误: {response1.status_code}")
+                return None
+                
+            data1 = response1.json()
+            print(f"[{TimeHelper.format_datetime()}] 添加发送任务响应: {data1}")
+            
+            if data1.get('code') != 0:
+                print(f"[{TimeHelper.format_datetime()}] 添加发送任务失败: {data1.get('msg', '未知错误')}")
+                return None
+            
+            tid = data1['data']['tid']
+            print(f"[{TimeHelper.format_datetime()}] 获取到任务ID: {tid}")
+            
+            # 步骤2: 获取上传ID
+            print(f"[{TimeHelper.format_datetime()}] 步骤2: 获取上传ID...")
+            response2 = self.session.post(
+                f"{self.base_url}/ap/uploadv2/getupid",
+                data={
+                    "ufilename": filename,
+                    "ufilesize": filesize,
+                    "tid": tid,
+                    "token": self.token
+                },
+                timeout=CONFIG["REQUEST_TIMEOUT"]
+            )
+            
+            if response2.status_code != 200:
+                print(f"[{TimeHelper.format_datetime()}] 获取上传ID HTTP错误: {response2.status_code}")
+                return None
+                
+            data2 = response2.json()
+            print(f"[{TimeHelper.format_datetime()}] 获取上传ID响应: {data2}")
+            
+            if data2.get('code') != 0:
+                print(f"[{TimeHelper.format_datetime()}] 获取上传ID失败: {data2.get('msg', '未知错误')}")
+                return None
+            
+            upload_id = data2['data']['upid']
+            print(f"[{TimeHelper.format_datetime()}] 获取到上传ID: {upload_id}")
+            
+            # 返回上传所需的数据
+            return {
+                'tid': tid,
+                'upid': upload_id,
+                'filename': filename,
+                'filesize': filesize
+            }
+            
         except Exception as e:
             print(f"[{TimeHelper.format_datetime()}] 创建上传任务失败: {str(e)}")
             return None
     
     def _upload_file_content(self, upload_data: dict, content: str) -> bool:
-        """上传文件内容"""
+        """上传文件内容 - 使用真实API流程"""
         try:
-            files = {
-                'file': ('new.json', content, 'application/json')
-            }
+            tid = upload_data['tid']
+            upid = upload_data['upid']
+            filename = upload_data['filename']
+            filesize = upload_data['filesize']
             
-            response = self.session.post(
-                upload_data['url'],
-                data=upload_data['form'],
-                files=files,
+            # 步骤3: 快速上传检查
+            print(f"[{TimeHelper.format_datetime()}] 步骤3: 快速上传检查...")
+            response3 = self.session.post(
+                f"{self.base_url}/ap/uploadv2/fast",
+                data={
+                    "upid": upid,
+                    "token": self.token
+                },
                 timeout=CONFIG["REQUEST_TIMEOUT"]
             )
             
-            if response.status_code == 200:
-                return True
-            return False
+            if response3.status_code != 200:
+                print(f"[{TimeHelper.format_datetime()}] 快速上传检查HTTP错误: {response3.status_code}")
+                return False
+                
+            data3 = response3.json()
+            print(f"[{TimeHelper.format_datetime()}] 快速上传检查响应: {data3}")
+            
+            # 如果快速上传成功，直接跳到完成步骤
+            if data3.get('code') == 0 and data3.get('data', {}).get('ok'):
+                print(f"[{TimeHelper.format_datetime()}] 快速上传成功，跳过文件上传")
+                return self._complete_upload(tid, upid)
+            
+            # 步骤4: 获取预签名上传URL
+            print(f"[{TimeHelper.format_datetime()}] 步骤4: 获取预签名上传URL...")
+            response4 = self.session.post(
+                f"{self.base_url}/ap/uploadv2/getupurl",
+                data={
+                    "upid": upid,
+                    "token": self.token
+                },
+                timeout=CONFIG["REQUEST_TIMEOUT"]
+            )
+            
+            if response4.status_code != 200:
+                print(f"[{TimeHelper.format_datetime()}] 获取上传URL HTTP错误: {response4.status_code}")
+                return False
+                
+            data4 = response4.json()
+            print(f"[{TimeHelper.format_datetime()}] 获取上传URL响应: {data4}")
+            
+            if data4.get('code') != 0:
+                print(f"[{TimeHelper.format_datetime()}] 获取上传URL失败: {data4.get('msg', '未知错误')}")
+                return False
+            
+            upload_url = data4['data']['url']
+            print(f"[{TimeHelper.format_datetime()}] 获取到上传URL: {upload_url}")
+            
+            # 步骤5: 实际文件上传到云存储
+            print(f"[{TimeHelper.format_datetime()}] 步骤5: 上传文件到云存储...")
+            files = {
+                'file': (filename, content, 'application/json')
+            }
+            
+            # 使用新的session避免干扰
+            upload_session = requests.Session()
+            response5 = upload_session.put(
+                upload_url,
+                data=content.encode('utf-8'),
+                headers={
+                    'Content-Type': 'application/json',
+                    'Content-Length': str(len(content.encode('utf-8')))
+                },
+                timeout=CONFIG["REQUEST_TIMEOUT"]
+            )
+            
+            if response5.status_code not in [200, 201, 204]:
+                print(f"[{TimeHelper.format_datetime()}] 文件上传到云存储失败: {response5.status_code}")
+                print(f"[{TimeHelper.format_datetime()}] 响应内容: {response5.text[:200]}")
+                return False
+            
+            print(f"[{TimeHelper.format_datetime()}] 文件上传到云存储成功")
+            
+            # 步骤6: 完成上传
+            return self._complete_upload(tid, upid)
+            
         except Exception as e:
             print(f"[{TimeHelper.format_datetime()}] 上传文件内容失败: {str(e)}")
             return False
     
-    def _get_download_link(self, tid: str) -> Optional[str]:
-        """获取下载链接"""
+    def _complete_upload(self, tid: str, upid: str) -> bool:
+        """完成上传流程"""
         try:
+            print(f"[{TimeHelper.format_datetime()}] 步骤6: 完成上传...")
             response = self.session.post(
-                f"{self.base_url}/ap/task/mgrtask",
-                json={
+                f"{self.base_url}/ap/uploadv2/complete",
+                data={
+                    "upid": upid,
+                    "token": self.token
+                },
+                timeout=CONFIG["REQUEST_TIMEOUT"]
+            )
+            
+            if response.status_code != 200:
+                print(f"[{TimeHelper.format_datetime()}] 完成上传HTTP错误: {response.status_code}")
+                return False
+                
+            data = response.json()
+            print(f"[{TimeHelper.format_datetime()}] 完成上传响应: {data}")
+            
+            if data.get('code') == 0:
+                print(f"[{TimeHelper.format_datetime()}] 上传流程完成")
+                return True
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 完成上传失败: {data.get('msg', '未知错误')}")
+                return False
+                
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] 完成上传失败: {str(e)}")
+            return False
+    
+    def _get_download_link(self, tid: str) -> Optional[str]:
+        """获取下载链接 - 使用真实API端点"""
+        try:
+            print(f"[{TimeHelper.format_datetime()}] 正在获取下载链接...")
+            response = self.session.post(
+                f"{self.base_url}/ap/task/copysend",
+                data={
                     "tid": tid,
-                    "password": ""
+                    "token": self.token
                 },
                 timeout=CONFIG["REQUEST_TIMEOUT"]
             )
             if response.status_code == 200:
                 data = response.json()
+                print(f"[{TimeHelper.format_datetime()}] 获取下载链接响应: {data}")
                 if data.get('code') == 0:
-                    return data['data'].get('url')
+                    # 构建下载链接
+                    download_url = f"{self.base_url}/f/{tid}"
+                    print(f"[{TimeHelper.format_datetime()}] 下载链接获取成功: {download_url}")
+                    return download_url
+                else:
+                    print(f"[{TimeHelper.format_datetime()}] 获取下载链接API返回错误: {data.get('msg', '未知错误')}")
+            else:
+                print(f"[{TimeHelper.format_datetime()}] 获取下载链接HTTP错误: {response.status_code}")
+                print(f"[{TimeHelper.format_datetime()}] 响应内容: {response.text[:500]}")
             return None
         except Exception as e:
             print(f"[{TimeHelper.format_datetime()}] 获取下载链接失败: {str(e)}")
@@ -972,15 +1136,21 @@ class WenshushuTokenDistributor:
                 return False
             
             # 2. 准备文件内容
+            print(f"[{TimeHelper.format_datetime()}] 正在准备文件内容...")
             content = json.dumps(token_data, ensure_ascii=False, indent=2)
             filename = "new.json"
             filesize = len(content.encode('utf-8'))
+            print(f"[{TimeHelper.format_datetime()}] 文件大小: {filesize} 字节")
             
             # 3. 创建上传任务
+            print(f"[{TimeHelper.format_datetime()}] 正在创建上传任务...")
             upload_data = self._create_upload_task(filename, filesize)
             if not upload_data:
                 print(f"[{TimeHelper.format_datetime()}] 创建上传任务失败")
                 return False
+            
+            task_id = upload_data.get('tid')
+            print(f"[{TimeHelper.format_datetime()}] 上传任务创建成功，任务ID: {task_id}")
             
             # 4. 上传文件
             if not self._upload_file_content(upload_data, content):
@@ -988,7 +1158,7 @@ class WenshushuTokenDistributor:
                 return False
             
             # 5. 获取下载链接
-            download_url = self._get_download_link(upload_data['tid'])
+            download_url = self._get_download_link(task_id)
             if download_url:
                 print(f"[{TimeHelper.format_datetime()}] Token文件已成功上传到文叔叔")
                 print(f"[{TimeHelper.format_datetime()}] 下载地址: {download_url}")
