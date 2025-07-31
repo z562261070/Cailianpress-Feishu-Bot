@@ -6,7 +6,7 @@ on:
   schedule:
     # 注意：GitHub Actions 的定时任务可能存在延迟
     # 每30分钟运行一次，配合90分钟的token发送周期
-    - cron: '*/20 * * * *'  # 每20分钟运行一次
+    - cron: '*/30 * * * *'  # 每30分钟运行一次
   # 允许在 GitHub Actions 页面手动触发此工作流
   workflow_dispatch:
 
@@ -53,6 +53,8 @@ jobs:
         FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
         FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
         ENABLE_FEISHU_BOT: ${{ secrets.ENABLE_FEISHU_BOT }}
+        ENABLE_TENCENT_CLOUD_TOKEN_SHARE: ${{ secrets.ENABLE_TENCENT_CLOUD_TOKEN_SHARE }}
+        TENCENT_CLOUD_API_URL: ${{ secrets.TENCENT_CLOUD_API_URL }}
         GITHUB_ACTIONS: true
         USE_PROXY: false
       # ！！！核心修改！！！
