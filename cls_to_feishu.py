@@ -44,7 +44,7 @@ CONFIG = {
     "GITEE_FILE_PATH": os.getenv("GITEE_FILE_PATH", "new.json"),  # 存储token的文件路径
     
     # 腾讯云函数 Token分发配置
-    "ENABLE_TENCENT_CLOUD_TOKEN_SHARE": os.getenv("ENABLE_TENCENT_CLOUD_TOKEN_SHARE", "False").lower() == "true",  # 默认关闭腾讯云函数
+    "ENABLE_TENCENT_CLOUD_TOKEN_SHARE": True,  # !!!注意：已强制开启腾讯云函数功能!!!
     "TENCENT_CLOUD_API_URL": os.getenv("TENCENT_CLOUD_API_URL"),  # 腾讯云函数API地址，通过环境变量配置
 }
 
@@ -934,15 +934,7 @@ class TencentCloudTokenDistributor:
 def main():
     """主函数，编排整个爬取、保存和通知流程"""
     print(f"\n--- 财联社电报抓取与通知程序启动 --- [{TimeHelper.format_datetime()}]")
-# +++ 临时调试代码：打印环境变量 +++
-    print("--- 开始调试环境变量 ---")
-    enable_tencent_env = os.getenv('ENABLE_TENCENT_CLOUD_TOKEN_SHARE')
-    api_url_env = os.getenv('TENCENT_CLOUD_API_URL')
-    print(f"从环境变量读取到的 ENABLE_TENCENT_CLOUD_TOKEN_SHARE 是: '{enable_tencent_env}' (类型: {type(enable_tencent_env)})")
-    print(f"从环境变量读取到的 TENCENT_CLOUD_API_URL 是: '{api_url_env}' (类型: {type(api_url_env)})")
-    print("--- 结束调试环境变量 ---")
-    # +++ 调试代码结束 +++
-    
+
     file_manager = TelegramFileManager(CONFIG["OUTPUT_DIR"])
     feishu_notifier = FeishuNotifier(CONFIG["FEISHU_WEBHOOK_URL"])
     summary_manager = FiveDaysSummaryManager(CONFIG["OUTPUT_DIR"])
