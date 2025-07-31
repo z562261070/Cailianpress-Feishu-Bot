@@ -1009,30 +1009,15 @@ def main():
     if feishu_bot:
         print(f"[{TimeHelper.format_datetime()}] 开始飞书Bot相关任务...")
         
-        # 检查是否需要发送新的access_token（每90分钟发送一次）
-        current_time = TimeHelper.get_beijing_time()
-        should_send_token = False
-        
-        # 检查是否是GitHub Actions环境
-        is_github_actions = os.getenv("GITHUB_ACTIONS", "false").lower() == "true"
-        
-        if is_github_actions:
-            # 在GitHub Actions中，每次运行都检查是否需要发送token
-            # 通过检查当前时间的分钟数来决定（比如每90分钟的倍数时发送）
-            minutes_since_midnight = current_time.hour * 60 + current_time.minute
-            if minutes_since_midnight % 90 == 0:  # 每90分钟发送一次
-                should_send_token = True
-                print(f"[{TimeHelper.format_datetime()}] 定时发送access_token（每90分钟）")
-        
-        # 发送access_token
-        # 无论是否是定时发送，都尝试发送一次 access_token
+        # --- !!! 核心修改：无条件获取并分发Token !!! ---
+        print(f"[{TimeHelper.format_datetime()}] 正在获取并分发客户端access_token...")
         token_success = feishu_bot.get_and_send_app_access_token(gitee_distributor, tencent_cloud_distributor)
         if token_success:
-            print(f"[{TimeHelper.format_datetime()}] 客户端access_token已更新")
+            print(f"[{TimeHelper.format_datetime()}] 客户端access_token更新/分发流程完成。")
         else:
-            print(f"[{TimeHelper.format_datetime()}] 客户端access_token更新失败")
+            print(f"[{TimeHelper.format_datetime()}] 客户端access_token更新/分发流程失败。")
+        # --- !!! 修改结束 !!! ---
 
-        
         # 文件推送（仅在有新内容时）
         if has_new_content:
             print(f"[{TimeHelper.format_datetime()}] 开始文件推送...")
