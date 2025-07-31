@@ -44,8 +44,8 @@ CONFIG = {
     "GITEE_FILE_PATH": os.getenv("GITEE_FILE_PATH", "new.json"),  # 存储token的文件路径
     
     # 腾讯云函数 Token分发配置
-    "ENABLE_TENCENT_CLOUD_TOKEN_SHARE": True,  # !!!注意：已强制开启腾讯云函数功能!!!
-     "TENCENT_CLOUD_API_URL": "https://1371601812-k9mik95whg.ap-shanghai.tencentscf.com",  # !!!注意：请将这里替换成您的真实URL!!!
+    "ENABLE_TENCENT_CLOUD_TOKEN_SHARE": os.getenv("ENABLE_TENCENT_CLOUD_TOKEN_SHARE", "True").lower() == "true",  # 从环境变量读取
+    "TENCENT_CLOUD_API_URL": os.getenv("TENCENT_CLOUD_API_URL", "https://1371601812-k9mik95whg.ap-shanghai.tencentscf.com"),  # GitHub Actions中使用环境变量，本地使用默认值
 }
 
 # --- 2. 时间处理工具类 ---
@@ -460,9 +460,7 @@ class FeishuBotManager:
         return self.access_token and time.time() < self.token_expires_at
     
     def get_tenant_access_token(self) -> Optional[str]:
-        """获取飞书租户访问令牌"""
-
-        
+        """获取飞书租户访问令牌（仅在需要时获取）"""
         payload = {
             "app_id": self.app_id,
             "app_secret": self.app_secret
@@ -491,6 +489,22 @@ class FeishuBotManager:
             print(f"[{TimeHelper.format_datetime()}] 获取飞书访问令牌出错: {e}")
             return None
     
+    def get_valid_token(self) -> Optional[str]:
+        """获取有效的访问令牌（优先使用缓存）"""
+        # 如果当前token有效，直接返回
+        if self._is_token_valid():
+            return self.access_token
+        
+        # 否则重新获取
+        return self.get_tenant_access_token()
+    
+    def ensure_token_ready(self) -> bool:
+        """确保token已准备好，在程序开始时调用"""
+        if not self._is_token_valid():
+            token = self.get_tenant_access_token()
+            return token is not None
+        return True
+    
     def upload_file(self, file_path: Path) -> Optional[str]:
         """上传文件到飞书，返回file_key"""
         if not file_path.exists():
@@ -503,7 +517,7 @@ class FeishuBotManager:
             print(f"[{TimeHelper.format_datetime()}] 文件过大，无法上传到飞书: {file_path.name} ({file_size / 1024 / 1024:.2f}MB)")
             return None
         
-        token = self.get_tenant_access_token()
+        token = self.get_valid_token()
         if not token:
             return None
         
@@ -541,8 +555,8 @@ class FeishuBotManager:
             return None
     
     def send_file_message(self, file_key: str, file_name: str) -> bool:
-        """发送文件消息到群聊"""
-        token = self.get_tenant_access_token()
+        """发送文件消息到飞书群"""
+        token = self.get_valid_token()
         if not token:
             return False
         
@@ -603,8 +617,8 @@ class FeishuBotManager:
         return self.send_file_message(file_key, file_path.name)
     
     def send_text_message(self, text: str) -> bool:
-        """发送文本消息到群聊"""
-        token = self.get_tenant_access_token()
+        """发送文本消息到飞书群"""
+        token = self.get_valid_token()
         if not token:
             return False
         
@@ -948,6 +962,15 @@ def main():
             CONFIG["FEISHU_CHAT_ID"]
         )
         print(f"[{TimeHelper.format_datetime()}] 飞书Bot功能已启用")
+        
+        # 预先获取一次token，确保后续操作都使用同一个token
+        print(f"[{TimeHelper.format_datetime()}] 预先获取飞书访问令牌...")
+        if not feishu_bot.ensure_token_ready():
+            print(f"[{TimeHelper.format_datetime()}] 无法获取飞书访问令牌，飞书Bot功能将被禁用")
+            feishu_bot = None
+        else:
+            print(f"[{TimeHelper.format_datetime()}] 飞书访问令牌获取成功，后续操作将复用此令牌")
+            
     elif CONFIG["ENABLE_FEISHU_BOT"]:
         print(f"[{TimeHelper.format_datetime()}] 飞书Bot功能已启用，但配置不完整，将跳过飞书推送")
 
