@@ -42,6 +42,10 @@ CONFIG = {
     "GITEE_OWNER": os.getenv("GITEE_OWNER", "zhanweifu"),  # Gitee用户名或组织名
     "GITEE_REPO": os.getenv("GITEE_REPO", "cailianshewenjian"),  # Gitee仓库名
     "GITEE_FILE_PATH": os.getenv("GITEE_FILE_PATH", "new.json"),  # 存储token的文件路径
+    
+    # 腾讯云函数 Token分发配置
+    "ENABLE_TENCENT_CLOUD_TOKEN_SHARE": os.getenv("ENABLE_TENCENT_CLOUD_TOKEN_SHARE", "False").lower() == "true",  # 默认关闭腾讯云函数
+    "TENCENT_CLOUD_API_URL": os.getenv("TENCENT_CLOUD_API_URL", "https://1371601812-1nb5kvnk5y.ap-shanghai.tencentscf.com"),  # 腾讯云函数API地址
 }
 
 # --- 2. 时间处理工具类 ---
