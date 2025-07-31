@@ -969,11 +969,11 @@ def main():
         print(f"[{TimeHelper.format_datetime()}] Gitee Token分发功能已启用，但配置不完整，将跳过Gitee分发")
     
     # 腾讯云函数分发器
-    if CONFIG.get("TENCENT_CLOUD_ENABLED", False) and CONFIG.get("TENCENT_CLOUD_API_URL"):
+    if CONFIG.get("TENCENT_CLOUD_ENABLED", true) and CONFIG.get("TENCENT_CLOUD_API_URL"):
         tencent_cloud_distributor = TencentCloudTokenDistributor()
         print(f"[{TimeHelper.format_datetime()}] 腾讯云函数 Token分发功能已启用")
         print(f"[{TimeHelper.format_datetime()}] API地址: {CONFIG['TENCENT_CLOUD_API_URL']}")
-    elif CONFIG.get("TENCENT_CLOUD_ENABLED", False):
+    elif CONFIG.get("TENCENT_CLOUD_ENABLED", true):
         print(f"[{TimeHelper.format_datetime()}] 腾讯云函数 Token分发功能已启用，但API地址未配置，将跳过腾讯云函数分发")
 
     # 1. 获取财联社电报
