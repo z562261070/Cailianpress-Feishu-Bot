@@ -45,7 +45,7 @@ CONFIG = {
     
     # 腾讯云函数 Token分发配置
     "ENABLE_TENCENT_CLOUD_TOKEN_SHARE": True,  # !!!注意：已强制开启腾讯云函数功能!!!
-    "TENCENT_CLOUD_API_URL": os.getenv("TENCENT_CLOUD_API_URL"),  # 腾讯云函数API地址，通过环境变量配置
+     "TENCENT_CLOUD_API_URL": "https://1371601812-k9mik95whg.ap-shanghai.tencentscf.com",  # !!!注意：请将这里替换成您的真实URL!!!
 }
 
 # --- 2. 时间处理工具类 ---
