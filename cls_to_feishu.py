@@ -953,6 +953,14 @@ def main():
     feishu_notifier = FeishuNotifier(CONFIG["FEISHU_WEBHOOK_URL"])
     summary_manager = FiveDaysSummaryManager(CONFIG["OUTPUT_DIR"])
     
+    # 导入JSON数据生成器
+    try:
+        from json_data_generator import JSONDataGenerator
+        json_generator = JSONDataGenerator(CONFIG["OUTPUT_DIR"])
+    except ImportError:
+        json_generator = None
+        print(f"[{TimeHelper.format_datetime()}] JSON数据生成器未找到，将跳过JSON数据生成")
+    
     # 初始化飞书Bot管理器
     feishu_bot = None
     if CONFIG["ENABLE_FEISHU_BOT"] and CONFIG["FEISHU_APP_ID"] and CONFIG["FEISHU_APP_SECRET"] and CONFIG["FEISHU_CHAT_ID"]:
@@ -1027,6 +1035,15 @@ def main():
 
     # 6. 清理旧文件，保留最近指定数量的文件
     file_manager.cleanup_old_files(keep_count=CONFIG["KEEP_FILES_COUNT"])
+
+    # 6.5. 生成JSON数据（用于utools应用）
+    if json_generator:
+        try:
+            print(f"[{TimeHelper.format_datetime()}] 开始生成JSON数据...")
+            json_generator.generate_all_json_data()
+            print(f"[{TimeHelper.format_datetime()}] JSON数据生成完成")
+        except Exception as e:
+            print(f"[{TimeHelper.format_datetime()}] JSON数据生成失败: {e}")
 
     # 7. 飞书Bot文件推送和token管理
     if feishu_bot:
