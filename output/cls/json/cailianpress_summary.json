@@ -1,0 +1,142 @@
+{
+  "lastUpdate": "2025-08-06T12:04:55.971958",
+  "newsCount": 1727,
+  "dateRange": {
+    "start": "2025-08-02",
+    "end": "2025-08-06"
+  },
+  "topKeywords": [
+    {
+      "date": "2025-08-06",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-06",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-06",
+      "keyword": "军工",
+      "positive": 7,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-06",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-08-06",
+      "keyword": "机器人",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-08-06",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-06",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-06",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-05",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-08-05",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    }
+  ],
+  "topStocks": [
+    [
+      "长城军工",
+      10
+    ],
+    [
+      "理想汽车",
+      9
+    ],
+    [
+      "腾讯",
+      9
+    ],
+    [
+      "英伟达",
+      9
+    ],
+    [
+      "药明康德",
+      8
+    ],
+    [
+      "宁德时代",
+      8
+    ],
+    [
+      "山河智能",
+      8
+    ],
+    [
+      "中马传动",
+      6
+    ],
+    [
+      "上纬新材",
+      6
+    ],
+    [
+      "华为",
+      6
+    ],
+    [
+      "比亚迪",
+      5
+    ],
+    [
+      "京东",
+      5
+    ],
+    [
+      "小米",
+      4
+    ],
+    [
+      "胜通能源",
+      4
+    ],
+    [
+      "东杰智能",
+      3
+    ]
+  ]
+}
