@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-06T13:45:55.761524",
-  "newsCount": 1763,
+  "lastUpdate": "2025-08-06T14:28:20.776438",
+  "newsCount": 1782,
   "dateRange": {
     "start": "2025-08-02",
     "end": "2025-08-06"
@@ -11,21 +11,28 @@
       "keyword": "机器人",
       "positive": 6,
       "negative": 0,
-      "neutral": 11
+      "neutral": 12
     },
     {
       "date": "2025-08-06",
-      "keyword": "人工智能",
-      "positive": 0,
+      "keyword": "军工",
+      "positive": 7,
       "negative": 0,
-      "neutral": 6
+      "neutral": 5
     },
     {
       "date": "2025-08-06",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-06",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-08-06",
@@ -38,13 +45,6 @@
       "date": "2025-08-06",
       "keyword": "无人机",
       "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-08-06",
-      "keyword": "军工",
-      "positive": 7,
       "negative": 0,
       "neutral": 4
     },
@@ -83,6 +83,14 @@
       10
     ],
     [
+      "药明康德",
+      9
+    ],
+    [
+      "宁德时代",
+      9
+    ],
+    [
       "理想汽车",
       9
     ],
@@ -95,16 +103,12 @@
       9
     ],
     [
-      "药明康德",
-      8
-    ],
-    [
-      "宁德时代",
-      8
-    ],
-    [
       "山河智能",
       8
+    ],
+    [
+      "华为",
+      7
     ],
     [
       "京东",
@@ -116,10 +120,6 @@
     ],
     [
       "上纬新材",
-      6
-    ],
-    [
-      "华为",
       6
     ],
     [
