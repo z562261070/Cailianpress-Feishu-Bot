@@ -68,7 +68,7 @@ jobs:
         # 配置 git 用户名和邮箱
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
-        # 添加所有更改到暂存区
+        # 添加所有更改到暂存区（包括新生成的JSON文件）
         git add -A
         # 检查是否有文件更改，只有在有更改时才执行提交和推送操作
         # `TZ=Asia/Shanghai date` 用于生成带时区的提交信息
