@@ -43,8 +43,17 @@ class JSONDataGenerator:
         
         # 保存主数据文件
         main_file = self.json_output_dir / "cailianpress_data.json"
-        with open(main_file, 'w', encoding='utf-8') as f:
-            json.dump(main_data, f, ensure_ascii=False, indent=2)
+        try:
+            with open(main_file, 'w', encoding='utf-8') as f:
+                json.dump(main_data, f, ensure_ascii=False, indent=2)
+            
+            # 验证生成的JSON文件
+            with open(main_file, 'r', encoding='utf-8') as f:
+                json.load(f)  # 尝试解析以验证JSON有效性
+            print(f"主数据文件验证成功: {main_file}")
+        except Exception as e:
+            print(f"主数据文件生成或验证失败: {e}")
+            raise
         
         # 生成简化版本（用于快速加载）
         summary_data = {
@@ -56,8 +65,17 @@ class JSONDataGenerator:
         }
         
         summary_file = self.json_output_dir / "cailianpress_summary.json"
-        with open(summary_file, 'w', encoding='utf-8') as f:
-            json.dump(summary_data, f, ensure_ascii=False, indent=2)
+        try:
+            with open(summary_file, 'w', encoding='utf-8') as f:
+                json.dump(summary_data, f, ensure_ascii=False, indent=2)
+            
+            # 验证生成的JSON文件
+            with open(summary_file, 'r', encoding='utf-8') as f:
+                json.load(f)  # 尝试解析以验证JSON有效性
+            print(f"摘要数据文件验证成功: {summary_file}")
+        except Exception as e:
+            print(f"摘要数据文件生成或验证失败: {e}")
+            raise
         
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] JSON数据生成完成")
         print(f"  - 新闻数据: {len(news_data)} 条")
@@ -131,11 +149,20 @@ class JSONDataGenerator:
             content = re.sub(r'\*\*(.+?)\*\*', r'\1', content)  # 移除粗体
             content = re.sub(r'\[(.+?)\]\(.+?\)', r'\1', content)  # 移除链接格式，保留文本
             
+            # 清理可能导致JSON错误的字符
+            content = content.replace('\n', ' ').replace('\r', ' ').replace('\t', ' ')
+            content = re.sub(r'\s+', ' ', content)  # 合并多个空格
+            content = content.strip()
+            
+            # 确保内容不为空
+            if not content:
+                return None
+            
             return {
                 "date": date_str,
                 "time": time_str,
                 "type": news_type,
-                "content": content.strip()
+                "content": content
             }
         except Exception as e:
             print(f"解析新闻行失败: {line}, 错误: {e}")
@@ -147,10 +174,14 @@ class JSONDataGenerator:
         daily_keyword_stats = defaultdict(lambda: defaultdict(lambda: {"positive": 0, "negative": 0, "neutral": 0}))
         
         for news in news_data:
-            date = news["date"]
-            content = news["content"]
-            news_type = news["type"]
+            date = news.get("date", "")
+            content = news.get("content", "")
+            news_type = news.get("type", "general")
             
+            # 验证数据有效性
+            if not date or not content or not isinstance(content, str):
+                continue
+                
             for keyword in self.keywords:
                 if keyword in content:
                     # 简单的情感分析
@@ -164,16 +195,20 @@ class JSONDataGenerator:
                     else:
                         daily_keyword_stats[date][keyword]["neutral"] += 1
         
-        # 转换为列表格式
+        # 转换为列表格式，确保数据类型正确
         hotspot_data = []
         for date, keywords in daily_keyword_stats.items():
+            if not isinstance(date, str) or not date.strip():
+                continue
             for keyword, stats in keywords.items():
+                if not isinstance(keyword, str) or not keyword.strip():
+                    continue
                 hotspot_data.append({
-                    "date": date,
-                    "keyword": keyword,
-                    "positive": stats["positive"],
-                    "negative": stats["negative"],
-                    "neutral": stats["neutral"]
+                    "date": date.strip(),
+                    "keyword": keyword.strip(),
+                    "positive": int(stats["positive"]),
+                    "negative": int(stats["negative"]),
+                    "neutral": int(stats["neutral"])
                 })
         
         return hotspot_data
@@ -183,13 +218,21 @@ class JSONDataGenerator:
         stock_counts = Counter()
         
         for news in news_data:
-            content = news["content"]
+            content = news.get("content", "")
+            if not content or not isinstance(content, str):
+                continue
+                
             for stock in self.stock_list:
-                if stock in content:
+                if isinstance(stock, str) and stock.strip() and stock in content:
                     stock_counts[stock] += 1
         
-        # 转换为列表格式，按提及次数排序
-        return [[stock, count] for stock, count in stock_counts.most_common()]
+        # 转换为列表格式，按提及次数排序，确保数据类型正确
+        stock_data = []
+        for stock, count in stock_counts.most_common():
+            if isinstance(stock, str) and stock.strip() and isinstance(count, int):
+                stock_data.append([stock.strip(), count])
+        
+        return stock_data
     
     def _get_date_range(self) -> Dict[str, str]:
         """获取数据日期范围"""
