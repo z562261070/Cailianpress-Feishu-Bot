@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-08-07T11:22:40.885379",
-  "newsCount": 1747,
+  "lastUpdate": "2025-08-07T11:43:29.686462",
+  "newsCount": 1761,
   "dateRange": {
     "start": "2025-08-03",
     "end": "2025-08-07"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-07",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "芯片",
+      "positive": 7,
+      "negative": 0,
+      "neutral": 10
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "军工",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-08-07",
       "keyword": "机器人",
@@ -26,34 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-07",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-08-07",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-07",
-      "keyword": "芯片",
-      "positive": 7,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-08-07",
-      "keyword": "军工",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-08-07",
@@ -79,12 +79,12 @@
   ],
   "topStocks": [
     [
-      "英伟达",
+      "长城军工",
       13
     ],
     [
-      "长城军工",
-      12
+      "英伟达",
+      13
     ],
     [
       "药明康德",
