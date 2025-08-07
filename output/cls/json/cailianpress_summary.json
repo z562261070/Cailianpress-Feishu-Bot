@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-07T04:49:51.479152",
-  "newsCount": 1577,
+  "lastUpdate": "2025-08-07T05:32:05.433828",
+  "newsCount": 1597,
   "dateRange": {
     "start": "2025-08-03",
     "end": "2025-08-07"
@@ -8,8 +8,15 @@
   "topKeywords": [
     {
       "date": "2025-08-07",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-07",
       "keyword": "芯片",
-      "positive": 3,
+      "positive": 4,
       "negative": 0,
       "neutral": 6
     },
@@ -44,13 +51,6 @@
     {
       "date": "2025-08-07",
       "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-07",
-      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 1
