@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-07T05:32:05.433828",
-  "newsCount": 1597,
+  "lastUpdate": "2025-08-07T06:39:25.956632",
+  "newsCount": 1617,
   "dateRange": {
     "start": "2025-08-03",
     "end": "2025-08-07"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-08-07",
+      "keyword": "军工",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-07",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-08-07",
@@ -22,24 +36,10 @@
     },
     {
       "date": "2025-08-07",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-08-07",
       "keyword": "机器人",
       "positive": 3,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-07",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-08-07",
@@ -79,12 +79,12 @@
   ],
   "topStocks": [
     [
-      "英伟达",
+      "长城军工",
       11
     ],
     [
-      "长城军工",
-      10
+      "英伟达",
+      11
     ],
     [
       "药明康德",
@@ -123,16 +123,16 @@
       6
     ],
     [
+      "中际旭创",
+      5
+    ],
+    [
       "利德曼",
       5
     ],
     [
       "比亚迪",
       5
-    ],
-    [
-      "中际旭创",
-      4
     ],
     [
       "小米",
