@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-07T07:48:18.167718",
-  "newsCount": 1650,
+  "lastUpdate": "2025-08-07T08:34:48.331911",
+  "newsCount": 1670,
   "dateRange": {
     "start": "2025-08-03",
     "end": "2025-08-07"
@@ -11,14 +11,14 @@
       "keyword": "芯片",
       "positive": 7,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
     },
     {
       "date": "2025-08-07",
       "keyword": "半导体",
       "positive": 3,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-08-07",
@@ -79,19 +79,19 @@
   ],
   "topStocks": [
     [
+      "英伟达",
+      12
+    ],
+    [
       "长城军工",
       12
     ],
     [
-      "英伟达",
-      11
+      "宁德时代",
+      10
     ],
     [
       "药明康德",
-      9
-    ],
-    [
-      "宁德时代",
       9
     ],
     [
