@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-07T12:54:30.698687",
-  "newsCount": 1781,
+  "lastUpdate": "2025-08-07T13:43:22.779236",
+  "newsCount": 1801,
   "dateRange": {
     "start": "2025-08-03",
     "end": "2025-08-07"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-07",
+      "keyword": "半导体",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 11
+    },
     {
       "date": "2025-08-07",
       "keyword": "机器人",
@@ -43,13 +50,6 @@
     },
     {
       "date": "2025-08-07",
-      "keyword": "半导体",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-08-07",
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
@@ -79,11 +79,11 @@
   ],
   "topStocks": [
     [
-      "长城军工",
-      13
+      "英伟达",
+      14
     ],
     [
-      "英伟达",
+      "长城军工",
       13
     ],
     [
