@@ -1,11 +1,46 @@
 {
-  "lastUpdate": "2025-08-06T23:44:11.469373",
-  "newsCount": 1834,
+  "lastUpdate": "2025-08-07T01:04:11.076547",
+  "newsCount": 1523,
   "dateRange": {
-    "start": "2025-08-02",
-    "end": "2025-08-06"
+    "start": "2025-08-03",
+    "end": "2025-08-07"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-07",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-08-06",
       "keyword": "机器人",
@@ -40,44 +75,13 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-08-06",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-08-06",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-08-06",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-05",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-08-05",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
+    [
+      "英伟达",
+      10
+    ],
     [
       "长城军工",
       10
@@ -95,24 +99,16 @@
       9
     ],
     [
-      "腾讯",
-      9
+      "华为",
+      8
     ],
     [
-      "英伟达",
-      9
+      "腾讯",
+      8
     ],
     [
       "山河智能",
       8
-    ],
-    [
-      "华为",
-      7
-    ],
-    [
-      "京东",
-      6
     ],
     [
       "中马传动",
@@ -121,6 +117,10 @@
     [
       "上纬新材",
       6
+    ],
+    [
+      "京东",
+      5
     ],
     [
       "比亚迪",
@@ -135,7 +135,7 @@
       4
     ],
     [
-      "东杰智能",
+      "谷歌",
       3
     ]
   ]
