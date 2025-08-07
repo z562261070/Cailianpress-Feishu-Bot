@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-07T14:27:46.963535",
-  "newsCount": 1813,
+  "lastUpdate": "2025-08-07T14:52:53.741739",
+  "newsCount": 1820,
   "dateRange": {
     "start": "2025-08-03",
     "end": "2025-08-07"
@@ -11,7 +11,14 @@
       "keyword": "机器人",
       "positive": 6,
       "negative": 0,
-      "neutral": 13
+      "neutral": 14
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "军工",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-08-07",
@@ -19,13 +26,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-08-07",
-      "keyword": "军工",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-08-07",
