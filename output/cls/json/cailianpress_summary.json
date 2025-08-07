@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-07T02:07:35.036438",
-  "newsCount": 1543,
+  "lastUpdate": "2025-08-07T03:53:43.964095",
+  "newsCount": 1563,
   "dateRange": {
     "start": "2025-08-03",
     "end": "2025-08-07"
@@ -8,10 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-08-07",
-      "keyword": "芯片",
-      "positive": 2,
+      "keyword": "机器人",
+      "positive": 3,
       "negative": 0,
-      "neutral": 4
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-08-07",
@@ -22,21 +50,7 @@
     },
     {
       "date": "2025-08-07",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-07",
       "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-07",
-      "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-08-06",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-08-06",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -111,11 +111,11 @@
       8
     ],
     [
-      "京东",
-      6
+      "中马传动",
+      7
     ],
     [
-      "中马传动",
+      "京东",
       6
     ],
     [
@@ -123,19 +123,19 @@
       6
     ],
     [
+      "利德曼",
+      5
+    ],
+    [
       "比亚迪",
       5
     ],
     [
-      "利德曼",
+      "中际旭创",
       4
     ],
     [
       "小米",
-      4
-    ],
-    [
-      "胜通能源",
       4
     ]
   ]
