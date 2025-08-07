@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-07T06:39:25.956632",
-  "newsCount": 1617,
+  "lastUpdate": "2025-08-07T07:28:44.341021",
+  "newsCount": 1637,
   "dateRange": {
     "start": "2025-08-03",
     "end": "2025-08-07"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-08-07",
-      "keyword": "军工",
-      "positive": 2,
+      "keyword": "芯片",
+      "positive": 7,
       "negative": 0,
-      "neutral": 0
+      "neutral": 7
     },
     {
       "date": "2025-08-07",
       "keyword": "半导体",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
-      "neutral": 3
+      "neutral": 5
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "机器人",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "军工",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 0
     },
     {
       "date": "2025-08-07",
@@ -26,20 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-08-07",
-      "keyword": "芯片",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-08-07",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-08-07",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "长城军工",
-      11
+      12
     ],
     [
       "英伟达",
@@ -99,6 +99,10 @@
       9
     ],
     [
+      "中马传动",
+      8
+    ],
+    [
       "华为",
       8
     ],
@@ -111,8 +115,8 @@
       8
     ],
     [
-      "中马传动",
-      7
+      "利德曼",
+      6
     ],
     [
       "京东",
@@ -124,10 +128,6 @@
     ],
     [
       "中际旭创",
-      5
-    ],
-    [
-      "利德曼",
       5
     ],
     [
