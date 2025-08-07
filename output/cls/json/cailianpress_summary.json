@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-07T09:30:58.771822",
-  "newsCount": 1690,
+  "lastUpdate": "2025-08-07T10:27:24.558958",
+  "newsCount": 1710,
   "dateRange": {
     "start": "2025-08-03",
     "end": "2025-08-07"
@@ -11,7 +11,28 @@
       "keyword": "机器人",
       "positive": 5,
       "negative": 0,
-      "neutral": 3
+      "neutral": 5
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "半导体",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-07",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2025-08-07",
@@ -19,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-08-07",
-      "keyword": "半导体",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-08-07",
@@ -43,24 +57,10 @@
     },
     {
       "date": "2025-08-07",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-08-07",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-07",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-08-06",
@@ -127,16 +127,16 @@
       6
     ],
     [
+      "小米",
+      5
+    ],
+    [
       "中际旭创",
       5
     ],
     [
       "比亚迪",
       5
-    ],
-    [
-      "小米",
-      4
     ]
   ]
 }
