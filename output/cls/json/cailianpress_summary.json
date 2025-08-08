@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-08T07:47:42.403244",
-  "newsCount": 1809,
+  "lastUpdate": "2025-08-08T08:34:40.634849",
+  "newsCount": 1829,
   "dateRange": {
     "start": "2025-08-04",
     "end": "2025-08-08"
@@ -8,24 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-08-08",
-      "keyword": "机器人",
-      "positive": 2,
+      "keyword": "新能源",
+      "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 5
     },
     {
       "date": "2025-08-08",
       "keyword": "芯片",
       "positive": 2,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-08-08",
       "keyword": "半导体",
       "positive": 4,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-08",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-08-08",
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-08-08",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-08-07",
@@ -103,6 +103,14 @@
       7
     ],
     [
+      "小米",
+      6
+    ],
+    [
+      "比亚迪",
+      6
+    ],
+    [
       "利德曼",
       6
     ],
@@ -119,15 +127,7 @@
       6
     ],
     [
-      "小米",
-      5
-    ],
-    [
       "中际旭创",
-      5
-    ],
-    [
-      "比亚迪",
       5
     ],
     [
