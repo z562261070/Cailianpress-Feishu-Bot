@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-08T02:06:49.921114",
-  "newsCount": 1709,
+  "lastUpdate": "2025-08-08T03:53:19.644088",
+  "newsCount": 1729,
   "dateRange": {
     "start": "2025-08-04",
     "end": "2025-08-08"
@@ -8,14 +8,21 @@
   "topKeywords": [
     {
       "date": "2025-08-08",
-      "keyword": "新能源",
+      "keyword": "无人机",
       "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-08",
+      "keyword": "半导体",
+      "positive": 2,
       "negative": 0,
       "neutral": 1
     },
     {
       "date": "2025-08-08",
-      "keyword": "半导体",
+      "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-08-08",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-08-08",
@@ -87,15 +87,15 @@
       14
     ],
     [
+      "山河智能",
+      11
+    ],
+    [
       "中马传动",
       9
     ],
     [
       "腾讯",
-      8
-    ],
-    [
-      "山河智能",
       8
     ],
     [
@@ -131,12 +131,12 @@
       5
     ],
     [
-      "胜通能源",
+      "华为",
       4
     ],
     [
-      "华为",
-      3
+      "胜通能源",
+      4
     ]
   ]
 }
