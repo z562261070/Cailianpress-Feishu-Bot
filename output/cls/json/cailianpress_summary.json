@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-08T06:39:16.282085",
-  "newsCount": 1777,
+  "lastUpdate": "2025-08-08T07:28:40.022089",
+  "newsCount": 1797,
   "dateRange": {
     "start": "2025-08-04",
     "end": "2025-08-08"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-08-08",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-08-08",
       "keyword": "半导体",
       "positive": 4,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-08-08",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-08-08",
@@ -88,7 +88,7 @@
     ],
     [
       "山河智能",
-      12
+      13
     ],
     [
       "中马传动",
