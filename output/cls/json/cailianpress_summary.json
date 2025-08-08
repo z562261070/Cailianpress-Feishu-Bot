@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-08-08T09:31:24.485727",
-  "newsCount": 1849,
+  "lastUpdate": "2025-08-08T10:27:25.786091",
+  "newsCount": 1869,
   "dateRange": {
     "start": "2025-08-04",
     "end": "2025-08-08"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-08",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-08-08",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-08",
+      "keyword": "半导体",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-08-08",
       "keyword": "无人机",
@@ -29,31 +50,10 @@
     },
     {
       "date": "2025-08-08",
-      "keyword": "半导体",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-08",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-08-08",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-08-08",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-08-07",
@@ -99,12 +99,16 @@
       8
     ],
     [
-      "宁德时代",
+      "上纬新材",
       7
     ],
     [
       "小米",
-      6
+      7
+    ],
+    [
+      "宁德时代",
+      7
     ],
     [
       "比亚迪",
@@ -120,10 +124,6 @@
     ],
     [
       "京东",
-      6
-    ],
-    [
-      "上纬新材",
       6
     ],
     [
