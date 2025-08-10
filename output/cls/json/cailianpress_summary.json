@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-10T13:32:14.786409",
-  "newsCount": 1711,
+  "lastUpdate": "2025-08-10T14:21:05.518771",
+  "newsCount": 1718,
   "dateRange": {
     "start": "2025-08-06",
     "end": "2025-08-10"
@@ -8,24 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-08-10",
-      "keyword": "芯片",
-      "positive": 1,
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-10",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-08-10",
+      "keyword": "算力",
+      "positive": 4,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2025-08-10",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-08-10",
-      "keyword": "机器人",
+      "keyword": "芯片",
       "positive": 2,
       "negative": 0,
-      "neutral": 5
+      "neutral": 2
     },
     {
       "date": "2025-08-10",
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-08-10",
-      "keyword": "算力",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-08-10",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      46
+      47
     ],
     [
       "谷歌",
@@ -95,6 +95,10 @@
       9
     ],
     [
+      "华为",
+      5
+    ],
+    [
       "山河智能",
       5
     ],
@@ -107,16 +111,16 @@
       4
     ],
     [
-      "华为",
-      4
-    ],
-    [
       "小米",
       4
     ],
     [
       "利德曼",
       4
+    ],
+    [
+      "中际旭创",
+      3
     ],
     [
       "药明康德",
@@ -133,10 +137,6 @@
     [
       "腾讯",
       3
-    ],
-    [
-      "中际旭创",
-      2
     ]
   ]
 }
