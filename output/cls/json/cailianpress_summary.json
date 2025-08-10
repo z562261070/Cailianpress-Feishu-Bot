@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-10T08:50:36.828838",
-  "newsCount": 1675,
+  "lastUpdate": "2025-08-10T09:24:34.270114",
+  "newsCount": 1679,
   "dateRange": {
     "start": "2025-08-06",
     "end": "2025-08-10"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-08-10",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-10",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-08-10",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-08-10",
@@ -103,6 +103,10 @@
       5
     ],
     [
+      "华为",
+      4
+    ],
+    [
       "小米",
       4
     ],
@@ -112,10 +116,6 @@
     ],
     [
       "比亚迪",
-      3
-    ],
-    [
-      "华为",
       3
     ],
     [
