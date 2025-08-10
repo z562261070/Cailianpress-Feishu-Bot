@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-10T17:19:19.182517",
-  "newsCount": 1777,
+  "lastUpdate": "2025-08-10T17:42:15.828305",
+  "newsCount": 1793,
   "dateRange": {
     "start": "2025-08-06",
     "end": "2025-08-10"
@@ -11,26 +11,26 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2025-08-10",
       "keyword": "机器人",
-      "positive": 6,
+      "positive": 7,
       "negative": 0,
       "neutral": 5
     },
     {
       "date": "2025-08-10",
       "keyword": "算力",
-      "positive": 7,
+      "positive": 8,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2025-08-10",
       "keyword": "芯片",
-      "positive": 5,
+      "positive": 6,
       "negative": 0,
       "neutral": 2
     },
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      50
+      51
     ],
     [
       "谷歌",
@@ -91,16 +91,16 @@
       16
     ],
     [
+      "华为",
+      9
+    ],
+    [
       "长城军工",
       9
     ],
     [
-      "华为",
-      8
-    ],
-    [
       "中际旭创",
-      6
+      7
     ],
     [
       "山河智能",
