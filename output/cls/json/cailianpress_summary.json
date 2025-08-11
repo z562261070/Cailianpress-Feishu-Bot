@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-11T05:31:10.984969",
-  "newsCount": 1541,
+  "lastUpdate": "2025-08-11T06:39:01.501886",
+  "newsCount": 1561,
   "dateRange": {
     "start": "2025-08-07",
     "end": "2025-08-11"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-08-11",
-      "keyword": "半导体",
-      "positive": 0,
+      "keyword": "机器人",
+      "positive": 2,
       "negative": 0,
-      "neutral": 5
+      "neutral": 3
     },
     {
       "date": "2025-08-11",
       "keyword": "军工",
       "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-11",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-08-11",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-08-11",
@@ -43,13 +57,6 @@
     },
     {
       "date": "2025-08-11",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-11",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
@@ -68,13 +75,6 @@
       "positive": 9,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-08-10",
-      "keyword": "算力",
-      "positive": 10,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
@@ -92,11 +92,11 @@
     ],
     [
       "中际旭创",
-      10
+      11
     ],
     [
       "华为",
-      10
+      11
     ],
     [
       "宁德时代",
