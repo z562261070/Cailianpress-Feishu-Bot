@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-11T02:06:59.419371",
-  "newsCount": 1495,
+  "lastUpdate": "2025-08-11T03:52:50.558239",
+  "newsCount": 1515,
   "dateRange": {
     "start": "2025-08-07",
     "end": "2025-08-11"
@@ -8,7 +8,14 @@
   "topKeywords": [
     {
       "date": "2025-08-11",
-      "keyword": "芯片",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-11",
+      "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -18,7 +25,14 @@
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-11",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-08-11",
@@ -61,20 +75,6 @@
       "positive": 10,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-10",
-      "keyword": "芯片",
-      "positive": 8,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-10",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     }
   ],
   "topStocks": [
@@ -131,11 +131,11 @@
       2
     ],
     [
-      "上纬新材",
+      "腾讯",
       1
     ],
     [
-      "阿里巴巴",
+      "上纬新材",
       1
     ]
   ]
