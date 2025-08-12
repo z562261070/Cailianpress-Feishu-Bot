@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-12T08:31:48.068821",
-  "newsCount": 1617,
+  "lastUpdate": "2025-08-12T09:27:05.899698",
+  "newsCount": 1637,
   "dateRange": {
     "start": "2025-08-08",
     "end": "2025-08-12"
@@ -8,22 +8,22 @@
   "topKeywords": [
     {
       "date": "2025-08-12",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-12",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-08-12",
       "keyword": "新能源",
       "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-08-12",
-      "keyword": "机器人",
-      "positive": 2,
       "negative": 0,
       "neutral": 3
     },
@@ -127,15 +127,15 @@
       2
     ],
     [
+      "京东",
+      1
+    ],
+    [
       "TCL",
       1
     ],
     [
       "理想汽车",
-      1
-    ],
-    [
-      "腾讯",
       1
     ]
   ]
