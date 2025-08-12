@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-12T13:36:46.508548",
-  "newsCount": 1745,
+  "lastUpdate": "2025-08-12T14:24:08.478204",
+  "newsCount": 1762,
   "dateRange": {
     "start": "2025-08-08",
     "end": "2025-08-12"
@@ -8,15 +8,15 @@
   "topKeywords": [
     {
       "date": "2025-08-12",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 1,
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
       "neutral": 5
     },
     {
       "date": "2025-08-12",
-      "keyword": "新能源",
-      "positive": 1,
+      "keyword": "军工",
+      "positive": 3,
       "negative": 0,
       "neutral": 3
     },
@@ -25,7 +25,21 @@
       "keyword": "芯片",
       "positive": 3,
       "negative": 0,
-      "neutral": 9
+      "neutral": 10
+    },
+    {
+      "date": "2025-08-12",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-12",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 1,
+      "neutral": 5
     },
     {
       "date": "2025-08-12",
@@ -43,24 +57,10 @@
     },
     {
       "date": "2025-08-12",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-08-12",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-08-12",
-      "keyword": "军工",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-08-11",
@@ -127,15 +127,15 @@
       3
     ],
     [
+      "腾讯",
+      2
+    ],
+    [
       "中马传动",
       2
     ],
     [
       "TCL",
-      1
-    ],
-    [
-      "理想汽车",
       1
     ]
   ]
