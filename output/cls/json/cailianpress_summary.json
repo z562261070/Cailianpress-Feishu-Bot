@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-12T01:55:05.612479",
-  "newsCount": 1481,
+  "lastUpdate": "2025-08-12T03:19:27.014980",
+  "newsCount": 1501,
   "dateRange": {
     "start": "2025-08-08",
     "end": "2025-08-12"
@@ -11,7 +11,21 @@
       "keyword": "军工",
       "positive": 2,
       "negative": 0,
-      "neutral": 0
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-12",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-12",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-08-12",
@@ -19,13 +33,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-08-12",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-08-12",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-08-11",
-      "keyword": "军工",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -100,7 +100,7 @@
     ],
     [
       "长城军工",
-      6
+      7
     ],
     [
       "宁德时代",
