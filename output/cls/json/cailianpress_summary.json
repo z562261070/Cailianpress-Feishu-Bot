@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-12T09:45:56.835537",
-  "newsCount": 1647,
+  "lastUpdate": "2025-08-12T10:26:27.510298",
+  "newsCount": 1667,
   "dateRange": {
     "start": "2025-08-08",
     "end": "2025-08-12"
@@ -8,24 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-08-12",
-      "keyword": "算力",
-      "positive": 0,
+      "keyword": "机器人",
+      "positive": 2,
       "negative": 0,
-      "neutral": 6
+      "neutral": 5
     },
     {
       "date": "2025-08-12",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 5
     },
     {
       "date": "2025-08-12",
-      "keyword": "机器人",
-      "positive": 2,
+      "keyword": "芯片",
+      "positive": 3,
       "negative": 0,
-      "neutral": 4
+      "neutral": 8
+    },
+    {
+      "date": "2025-08-12",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-08-12",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-08-12",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-08-12",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      45
+      46
     ],
     [
       "谷歌",
@@ -92,7 +92,7 @@
     ],
     [
       "华为",
-      13
+      14
     ],
     [
       "中际旭创",
@@ -119,16 +119,16 @@
       4
     ],
     [
+      "京东",
+      3
+    ],
+    [
       "阿里巴巴",
       2
     ],
     [
       "中马传动",
       2
-    ],
-    [
-      "京东",
-      1
     ],
     [
       "TCL",
