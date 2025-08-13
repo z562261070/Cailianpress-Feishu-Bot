@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-13T05:24:33.627906",
-  "newsCount": 1595,
+  "lastUpdate": "2025-08-13T05:46:16.028480",
+  "newsCount": 1602,
   "dateRange": {
     "start": "2025-08-09",
     "end": "2025-08-13"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-13",
+      "keyword": "算力",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-08-13",
       "keyword": "机器人",
@@ -38,13 +45,6 @@
       "date": "2025-08-13",
       "keyword": "芯片",
       "positive": 2,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-13",
-      "keyword": "算力",
-      "positive": 3,
       "negative": 0,
       "neutral": 1
     },
@@ -92,7 +92,7 @@
     ],
     [
       "华为",
-      14
+      15
     ],
     [
       "中际旭创",
