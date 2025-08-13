@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-08-13T07:43:03.228858",
-  "newsCount": 1650,
+  "lastUpdate": "2025-08-13T08:32:28.904129",
+  "newsCount": 1670,
   "dateRange": {
     "start": "2025-08-09",
     "end": "2025-08-13"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-13",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-13",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-13",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-13",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-08-13",
       "keyword": "机器人",
@@ -22,36 +50,8 @@
     },
     {
       "date": "2025-08-13",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-13",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-13",
       "keyword": "算力",
       "positive": 3,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-13",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-13",
-      "keyword": "人工智能",
-      "positive": 0,
       "negative": 0,
       "neutral": 2
     },
@@ -108,7 +108,11 @@
     ],
     [
       "腾讯",
-      6
+      8
+    ],
+    [
+      "阿里巴巴",
+      5
     ],
     [
       "小米",
@@ -120,10 +124,6 @@
     ],
     [
       "中马传动",
-      3
-    ],
-    [
-      "阿里巴巴",
       3
     ],
     [
