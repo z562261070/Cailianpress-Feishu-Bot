@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-13T05:46:16.028480",
-  "newsCount": 1602,
+  "lastUpdate": "2025-08-13T06:36:10.146658",
+  "newsCount": 1620,
   "dateRange": {
     "start": "2025-08-09",
     "end": "2025-08-13"
@@ -8,15 +8,22 @@
   "topKeywords": [
     {
       "date": "2025-08-13",
-      "keyword": "算力",
-      "positive": 3,
+      "keyword": "半导体",
+      "positive": 0,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2025-08-13",
       "keyword": "机器人",
-      "positive": 2,
+      "positive": 3,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-13",
+      "keyword": "算力",
+      "positive": 3,
       "negative": 0,
       "neutral": 2
     },
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-08-12",
-      "keyword": "军工",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -95,15 +95,15 @@
       15
     ],
     [
+      "宁德时代",
+      10
+    ],
+    [
       "中际旭创",
       10
     ],
     [
       "长城军工",
-      9
-    ],
-    [
-      "宁德时代",
       9
     ],
     [
@@ -127,16 +127,16 @@
       3
     ],
     [
+      "药明康德",
+      2
+    ],
+    [
+      "中马传动",
+      2
+    ],
+    [
       "上纬新材",
-      1
-    ],
-    [
-      "TCL",
-      1
-    ],
-    [
-      "理想汽车",
-      1
+      2
     ]
   ]
 }
