@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-13T01:57:21.047574",
-  "newsCount": 1539,
+  "lastUpdate": "2025-08-13T03:23:51.873190",
+  "newsCount": 1559,
   "dateRange": {
     "start": "2025-08-09",
     "end": "2025-08-13"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-13",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-08-13",
       "keyword": "军工",
@@ -31,13 +38,6 @@
       "date": "2025-08-13",
       "keyword": "机器人",
       "positive": 2,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-13",
-      "keyword": "人工智能",
-      "positive": 0,
       "negative": 0,
       "neutral": 1
     },
@@ -99,11 +99,11 @@
       10
     ],
     [
-      "长城军工",
-      8
+      "宁德时代",
+      9
     ],
     [
-      "宁德时代",
+      "长城军工",
       8
     ],
     [
