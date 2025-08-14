@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-14T08:32:48.946698",
-  "newsCount": 1694,
+  "lastUpdate": "2025-08-14T09:28:02.497990",
+  "newsCount": 1714,
   "dateRange": {
     "start": "2025-08-10",
     "end": "2025-08-14"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-14",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-08-14",
       "keyword": "算力",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-08-14",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-08-13",
@@ -111,6 +111,10 @@
       6
     ],
     [
+      "京东",
+      5
+    ],
+    [
       "中马传动",
       4
     ],
@@ -120,10 +124,6 @@
     ],
     [
       "小米",
-      4
-    ],
-    [
-      "京东",
       4
     ],
     [
