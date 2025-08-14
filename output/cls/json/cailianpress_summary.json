@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-14T04:52:26.239239",
-  "newsCount": 1608,
+  "lastUpdate": "2025-08-14T05:24:14.260574",
+  "newsCount": 1618,
   "dateRange": {
     "start": "2025-08-10",
     "end": "2025-08-14"
@@ -11,7 +11,14 @@
       "keyword": "军工",
       "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-14",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-08-14",
@@ -68,13 +75,6 @@
       "positive": 4,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-08-13",
-      "keyword": "算力",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
