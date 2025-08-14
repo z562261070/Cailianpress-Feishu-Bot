@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-14T14:47:11.190260",
-  "newsCount": 1852,
+  "lastUpdate": "2025-08-14T15:26:15.753553",
+  "newsCount": 1862,
   "dateRange": {
     "start": "2025-08-10",
     "end": "2025-08-14"
@@ -8,10 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-08-14",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-14",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 9
+      "neutral": 10
     },
     {
       "date": "2025-08-14",
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2025-08-14",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-08-14",
@@ -96,7 +96,7 @@
     ],
     [
       "宁德时代",
-      13
+      14
     ],
     [
       "京东",
@@ -112,7 +112,7 @@
     ],
     [
       "谷歌",
-      7
+      8
     ],
     [
       "中马传动",
