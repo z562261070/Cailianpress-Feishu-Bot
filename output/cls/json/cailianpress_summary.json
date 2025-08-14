@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-14T05:45:46.582257",
-  "newsCount": 1627,
+  "lastUpdate": "2025-08-14T06:36:27.554321",
+  "newsCount": 1647,
   "dateRange": {
     "start": "2025-08-10",
     "end": "2025-08-14"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-08-14",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-08-14",
       "keyword": "军工",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2025-08-14",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2025-08-14",
@@ -23,20 +37,6 @@
     {
       "date": "2025-08-14",
       "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-08-14",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-08-14",
-      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 4
@@ -84,19 +84,19 @@
     ],
     [
       "华为",
-      17
+      18
     ],
     [
       "长城军工",
-      14
+      15
+    ],
+    [
+      "宁德时代",
+      13
     ],
     [
       "腾讯",
       13
-    ],
-    [
-      "宁德时代",
-      12
     ],
     [
       "中际旭创",
