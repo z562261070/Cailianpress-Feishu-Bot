@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-08-15T05:24:39.969635",
-  "newsCount": 1813,
+  "lastUpdate": "2025-08-15T05:45:25.013122",
+  "newsCount": 1819,
   "dateRange": {
     "start": "2025-08-11",
     "end": "2025-08-15"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-15",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-15",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-08-15",
       "keyword": "机器人",
@@ -19,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-08-15",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-08-15",
@@ -45,13 +52,6 @@
       "date": "2025-08-15",
       "keyword": "算力",
       "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-15",
-      "keyword": "半导体",
-      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
@@ -103,12 +103,12 @@
       13
     ],
     [
-      "谷歌",
+      "华为",
       12
     ],
     [
-      "华为",
-      11
+      "谷歌",
+      12
     ],
     [
       "理想汽车",
