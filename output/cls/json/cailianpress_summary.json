@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-15T12:48:01.376594",
-  "newsCount": 1998,
+  "lastUpdate": "2025-08-15T13:33:20.946577",
+  "newsCount": 2018,
   "dateRange": {
     "start": "2025-08-11",
     "end": "2025-08-15"
@@ -8,24 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-08-15",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 3
-    },
-    {
-      "date": "2025-08-15",
       "keyword": "算力",
       "positive": 1,
       "negative": 1,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-08-15",
       "keyword": "芯片",
       "positive": 1,
       "negative": 1,
-      "neutral": 5
+      "neutral": 6
+    },
+    {
+      "date": "2025-08-15",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 3
     },
     {
       "date": "2025-08-15",
@@ -95,6 +95,10 @@
       15
     ],
     [
+      "华为",
+      14
+    ],
+    [
       "阿里巴巴",
       14
     ],
@@ -104,10 +108,6 @@
     ],
     [
       "谷歌",
-      13
-    ],
-    [
-      "华为",
       13
     ],
     [
