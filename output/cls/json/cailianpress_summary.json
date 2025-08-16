@@ -1,11 +1,60 @@
 {
-  "lastUpdate": "2025-08-15T23:41:56.714558",
-  "newsCount": 2122,
+  "lastUpdate": "2025-08-16T01:52:39.873029",
+  "newsCount": 1819,
   "dateRange": {
-    "start": "2025-08-11",
-    "end": "2025-08-15"
+    "start": "2025-08-12",
+    "end": "2025-08-16"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-16",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-16",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-16",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-16",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-08-16",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-16",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-16",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-08-15",
       "keyword": "无人机",
@@ -26,84 +75,23 @@
       "positive": 1,
       "negative": 1,
       "neutral": 7
-    },
-    {
-      "date": "2025-08-15",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 4
-    },
-    {
-      "date": "2025-08-15",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-08-15",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-08-15",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-08-15",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-08-14",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-08-14",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 14
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      25
+      22
     ],
     [
       "京东",
       18
     ],
     [
-      "长城军工",
-      16
-    ],
-    [
-      "腾讯",
-      15
-    ],
-    [
-      "华为",
-      14
-    ],
-    [
       "阿里巴巴",
       14
     ],
     [
-      "宁德时代",
+      "腾讯",
       14
     ],
     [
@@ -111,12 +99,24 @@
       13
     ],
     [
-      "网易",
-      6
+      "长城军工",
+      13
+    ],
+    [
+      "华为",
+      11
+    ],
+    [
+      "宁德时代",
+      9
     ],
     [
       "理想汽车",
-      5
+      6
+    ],
+    [
+      "网易",
+      6
     ],
     [
       "上纬新材",
@@ -124,19 +124,19 @@
     ],
     [
       "中马传动",
-      4
-    ],
-    [
-      "小米",
-      4
-    ],
-    [
-      "比亚迪",
       3
     ],
     [
-      "中际旭创",
+      "小米",
       2
+    ],
+    [
+      "福元医药",
+      1
+    ],
+    [
+      "药明康德",
+      1
     ]
   ]
 }
