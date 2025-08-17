@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-17T12:45:57.588434",
-  "newsCount": 1777,
+  "lastUpdate": "2025-08-17T13:30:39.424297",
+  "newsCount": 1784,
   "dateRange": {
     "start": "2025-08-13",
     "end": "2025-08-17"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-17",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2025-08-17",
       "keyword": "新能源",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-16",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
@@ -127,15 +127,15 @@
       3
     ],
     [
+      "小米",
+      2
+    ],
+    [
       "福元医药",
       1
     ],
     [
       "药明康德",
-      1
-    ],
-    [
-      "小米",
       1
     ]
   ]
