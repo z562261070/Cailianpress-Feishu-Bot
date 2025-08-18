@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-18T05:27:11.958896",
-  "newsCount": 1588,
+  "lastUpdate": "2025-08-18T05:48:54.920131",
+  "newsCount": 1601,
   "dateRange": {
     "start": "2025-08-14",
     "end": "2025-08-18"
@@ -8,14 +8,28 @@
   "topKeywords": [
     {
       "date": "2025-08-18",
-      "keyword": "机器人",
+      "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 1
     },
     {
       "date": "2025-08-18",
       "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-18",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-18",
+      "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -42,13 +56,6 @@
       "neutral": 4
     },
     {
-      "date": "2025-08-18",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
       "date": "2025-08-17",
       "keyword": "机器人",
       "positive": 0,
@@ -68,13 +75,6 @@
       "positive": 9,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-08-17",
-      "keyword": "半导体",
-      "positive": 8,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
@@ -99,11 +99,11 @@
       8
     ],
     [
-      "宁德时代",
-      5
+      "长城军工",
+      6
     ],
     [
-      "长城军工",
+      "宁德时代",
       5
     ],
     [
