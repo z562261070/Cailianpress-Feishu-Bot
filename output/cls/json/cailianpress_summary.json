@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-18T05:48:54.920131",
-  "newsCount": 1601,
+  "lastUpdate": "2025-08-18T06:38:41.496173",
+  "newsCount": 1621,
   "dateRange": {
     "start": "2025-08-14",
     "end": "2025-08-18"
@@ -8,14 +8,14 @@
   "topKeywords": [
     {
       "date": "2025-08-18",
-      "keyword": "芯片",
+      "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-08-18",
-      "keyword": "人工智能",
+      "keyword": "芯片",
       "positive": 1,
       "negative": 0,
       "neutral": 1
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "华为",
-      31
+      33
     ],
     [
       "英伟达",
@@ -115,12 +115,12 @@
       4
     ],
     [
-      "理想汽车",
+      "小米",
       3
     ],
     [
-      "小米",
-      2
+      "理想汽车",
+      3
     ],
     [
       "上纬新材",
