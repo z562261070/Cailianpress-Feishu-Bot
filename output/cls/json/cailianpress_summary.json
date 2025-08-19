@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-19T04:46:12.059487",
-  "newsCount": 1567,
+  "lastUpdate": "2025-08-19T05:22:45.706019",
+  "newsCount": 1570,
   "dateRange": {
     "start": "2025-08-15",
     "end": "2025-08-19"
@@ -9,7 +9,7 @@
     {
       "date": "2025-08-19",
       "keyword": "机器人",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
       "neutral": 4
     },
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      16
+      17
     ],
     [
       "京东",
