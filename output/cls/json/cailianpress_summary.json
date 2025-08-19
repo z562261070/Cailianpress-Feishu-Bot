@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-19T11:39:35.726817",
-  "newsCount": 1757,
+  "lastUpdate": "2025-08-19T12:46:35.619405",
+  "newsCount": 1777,
   "dateRange": {
     "start": "2025-08-15",
     "end": "2025-08-19"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-08-19",
+      "keyword": "机器人",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-08-19",
       "keyword": "算力",
       "positive": 4,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2025-08-19",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-08-19",
@@ -33,20 +47,6 @@
       "positive": 4,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-08-19",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-08-19",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-08-19",
@@ -88,7 +88,7 @@
     ],
     [
       "小米",
-      13
+      14
     ],
     [
       "京东",
