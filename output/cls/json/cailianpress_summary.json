@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-19T14:45:35.164182",
-  "newsCount": 1820,
+  "lastUpdate": "2025-08-19T15:25:02.949862",
+  "newsCount": 1829,
   "dateRange": {
     "start": "2025-08-15",
     "end": "2025-08-19"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-19",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 10
+    },
     {
       "date": "2025-08-19",
       "keyword": "机器人",
@@ -33,13 +40,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-08-19",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 8
     },
     {
       "date": "2025-08-19",
@@ -100,7 +100,7 @@
     ],
     [
       "阿里巴巴",
-      6
+      7
     ],
     [
       "腾讯",
