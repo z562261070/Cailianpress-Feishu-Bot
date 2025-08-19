@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-19T09:43:24.046357",
-  "newsCount": 1690,
+  "lastUpdate": "2025-08-19T10:24:53.002565",
+  "newsCount": 1710,
   "dateRange": {
     "start": "2025-08-15",
     "end": "2025-08-19"
@@ -10,6 +10,13 @@
       "date": "2025-08-19",
       "keyword": "无人机",
       "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-19",
+      "keyword": "芯片",
+      "positive": 2,
       "negative": 0,
       "neutral": 3
     },
@@ -49,13 +56,6 @@
       "neutral": 0
     },
     {
-      "date": "2025-08-19",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
       "date": "2025-08-18",
       "keyword": "军工",
       "positive": 0,
@@ -87,16 +87,16 @@
       18
     ],
     [
+      "京东",
+      12
+    ],
+    [
       "谷歌",
       10
     ],
     [
-      "京东",
-      10
-    ],
-    [
       "小米",
-      8
+      9
     ],
     [
       "阿里巴巴",
