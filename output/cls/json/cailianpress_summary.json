@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-08-19T11:19:16.062002",
-  "newsCount": 1744,
+  "lastUpdate": "2025-08-19T11:39:35.726817",
+  "newsCount": 1757,
   "dateRange": {
     "start": "2025-08-15",
     "end": "2025-08-19"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-19",
+      "keyword": "算力",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-19",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-08-19",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-08-19",
       "keyword": "军工",
@@ -29,31 +50,10 @@
     },
     {
       "date": "2025-08-19",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-08-19",
-      "keyword": "算力",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-08-19",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-08-19",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-08-19",
@@ -119,6 +119,10 @@
       3
     ],
     [
+      "东杰智能",
+      2
+    ],
+    [
       "药明康德",
       2
     ],
@@ -128,10 +132,6 @@
     ],
     [
       "比亚迪",
-      1
-    ],
-    [
-      "东杰智能",
       1
     ],
     [
