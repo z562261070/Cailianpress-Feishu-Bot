@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-20T09:43:23.286503",
-  "newsCount": 1653,
+  "lastUpdate": "2025-08-20T10:25:03.578921",
+  "newsCount": 1673,
   "dateRange": {
     "start": "2025-08-16",
     "end": "2025-08-20"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-20",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
     {
       "date": "2025-08-20",
       "keyword": "机器人",
@@ -31,13 +38,6 @@
       "date": "2025-08-20",
       "keyword": "半导体",
       "positive": 3,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-08-20",
-      "keyword": "新能源",
-      "positive": 0,
       "negative": 0,
       "neutral": 6
     },
@@ -91,19 +91,19 @@
       15
     ],
     [
+      "京东",
+      10
+    ],
+    [
       "谷歌",
       10
     ],
     [
-      "京东",
-      9
+      "腾讯",
+      6
     ],
     [
       "阿里巴巴",
-      5
-    ],
-    [
-      "腾讯",
       5
     ],
     [
