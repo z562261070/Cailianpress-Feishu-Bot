@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-08-20T23:39:43.966009",
-  "newsCount": 1852,
+  "lastUpdate": "2025-08-21T01:48:30.676309",
+  "newsCount": 1570,
   "dateRange": {
-    "start": "2025-08-16",
-    "end": "2025-08-20"
+    "start": "2025-08-17",
+    "end": "2025-08-21"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-21",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-08-21",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-08-21",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-21",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-08-20",
       "keyword": "无人机",
@@ -47,40 +75,12 @@
       "positive": 3,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-08-20",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-08-19",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 12
-    },
-    {
-      "date": "2025-08-19",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-08-19",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
     [
       "华为",
-      38
+      23
     ],
     [
       "英伟达",
@@ -92,19 +92,23 @@
     ],
     [
       "京东",
-      10
+      11
     ],
     [
       "谷歌",
-      10
+      11
+    ],
+    [
+      "阿里巴巴",
+      6
     ],
     [
       "腾讯",
       6
     ],
     [
-      "阿里巴巴",
-      5
+      "网易",
+      2
     ],
     [
       "东杰智能",
@@ -121,10 +125,6 @@
     [
       "长城军工",
       2
-    ],
-    [
-      "网易",
-      1
     ],
     [
       "比亚迪",
