@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-21T06:42:51.645784",
-  "newsCount": 1655,
+  "lastUpdate": "2025-08-21T07:24:10.863682",
+  "newsCount": 1675,
   "dateRange": {
     "start": "2025-08-17",
     "end": "2025-08-21"
@@ -8,24 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-08-21",
-      "keyword": "无人机",
-      "positive": 0,
+      "keyword": "算力",
+      "positive": 3,
       "negative": 0,
-      "neutral": 4
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-21",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-08-21",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-08-21",
-      "keyword": "算力",
-      "positive": 2,
+      "keyword": "新能源",
+      "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 0
+    },
+    {
+      "date": "2025-08-21",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2025-08-21",
@@ -40,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-21",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-08-20",
@@ -68,13 +75,6 @@
       "positive": 2,
       "negative": 1,
       "neutral": 11
-    },
-    {
-      "date": "2025-08-20",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
@@ -127,15 +127,15 @@
       2
     ],
     [
+      "TCL",
+      1
+    ],
+    [
       "比亚迪",
       1
     ],
     [
       "中际旭创",
-      1
-    ],
-    [
-      "宁德时代",
       1
     ]
   ]
