@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-22T08:30:05.405228",
-  "newsCount": 1951,
+  "lastUpdate": "2025-08-22T08:50:27.308479",
+  "newsCount": 1970,
   "dateRange": {
     "start": "2025-08-18",
     "end": "2025-08-22"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-22",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
     {
       "date": "2025-08-22",
       "keyword": "半导体",
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-22",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-08-22",
@@ -107,6 +107,14 @@
       8
     ],
     [
+      "TCL",
+      2
+    ],
+    [
+      "比亚迪",
+      2
+    ],
+    [
       "网易",
       2
     ],
@@ -128,14 +136,6 @@
     ],
     [
       "思特奇",
-      1
-    ],
-    [
-      "TCL",
-      1
-    ],
-    [
-      "比亚迪",
       1
     ]
   ]
