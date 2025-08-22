@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-22T01:49:16.351963",
-  "newsCount": 1806,
+  "lastUpdate": "2025-08-22T03:10:28.282185",
+  "newsCount": 1826,
   "dateRange": {
     "start": "2025-08-18",
     "end": "2025-08-22"
@@ -8,15 +8,36 @@
   "topKeywords": [
     {
       "date": "2025-08-22",
-      "keyword": "算力",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-22",
+      "keyword": "芯片",
       "positive": 3,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2025-08-22",
-      "keyword": "芯片",
-      "positive": 2,
+      "keyword": "算力",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-22",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-22",
+      "keyword": "机器人",
+      "positive": 1,
       "negative": 0,
       "neutral": 2
     },
@@ -33,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-22",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-08-22",
@@ -61,20 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-08-21",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-08-21",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
