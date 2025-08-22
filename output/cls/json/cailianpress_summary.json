@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-22T10:24:03.228425",
-  "newsCount": 2023,
+  "lastUpdate": "2025-08-22T10:44:41.403214",
+  "newsCount": 2039,
   "dateRange": {
     "start": "2025-08-18",
     "end": "2025-08-22"
@@ -11,7 +11,28 @@
       "keyword": "算力",
       "positive": 9,
       "negative": 0,
-      "neutral": 10
+      "neutral": 11
+    },
+    {
+      "date": "2025-08-22",
+      "keyword": "芯片",
+      "positive": 7,
+      "negative": 0,
+      "neutral": 14
+    },
+    {
+      "date": "2025-08-22",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-22",
+      "keyword": "半导体",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 7
     },
     {
       "date": "2025-08-22",
@@ -19,27 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-08-22",
-      "keyword": "芯片",
-      "positive": 7,
-      "negative": 0,
-      "neutral": 13
-    },
-    {
-      "date": "2025-08-22",
-      "keyword": "半导体",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-08-22",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-08-22",
@@ -91,12 +91,12 @@
       16
     ],
     [
-      "京东",
+      "腾讯",
       12
     ],
     [
-      "腾讯",
-      11
+      "京东",
+      12
     ],
     [
       "阿里巴巴",
