@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-08-22T23:39:21.267464",
-  "newsCount": 2214,
+  "lastUpdate": "2025-08-23T01:45:27.021771",
+  "newsCount": 1909,
   "dateRange": {
-    "start": "2025-08-18",
-    "end": "2025-08-22"
+    "start": "2025-08-19",
+    "end": "2025-08-23"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-23",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-23",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-08-23",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-08-22",
       "keyword": "人工智能",
@@ -54,53 +75,32 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-22",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-21",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 18
-    },
-    {
-      "date": "2025-08-21",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      24
+      20
     ],
     [
       "华为",
-      19
+      15
     ],
     [
       "小米",
-      16
-    ],
-    [
-      "腾讯",
-      12
+      15
     ],
     [
       "京东",
-      12
+      11
     ],
     [
       "阿里巴巴",
       11
+    ],
+    [
+      "腾讯",
+      10
     ],
     [
       "谷歌",
@@ -112,7 +112,7 @@
     ],
     [
       "上纬新材",
-      3
+      2
     ],
     [
       "比亚迪",
@@ -131,8 +131,8 @@
       2
     ],
     [
-      "长城军工",
-      2
+      "理想汽车",
+      1
     ],
     [
       "思特奇",
