@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-23T23:20:03.144355",
-  "newsCount": 2208,
+  "lastUpdate": "2025-08-23T23:39:43.397108",
+  "newsCount": 2213,
   "dateRange": {
     "start": "2025-08-19",
     "end": "2025-08-23"
@@ -11,14 +11,14 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 33
+      "neutral": 35
     },
     {
       "date": "2025-08-23",
       "keyword": "军工",
       "positive": 0,
       "negative": 0,
-      "neutral": 16
+      "neutral": 17
     },
     {
       "date": "2025-08-23",
