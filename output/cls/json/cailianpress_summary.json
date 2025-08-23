@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-23T09:39:36.116726",
-  "newsCount": 1973,
+  "lastUpdate": "2025-08-23T10:21:20.856047",
+  "newsCount": 1977,
   "dateRange": {
     "start": "2025-08-19",
     "end": "2025-08-23"
@@ -9,14 +9,14 @@
     {
       "date": "2025-08-23",
       "keyword": "算力",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 4
     },
     {
       "date": "2025-08-23",
       "keyword": "人工智能",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 2
     },
@@ -84,7 +84,7 @@
     ],
     [
       "华为",
-      16
+      17
     ],
     [
       "小米",
