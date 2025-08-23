@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-23T07:19:29.915352",
-  "newsCount": 1958,
+  "lastUpdate": "2025-08-23T07:38:18.943413",
+  "newsCount": 1961,
   "dateRange": {
     "start": "2025-08-19",
     "end": "2025-08-23"
@@ -9,7 +9,7 @@
     {
       "date": "2025-08-23",
       "keyword": "算力",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 4
     },
