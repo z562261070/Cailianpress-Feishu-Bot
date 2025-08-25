@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-08-25T14:45:23.595590",
-  "newsCount": 1979,
+  "lastUpdate": "2025-08-25T15:24:48.452226",
+  "newsCount": 1989,
   "dateRange": {
     "start": "2025-08-21",
     "end": "2025-08-25"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-25",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-25",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-25",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-08-25",
       "keyword": "机器人",
@@ -29,13 +50,6 @@
     },
     {
       "date": "2025-08-25",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-25",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
@@ -47,20 +61,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-08-25",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-25",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-08-24",
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      18
+      19
     ],
     [
       "阿里巴巴",
