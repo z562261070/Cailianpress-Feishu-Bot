@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-25T06:36:32.426262",
-  "newsCount": 1756,
+  "lastUpdate": "2025-08-25T07:23:07.975054",
+  "newsCount": 1776,
   "dateRange": {
     "start": "2025-08-21",
     "end": "2025-08-25"
@@ -8,8 +8,15 @@
   "topKeywords": [
     {
       "date": "2025-08-25",
+      "keyword": "军工",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-08-25",
       "keyword": "算力",
-      "positive": 5,
+      "positive": 7,
       "negative": 0,
       "neutral": 7
     },
@@ -50,13 +57,6 @@
     },
     {
       "date": "2025-08-25",
-      "keyword": "军工",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2025-08-25",
       "keyword": "芯片",
       "positive": 2,
       "negative": 0,
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "华为",
-      17
+      18
     ],
     [
       "英伟达",
@@ -103,6 +103,10 @@
       6
     ],
     [
+      "中际旭创",
+      3
+    ],
+    [
       "网易",
       3
     ],
@@ -113,10 +117,6 @@
     [
       "小米",
       3
-    ],
-    [
-      "中际旭创",
-      2
     ],
     [
       "宁德时代",
