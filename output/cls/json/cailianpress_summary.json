@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-25T15:24:48.452226",
-  "newsCount": 1989,
+  "lastUpdate": "2025-08-25T15:43:26.575113",
+  "newsCount": 1993,
   "dateRange": {
     "start": "2025-08-21",
     "end": "2025-08-25"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-25",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
     {
       "date": "2025-08-25",
       "keyword": "半导体",
@@ -26,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-08-25",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-08-25",
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      19
+      20
     ],
     [
       "阿里巴巴",
