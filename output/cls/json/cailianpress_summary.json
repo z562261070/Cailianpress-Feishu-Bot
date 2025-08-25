@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-25T05:44:27.450537",
-  "newsCount": 1736,
+  "lastUpdate": "2025-08-25T06:36:32.426262",
+  "newsCount": 1756,
   "dateRange": {
     "start": "2025-08-21",
     "end": "2025-08-25"
@@ -9,9 +9,44 @@
     {
       "date": "2025-08-25",
       "keyword": "算力",
-      "positive": 4,
+      "positive": 5,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
+    },
+    {
+      "date": "2025-08-25",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-25",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-25",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-25",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-25",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-08-25",
@@ -28,34 +63,6 @@
       "neutral": 5
     },
     {
-      "date": "2025-08-25",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-25",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-25",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-25",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
       "date": "2025-08-24",
       "keyword": "算力",
       "positive": 0,
@@ -68,23 +75,16 @@
       "positive": 1,
       "negative": 0,
       "neutral": 21
-    },
-    {
-      "date": "2025-08-24",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 23
     }
   ],
   "topStocks": [
     [
-      "英伟达",
+      "华为",
       17
     ],
     [
-      "华为",
-      16
+      "英伟达",
+      17
     ],
     [
       "阿里巴巴",
@@ -116,7 +116,7 @@
     ],
     [
       "中际旭创",
-      1
+      2
     ],
     [
       "宁德时代",
