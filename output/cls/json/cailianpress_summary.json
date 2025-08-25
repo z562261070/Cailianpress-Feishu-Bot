@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-25T13:33:10.852630",
-  "newsCount": 1956,
+  "lastUpdate": "2025-08-25T14:23:41.205132",
+  "newsCount": 1976,
   "dateRange": {
     "start": "2025-08-21",
     "end": "2025-08-25"
@@ -8,22 +8,29 @@
   "topKeywords": [
     {
       "date": "2025-08-25",
-      "keyword": "算力",
-      "positive": 7,
-      "negative": 0,
-      "neutral": 12
-    },
-    {
-      "date": "2025-08-25",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-08-25",
       "keyword": "军工",
       "positive": 3,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-25",
+      "keyword": "算力",
+      "positive": 7,
+      "negative": 0,
+      "neutral": 13
+    },
+    {
+      "date": "2025-08-25",
+      "keyword": "无人机",
+      "positive": 0,
       "negative": 0,
       "neutral": 2
     },
@@ -50,13 +57,6 @@
     },
     {
       "date": "2025-08-25",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-25",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "华为",
-      23
+      24
     ],
     [
       "英伟达",
@@ -88,11 +88,11 @@
     ],
     [
       "阿里巴巴",
-      13
+      14
     ],
     [
       "京东",
-      11
+      12
     ],
     [
       "腾讯",
@@ -103,11 +103,11 @@
       6
     ],
     [
-      "小米",
-      4
+      "网易",
+      5
     ],
     [
-      "网易",
+      "小米",
       4
     ],
     [
@@ -119,15 +119,15 @@
       3
     ],
     [
+      "理想汽车",
+      2
+    ],
+    [
       "长城军工",
       1
     ],
     [
       "宁德时代",
-      1
-    ],
-    [
-      "理想汽车",
       1
     ],
     [
