@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-25T01:54:00.080375",
-  "newsCount": 1671,
+  "lastUpdate": "2025-08-25T03:17:48.188023",
+  "newsCount": 1691,
   "dateRange": {
     "start": "2025-08-21",
     "end": "2025-08-25"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-08-25",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-25",
       "keyword": "算力",
       "positive": 2,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-08-25",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-08-25",
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-25",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-08-24",
@@ -88,7 +88,11 @@
     ],
     [
       "阿里巴巴",
-      8
+      9
+    ],
+    [
+      "京东",
+      7
     ],
     [
       "谷歌",
@@ -99,16 +103,20 @@
       6
     ],
     [
-      "京东",
-      4
-    ],
-    [
       "TCL",
       3
     ],
     [
       "小米",
       3
+    ],
+    [
+      "网易",
+      2
+    ],
+    [
+      "中际旭创",
+      1
     ],
     [
       "宁德时代",
@@ -128,10 +136,6 @@
     ],
     [
       "思特奇",
-      1
-    ],
-    [
-      "网易",
       1
     ]
   ]
