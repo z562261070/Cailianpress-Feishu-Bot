@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-26T05:43:34.169410",
-  "newsCount": 1736,
+  "lastUpdate": "2025-08-26T06:34:54.874935",
+  "newsCount": 1756,
   "dateRange": {
     "start": "2025-08-22",
     "end": "2025-08-26"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-08-26",
-      "keyword": "新能源",
-      "positive": 0,
+      "keyword": "军工",
+      "positive": 2,
       "negative": 0,
-      "neutral": 8
+      "neutral": 1
     },
     {
       "date": "2025-08-26",
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-26",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-26",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
     },
     {
       "date": "2025-08-26",
@@ -36,24 +50,10 @@
     },
     {
       "date": "2025-08-26",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-08-26",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-26",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-08-25",
@@ -111,6 +111,10 @@
       3
     ],
     [
+      "比亚迪",
+      2
+    ],
+    [
       "理想汽车",
       2
     ],
@@ -132,10 +136,6 @@
     ],
     [
       "上纬新材",
-      1
-    ],
-    [
-      "比亚迪",
       1
     ]
   ]
