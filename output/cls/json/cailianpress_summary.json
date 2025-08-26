@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-26T12:50:09.226017",
-  "newsCount": 1947,
+  "lastUpdate": "2025-08-26T13:34:45.921478",
+  "newsCount": 1967,
   "dateRange": {
     "start": "2025-08-22",
     "end": "2025-08-26"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-08-26",
+      "keyword": "人工智能",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 22
+    },
+    {
+      "date": "2025-08-26",
       "keyword": "算力",
       "positive": 3,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-08-26",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 21
     },
     {
       "date": "2025-08-26",
@@ -99,16 +99,16 @@
       7
     ],
     [
+      "谷歌",
+      6
+    ],
+    [
       "网易",
       5
     ],
     [
-      "谷歌",
-      5
-    ],
-    [
       "中际旭创",
-      3
+      4
     ],
     [
       "比亚迪",
