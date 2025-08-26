@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-08-26T13:34:45.921478",
-  "newsCount": 1967,
+  "lastUpdate": "2025-08-26T14:21:25.539785",
+  "newsCount": 1981,
   "dateRange": {
     "start": "2025-08-22",
     "end": "2025-08-26"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-26",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-08-26",
+      "keyword": "军工",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-26",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 11
+    },
     {
       "date": "2025-08-26",
       "keyword": "人工智能",
@@ -35,27 +56,6 @@
       "neutral": 3
     },
     {
-      "date": "2025-08-26",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-08-26",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-08-26",
-      "keyword": "军工",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
       "date": "2025-08-25",
       "keyword": "机器人",
       "positive": 0,
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      27
+      28
     ],
     [
       "华为",
