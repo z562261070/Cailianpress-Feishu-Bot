@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-26T04:46:41.563278",
-  "newsCount": 1715,
+  "lastUpdate": "2025-08-26T05:22:53.179823",
+  "newsCount": 1725,
   "dateRange": {
     "start": "2025-08-22",
     "end": "2025-08-26"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-26",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
     {
       "date": "2025-08-26",
       "keyword": "机器人",
@@ -19,13 +26,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-08-26",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-08-26",
