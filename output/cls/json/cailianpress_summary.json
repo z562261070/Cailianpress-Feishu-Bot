@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-26T06:34:54.874935",
-  "newsCount": 1756,
+  "lastUpdate": "2025-08-26T07:22:22.678081",
+  "newsCount": 1776,
   "dateRange": {
     "start": "2025-08-22",
     "end": "2025-08-26"
@@ -8,8 +8,15 @@
   "topKeywords": [
     {
       "date": "2025-08-26",
+      "keyword": "算力",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-26",
       "keyword": "军工",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
       "neutral": 1
     },
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-08-26",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-08-26",
@@ -84,7 +84,7 @@
     ],
     [
       "华为",
-      23
+      24
     ],
     [
       "阿里巴巴",
