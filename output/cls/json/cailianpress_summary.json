@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-27T16:28:37.788908",
-  "newsCount": 2025,
+  "lastUpdate": "2025-08-27T16:48:50.135138",
+  "newsCount": 2040,
   "dateRange": {
     "start": "2025-08-23",
     "end": "2025-08-27"
@@ -11,28 +11,28 @@
       "keyword": "军工",
       "positive": 1,
       "negative": 0,
-      "neutral": 5
+      "neutral": 7
     },
     {
       "date": "2025-08-27",
       "keyword": "芯片",
       "positive": 6,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-08-27",
       "keyword": "算力",
       "positive": 8,
       "negative": 0,
-      "neutral": 11
+      "neutral": 12
     },
     {
       "date": "2025-08-27",
       "keyword": "半导体",
       "positive": 5,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-08-27",
