@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-27T07:39:42.937187",
-  "newsCount": 1778,
+  "lastUpdate": "2025-08-27T08:29:39.838429",
+  "newsCount": 1798,
   "dateRange": {
     "start": "2025-08-23",
     "end": "2025-08-27"
@@ -8,24 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-08-27",
-      "keyword": "算力",
-      "positive": 7,
+      "keyword": "人工智能",
+      "positive": 4,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-08-27",
-      "keyword": "人工智能",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-08-27",
       "keyword": "芯片",
       "positive": 6,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-27",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-27",
+      "keyword": "算力",
+      "positive": 8,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2025-08-27",
@@ -68,13 +75,6 @@
       "positive": 3,
       "negative": 1,
       "neutral": 8
-    },
-    {
-      "date": "2025-08-26",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
@@ -96,15 +96,15 @@
     ],
     [
       "中际旭创",
+      6
+    ],
+    [
+      "理想汽车",
       5
     ],
     [
       "网易",
       5
-    ],
-    [
-      "理想汽车",
-      4
     ],
     [
       "谷歌",
