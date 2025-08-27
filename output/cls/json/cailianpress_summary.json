@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-08-27T08:49:48.274587",
-  "newsCount": 1818,
+  "lastUpdate": "2025-08-27T09:23:44.440968",
+  "newsCount": 1838,
   "dateRange": {
     "start": "2025-08-23",
     "end": "2025-08-27"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-27",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-27",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-08-27",
       "keyword": "算力",
@@ -47,20 +61,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-27",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-27",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-08-26",
@@ -123,19 +123,19 @@
       3
     ],
     [
+      "长城军工",
+      2
+    ],
+    [
+      "上纬新材",
+      1
+    ],
+    [
       "东杰智能",
       1
     ],
     [
       "福元医药",
-      1
-    ],
-    [
-      "小米",
-      1
-    ],
-    [
-      "长城军工",
       1
     ]
   ]
