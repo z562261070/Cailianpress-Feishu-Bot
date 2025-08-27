@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-27T09:41:58.334455",
-  "newsCount": 1858,
+  "lastUpdate": "2025-08-27T10:22:55.882126",
+  "newsCount": 1878,
   "dateRange": {
     "start": "2025-08-23",
     "end": "2025-08-27"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-08-27",
+      "keyword": "人工智能",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-08-27",
       "keyword": "机器人",
       "positive": 2,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-08-27",
-      "keyword": "人工智能",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-08-27",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "华为",
-      27
+      28
     ],
     [
       "英伟达",
@@ -96,7 +96,7 @@
     ],
     [
       "中际旭创",
-      6
+      7
     ],
     [
       "理想汽车",
