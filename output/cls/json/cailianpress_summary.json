@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-27T04:44:34.892257",
-  "newsCount": 1704,
+  "lastUpdate": "2025-08-27T05:20:59.236029",
+  "newsCount": 1718,
   "dateRange": {
     "start": "2025-08-23",
     "end": "2025-08-27"
@@ -9,21 +9,35 @@
     {
       "date": "2025-08-27",
       "keyword": "算力",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-27",
+      "keyword": "人工智能",
       "positive": 3,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-27",
+      "keyword": "无人机",
+      "positive": 0,
       "negative": 0,
       "neutral": 1
     },
     {
       "date": "2025-08-27",
       "keyword": "芯片",
-      "positive": 3,
+      "positive": 4,
       "negative": 0,
       "neutral": 0
     },
     {
       "date": "2025-08-27",
       "keyword": "半导体",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
       "neutral": 0
     },
@@ -40,13 +54,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-08-27",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-08-26",
@@ -68,13 +75,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-08-26",
-      "keyword": "军工",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
@@ -87,11 +87,11 @@
       25
     ],
     [
-      "阿里巴巴",
-      9
+      "京东",
+      10
     ],
     [
-      "京东",
+      "阿里巴巴",
       9
     ],
     [
