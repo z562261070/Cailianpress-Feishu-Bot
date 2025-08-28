@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-28T12:45:53.967997",
-  "newsCount": 2052,
+  "lastUpdate": "2025-08-28T13:31:19.989259",
+  "newsCount": 2072,
   "dateRange": {
     "start": "2025-08-24",
     "end": "2025-08-28"
@@ -11,14 +11,14 @@
       "keyword": "算力",
       "positive": 5,
       "negative": 0,
-      "neutral": 10
+      "neutral": 11
     },
     {
       "date": "2025-08-28",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-08-28",
@@ -80,11 +80,11 @@
   "topStocks": [
     [
       "英伟达",
-      45
+      46
     ],
     [
       "华为",
-      30
+      31
     ],
     [
       "京东",
