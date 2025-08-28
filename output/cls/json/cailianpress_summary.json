@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-28T17:19:04.218686",
-  "newsCount": 2148,
+  "lastUpdate": "2025-08-28T17:40:59.768827",
+  "newsCount": 2154,
   "dateRange": {
     "start": "2025-08-24",
     "end": "2025-08-28"
@@ -11,14 +11,14 @@
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 12
+      "neutral": 13
     },
     {
       "date": "2025-08-28",
       "keyword": "算力",
       "positive": 5,
       "negative": 0,
-      "neutral": 15
+      "neutral": 16
     },
     {
       "date": "2025-08-28",
