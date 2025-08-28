@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-08-28T10:24:23.240507",
-  "newsCount": 1973,
+  "lastUpdate": "2025-08-28T10:43:38.123244",
+  "newsCount": 1992,
   "dateRange": {
     "start": "2025-08-24",
     "end": "2025-08-28"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-28",
+      "keyword": "算力",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-08-28",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 10
+    },
     {
       "date": "2025-08-28",
       "keyword": "机器人",
@@ -22,24 +36,10 @@
     },
     {
       "date": "2025-08-28",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-08-28",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-08-28",
-      "keyword": "算力",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-08-28",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      43
+      44
     ],
     [
       "华为",
@@ -123,16 +123,16 @@
       3
     ],
     [
+      "上纬新材",
+      2
+    ],
+    [
       "长城军工",
       2
     ],
     [
       "宁德时代",
       2
-    ],
-    [
-      "上纬新材",
-      1
     ],
     [
       "东杰智能",
