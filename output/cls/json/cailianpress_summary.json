@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-29T05:20:53.515944",
-  "newsCount": 2031,
+  "lastUpdate": "2025-08-29T05:41:27.314051",
+  "newsCount": 2034,
   "dateRange": {
     "start": "2025-08-25",
     "end": "2025-08-29"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-29",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-08-29",
       "keyword": "机器人",
@@ -40,13 +47,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-08-29",
