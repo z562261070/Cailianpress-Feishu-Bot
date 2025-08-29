@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-08-29T13:29:34.098127",
-  "newsCount": 2275,
+  "lastUpdate": "2025-08-29T13:45:28.906340",
+  "newsCount": 2285,
   "dateRange": {
     "start": "2025-08-25",
     "end": "2025-08-29"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-29",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 10
+    },
+    {
+      "date": "2025-08-29",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
+    },
     {
       "date": "2025-08-29",
       "keyword": "新能源",
@@ -29,13 +43,6 @@
     },
     {
       "date": "2025-08-29",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-08-29",
       "keyword": "算力",
       "positive": 4,
       "negative": 0,
@@ -56,13 +63,6 @@
       "neutral": 3
     },
     {
-      "date": "2025-08-29",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
       "date": "2025-08-28",
       "keyword": "人工智能",
       "positive": 0,
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      44
+      45
     ],
     [
       "华为",
@@ -88,7 +88,7 @@
     ],
     [
       "阿里巴巴",
-      20
+      21
     ],
     [
       "京东",
