@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-29T01:46:02.050386",
-  "newsCount": 1974,
+  "lastUpdate": "2025-08-29T03:04:17.475958",
+  "newsCount": 1994,
   "dateRange": {
     "start": "2025-08-25",
     "end": "2025-08-29"
@@ -8,31 +8,45 @@
   "topKeywords": [
     {
       "date": "2025-08-29",
-      "keyword": "芯片",
-      "positive": 1,
+      "keyword": "半导体",
+      "positive": 0,
       "negative": 0,
       "neutral": 1
     },
     {
       "date": "2025-08-29",
-      "keyword": "机器人",
-      "positive": 1,
+      "keyword": "新能源",
+      "positive": 0,
       "negative": 0,
-      "neutral": 0
+      "neutral": 1
     },
     {
       "date": "2025-08-29",
       "keyword": "算力",
       "positive": 2,
       "negative": 0,
-      "neutral": 0
+      "neutral": 1
     },
     {
       "date": "2025-08-29",
       "keyword": "人工智能",
-      "positive": 1,
+      "positive": 3,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-08-29",
+      "keyword": "机器人",
+      "positive": 2,
       "negative": 0,
       "neutral": 0
+    },
+    {
+      "date": "2025-08-29",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-08-29",
@@ -61,20 +75,6 @@
       "positive": 5,
       "negative": 0,
       "neutral": 16
-    },
-    {
-      "date": "2025-08-28",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 9
-    },
-    {
-      "date": "2025-08-28",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
@@ -107,6 +107,10 @@
       7
     ],
     [
+      "比亚迪",
+      5
+    ],
+    [
       "谷歌",
       5
     ],
@@ -115,8 +119,8 @@
       5
     ],
     [
-      "比亚迪",
-      4
+      "宁德时代",
+      3
     ],
     [
       "小米",
@@ -128,10 +132,6 @@
     ],
     [
       "长城军工",
-      2
-    ],
-    [
-      "宁德时代",
       2
     ],
     [
