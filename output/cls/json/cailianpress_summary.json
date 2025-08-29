@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-29T03:49:32.845360",
-  "newsCount": 2010,
+  "lastUpdate": "2025-08-29T04:27:06.924946",
+  "newsCount": 2019,
   "dateRange": {
     "start": "2025-08-25",
     "end": "2025-08-29"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-29",
+      "keyword": "算力",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-08-29",
       "keyword": "机器人",
@@ -24,13 +31,6 @@
       "date": "2025-08-29",
       "keyword": "半导体",
       "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "算力",
-      "positive": 3,
       "negative": 0,
       "neutral": 2
     },
@@ -96,7 +96,7 @@
     ],
     [
       "理想汽车",
-      9
+      10
     ],
     [
       "中际旭创",
