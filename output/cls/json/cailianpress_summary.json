@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-29T03:04:17.475958",
-  "newsCount": 1994,
+  "lastUpdate": "2025-08-29T03:49:32.845360",
+  "newsCount": 2010,
   "dateRange": {
     "start": "2025-08-25",
     "end": "2025-08-29"
@@ -8,21 +8,7 @@
   "topKeywords": [
     {
       "date": "2025-08-29",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "算力",
+      "keyword": "机器人",
       "positive": 2,
       "negative": 0,
       "neutral": 1
@@ -32,19 +18,33 @@
       "keyword": "人工智能",
       "positive": 3,
       "negative": 0,
-      "neutral": 1
+      "neutral": 3
     },
     {
       "date": "2025-08-29",
-      "keyword": "机器人",
-      "positive": 2,
+      "keyword": "半导体",
+      "positive": 1,
       "negative": 0,
-      "neutral": 0
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-29",
+      "keyword": "算力",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-08-29",
       "keyword": "芯片",
-      "positive": 1,
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-29",
+      "keyword": "新能源",
+      "positive": 0,
       "negative": 0,
       "neutral": 1
     },
@@ -120,7 +120,7 @@
     ],
     [
       "宁德时代",
-      3
+      4
     ],
     [
       "小米",
