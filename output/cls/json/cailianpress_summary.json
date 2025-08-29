@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-29T08:29:16.795694",
-  "newsCount": 2102,
+  "lastUpdate": "2025-08-29T08:48:51.652042",
+  "newsCount": 2122,
   "dateRange": {
     "start": "2025-08-25",
     "end": "2025-08-29"
@@ -8,17 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-08-29",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-08-29",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-08-29",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-29",
+      "keyword": "机器人",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-29",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-08-29",
@@ -33,27 +54,6 @@
       "positive": 4,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-08-29",
