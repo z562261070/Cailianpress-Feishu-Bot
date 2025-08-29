@@ -1,6 +1,36 @@
 {
-  "lastUpdate": "2025-08-29T04:27:06.924946",
+  "lastUpdate": "2025-08-29T04:45:06.756754",
   "newsData": [
+    {
+      "date": "2025-08-29",
+      "time": "12:42",
+      "type": "general",
+      "content": "[财联社8月29日电，土耳其DOF机器人技术公司获得首次公开募股售股许可。]"
+    },
+    {
+      "date": "2025-08-29",
+      "time": "12:40",
+      "type": "general",
+      "content": "[财联社8月29日电，印尼雅加达综合指数下跌2.26%，至7772点，为8月12日以来的最低水平。]"
+    },
+    {
+      "date": "2025-08-29",
+      "time": "12:38",
+      "type": "general",
+      "content": "[财联社8月29日电，日本7月原油进口量同比下降0.3%，成品油总销售额同比增长1.8%，汽油销量同比增长2.3%。]"
+    },
+    {
+      "date": "2025-08-29",
+      "time": "12:38",
+      "type": "general",
+      "content": "[固态电池+创新药+机器人+算力+芯片，五大热点一周以来获融资净买入情况（附表）。]"
+    },
+    {
+      "date": "2025-08-29",
+      "time": "12:37",
+      "type": "general",
+      "content": "[财联社8月29日电，JEFFERIES将威尔科技（MRVL.O）目标价格从90美元降至80美元；摩根大通将威尔科技（MRVL.O）目标价从130美元下调至120美元。]"
+    },
     {
       "date": "2025-08-29",
       "time": "12:26",
@@ -12119,17 +12149,24 @@
   "hotspotData": [
     {
       "date": "2025-08-29",
-      "keyword": "算力",
-      "positive": 3,
+      "keyword": "机器人",
+      "positive": 2,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2025-08-29",
-      "keyword": "机器人",
+      "keyword": "算力",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-29",
+      "keyword": "芯片",
       "positive": 2,
       "negative": 0,
-      "neutral": 1
+      "neutral": 3
     },
     {
       "date": "2025-08-29",
@@ -12142,13 +12179,6 @@
       "date": "2025-08-29",
       "keyword": "半导体",
       "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "芯片",
-      "positive": 2,
       "negative": 0,
       "neutral": 2
     },
