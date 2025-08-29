@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-29T04:45:06.756754",
-  "newsCount": 2024,
+  "lastUpdate": "2025-08-29T05:20:53.515944",
+  "newsCount": 2031,
   "dateRange": {
     "start": "2025-08-25",
     "end": "2025-08-29"
@@ -11,7 +11,14 @@
       "keyword": "机器人",
       "positive": 2,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-29",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-08-29",
@@ -40,13 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-08-29",
@@ -88,7 +88,7 @@
     ],
     [
       "京东",
-      18
+      19
     ],
     [
       "阿里巴巴",
