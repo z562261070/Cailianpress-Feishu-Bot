@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-29T05:41:27.314051",
-  "newsCount": 2034,
+  "lastUpdate": "2025-08-29T06:32:56.381474",
+  "newsCount": 2051,
   "dateRange": {
     "start": "2025-08-25",
     "end": "2025-08-29"
@@ -8,15 +8,36 @@
   "topKeywords": [
     {
       "date": "2025-08-29",
+      "keyword": "人工智能",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-29",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-08-29",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-29",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2025-08-29",
       "keyword": "机器人",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
       "neutral": 4
     },
@@ -36,28 +57,7 @@
     },
     {
       "date": "2025-08-29",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "人工智能",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-08-29",
       "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      41
+      42
     ],
     [
       "华为",
@@ -107,6 +107,10 @@
       7
     ],
     [
+      "宁德时代",
+      5
+    ],
+    [
       "比亚迪",
       5
     ],
@@ -119,8 +123,8 @@
       5
     ],
     [
-      "宁德时代",
-      4
+      "长城军工",
+      3
     ],
     [
       "小米",
@@ -128,10 +132,6 @@
     ],
     [
       "上纬新材",
-      2
-    ],
-    [
-      "长城军工",
       2
     ],
     [
