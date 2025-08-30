@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-30T11:38:24.808654",
-  "newsCount": 2044,
+  "lastUpdate": "2025-08-30T12:40:12.924532",
+  "newsCount": 2051,
   "dateRange": {
     "start": "2025-08-26",
     "end": "2025-08-30"
@@ -8,24 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-08-30",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-08-30",
       "keyword": "无人机",
       "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-08-30",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2025-08-30",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-08-30",
@@ -83,11 +83,11 @@
       34
     ],
     [
-      "华为",
-      17
+      "阿里巴巴",
+      18
     ],
     [
-      "阿里巴巴",
+      "华为",
       17
     ],
     [
