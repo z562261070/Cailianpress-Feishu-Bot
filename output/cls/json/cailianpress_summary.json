@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-08-30T10:40:24.858482",
-  "newsCount": 2036,
+  "lastUpdate": "2025-08-30T11:16:05.081276",
+  "newsCount": 2041,
   "dateRange": {
     "start": "2025-08-26",
     "end": "2025-08-30"
   },
   "topKeywords": [
+    {
+      "date": "2025-08-30",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-08-30",
       "keyword": "无人机",
@@ -68,13 +75,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-08-29",
-      "keyword": "机器人",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
@@ -83,12 +83,12 @@
       34
     ],
     [
-      "阿里巴巴",
+      "华为",
       17
     ],
     [
-      "华为",
-      16
+      "阿里巴巴",
+      17
     ],
     [
       "京东",
