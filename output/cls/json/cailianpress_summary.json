@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-30T21:18:14.274035",
-  "newsCount": 2263,
+  "lastUpdate": "2025-08-30T21:38:09.722424",
+  "newsCount": 2279,
   "dateRange": {
     "start": "2025-08-26",
     "end": "2025-08-30"
@@ -11,21 +11,21 @@
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 12
+      "neutral": 13
     },
     {
       "date": "2025-08-30",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 12
+      "neutral": 13
     },
     {
       "date": "2025-08-30",
       "keyword": "无人机",
       "positive": 1,
       "negative": 0,
-      "neutral": 13
+      "neutral": 14
     },
     {
       "date": "2025-08-30",
@@ -84,7 +84,7 @@
     ],
     [
       "阿里巴巴",
-      29
+      30
     ],
     [
       "华为",
