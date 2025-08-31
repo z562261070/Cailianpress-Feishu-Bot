@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-08-31T19:16:27.332065",
-  "newsCount": 2097,
+  "lastUpdate": "2025-08-31T19:38:33.194590",
+  "newsCount": 2108,
   "dateRange": {
     "start": "2025-08-27",
     "end": "2025-08-31"
@@ -11,21 +11,21 @@
       "keyword": "算力",
       "positive": 8,
       "negative": 0,
-      "neutral": 14
+      "neutral": 15
     },
     {
       "date": "2025-08-31",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 17
+      "neutral": 19
     },
     {
       "date": "2025-08-31",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 14
+      "neutral": 15
     },
     {
       "date": "2025-08-31",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      41
+      42
     ],
     [
       "阿里巴巴",
@@ -88,7 +88,7 @@
     ],
     [
       "华为",
-      20
+      21
     ],
     [
       "比亚迪",
