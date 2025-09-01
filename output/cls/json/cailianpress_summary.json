@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-01T15:40:37.567943",
-  "newsCount": 1983,
+  "lastUpdate": "2025-09-01T16:27:01.597485",
+  "newsCount": 2001,
   "dateRange": {
     "start": "2025-08-28",
     "end": "2025-09-01"
@@ -11,28 +11,28 @@
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 9
+      "neutral": 10
     },
     {
       "date": "2025-09-01",
       "keyword": "算力",
       "positive": 4,
       "negative": 1,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-09-01",
       "keyword": "芯片",
       "positive": 7,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2025-09-01",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 15
+      "neutral": 16
     },
     {
       "date": "2025-09-01",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      39
+      40
     ],
     [
       "阿里巴巴",
@@ -100,7 +100,7 @@
     ],
     [
       "谷歌",
-      8
+      9
     ],
     [
       "理想汽车",
