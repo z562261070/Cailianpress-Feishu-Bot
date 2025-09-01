@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-09-01T04:31:35.272878",
-  "newsCount": 1727,
+  "lastUpdate": "2025-09-01T05:23:05.564829",
+  "newsCount": 1738,
   "dateRange": {
     "start": "2025-08-28",
     "end": "2025-09-01"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-01",
+      "keyword": "军工",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-01",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-09-01",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-09-01",
       "keyword": "无人机",
@@ -19,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-01",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-09-01",
@@ -47,20 +61,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-01",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-09-01",
-      "keyword": "军工",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-08-31",
@@ -99,12 +99,12 @@
       10
     ],
     [
-      "理想汽车",
+      "谷歌",
       7
     ],
     [
-      "谷歌",
-      6
+      "理想汽车",
+      7
     ],
     [
       "宁德时代",
