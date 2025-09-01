@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-01T02:01:14.768975",
-  "newsCount": 1694,
+  "lastUpdate": "2025-09-01T03:39:16.283910",
+  "newsCount": 1714,
   "dateRange": {
     "start": "2025-08-28",
     "end": "2025-09-01"
@@ -8,31 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-09-01",
+      "keyword": "军工",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-01",
       "keyword": "算力",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 3
+    },
+    {
+      "date": "2025-09-01",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-01",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 0
     },
     {
       "date": "2025-09-01",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-09-01",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-09-01",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
+      "neutral": 6
     },
     {
       "date": "2025-09-01",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-08-31",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "阿里巴巴",
-      29
+      30
     ],
     [
       "华为",
@@ -92,7 +92,7 @@
     ],
     [
       "比亚迪",
-      13
+      14
     ],
     [
       "京东",
@@ -111,6 +111,10 @@
       4
     ],
     [
+      "中际旭创",
+      3
+    ],
+    [
       "腾讯",
       3
     ],
@@ -120,10 +124,6 @@
     ],
     [
       "上纬新材",
-      2
-    ],
-    [
-      "中际旭创",
       2
     ],
     [
