@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-09-01T09:44:43.425031",
-  "newsCount": 1851,
+  "lastUpdate": "2025-09-01T10:25:16.963981",
+  "newsCount": 1868,
   "dateRange": {
     "start": "2025-08-28",
     "end": "2025-09-01"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-01",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-01",
+      "keyword": "半导体",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-09-01",
       "keyword": "新能源",
@@ -43,24 +57,10 @@
     },
     {
       "date": "2025-09-01",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-09-01",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-01",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-08-31",
@@ -96,7 +96,7 @@
     ],
     [
       "京东",
-      10
+      11
     ],
     [
       "理想汽车",
