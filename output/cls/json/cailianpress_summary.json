@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-09-01T08:32:15.749645",
-  "newsCount": 1816,
+  "lastUpdate": "2025-09-01T09:26:54.634141",
+  "newsCount": 1836,
   "dateRange": {
     "start": "2025-08-28",
     "end": "2025-09-01"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-01",
+      "keyword": "算力",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-01",
+      "keyword": "芯片",
+      "positive": 6,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-09-01",
       "keyword": "新能源",
@@ -24,20 +38,6 @@
       "date": "2025-09-01",
       "keyword": "军工",
       "positive": 3,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-01",
-      "keyword": "算力",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-09-01",
-      "keyword": "芯片",
-      "positive": 4,
       "negative": 0,
       "neutral": 3
     },
@@ -107,12 +107,12 @@
       7
     ],
     [
-      "宁德时代",
+      "中际旭创",
       4
     ],
     [
-      "中际旭创",
-      3
+      "宁德时代",
+      4
     ],
     [
       "腾讯",
@@ -123,12 +123,12 @@
       3
     ],
     [
-      "上纬新材",
+      "TCL",
       2
     ],
     [
-      "TCL",
-      1
+      "上纬新材",
+      2
     ],
     [
       "药明康德",
