@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-02T07:40:50.467948",
-  "newsCount": 1756,
+  "lastUpdate": "2025-09-02T08:30:09.766054",
+  "newsCount": 1776,
   "dateRange": {
     "start": "2025-08-29",
     "end": "2025-09-02"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-02",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-02",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-09-02",
       "keyword": "机器人",
       "positive": 4,
       "negative": 0,
-      "neutral": 6
+      "neutral": 8
     },
     {
       "date": "2025-09-02",
@@ -26,20 +40,6 @@
       "positive": 5,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-09-02",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-09-02",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-09-02",
@@ -99,16 +99,16 @@
       9
     ],
     [
+      "小米",
+      6
+    ],
+    [
       "宁德时代",
       5
     ],
     [
       "腾讯",
       5
-    ],
-    [
-      "小米",
-      4
     ],
     [
       "理想汽车",
