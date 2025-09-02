@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-02T10:23:56.092512",
-  "newsCount": 1835,
+  "lastUpdate": "2025-09-02T10:43:56.246470",
+  "newsCount": 1843,
   "dateRange": {
     "start": "2025-08-29",
     "end": "2025-09-02"
@@ -11,7 +11,14 @@
       "keyword": "机器人",
       "positive": 5,
       "negative": 0,
-      "neutral": 10
+      "neutral": 11
+    },
+    {
+      "date": "2025-09-02",
+      "keyword": "算力",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2025-09-02",
@@ -40,13 +47,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-09-02",
-      "keyword": "算力",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-09-01",
@@ -92,7 +92,7 @@
     ],
     [
       "华为",
-      13
+      14
     ],
     [
       "谷歌",
