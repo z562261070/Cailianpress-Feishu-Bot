@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-02T12:47:26.039757",
-  "newsCount": 1885,
+  "lastUpdate": "2025-09-02T13:32:27.129816",
+  "newsCount": 1905,
   "dateRange": {
     "start": "2025-08-29",
     "end": "2025-09-02"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-09-02",
+      "keyword": "机器人",
+      "positive": 6,
+      "negative": 1,
+      "neutral": 13
+    },
+    {
+      "date": "2025-09-02",
       "keyword": "人工智能",
       "positive": 2,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-09-02",
-      "keyword": "机器人",
-      "positive": 6,
-      "negative": 1,
-      "neutral": 12
     },
     {
       "date": "2025-09-02",
@@ -83,11 +83,11 @@
       28
     ],
     [
-      "比亚迪",
-      20
+      "英伟达",
+      21
     ],
     [
-      "英伟达",
+      "比亚迪",
       20
     ],
     [
