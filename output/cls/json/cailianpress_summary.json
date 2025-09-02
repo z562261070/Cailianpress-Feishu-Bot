@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-02T15:42:37.278907",
-  "newsCount": 1944,
+  "lastUpdate": "2025-09-02T16:28:29.663758",
+  "newsCount": 1960,
   "dateRange": {
     "start": "2025-08-29",
     "end": "2025-09-02"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-02",
-      "keyword": "半导体",
+      "keyword": "机器人",
+      "positive": 6,
+      "negative": 1,
+      "neutral": 16
+    },
+    {
+      "date": "2025-09-02",
+      "keyword": "人工智能",
       "positive": 2,
       "negative": 0,
       "neutral": 9
+    },
+    {
+      "date": "2025-09-02",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 10
     },
     {
       "date": "2025-09-02",
@@ -19,20 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-02",
-      "keyword": "机器人",
-      "positive": 6,
-      "negative": 1,
-      "neutral": 14
-    },
-    {
-      "date": "2025-09-02",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 8
     },
     {
       "date": "2025-09-02",
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      22
+      24
     ],
     [
       "比亚迪",
@@ -96,7 +96,7 @@
     ],
     [
       "谷歌",
-      11
+      12
     ],
     [
       "腾讯",
