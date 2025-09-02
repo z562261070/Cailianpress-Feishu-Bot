@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-09-02T03:51:52.773259",
-  "newsCount": 1675,
+  "lastUpdate": "2025-09-02T04:27:05.581035",
+  "newsCount": 1681,
   "dateRange": {
     "start": "2025-08-29",
     "end": "2025-09-02"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-02",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-02",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-09-02",
       "keyword": "机器人",
@@ -26,20 +40,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-09-02",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-02",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-02",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "阿里巴巴",
-      26
+      27
     ],
     [
       "比亚迪",
@@ -127,15 +127,15 @@
       2
     ],
     [
+      "网易",
+      1
+    ],
+    [
       "上纬新材",
       1
     ],
     [
       "药明康德",
-      1
-    ],
-    [
-      "长城军工",
       1
     ]
   ]
