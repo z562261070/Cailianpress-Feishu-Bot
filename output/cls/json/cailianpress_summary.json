@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-09-02T09:24:46.312667",
-  "newsCount": 1807,
+  "lastUpdate": "2025-09-02T09:42:12.516631",
+  "newsCount": 1815,
   "dateRange": {
     "start": "2025-08-29",
     "end": "2025-09-02"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-02",
+      "keyword": "机器人",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-09-02",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 7
+    },
     {
       "date": "2025-09-02",
       "keyword": "新能源",
@@ -15,24 +29,10 @@
     },
     {
       "date": "2025-09-02",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-09-02",
       "keyword": "半导体",
       "positive": 2,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-09-02",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 8
     },
     {
       "date": "2025-09-02",
@@ -115,16 +115,16 @@
       4
     ],
     [
+      "药明康德",
+      3
+    ],
+    [
       "中际旭创",
       3
     ],
     [
       "京东",
       3
-    ],
-    [
-      "药明康德",
-      2
     ],
     [
       "TCL",
