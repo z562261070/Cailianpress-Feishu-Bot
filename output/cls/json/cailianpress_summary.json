@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-02T01:47:46.458374",
-  "newsCount": 1637,
+  "lastUpdate": "2025-09-02T03:08:04.847026",
+  "newsCount": 1657,
   "dateRange": {
     "start": "2025-08-29",
     "end": "2025-09-02"
@@ -8,7 +8,28 @@
   "topKeywords": [
     {
       "date": "2025-09-02",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-02",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-02",
       "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-02",
+      "keyword": "芯片",
       "positive": 1,
       "negative": 0,
       "neutral": 1
@@ -19,20 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-02",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-02",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-09-02",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 20
-    },
-    {
-      "date": "2025-09-01",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
@@ -111,16 +111,16 @@
       4
     ],
     [
+      "中际旭创",
+      3
+    ],
+    [
       "京东",
       3
     ],
     [
       "小米",
       3
-    ],
-    [
-      "中际旭创",
-      2
     ],
     [
       "TCL",
