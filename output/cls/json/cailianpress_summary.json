@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-02T13:32:27.129816",
-  "newsCount": 1905,
+  "lastUpdate": "2025-09-02T14:22:30.680855",
+  "newsCount": 1925,
   "dateRange": {
     "start": "2025-08-29",
     "end": "2025-09-02"
@@ -11,14 +11,28 @@
       "keyword": "机器人",
       "positive": 6,
       "negative": 1,
-      "neutral": 13
+      "neutral": 14
     },
     {
       "date": "2025-09-02",
       "keyword": "人工智能",
       "positive": 2,
       "negative": 0,
-      "neutral": 6
+      "neutral": 8
+    },
+    {
+      "date": "2025-09-02",
+      "keyword": "算力",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-02",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
     },
     {
       "date": "2025-09-02",
@@ -29,21 +43,7 @@
     },
     {
       "date": "2025-09-02",
-      "keyword": "算力",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-09-02",
       "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-09-02",
-      "keyword": "半导体",
       "positive": 2,
       "negative": 0,
       "neutral": 7
@@ -92,7 +92,7 @@
     ],
     [
       "华为",
-      14
+      15
     ],
     [
       "谷歌",
