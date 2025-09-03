@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-09-03T13:30:06.588717",
-  "newsCount": 1864,
+  "lastUpdate": "2025-09-03T13:45:50.273372",
+  "newsCount": 1874,
   "dateRange": {
     "start": "2025-08-30",
     "end": "2025-09-03"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-03",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 14
+    },
     {
       "date": "2025-09-03",
       "keyword": "新能源",
@@ -19,13 +26,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-09-03",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 14
     },
     {
       "date": "2025-09-03",
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      23
+      25
     ],
     [
       "阿里巴巴",
