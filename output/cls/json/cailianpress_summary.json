@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-03T15:41:16.781437",
-  "newsCount": 1919,
+  "lastUpdate": "2025-09-03T16:27:26.017500",
+  "newsCount": 1936,
   "dateRange": {
     "start": "2025-08-30",
     "end": "2025-09-03"
@@ -11,14 +11,14 @@
       "keyword": "芯片",
       "positive": 3,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-09-03",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-09-03",
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      26
+      27
     ],
     [
       "阿里巴巴",
