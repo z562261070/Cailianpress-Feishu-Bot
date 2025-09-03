@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-09-03T04:26:07.336533",
-  "newsCount": 1650,
+  "lastUpdate": "2025-09-03T04:43:43.560329",
+  "newsCount": 1654,
   "dateRange": {
     "start": "2025-08-30",
     "end": "2025-09-03"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-03",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-09-03",
       "keyword": "算力",
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-03",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-09-03",
@@ -88,7 +88,7 @@
     ],
     [
       "谷歌",
-      19
+      20
     ],
     [
       "比亚迪",
