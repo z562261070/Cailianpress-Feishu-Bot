@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-03T13:45:50.273372",
-  "newsCount": 1874,
+  "lastUpdate": "2025-09-03T14:21:42.818104",
+  "newsCount": 1894,
   "dateRange": {
     "start": "2025-08-30",
     "end": "2025-09-03"
@@ -11,7 +11,14 @@
       "keyword": "机器人",
       "positive": 3,
       "negative": 0,
-      "neutral": 14
+      "neutral": 16
+    },
+    {
+      "date": "2025-09-03",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2025-09-03",
@@ -19,13 +26,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-09-03",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-09-03",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      29
+      30
     ],
     [
       "谷歌",
@@ -92,18 +92,18 @@
     ],
     [
       "比亚迪",
-      18
+      19
     ],
     [
       "华为",
-      14
-    ],
-    [
-      "腾讯",
-      7
+      15
     ],
     [
       "小米",
+      8
+    ],
+    [
+      "腾讯",
       7
     ],
     [
