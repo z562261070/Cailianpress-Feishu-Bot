@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-03T07:20:23.680724",
-  "newsCount": 1705,
+  "lastUpdate": "2025-09-03T07:38:59.314596",
+  "newsCount": 1719,
   "dateRange": {
     "start": "2025-08-30",
     "end": "2025-09-03"
@@ -22,6 +22,13 @@
     },
     {
       "date": "2025-09-03",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-03",
       "keyword": "半导体",
       "positive": 2,
       "negative": 0,
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-09-03",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-09-03",
