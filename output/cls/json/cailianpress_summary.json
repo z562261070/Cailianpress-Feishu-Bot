@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-03T11:38:49.064735",
-  "newsCount": 1824,
+  "lastUpdate": "2025-09-03T12:44:31.023462",
+  "newsCount": 1844,
   "dateRange": {
     "start": "2025-08-30",
     "end": "2025-09-03"
@@ -8,8 +8,8 @@
   "topKeywords": [
     {
       "date": "2025-09-03",
-      "keyword": "芯片",
-      "positive": 3,
+      "keyword": "人工智能",
+      "positive": 0,
       "negative": 0,
       "neutral": 3
     },
@@ -18,7 +18,14 @@
       "keyword": "机器人",
       "positive": 2,
       "negative": 0,
-      "neutral": 12
+      "neutral": 14
+    },
+    {
+      "date": "2025-09-03",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-09-03",
@@ -40,13 +47,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-09-03",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-09-03",
@@ -108,7 +108,11 @@
     ],
     [
       "中际旭创",
-      5
+      6
+    ],
+    [
+      "药明康德",
+      3
     ],
     [
       "京东",
@@ -116,10 +120,6 @@
     ],
     [
       "理想汽车",
-      2
-    ],
-    [
-      "药明康德",
       2
     ],
     [
