@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-09-03T14:42:51.327487",
-  "newsCount": 1901,
+  "lastUpdate": "2025-09-03T15:23:27.330772",
+  "newsCount": 1916,
   "dateRange": {
     "start": "2025-08-30",
     "end": "2025-09-03"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-03",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-03",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-09-03",
       "keyword": "机器人",
@@ -15,24 +29,10 @@
     },
     {
       "date": "2025-09-03",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-09-03",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-09-03",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-09-03",
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      25
+      26
     ],
     [
       "阿里巴巴",
