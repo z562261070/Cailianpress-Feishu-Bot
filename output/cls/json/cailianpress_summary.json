@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-03T06:31:21.690603",
-  "newsCount": 1685,
+  "lastUpdate": "2025-09-03T07:20:23.680724",
+  "newsCount": 1705,
   "dateRange": {
     "start": "2025-08-30",
     "end": "2025-09-03"
@@ -8,38 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-09-03",
-      "keyword": "人工智能",
-      "positive": 0,
+      "keyword": "算力",
+      "positive": 3,
       "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-09-03",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-03",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
+      "neutral": 1
     },
     {
       "date": "2025-09-03",
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-09-03",
-      "keyword": "算力",
+      "keyword": "半导体",
       "positive": 2,
       "negative": 0,
-      "neutral": 1
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-03",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-03",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-09-03",
@@ -103,12 +103,12 @@
       6
     ],
     [
-      "腾讯",
+      "中际旭创",
       5
     ],
     [
-      "中际旭创",
-      4
+      "腾讯",
+      5
     ],
     [
       "京东",
