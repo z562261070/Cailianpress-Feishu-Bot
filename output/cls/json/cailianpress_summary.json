@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-09-04T02:57:18.922910",
-  "newsCount": 1667,
+  "lastUpdate": "2025-09-04T03:32:33.359216",
+  "newsCount": 1684,
   "dateRange": {
     "start": "2025-08-31",
     "end": "2025-09-04"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-04",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-04",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-04",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-09-04",
       "keyword": "机器人",
@@ -19,27 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-04",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-04",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-04",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-09-04",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      30
+      31
     ],
     [
       "谷歌",
@@ -108,7 +108,7 @@
     ],
     [
       "中际旭创",
-      6
+      7
     ],
     [
       "药明康德",
