@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-04T01:41:17.931842",
-  "newsCount": 1647,
+  "lastUpdate": "2025-09-04T02:57:18.922910",
+  "newsCount": 1667,
   "dateRange": {
     "start": "2025-08-31",
     "end": "2025-09-04"
@@ -8,21 +8,21 @@
   "topKeywords": [
     {
       "date": "2025-09-04",
-      "keyword": "新能源",
-      "positive": 1,
+      "keyword": "机器人",
+      "positive": 0,
       "negative": 0,
-      "neutral": 0
+      "neutral": 3
     },
     {
       "date": "2025-09-04",
-      "keyword": "机器人",
+      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 1
     },
     {
       "date": "2025-09-04",
-      "keyword": "无人机",
+      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -32,7 +32,21 @@
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-04",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-09-04",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-09-03",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-09-03",
-      "keyword": "算力",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-03",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
@@ -99,12 +99,12 @@
       10
     ],
     [
-      "阿里巴巴",
+      "腾讯",
       8
     ],
     [
-      "腾讯",
-      7
+      "阿里巴巴",
+      8
     ],
     [
       "中际旭创",
@@ -112,7 +112,7 @@
     ],
     [
       "药明康德",
-      3
+      4
     ],
     [
       "京东",
@@ -127,15 +127,15 @@
       2
     ],
     [
+      "上纬新材",
+      1
+    ],
+    [
       "中马传动",
       1
     ],
     [
       "网易",
-      1
-    ],
-    [
-      "TCL",
       1
     ]
   ]
