@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-04T11:38:35.572053",
-  "newsCount": 1896,
+  "lastUpdate": "2025-09-04T12:42:42.763567",
+  "newsCount": 1916,
   "dateRange": {
     "start": "2025-08-31",
     "end": "2025-09-04"
@@ -11,7 +11,21 @@
       "keyword": "算力",
       "positive": 3,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-04",
+      "keyword": "半导体",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-04",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-09-04",
@@ -19,13 +33,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 14
-    },
-    {
-      "date": "2025-09-04",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-09-04",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 12
-    },
-    {
-      "date": "2025-09-04",
-      "keyword": "半导体",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-09-04",
@@ -88,7 +88,7 @@
     ],
     [
       "比亚迪",
-      24
+      25
     ],
     [
       "华为",
@@ -100,7 +100,7 @@
     ],
     [
       "腾讯",
-      9
+      10
     ],
     [
       "中际旭创",
