@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-04T05:40:25.431075",
-  "newsCount": 1726,
+  "lastUpdate": "2025-09-04T06:32:20.646870",
+  "newsCount": 1746,
   "dateRange": {
     "start": "2025-08-31",
     "end": "2025-09-04"
@@ -8,49 +8,49 @@
   "topKeywords": [
     {
       "date": "2025-09-04",
-      "keyword": "机器人",
+      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 10
     },
     {
       "date": "2025-09-04",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 8
     },
     {
       "date": "2025-09-04",
-      "keyword": "人工智能",
-      "positive": 0,
+      "keyword": "算力",
+      "positive": 1,
       "negative": 0,
-      "neutral": 5
+      "neutral": 1
     },
     {
       "date": "2025-09-04",
       "keyword": "半导体",
-      "positive": 3,
+      "positive": 4,
       "negative": 0,
       "neutral": 3
+    },
+    {
+      "date": "2025-09-04",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-09-04",
       "keyword": "新能源",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-09-04",
       "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2025-09-04",
-      "keyword": "算力",
       "positive": 1,
       "negative": 0,
       "neutral": 0
@@ -88,7 +88,7 @@
     ],
     [
       "比亚迪",
-      21
+      22
     ],
     [
       "华为",
@@ -103,12 +103,12 @@
       9
     ],
     [
-      "腾讯",
+      "中际旭创",
       8
     ],
     [
-      "中际旭创",
-      7
+      "腾讯",
+      8
     ],
     [
       "药明康德",
