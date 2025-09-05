@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-09-05T01:43:30.717705",
-  "newsCount": 1840,
+  "lastUpdate": "2025-09-05T03:00:32.835268",
+  "newsCount": 1860,
   "dateRange": {
     "start": "2025-09-01",
     "end": "2025-09-05"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-05",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-09-05",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-09-05",
       "keyword": "机器人",
@@ -35,13 +49,6 @@
       "neutral": 1
     },
     {
-      "date": "2025-09-05",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
       "date": "2025-09-04",
       "keyword": "算力",
       "positive": 3,
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 13
-    },
-    {
-      "date": "2025-09-04",
-      "keyword": "半导体",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
@@ -119,16 +119,16 @@
       3
     ],
     [
+      "福元医药",
+      2
+    ],
+    [
       "理想汽车",
       2
     ],
     [
       "宁德时代",
       2
-    ],
-    [
-      "福元医药",
-      1
     ],
     [
       "上纬新材",
