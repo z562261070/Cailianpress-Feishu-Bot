@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-05T13:29:14.396622",
-  "newsCount": 2130,
+  "lastUpdate": "2025-09-05T13:44:36.836818",
+  "newsCount": 2146,
   "dateRange": {
     "start": "2025-09-01",
     "end": "2025-09-05"
@@ -8,24 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-09-05",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-09-05",
+      "keyword": "新能源",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-09-05",
       "keyword": "半导体",
       "positive": 2,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-09-05",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 9
+      "neutral": 10
     },
     {
       "date": "2025-09-05",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
     },
     {
       "date": "2025-09-05",
@@ -33,20 +47,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-09-05",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-09-05",
-      "keyword": "新能源",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-09-05",
@@ -79,12 +79,12 @@
   ],
   "topStocks": [
     [
-      "谷歌",
+      "英伟达",
       32
     ],
     [
-      "英伟达",
-      31
+      "谷歌",
+      32
     ],
     [
       "比亚迪",
