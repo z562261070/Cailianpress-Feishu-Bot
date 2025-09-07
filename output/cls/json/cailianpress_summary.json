@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-09-07T10:39:27.041821",
-  "newsCount": 1883,
+  "lastUpdate": "2025-09-07T11:15:50.184364",
+  "newsCount": 1889,
   "dateRange": {
     "start": "2025-09-03",
     "end": "2025-09-07"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-07",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-09-07",
       "keyword": "无人机",
@@ -30,13 +37,6 @@
     {
       "date": "2025-09-07",
       "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-09-07",
-      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -88,7 +88,7 @@
     ],
     [
       "英伟达",
-      20
+      21
     ],
     [
       "阿里巴巴",
