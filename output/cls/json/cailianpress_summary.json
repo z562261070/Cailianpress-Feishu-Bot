@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-07T16:23:31.745028",
-  "newsCount": 1942,
+  "lastUpdate": "2025-09-07T16:41:30.070122",
+  "newsCount": 1959,
   "dateRange": {
     "start": "2025-09-03",
     "end": "2025-09-07"
@@ -11,35 +11,35 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 10
+      "neutral": 13
     },
     {
       "date": "2025-09-07",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-09-07",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-09-07",
       "keyword": "军工",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-09-07",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-09-07",
@@ -84,15 +84,15 @@
     ],
     [
       "华为",
-      25
+      26
     ],
     [
       "英伟达",
-      24
+      25
     ],
     [
       "比亚迪",
-      11
+      12
     ],
     [
       "阿里巴巴",
@@ -112,7 +112,7 @@
     ],
     [
       "宁德时代",
-      2
+      3
     ],
     [
       "理想汽车",
