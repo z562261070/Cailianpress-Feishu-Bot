@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-08T04:27:05.186330",
-  "newsCount": 1727,
+  "lastUpdate": "2025-09-08T04:44:59.600308",
+  "newsCount": 1735,
   "dateRange": {
     "start": "2025-09-04",
     "end": "2025-09-08"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-08",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-08",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-08",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-09-08",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-09-08",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-09-07",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
@@ -115,6 +115,10 @@
       3
     ],
     [
+      "京东",
+      2
+    ],
+    [
       "药明康德",
       2
     ],
@@ -128,10 +132,6 @@
     ],
     [
       "理想汽车",
-      1
-    ],
-    [
-      "京东",
       1
     ],
     [
