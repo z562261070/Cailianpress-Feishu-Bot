@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-08T07:40:16.945843",
-  "newsCount": 1804,
+  "lastUpdate": "2025-09-08T08:32:00.384529",
+  "newsCount": 1824,
   "dateRange": {
     "start": "2025-09-04",
     "end": "2025-09-08"
@@ -11,7 +11,14 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-08",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2025-09-08",
@@ -40,13 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-09-08",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-09-08",
@@ -111,16 +111,16 @@
       5
     ],
     [
+      "药明康德",
+      3
+    ],
+    [
       "京东",
       3
     ],
     [
       "小米",
       3
-    ],
-    [
-      "药明康德",
-      2
     ],
     [
       "福元医药",
