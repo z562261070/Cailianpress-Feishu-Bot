@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-08T15:42:02.468305",
-  "newsCount": 2005,
+  "lastUpdate": "2025-09-08T16:26:47.422745",
+  "newsCount": 2023,
   "dateRange": {
     "start": "2025-09-04",
     "end": "2025-09-08"
@@ -11,14 +11,14 @@
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 15
+      "neutral": 16
     },
     {
       "date": "2025-09-08",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-09-08",
@@ -112,7 +112,7 @@
     ],
     [
       "小米",
-      4
+      5
     ],
     [
       "京东",
