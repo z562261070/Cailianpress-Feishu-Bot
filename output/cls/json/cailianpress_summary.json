@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-09-09T07:40:20.664044",
-  "newsCount": 1818,
+  "lastUpdate": "2025-09-09T08:30:25.228415",
+  "newsCount": 1838,
   "dateRange": {
     "start": "2025-09-05",
     "end": "2025-09-09"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-09",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-09-09",
       "keyword": "新能源",
@@ -43,13 +50,6 @@
     },
     {
       "date": "2025-09-09",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-09",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      25
+      27
     ],
     [
       "宁德时代",
@@ -100,7 +100,7 @@
     ],
     [
       "比亚迪",
-      8
+      9
     ],
     [
       "小米",
