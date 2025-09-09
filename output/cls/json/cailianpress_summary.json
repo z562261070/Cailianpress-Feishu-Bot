@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-09-09T11:18:47.527836",
-  "newsCount": 1911,
+  "lastUpdate": "2025-09-09T11:39:02.739242",
+  "newsCount": 1922,
   "dateRange": {
     "start": "2025-09-05",
     "end": "2025-09-09"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-09",
+      "keyword": "半导体",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-09-09",
       "keyword": "无人机",
@@ -33,13 +40,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-09-09",
-      "keyword": "半导体",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-09-09",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "华为",
-      30
+      31
     ],
     [
       "英伟达",
@@ -88,7 +88,7 @@
     ],
     [
       "阿里巴巴",
-      15
+      16
     ],
     [
       "宁德时代",
