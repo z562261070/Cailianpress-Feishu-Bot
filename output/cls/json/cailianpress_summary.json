@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-09-10T09:22:49.019872",
-  "newsCount": 1824,
+  "lastUpdate": "2025-09-10T09:41:06.206009",
+  "newsCount": 1837,
   "dateRange": {
     "start": "2025-09-06",
     "end": "2025-09-10"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-10",
+      "keyword": "机器人",
+      "positive": 6,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-09-10",
+      "keyword": "算力",
+      "positive": 6,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-10",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 10
+    },
     {
       "date": "2025-09-10",
       "keyword": "人工智能",
@@ -19,27 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-09-10",
-      "keyword": "机器人",
-      "positive": 6,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-09-10",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-09-10",
-      "keyword": "算力",
-      "positive": 6,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-10",
@@ -88,11 +88,15 @@
     ],
     [
       "阿里巴巴",
-      20
+      21
     ],
     [
       "宁德时代",
       18
+    ],
+    [
+      "小米",
+      10
     ],
     [
       "中际旭创",
@@ -101,10 +105,6 @@
     [
       "比亚迪",
       10
-    ],
-    [
-      "小米",
-      9
     ],
     [
       "京东",
