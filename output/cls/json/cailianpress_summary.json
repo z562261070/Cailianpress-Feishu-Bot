@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-11T09:22:32.732477",
-  "newsCount": 1872,
+  "lastUpdate": "2025-09-11T09:40:16.902020",
+  "newsCount": 1886,
   "dateRange": {
     "start": "2025-09-07",
     "end": "2025-09-11"
@@ -11,7 +11,14 @@
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
+    },
+    {
+      "date": "2025-09-11",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 10
     },
     {
       "date": "2025-09-11",
@@ -26,13 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-09-11",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 9
     },
     {
       "date": "2025-09-11",
@@ -84,7 +84,7 @@
     ],
     [
       "阿里巴巴",
-      24
+      25
     ],
     [
       "华为",
@@ -111,11 +111,11 @@
       9
     ],
     [
-      "药明康德",
-      4
+      "腾讯",
+      5
     ],
     [
-      "腾讯",
+      "药明康德",
       4
     ],
     [
