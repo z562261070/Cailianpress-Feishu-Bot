@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-11T04:43:41.744529",
-  "newsCount": 1753,
+  "lastUpdate": "2025-09-11T05:20:47.737728",
+  "newsCount": 1765,
   "dateRange": {
     "start": "2025-09-07",
     "end": "2025-09-11"
@@ -8,31 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-09-11",
-      "keyword": "人工智能",
-      "positive": 0,
+      "keyword": "机器人",
+      "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 2
     },
     {
       "date": "2025-09-11",
-      "keyword": "芯片",
-      "positive": 3,
+      "keyword": "人工智能",
+      "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 5
     },
     {
       "date": "2025-09-11",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-09-11",
-      "keyword": "机器人",
-      "positive": 0,
+      "keyword": "芯片",
+      "positive": 3,
       "negative": 0,
-      "neutral": 2
+      "neutral": 4
     },
     {
       "date": "2025-09-11",
@@ -84,7 +84,7 @@
     ],
     [
       "阿里巴巴",
-      23
+      24
     ],
     [
       "宁德时代",
@@ -108,7 +108,7 @@
     ],
     [
       "京东",
-      8
+      9
     ],
     [
       "药明康德",
