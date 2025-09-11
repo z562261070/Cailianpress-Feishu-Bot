@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-11T03:01:52.033466",
-  "newsCount": 1720,
+  "lastUpdate": "2025-09-11T03:48:42.478544",
+  "newsCount": 1740,
   "dateRange": {
     "start": "2025-09-07",
     "end": "2025-09-11"
@@ -9,20 +9,27 @@
     {
       "date": "2025-09-11",
       "keyword": "算力",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-09-11",
       "keyword": "芯片",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-09-11",
       "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-11",
+      "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -32,18 +39,11 @@
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-09-11",
       "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-11",
-      "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -95,12 +95,12 @@
       18
     ],
     [
-      "中际旭创",
+      "比亚迪",
       13
     ],
     [
-      "比亚迪",
-      12
+      "中际旭创",
+      13
     ],
     [
       "小米",
@@ -108,7 +108,7 @@
     ],
     [
       "京东",
-      7
+      8
     ],
     [
       "药明康德",
