@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-11T01:44:27.868304",
-  "newsCount": 1700,
+  "lastUpdate": "2025-09-11T03:01:52.033466",
+  "newsCount": 1720,
   "dateRange": {
     "start": "2025-09-07",
     "end": "2025-09-11"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-11",
-      "keyword": "芯片",
-      "positive": 1,
+      "keyword": "算力",
+      "positive": 2,
       "negative": 0,
       "neutral": 1
     },
     {
       "date": "2025-09-11",
-      "keyword": "算力",
-      "positive": 1,
+      "keyword": "芯片",
+      "positive": 2,
       "negative": 0,
       "neutral": 1
+    },
+    {
+      "date": "2025-09-11",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-09-11",
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 14
-    },
-    {
-      "date": "2025-09-10",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -96,7 +96,7 @@
     ],
     [
       "中际旭创",
-      12
+      13
     ],
     [
       "比亚迪",
