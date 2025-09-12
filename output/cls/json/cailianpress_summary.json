@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-09-12T03:30:51.789406",
-  "newsCount": 1944,
+  "lastUpdate": "2025-09-12T04:24:57.430587",
+  "newsCount": 1961,
   "dateRange": {
     "start": "2025-09-08",
     "end": "2025-09-12"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-12",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-12",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-09-12",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-09-12",
       "keyword": "军工",
@@ -22,24 +43,10 @@
     },
     {
       "date": "2025-09-12",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2025-09-12",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-09-12",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-12",
@@ -68,19 +75,12 @@
       "positive": 0,
       "negative": 0,
       "neutral": 12
-    },
-    {
-      "date": "2025-09-11",
-      "keyword": "芯片",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 11
     }
   ],
   "topStocks": [
     [
       "阿里巴巴",
-      33
+      34
     ],
     [
       "英伟达",
@@ -91,12 +91,12 @@
       17
     ],
     [
-      "中际旭创",
+      "京东",
       13
     ],
     [
-      "京东",
-      12
+      "中际旭创",
+      13
     ],
     [
       "小米",
@@ -107,16 +107,16 @@
       8
     ],
     [
-      "比亚迪",
+      "腾讯",
       7
     ],
     [
-      "腾讯",
-      6
+      "网易",
+      7
     ],
     [
-      "网易",
-      6
+      "比亚迪",
+      7
     ],
     [
       "药明康德",
