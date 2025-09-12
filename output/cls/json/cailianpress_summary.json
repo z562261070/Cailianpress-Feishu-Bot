@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-12T10:22:37.510373",
-  "newsCount": 2121,
+  "lastUpdate": "2025-09-12T10:41:36.907599",
+  "newsCount": 2136,
   "dateRange": {
     "start": "2025-09-08",
     "end": "2025-09-12"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-12",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-12",
+      "keyword": "无人机",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-12",
       "keyword": "芯片",
       "positive": 5,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2025-09-12",
@@ -40,20 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-09-12",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-09-12",
-      "keyword": "无人机",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-09-12",
@@ -92,7 +92,7 @@
     ],
     [
       "京东",
-      14
+      15
     ],
     [
       "中际旭创",
