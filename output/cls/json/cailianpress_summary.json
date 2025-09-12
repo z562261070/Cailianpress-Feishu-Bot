@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-12T09:22:01.720918",
-  "newsCount": 2085,
+  "lastUpdate": "2025-09-12T09:39:43.902520",
+  "newsCount": 2101,
   "dateRange": {
     "start": "2025-09-08",
     "end": "2025-09-12"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-09-12",
+      "keyword": "芯片",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-09-12",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-09-12",
-      "keyword": "芯片",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-09-12",
@@ -104,7 +104,7 @@
     ],
     [
       "腾讯",
-      8
+      9
     ],
     [
       "宁德时代",
