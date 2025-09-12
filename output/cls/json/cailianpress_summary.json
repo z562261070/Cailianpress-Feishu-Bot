@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-12T07:37:54.725102",
-  "newsCount": 2033,
+  "lastUpdate": "2025-09-12T08:28:21.682878",
+  "newsCount": 2053,
   "dateRange": {
     "start": "2025-09-08",
     "end": "2025-09-12"
@@ -11,7 +11,14 @@
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
+    },
+    {
+      "date": "2025-09-12",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-09-12",
@@ -56,13 +63,6 @@
       "neutral": 1
     },
     {
-      "date": "2025-09-12",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
       "date": "2025-09-11",
       "keyword": "机器人",
       "positive": 1,
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      25
+      26
     ],
     [
       "华为",
@@ -92,7 +92,7 @@
     ],
     [
       "京东",
-      13
+      14
     ],
     [
       "中际旭创",
