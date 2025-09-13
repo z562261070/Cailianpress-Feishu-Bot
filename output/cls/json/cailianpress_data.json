@@ -1,6 +1,12 @@
 {
-  "lastUpdate": "2025-09-13T04:24:37.157296",
+  "lastUpdate": "2025-09-13T04:41:26.493265",
   "newsData": [
+    {
+      "date": "2025-09-13",
+      "time": "12:39",
+      "type": "general",
+      "content": "[【灵明光子宣布完成C3轮融资】财联社9月13日电，3D传感器芯片和解决方案提供商灵明光子宣布，公司正式完成C3轮融资，累计获得浙江省国资平台近亿元投资。本轮融资将重点用于加速核心技术的迭代升级与量产能力提升。]"
+    },
     {
       "date": "2025-09-13",
       "time": "12:21",
@@ -11627,6 +11633,13 @@
   "hotspotData": [
     {
       "date": "2025-09-13",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-13",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
@@ -11642,13 +11655,6 @@
     {
       "date": "2025-09-13",
       "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-13",
-      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 1
