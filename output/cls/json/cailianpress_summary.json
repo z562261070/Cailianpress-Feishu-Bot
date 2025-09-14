@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-09-14T14:37:53.382737",
-  "newsCount": 1934,
+  "lastUpdate": "2025-09-14T15:19:00.497316",
+  "newsCount": 1938,
   "dateRange": {
     "start": "2025-09-10",
     "end": "2025-09-14"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-14",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-09-14",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-14",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-09-14",
       "keyword": "无人机",
@@ -29,13 +50,6 @@
     },
     {
       "date": "2025-09-14",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-09-14",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
@@ -45,20 +59,6 @@
       "date": "2025-09-14",
       "keyword": "新能源",
       "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-14",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-14",
-      "keyword": "半导体",
-      "positive": 0,
       "negative": 0,
       "neutral": 1
     },
