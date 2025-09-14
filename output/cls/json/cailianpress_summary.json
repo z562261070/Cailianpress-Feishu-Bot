@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-14T16:22:54.276143",
-  "newsCount": 1961,
+  "lastUpdate": "2025-09-14T16:40:53.994016",
+  "newsCount": 1980,
   "dateRange": {
     "start": "2025-09-10",
     "end": "2025-09-14"
@@ -11,19 +11,19 @@
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 8
+      "neutral": 10
     },
     {
       "date": "2025-09-14",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-09-14",
       "keyword": "人工智能",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
       "neutral": 3
     },
@@ -32,28 +32,28 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2025-09-14",
       "keyword": "军工",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-09-14",
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-09-14",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-09-14",
@@ -92,11 +92,11 @@
     ],
     [
       "华为",
-      10
+      11
     ],
     [
       "中际旭创",
-      9
+      10
     ],
     [
       "腾讯",
