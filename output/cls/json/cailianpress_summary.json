@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-09-14T11:38:09.571099",
-  "newsCount": 1911,
+  "lastUpdate": "2025-09-14T12:38:52.518257",
+  "newsCount": 1919,
   "dateRange": {
     "start": "2025-09-10",
     "end": "2025-09-14"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-14",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-09-14",
       "keyword": "算力",
@@ -33,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-09-14",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-09-14",
