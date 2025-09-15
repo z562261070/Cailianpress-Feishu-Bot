@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-09-15T11:38:57.305362",
-  "newsCount": 1945,
+  "lastUpdate": "2025-09-15T12:46:52.430281",
+  "newsCount": 1965,
   "dateRange": {
     "start": "2025-09-11",
     "end": "2025-09-15"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-15",
+      "keyword": "芯片",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 10
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
     {
       "date": "2025-09-15",
       "keyword": "新能源",
@@ -26,20 +40,6 @@
       "positive": 5,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-09-15",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-09-15",
-      "keyword": "芯片",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-09-15",
@@ -107,6 +107,10 @@
       5
     ],
     [
+      "小米",
+      4
+    ],
+    [
       "宁德时代",
       4
     ],
@@ -117,10 +121,6 @@
     [
       "网易",
       4
-    ],
-    [
-      "小米",
-      3
     ],
     [
       "理想汽车",
