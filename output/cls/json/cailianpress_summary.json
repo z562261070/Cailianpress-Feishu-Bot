@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-09-15T01:49:58.773320",
-  "newsCount": 1676,
+  "lastUpdate": "2025-09-15T03:09:43.752115",
+  "newsCount": 1696,
   "dateRange": {
     "start": "2025-09-11",
     "end": "2025-09-15"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-15",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-09-15",
       "keyword": "芯片",
@@ -15,24 +43,10 @@
     },
     {
       "date": "2025-09-15",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-15",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-09-15",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-15",
@@ -61,20 +75,6 @@
       "positive": 11,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-09-14",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 14
-    },
-    {
-      "date": "2025-09-14",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 9
     }
   ],
   "topStocks": [
@@ -111,12 +111,16 @@
       3
     ],
     [
-      "药明康德",
+      "宁德时代",
       2
     ],
     [
-      "宁德时代",
-      1
+      "比亚迪",
+      2
+    ],
+    [
+      "药明康德",
+      2
     ],
     [
       "TCL",
@@ -128,10 +132,6 @@
     ],
     [
       "小米",
-      1
-    ],
-    [
-      "比亚迪",
       1
     ]
   ]
