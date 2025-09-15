@@ -1,11 +1,46 @@
 {
-  "lastUpdate": "2025-09-14T23:38:34.433637",
-  "newsCount": 2101,
+  "lastUpdate": "2025-09-15T01:49:58.773320",
+  "newsCount": 1676,
   "dateRange": {
-    "start": "2025-09-10",
-    "end": "2025-09-14"
+    "start": "2025-09-11",
+    "end": "2025-09-15"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-15",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2025-09-14",
       "keyword": "芯片",
@@ -40,86 +75,39 @@
       "positive": 0,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2025-09-14",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-09-14",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-09-14",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-13",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 42
-    },
-    {
-      "date": "2025-09-13",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 17
     }
   ],
   "topStocks": [
     [
-      "英伟达",
-      23
-    ],
-    [
       "阿里巴巴",
-      22
+      17
     ],
     [
       "华为",
       16
     ],
     [
-      "京东",
+      "英伟达",
       14
     ],
     [
-      "中际旭创",
-      10
+      "京东",
+      13
     ],
     [
       "腾讯",
-      9
+      7
     ],
     [
-      "谷歌",
-      4
+      "中际旭创",
+      6
     ],
     [
       "网易",
       4
     ],
     [
-      "宁德时代",
-      4
-    ],
-    [
-      "小米",
-      3
-    ],
-    [
-      "比亚迪",
+      "谷歌",
       3
     ],
     [
@@ -127,11 +115,23 @@
       2
     ],
     [
+      "宁德时代",
+      1
+    ],
+    [
       "TCL",
       1
     ],
     [
       "长城军工",
+      1
+    ],
+    [
+      "小米",
+      1
+    ],
+    [
+      "比亚迪",
       1
     ]
   ]
