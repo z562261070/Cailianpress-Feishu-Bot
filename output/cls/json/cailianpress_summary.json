@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-15T09:42:48.283050",
-  "newsCount": 1883,
+  "lastUpdate": "2025-09-15T10:23:57.828637",
+  "newsCount": 1903,
   "dateRange": {
     "start": "2025-09-11",
     "end": "2025-09-15"
@@ -11,6 +11,13 @@
       "keyword": "新能源",
       "positive": 2,
       "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
       "neutral": 3
     },
     {
@@ -18,7 +25,7 @@
       "keyword": "人工智能",
       "positive": 4,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
     },
     {
       "date": "2025-09-15",
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-09-15",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-09-14",
@@ -92,7 +92,7 @@
     ],
     [
       "京东",
-      13
+      14
     ],
     [
       "腾讯",
