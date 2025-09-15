@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-09-15T13:43:56.482844",
-  "newsCount": 1996,
+  "lastUpdate": "2025-09-15T14:22:22.163468",
+  "newsCount": 2008,
   "dateRange": {
     "start": "2025-09-11",
     "end": "2025-09-15"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-15",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "算力",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "芯片",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 12
+    },
     {
       "date": "2025-09-15",
       "keyword": "半导体",
@@ -22,38 +50,10 @@
     },
     {
       "date": "2025-09-15",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-09-15",
-      "keyword": "芯片",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 11
-    },
-    {
-      "date": "2025-09-15",
       "keyword": "新能源",
       "positive": 2,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-09-15",
-      "keyword": "算力",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-15",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-09-14",
@@ -111,16 +111,16 @@
       6
     ],
     [
+      "小米",
+      5
+    ],
+    [
       "谷歌",
       5
     ],
     [
       "理想汽车",
       5
-    ],
-    [
-      "小米",
-      4
     ],
     [
       "网易",
