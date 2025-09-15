@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-09-15T03:52:29.509086",
-  "newsCount": 1715,
+  "lastUpdate": "2025-09-15T04:27:04.070246",
+  "newsCount": 1731,
   "dateRange": {
     "start": "2025-09-11",
     "end": "2025-09-15"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-15",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-15",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-09-15",
       "keyword": "算力",
@@ -15,35 +43,7 @@
     },
     {
       "date": "2025-09-15",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-09-15",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-15",
       "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-15",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-15",
-      "keyword": "半导体",
       "positive": 1,
       "negative": 0,
       "neutral": 3
@@ -103,6 +103,10 @@
       6
     ],
     [
+      "比亚迪",
+      4
+    ],
+    [
       "网易",
       4
     ],
@@ -115,16 +119,12 @@
       3
     ],
     [
-      "比亚迪",
+      "理想汽车",
       2
     ],
     [
       "药明康德",
       2
-    ],
-    [
-      "理想汽车",
-      1
     ],
     [
       "TCL",
