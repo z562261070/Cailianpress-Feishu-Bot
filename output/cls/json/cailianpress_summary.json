@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-16T09:24:23.383029",
-  "newsCount": 1873,
+  "lastUpdate": "2025-09-16T09:42:13.562542",
+  "newsCount": 1884,
   "dateRange": {
     "start": "2025-09-12",
     "end": "2025-09-16"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-16",
-      "keyword": "机器人",
-      "positive": 7,
+      "keyword": "芯片",
+      "positive": 1,
       "negative": 0,
-      "neutral": 9
+      "neutral": 6
     },
     {
       "date": "2025-09-16",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-16",
+      "keyword": "机器人",
+      "positive": 7,
+      "negative": 0,
+      "neutral": 9
     },
     {
       "date": "2025-09-16",
@@ -33,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-09-16",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-09-16",
@@ -88,7 +88,7 @@
     ],
     [
       "阿里巴巴",
-      11
+      12
     ],
     [
       "京东",
@@ -103,11 +103,11 @@
       8
     ],
     [
-      "中际旭创",
-      6
+      "小米",
+      7
     ],
     [
-      "小米",
+      "中际旭创",
       6
     ],
     [
