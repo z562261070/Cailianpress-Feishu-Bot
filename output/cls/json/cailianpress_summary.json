@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-16T11:38:47.416292",
-  "newsCount": 1947,
+  "lastUpdate": "2025-09-16T12:45:45.651194",
+  "newsCount": 1967,
   "dateRange": {
     "start": "2025-09-12",
     "end": "2025-09-16"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-16",
+      "keyword": "机器人",
+      "positive": 8,
+      "negative": 0,
+      "neutral": 12
+    },
+    {
+      "date": "2025-09-16",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-09-16",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-09-16",
-      "keyword": "机器人",
-      "positive": 7,
-      "negative": 0,
-      "neutral": 12
     },
     {
       "date": "2025-09-16",
@@ -40,13 +47,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-16",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-09-16",
