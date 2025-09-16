@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-16T07:39:21.152749",
-  "newsCount": 1833,
+  "lastUpdate": "2025-09-16T08:30:21.663419",
+  "newsCount": 1853,
   "dateRange": {
     "start": "2025-09-12",
     "end": "2025-09-16"
@@ -11,7 +11,14 @@
       "keyword": "机器人",
       "positive": 7,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
+    },
+    {
+      "date": "2025-09-16",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-09-16",
@@ -40,13 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-09-16",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-16",
@@ -129,6 +129,10 @@
     [
       "TCL",
       2
+    ],
+    [
+      "福元医药",
+      1
     ],
     [
       "长城军工",
