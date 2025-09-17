@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-17T06:33:16.359307",
-  "newsCount": 1797,
+  "lastUpdate": "2025-09-17T07:20:19.003620",
+  "newsCount": 1817,
   "dateRange": {
     "start": "2025-09-13",
     "end": "2025-09-17"
@@ -8,10 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-09-17",
-      "keyword": "芯片",
-      "positive": 1,
+      "keyword": "机器人",
+      "positive": 5,
       "negative": 0,
-      "neutral": 2
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-17",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-17",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-17",
+      "keyword": "新能源",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-09-17",
@@ -19,27 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-09-17",
-      "keyword": "新能源",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2025-09-17",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-09-17",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-09-17",
@@ -84,7 +84,7 @@
     ],
     [
       "宁德时代",
-      12
+      13
     ],
     [
       "阿里巴巴",
@@ -108,7 +108,7 @@
     ],
     [
       "小米",
-      6
+      7
     ],
     [
       "理想汽车",
