@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-09-17T15:23:11.225245",
-  "newsCount": 2046,
+  "lastUpdate": "2025-09-17T15:40:54.033277",
+  "newsCount": 2050,
   "dateRange": {
     "start": "2025-09-13",
     "end": "2025-09-17"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-17",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 12
+    },
     {
       "date": "2025-09-17",
       "keyword": "机器人",
@@ -33,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-09-17",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 11
     },
     {
       "date": "2025-09-17",
@@ -96,7 +96,7 @@
     ],
     [
       "谷歌",
-      11
+      12
     ],
     [
       "腾讯",
