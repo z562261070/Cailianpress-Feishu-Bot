@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-09-17T08:29:04.826585",
-  "newsCount": 1857,
+  "lastUpdate": "2025-09-17T08:48:56.799047",
+  "newsCount": 1874,
   "dateRange": {
     "start": "2025-09-13",
     "end": "2025-09-17"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-17",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-09-17",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-09-17",
       "keyword": "算力",
@@ -19,20 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-09-17",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-09-17",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-09-17",
@@ -84,11 +84,11 @@
     ],
     [
       "英伟达",
-      13
+      14
     ],
     [
       "阿里巴巴",
-      13
+      14
     ],
     [
       "宁德时代",
