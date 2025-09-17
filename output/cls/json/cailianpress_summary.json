@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-17T07:38:48.754334",
-  "newsCount": 1837,
+  "lastUpdate": "2025-09-17T08:29:04.826585",
+  "newsCount": 1857,
   "dateRange": {
     "start": "2025-09-13",
     "end": "2025-09-17"
@@ -11,7 +11,35 @@
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-17",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-09-17",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-17",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-17",
+      "keyword": "机器人",
+      "positive": 6,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2025-09-17",
@@ -19,34 +47,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-09-17",
-      "keyword": "机器人",
-      "positive": 6,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-09-17",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-17",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-17",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-09-16",
@@ -83,19 +83,23 @@
       19
     ],
     [
-      "宁德时代",
+      "英伟达",
       13
     ],
     [
       "阿里巴巴",
-      12
+      13
     ],
     [
-      "英伟达",
-      12
+      "宁德时代",
+      13
     ],
     [
       "谷歌",
+      10
+    ],
+    [
+      "腾讯",
       9
     ],
     [
@@ -103,20 +107,16 @@
       8
     ],
     [
-      "腾讯",
-      8
-    ],
-    [
       "小米",
       7
     ],
     [
-      "理想汽车",
+      "京东",
       6
     ],
     [
-      "京东",
-      5
+      "理想汽车",
+      6
     ],
     [
       "中际旭创",
