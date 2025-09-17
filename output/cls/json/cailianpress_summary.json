@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-09-17T05:21:17.276640",
-  "newsCount": 1766,
+  "lastUpdate": "2025-09-17T05:41:21.515120",
+  "newsCount": 1777,
   "dateRange": {
     "start": "2025-09-13",
     "end": "2025-09-17"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-17",
+      "keyword": "新能源",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2025-09-17",
       "keyword": "人工智能",
@@ -33,13 +40,6 @@
       "positive": 4,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-09-17",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-09-17",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "华为",
-      17
+      18
     ],
     [
       "阿里巴巴",
@@ -92,7 +92,7 @@
     ],
     [
       "宁德时代",
-      10
+      11
     ],
     [
       "谷歌",
