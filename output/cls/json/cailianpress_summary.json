@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-09-18T06:32:55.278106",
-  "newsCount": 1910,
+  "lastUpdate": "2025-09-18T07:20:10.490116",
+  "newsCount": 1930,
   "dateRange": {
     "start": "2025-09-14",
     "end": "2025-09-18"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-18",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-18",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-18",
+      "keyword": "芯片",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 9
+    },
     {
       "date": "2025-09-18",
       "keyword": "半导体",
@@ -22,13 +43,6 @@
     },
     {
       "date": "2025-09-18",
-      "keyword": "芯片",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-09-18",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
@@ -36,24 +50,10 @@
     },
     {
       "date": "2025-09-18",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-18",
       "keyword": "算力",
       "positive": 5,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-09-18",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-18",
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      19
+      20
     ],
     [
       "谷歌",
@@ -104,7 +104,7 @@
     ],
     [
       "比亚迪",
-      8
+      9
     ],
     [
       "理想汽车",
