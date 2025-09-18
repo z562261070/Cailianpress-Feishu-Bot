@@ -1,11 +1,46 @@
 {
-  "lastUpdate": "2025-09-18T13:45:39.080746",
-  "newsCount": 2132,
+  "lastUpdate": "2025-09-18T14:21:51.412354",
+  "newsCount": 2150,
   "dateRange": {
     "start": "2025-09-14",
     "end": "2025-09-18"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-18",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 17
+    },
+    {
+      "date": "2025-09-18",
+      "keyword": "机器人",
+      "positive": 5,
+      "negative": 1,
+      "neutral": 18
+    },
+    {
+      "date": "2025-09-18",
+      "keyword": "算力",
+      "positive": 5,
+      "negative": 1,
+      "neutral": 11
+    },
+    {
+      "date": "2025-09-18",
+      "keyword": "芯片",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 14
+    },
+    {
+      "date": "2025-09-18",
+      "keyword": "新能源",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 13
+    },
     {
       "date": "2025-09-18",
       "keyword": "半导体",
@@ -15,45 +50,10 @@
     },
     {
       "date": "2025-09-18",
-      "keyword": "芯片",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 13
-    },
-    {
-      "date": "2025-09-18",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 1,
-      "neutral": 17
-    },
-    {
-      "date": "2025-09-18",
-      "keyword": "新能源",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 12
-    },
-    {
-      "date": "2025-09-18",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 16
-    },
-    {
-      "date": "2025-09-18",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-09-18",
-      "keyword": "算力",
-      "positive": 5,
-      "negative": 1,
-      "neutral": 10
     },
     {
       "date": "2025-09-18",
@@ -84,7 +84,7 @@
     ],
     [
       "华为",
-      27
+      28
     ],
     [
       "谷歌",
