@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-18T03:34:35.812489",
-  "newsCount": 1850,
+  "lastUpdate": "2025-09-18T04:26:09.689773",
+  "newsCount": 1864,
   "dateRange": {
     "start": "2025-09-14",
     "end": "2025-09-18"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-18",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-09-18",
       "keyword": "机器人",
       "positive": 2,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-09-18",
       "keyword": "算力",
       "positive": 4,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-09-18",
@@ -33,13 +40,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-09-18",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-09-18",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "华为",
-      24
+      25
     ],
     [
       "英伟达",
