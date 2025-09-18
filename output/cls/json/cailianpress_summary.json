@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-18T05:40:28.914800",
-  "newsCount": 1890,
+  "lastUpdate": "2025-09-18T06:32:55.278106",
+  "newsCount": 1910,
   "dateRange": {
     "start": "2025-09-14",
     "end": "2025-09-18"
@@ -8,38 +8,45 @@
   "topKeywords": [
     {
       "date": "2025-09-18",
-      "keyword": "算力",
-      "positive": 5,
+      "keyword": "半导体",
+      "positive": 3,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
+    },
+    {
+      "date": "2025-09-18",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-09-18",
       "keyword": "芯片",
       "positive": 4,
       "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-09-18",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2025-09-18",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 8
+      "neutral": 10
     },
     {
       "date": "2025-09-18",
       "keyword": "机器人",
       "positive": 2,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-18",
+      "keyword": "算力",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-09-18",
@@ -68,13 +75,6 @@
       "positive": 6,
       "negative": 0,
       "neutral": 13
-    },
-    {
-      "date": "2025-09-17",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 14
     }
   ],
   "topStocks": [
@@ -84,11 +84,11 @@
     ],
     [
       "英伟达",
-      18
+      19
     ],
     [
       "谷歌",
-      17
+      18
     ],
     [
       "宁德时代",
