@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-18T11:17:25.687809",
-  "newsCount": 2068,
+  "lastUpdate": "2025-09-18T11:38:45.319945",
+  "newsCount": 2081,
   "dateRange": {
     "start": "2025-09-14",
     "end": "2025-09-18"
@@ -8,10 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-09-18",
+      "keyword": "新能源",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-09-18",
       "keyword": "半导体",
       "positive": 3,
       "negative": 1,
-      "neutral": 12
+      "neutral": 14
     },
     {
       "date": "2025-09-18",
@@ -19,13 +26,6 @@
       "positive": 4,
       "negative": 1,
       "neutral": 14
-    },
-    {
-      "date": "2025-09-18",
-      "keyword": "新能源",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-09-18",
@@ -79,12 +79,12 @@
   ],
   "topStocks": [
     [
-      "华为",
+      "英伟达",
       27
     ],
     [
-      "英伟达",
-      26
+      "华为",
+      27
     ],
     [
       "谷歌",
