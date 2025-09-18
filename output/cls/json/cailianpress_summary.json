@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-18T08:28:27.430103",
-  "newsCount": 1968,
+  "lastUpdate": "2025-09-18T08:48:15.346562",
+  "newsCount": 1987,
   "dateRange": {
     "start": "2025-09-14",
     "end": "2025-09-18"
@@ -8,17 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-09-18",
-      "keyword": "半导体",
-      "positive": 3,
+      "keyword": "无人机",
+      "positive": 0,
       "negative": 0,
-      "neutral": 9
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-18",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 13
     },
     {
       "date": "2025-09-18",
       "keyword": "算力",
       "positive": 5,
       "negative": 1,
-      "neutral": 7
+      "neutral": 8
+    },
+    {
+      "date": "2025-09-18",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-09-18",
+      "keyword": "半导体",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 10
     },
     {
       "date": "2025-09-18",
@@ -26,20 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-09-18",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-09-18",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 12
     },
     {
       "date": "2025-09-18",
@@ -51,13 +58,6 @@
     {
       "date": "2025-09-18",
       "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-18",
-      "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 1
