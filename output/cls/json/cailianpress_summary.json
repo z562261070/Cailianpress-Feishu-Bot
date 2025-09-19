@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-19T08:28:41.670453",
-  "newsCount": 2179,
+  "lastUpdate": "2025-09-19T08:47:57.964908",
+  "newsCount": 2192,
   "dateRange": {
     "start": "2025-09-15",
     "end": "2025-09-19"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-09-19",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-09-19",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-09-19",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-09-19",
@@ -128,7 +128,7 @@
     ],
     [
       "药明康德",
-      1
+      2
     ],
     [
       "福元医药",
