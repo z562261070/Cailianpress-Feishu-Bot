@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-19T09:41:04.965856",
-  "newsCount": 2223,
+  "lastUpdate": "2025-09-19T10:24:03.891504",
+  "newsCount": 2243,
   "dateRange": {
     "start": "2025-09-15",
     "end": "2025-09-19"
@@ -8,31 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-09-19",
-      "keyword": "机器人",
-      "positive": 3,
+      "keyword": "算力",
+      "positive": 2,
       "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-09-19",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
+      "neutral": 1
     },
     {
       "date": "2025-09-19",
       "keyword": "芯片",
-      "positive": 4,
+      "positive": 5,
       "negative": 0,
       "neutral": 7
     },
     {
       "date": "2025-09-19",
       "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-19",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-09-19",
+      "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-09-19",
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-09-19",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-18",
@@ -80,23 +80,23 @@
   "topStocks": [
     [
       "英伟达",
-      38
+      39
     ],
     [
       "华为",
-      26
+      27
     ],
     [
       "阿里巴巴",
-      20
+      21
+    ],
+    [
+      "宁德时代",
+      18
     ],
     [
       "谷歌",
       18
-    ],
-    [
-      "宁德时代",
-      17
     ],
     [
       "腾讯",
