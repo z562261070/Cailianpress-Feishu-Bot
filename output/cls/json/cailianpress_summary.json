@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-09-19T01:44:31.056784",
-  "newsCount": 2022,
+  "lastUpdate": "2025-09-19T03:02:28.625779",
+  "newsCount": 2042,
   "dateRange": {
     "start": "2025-09-15",
     "end": "2025-09-19"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-19",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-09-19",
       "keyword": "算力",
@@ -68,13 +75,6 @@
       "positive": 5,
       "negative": 1,
       "neutral": 11
-    },
-    {
-      "date": "2025-09-18",
-      "keyword": "芯片",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 14
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "华为",
-      24
+      25
     ],
     [
       "阿里巴巴",
