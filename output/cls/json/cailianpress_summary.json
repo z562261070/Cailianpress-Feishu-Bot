@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-19T06:32:47.303929",
-  "newsCount": 2125,
+  "lastUpdate": "2025-09-19T07:20:38.173988",
+  "newsCount": 2145,
   "dateRange": {
     "start": "2025-09-15",
     "end": "2025-09-19"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-19",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-09-19",
+      "keyword": "芯片",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-19",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-09-19",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-09-19",
@@ -33,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-09-19",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-09-19",
@@ -115,6 +115,10 @@
       9
     ],
     [
+      "中际旭创",
+      4
+    ],
+    [
       "京东",
       4
     ],
@@ -123,8 +127,8 @@
       3
     ],
     [
-      "中际旭创",
-      3
+      "药明康德",
+      1
     ],
     [
       "福元医药",
