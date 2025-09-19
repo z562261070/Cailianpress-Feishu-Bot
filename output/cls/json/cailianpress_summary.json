@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-09-19T03:02:28.625779",
-  "newsCount": 2042,
+  "lastUpdate": "2025-09-19T03:48:13.153598",
+  "newsCount": 2058,
   "dateRange": {
     "start": "2025-09-15",
     "end": "2025-09-19"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-19",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-19",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-19",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-19",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-09-19",
       "keyword": "新能源",
@@ -19,34 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-09-19",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-19",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-19",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-19",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-18",
@@ -80,11 +80,11 @@
   "topStocks": [
     [
       "英伟达",
-      37
+      38
     ],
     [
       "华为",
-      25
+      26
     ],
     [
       "阿里巴巴",
@@ -104,7 +104,7 @@
     ],
     [
       "小米",
-      9
+      10
     ],
     [
       "理想汽车",
