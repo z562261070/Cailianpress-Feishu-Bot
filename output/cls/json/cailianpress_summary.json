@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-22T12:47:30.327578",
-  "newsCount": 1955,
+  "lastUpdate": "2025-09-22T13:31:20.605339",
+  "newsCount": 1971,
   "dateRange": {
     "start": "2025-09-18",
     "end": "2025-09-22"
@@ -8,24 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-22",
-      "keyword": "芯片",
-      "positive": 4,
+      "keyword": "人工智能",
+      "positive": 2,
       "negative": 0,
-      "neutral": 8
+      "neutral": 7
     },
     {
       "date": "2025-09-22",
       "keyword": "算力",
       "positive": 3,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2025-09-22",
-      "keyword": "人工智能",
-      "positive": 2,
+      "keyword": "芯片",
+      "positive": 4,
       "negative": 0,
-      "neutral": 6
+      "neutral": 8
     },
     {
       "date": "2025-09-22",
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      27
+      28
     ],
     [
       "小米",
