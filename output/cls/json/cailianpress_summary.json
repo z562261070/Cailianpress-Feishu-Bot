@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-22T07:40:23.533422",
-  "newsCount": 1808,
+  "lastUpdate": "2025-09-22T08:31:16.708037",
+  "newsCount": 1828,
   "dateRange": {
     "start": "2025-09-18",
     "end": "2025-09-22"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-09-22",
+      "keyword": "机器人",
+      "positive": 6,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-22",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-09-22",
-      "keyword": "机器人",
-      "positive": 6,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-09-22",
@@ -104,7 +104,7 @@
     ],
     [
       "京东",
-      5
+      6
     ],
     [
       "理想汽车",
