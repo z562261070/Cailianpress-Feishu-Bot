@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-22T03:09:48.537314",
-  "newsCount": 1702,
+  "lastUpdate": "2025-09-22T03:51:55.198533",
+  "newsCount": 1714,
   "dateRange": {
     "start": "2025-09-18",
     "end": "2025-09-22"
@@ -8,24 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-22",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-09-22",
       "keyword": "机器人",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2025-09-22",
       "keyword": "芯片",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
       "neutral": 3
+    },
+    {
+      "date": "2025-09-22",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-09-22",
@@ -111,12 +111,12 @@
       5
     ],
     [
-      "宁德时代",
+      "京东",
       4
     ],
     [
-      "京东",
-      3
+      "宁德时代",
+      4
     ],
     [
       "中际旭创",
