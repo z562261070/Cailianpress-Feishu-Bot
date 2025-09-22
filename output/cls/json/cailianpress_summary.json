@@ -1,11 +1,53 @@
 {
-  "lastUpdate": "2025-09-21T23:38:37.967272",
-  "newsCount": 2121,
+  "lastUpdate": "2025-09-22T01:51:41.589374",
+  "newsCount": 1682,
   "dateRange": {
-    "start": "2025-09-17",
-    "end": "2025-09-21"
+    "start": "2025-09-18",
+    "end": "2025-09-22"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-22",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-22",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-22",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-22",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-09-22",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-22",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-09-21",
       "keyword": "机器人",
@@ -33,97 +75,55 @@
       "positive": 0,
       "negative": 0,
       "neutral": 10
-    },
-    {
-      "date": "2025-09-21",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-21",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-21",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-09-21",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-09-20",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 36
-    },
-    {
-      "date": "2025-09-20",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
     [
       "华为",
-      37
+      33
     ],
     [
       "英伟达",
-      30
-    ],
-    [
-      "阿里巴巴",
-      16
+      25
     ],
     [
       "小米",
-      14
-    ],
-    [
-      "比亚迪",
       13
     ],
     [
-      "谷歌",
+      "比亚迪",
       12
     ],
     [
-      "宁德时代",
-      12
+      "阿里巴巴",
+      10
     ],
     [
       "腾讯",
-      11
-    ],
-    [
-      "京东",
-      5
+      7
     ],
     [
       "理想汽车",
       5
     ],
     [
-      "药明康德",
-      2
+      "谷歌",
+      5
+    ],
+    [
+      "宁德时代",
+      4
+    ],
+    [
+      "京东",
+      3
     ],
     [
       "中际旭创",
+      2
+    ],
+    [
+      "药明康德",
       2
     ],
     [
