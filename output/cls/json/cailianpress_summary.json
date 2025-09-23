@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-23T03:35:17.212692",
-  "newsCount": 1655,
+  "lastUpdate": "2025-09-23T04:26:33.194882",
+  "newsCount": 1675,
   "dateRange": {
     "start": "2025-09-19",
     "end": "2025-09-23"
@@ -8,10 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-09-23",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-23",
+      "keyword": "半导体",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-23",
       "keyword": "机器人",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 6
+    },
+    {
+      "date": "2025-09-23",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-09-23",
@@ -22,31 +43,10 @@
     },
     {
       "date": "2025-09-23",
-      "keyword": "半导体",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-23",
       "keyword": "算力",
       "positive": 2,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-09-23",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-23",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-23",
@@ -80,15 +80,15 @@
   "topStocks": [
     [
       "华为",
-      27
+      28
+    ],
+    [
+      "小米",
+      14
     ],
     [
       "英伟达",
       14
-    ],
-    [
-      "小米",
-      13
     ],
     [
       "比亚迪",
@@ -99,15 +99,15 @@
       8
     ],
     [
+      "京东",
+      7
+    ],
+    [
       "谷歌",
       7
     ],
     [
       "腾讯",
-      6
-    ],
-    [
-      "京东",
       6
     ],
     [
