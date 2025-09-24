@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-24T04:43:18.279754",
-  "newsCount": 1665,
+  "lastUpdate": "2025-09-24T05:21:00.718408",
+  "newsCount": 1676,
   "dateRange": {
     "start": "2025-09-20",
     "end": "2025-09-24"
@@ -8,10 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-09-24",
+      "keyword": "机器人",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-24",
       "keyword": "芯片",
       "positive": 4,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2025-09-24",
@@ -19,13 +26,6 @@
       "positive": 5,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-09-24",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-24",
@@ -88,7 +88,7 @@
     ],
     [
       "阿里巴巴",
-      13
+      14
     ],
     [
       "比亚迪",
