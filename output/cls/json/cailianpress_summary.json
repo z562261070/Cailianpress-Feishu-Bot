@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-24T11:38:54.307112",
-  "newsCount": 1879,
+  "lastUpdate": "2025-09-24T12:46:03.531339",
+  "newsCount": 1899,
   "dateRange": {
     "start": "2025-09-20",
     "end": "2025-09-24"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-24",
-      "keyword": "人工智能",
-      "positive": 1,
+      "keyword": "机器人",
+      "positive": 7,
       "negative": 0,
-      "neutral": 20
+      "neutral": 6
     },
     {
       "date": "2025-09-24",
       "keyword": "半导体",
-      "positive": 8,
+      "positive": 9,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
+    },
+    {
+      "date": "2025-09-24",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 20
     },
     {
       "date": "2025-09-24",
@@ -38,13 +45,6 @@
       "date": "2025-09-24",
       "keyword": "无人机",
       "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-09-24",
-      "keyword": "机器人",
-      "positive": 7,
       "negative": 0,
       "neutral": 5
     },
@@ -111,11 +111,11 @@
       7
     ],
     [
-      "上纬新材",
-      2
+      "宁德时代",
+      3
     ],
     [
-      "宁德时代",
+      "上纬新材",
       2
     ],
     [
