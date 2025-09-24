@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-09-24T08:50:54.405306",
-  "newsCount": 1781,
+  "lastUpdate": "2025-09-24T09:24:02.049209",
+  "newsCount": 1801,
   "dateRange": {
     "start": "2025-09-20",
     "end": "2025-09-24"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-24",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 14
+    },
+    {
+      "date": "2025-09-24",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
     {
       "date": "2025-09-24",
       "keyword": "芯片",
@@ -22,13 +36,6 @@
     },
     {
       "date": "2025-09-24",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 13
-    },
-    {
-      "date": "2025-09-24",
       "keyword": "半导体",
       "positive": 6,
       "negative": 0,
@@ -40,13 +47,6 @@
       "positive": 7,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-09-24",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-09-24",
@@ -103,12 +103,12 @@
       9
     ],
     [
-      "京东",
+      "腾讯",
       7
     ],
     [
-      "腾讯",
-      6
+      "京东",
+      7
     ],
     [
       "宁德时代",
