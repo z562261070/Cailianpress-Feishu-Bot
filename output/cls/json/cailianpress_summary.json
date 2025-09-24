@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-24T14:20:05.147153",
-  "newsCount": 1937,
+  "lastUpdate": "2025-09-24T14:41:56.649188",
+  "newsCount": 1948,
   "dateRange": {
     "start": "2025-09-20",
     "end": "2025-09-24"
@@ -11,14 +11,21 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
+    },
+    {
+      "date": "2025-09-24",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-09-24",
       "keyword": "芯片",
       "positive": 8,
       "negative": 0,
-      "neutral": 20
+      "neutral": 21
     },
     {
       "date": "2025-09-24",
@@ -68,13 +75,6 @@
       "positive": 5,
       "negative": 0,
       "neutral": 24
-    },
-    {
-      "date": "2025-09-23",
-      "keyword": "半导体",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
@@ -88,7 +88,7 @@
     ],
     [
       "阿里巴巴",
-      19
+      20
     ],
     [
       "比亚迪",
