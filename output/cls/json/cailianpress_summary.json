@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-24T09:24:02.049209",
-  "newsCount": 1801,
+  "lastUpdate": "2025-09-24T09:42:17.268449",
+  "newsCount": 1818,
   "dateRange": {
     "start": "2025-09-20",
     "end": "2025-09-24"
@@ -11,7 +11,35 @@
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
+      "neutral": 17
+    },
+    {
+      "date": "2025-09-24",
+      "keyword": "芯片",
+      "positive": 8,
+      "negative": 0,
       "neutral": 14
+    },
+    {
+      "date": "2025-09-24",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-24",
+      "keyword": "机器人",
+      "positive": 7,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-24",
+      "keyword": "半导体",
+      "positive": 7,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-09-24",
@@ -22,35 +50,7 @@
     },
     {
       "date": "2025-09-24",
-      "keyword": "芯片",
-      "positive": 6,
-      "negative": 0,
-      "neutral": 14
-    },
-    {
-      "date": "2025-09-24",
       "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-24",
-      "keyword": "半导体",
-      "positive": 6,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-09-24",
-      "keyword": "机器人",
-      "positive": 7,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-09-24",
-      "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 3
@@ -96,7 +96,7 @@
     ],
     [
       "谷歌",
-      9
+      10
     ],
     [
       "小米",
