@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-09-24T14:41:56.649188",
-  "newsCount": 1948,
+  "lastUpdate": "2025-09-24T15:22:55.305849",
+  "newsCount": 1962,
   "dateRange": {
     "start": "2025-09-20",
     "end": "2025-09-24"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-24",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-24",
+      "keyword": "芯片",
+      "positive": 8,
+      "negative": 0,
+      "neutral": 22
+    },
+    {
+      "date": "2025-09-24",
+      "keyword": "半导体",
+      "positive": 9,
+      "negative": 0,
+      "neutral": 10
+    },
     {
       "date": "2025-09-24",
       "keyword": "无人机",
@@ -19,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-24",
-      "keyword": "芯片",
-      "positive": 8,
-      "negative": 0,
-      "neutral": 21
     },
     {
       "date": "2025-09-24",
@@ -47,20 +61,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 11
-    },
-    {
-      "date": "2025-09-24",
-      "keyword": "半导体",
-      "positive": 9,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-09-24",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-09-23",
@@ -88,7 +88,7 @@
     ],
     [
       "阿里巴巴",
-      20
+      21
     ],
     [
       "比亚迪",
@@ -103,11 +103,11 @@
       9
     ],
     [
-      "腾讯",
-      7
+      "京东",
+      8
     ],
     [
-      "京东",
+      "腾讯",
       7
     ],
     [
