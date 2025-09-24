@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-24T10:43:24.185918",
-  "newsCount": 1851,
+  "lastUpdate": "2025-09-24T11:17:56.046278",
+  "newsCount": 1869,
   "dateRange": {
     "start": "2025-09-20",
     "end": "2025-09-24"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-24",
+      "keyword": "芯片",
+      "positive": 8,
+      "negative": 0,
+      "neutral": 17
+    },
+    {
+      "date": "2025-09-24",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 19
+    },
+    {
+      "date": "2025-09-24",
       "keyword": "算力",
       "positive": 3,
       "negative": 0,
-      "neutral": 9
+      "neutral": 10
     },
     {
       "date": "2025-09-24",
@@ -22,24 +36,10 @@
     },
     {
       "date": "2025-09-24",
-      "keyword": "芯片",
-      "positive": 8,
-      "negative": 0,
-      "neutral": 15
-    },
-    {
-      "date": "2025-09-24",
       "keyword": "半导体",
       "positive": 8,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-09-24",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 18
     },
     {
       "date": "2025-09-24",
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      19
+      20
     ],
     [
       "阿里巴巴",
