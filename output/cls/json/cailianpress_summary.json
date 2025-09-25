@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-25T03:49:05.513479",
-  "newsCount": 1731,
+  "lastUpdate": "2025-09-25T04:26:38.745702",
+  "newsCount": 1743,
   "dateRange": {
     "start": "2025-09-21",
     "end": "2025-09-25"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-25",
-      "keyword": "机器人",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-25",
+      "keyword": "半导体",
       "positive": 2,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2025-09-25",
-      "keyword": "半导体",
-      "positive": 1,
+      "keyword": "机器人",
+      "positive": 3,
       "negative": 0,
-      "neutral": 2
+      "neutral": 4
     },
     {
       "date": "2025-09-25",
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-09-25",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-25",
@@ -91,6 +91,10 @@
       23
     ],
     [
+      "京东",
+      13
+    ],
+    [
       "谷歌",
       12
     ],
@@ -99,12 +103,8 @@
       12
     ],
     [
-      "京东",
-      11
-    ],
-    [
       "小米",
-      9
+      10
     ],
     [
       "宁德时代",
@@ -116,10 +116,14 @@
     ],
     [
       "上纬新材",
-      2
+      3
     ],
     [
       "TCL",
+      2
+    ],
+    [
+      "理想汽车",
       1
     ],
     [
