@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-25T07:40:13.543784",
-  "newsCount": 1827,
+  "lastUpdate": "2025-09-25T08:29:59.492833",
+  "newsCount": 1847,
   "dateRange": {
     "start": "2025-09-21",
     "end": "2025-09-25"
@@ -8,24 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-09-25",
-      "keyword": "机器人",
-      "positive": 4,
+      "keyword": "芯片",
+      "positive": 3,
       "negative": 0,
-      "neutral": 6
+      "neutral": 4
     },
     {
       "date": "2025-09-25",
-      "keyword": "人工智能",
+      "keyword": "机器人",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-09-25",
+      "keyword": "新能源",
       "positive": 1,
       "negative": 0,
       "neutral": 5
     },
     {
       "date": "2025-09-25",
-      "keyword": "芯片",
-      "positive": 3,
+      "keyword": "人工智能",
+      "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 6
     },
     {
       "date": "2025-09-25",
@@ -40,13 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-25",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-09-25",
@@ -91,11 +91,11 @@
       23
     ],
     [
-      "小米",
-      13
+      "京东",
+      14
     ],
     [
-      "京东",
+      "小米",
       13
     ],
     [
@@ -123,12 +123,12 @@
       3
     ],
     [
-      "中际旭创",
+      "理想汽车",
       2
     ],
     [
-      "理想汽车",
-      1
+      "中际旭创",
+      2
     ],
     [
       "网易",
