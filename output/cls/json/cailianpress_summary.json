@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-25T05:41:20.231187",
-  "newsCount": 1767,
+  "lastUpdate": "2025-09-25T06:33:43.680182",
+  "newsCount": 1787,
   "dateRange": {
     "start": "2025-09-21",
     "end": "2025-09-25"
@@ -8,21 +8,28 @@
   "topKeywords": [
     {
       "date": "2025-09-25",
-      "keyword": "芯片",
-      "positive": 1,
+      "keyword": "半导体",
+      "positive": 2,
       "negative": 0,
-      "neutral": 3
+      "neutral": 5
     },
     {
       "date": "2025-09-25",
-      "keyword": "半导体",
-      "positive": 2,
+      "keyword": "人工智能",
+      "positive": 1,
       "negative": 0,
       "neutral": 4
     },
     {
       "date": "2025-09-25",
-      "keyword": "人工智能",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-25",
+      "keyword": "芯片",
       "positive": 1,
       "negative": 0,
       "neutral": 3
@@ -40,13 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-09-25",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-09-25",
@@ -104,7 +104,7 @@
     ],
     [
       "小米",
-      10
+      11
     ],
     [
       "宁德时代",
@@ -119,6 +119,10 @@
       3
     ],
     [
+      "中际旭创",
+      2
+    ],
+    [
       "TCL",
       2
     ],
@@ -128,10 +132,6 @@
     ],
     [
       "网易",
-      1
-    ],
-    [
-      "中际旭创",
       1
     ]
   ]
