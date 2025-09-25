@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-09-25T04:26:38.745702",
-  "newsCount": 1743,
+  "lastUpdate": "2025-09-25T04:44:15.436833",
+  "newsCount": 1748,
   "dateRange": {
     "start": "2025-09-21",
     "end": "2025-09-25"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-25",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-09-25",
       "keyword": "芯片",
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-09-25",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-09-25",
