@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-25T07:22:17.117236",
-  "newsCount": 1807,
+  "lastUpdate": "2025-09-25T07:40:13.543784",
+  "newsCount": 1827,
   "dateRange": {
     "start": "2025-09-21",
     "end": "2025-09-25"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-09-25",
-      "keyword": "半导体",
-      "positive": 2,
+      "keyword": "机器人",
+      "positive": 4,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-09-25",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-25",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-25",
+      "keyword": "半导体",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2025-09-25",
@@ -26,20 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-25",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-25",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-09-25",
@@ -91,12 +91,12 @@
       23
     ],
     [
-      "京东",
+      "小米",
       13
     ],
     [
-      "小米",
-      12
+      "京东",
+      13
     ],
     [
       "谷歌",
@@ -116,14 +116,14 @@
     ],
     [
       "上纬新材",
+      4
+    ],
+    [
+      "TCL",
       3
     ],
     [
       "中际旭创",
-      2
-    ],
-    [
-      "TCL",
       2
     ],
     [
