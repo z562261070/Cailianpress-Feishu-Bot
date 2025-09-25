@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-25T13:31:54.000074",
-  "newsCount": 2014,
+  "lastUpdate": "2025-09-25T14:23:11.012834",
+  "newsCount": 2034,
   "dateRange": {
     "start": "2025-09-21",
     "end": "2025-09-25"
@@ -8,10 +8,45 @@
   "topKeywords": [
     {
       "date": "2025-09-25",
+      "keyword": "无人机",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-25",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 10
+    },
+    {
+      "date": "2025-09-25",
+      "keyword": "机器人",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 12
+    },
+    {
+      "date": "2025-09-25",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-25",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2025-09-25",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 13
+      "neutral": 14
     },
     {
       "date": "2025-09-25",
@@ -19,41 +54,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2025-09-25",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-09-25",
-      "keyword": "无人机",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-09-25",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-09-25",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-09-25",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-24",
@@ -112,19 +112,19 @@
     ],
     [
       "宁德时代",
-      6
+      7
     ],
     [
       "上纬新材",
       5
     ],
     [
-      "TCL",
+      "理想汽车",
       3
     ],
     [
-      "理想汽车",
-      2
+      "TCL",
+      3
     ],
     [
       "中际旭创",
