@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-26T09:41:05.959948",
-  "newsCount": 2126,
+  "lastUpdate": "2025-09-26T10:23:32.166601",
+  "newsCount": 2146,
   "dateRange": {
     "start": "2025-09-22",
     "end": "2025-09-26"
@@ -8,10 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-09-26",
+      "keyword": "军工",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-26",
       "keyword": "新能源",
       "positive": 2,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-09-26",
@@ -47,13 +54,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-09-26",
-      "keyword": "军工",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-26",
@@ -111,11 +111,11 @@
       7
     ],
     [
-      "TCL",
-      5
+      "上纬新材",
+      6
     ],
     [
-      "上纬新材",
+      "TCL",
       5
     ],
     [
