@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-26T13:29:52.385607",
-  "newsCount": 2230,
+  "lastUpdate": "2025-09-26T13:45:57.367112",
+  "newsCount": 2241,
   "dateRange": {
     "start": "2025-09-22",
     "end": "2025-09-26"
@@ -11,7 +11,21 @@
       "keyword": "机器人",
       "positive": 4,
       "negative": 0,
-      "neutral": 14
+      "neutral": 15
+    },
+    {
+      "date": "2025-09-26",
+      "keyword": "半导体",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-26",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-09-26",
@@ -19,13 +33,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-09-26",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-09-26",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2025-09-26",
-      "keyword": "半导体",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-09-26",
@@ -115,12 +115,12 @@
       6
     ],
     [
-      "TCL",
+      "理想汽车",
       5
     ],
     [
-      "理想汽车",
-      4
+      "TCL",
+      5
     ],
     [
       "比亚迪",
