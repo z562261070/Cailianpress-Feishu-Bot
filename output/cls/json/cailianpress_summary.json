@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-26T01:43:32.677720",
-  "newsCount": 1952,
+  "lastUpdate": "2025-09-26T03:02:02.012436",
+  "newsCount": 1972,
   "dateRange": {
     "start": "2025-09-22",
     "end": "2025-09-26"
@@ -9,7 +9,7 @@
     {
       "date": "2025-09-26",
       "keyword": "芯片",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 0
     },
@@ -18,14 +18,28 @@
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-26",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
       "neutral": 2
+    },
+    {
+      "date": "2025-09-26",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
     },
     {
       "date": "2025-09-26",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 0
+      "neutral": 1
     },
     {
       "date": "2025-09-26",
@@ -33,13 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-09-26",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-26",
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 10
-    },
-    {
-      "date": "2025-09-25",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 12
     }
   ],
   "topStocks": [
@@ -87,6 +87,10 @@
       24
     ],
     [
+      "小米",
+      16
+    ],
+    [
       "谷歌",
       16
     ],
@@ -95,16 +99,12 @@
       15
     ],
     [
-      "小米",
-      14
-    ],
-    [
       "京东",
       13
     ],
     [
       "宁德时代",
-      7
+      8
     ],
     [
       "腾讯",
@@ -119,6 +119,10 @@
       4
     ],
     [
+      "比亚迪",
+      3
+    ],
+    [
       "理想汽车",
       3
     ],
@@ -128,10 +132,6 @@
     ],
     [
       "药明康德",
-      1
-    ],
-    [
-      "比亚迪",
       1
     ],
     [
