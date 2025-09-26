@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-26T04:26:35.204461",
-  "newsCount": 2000,
+  "lastUpdate": "2025-09-26T04:43:58.477442",
+  "newsCount": 2006,
   "dateRange": {
     "start": "2025-09-22",
     "end": "2025-09-26"
@@ -9,16 +9,23 @@
     {
       "date": "2025-09-26",
       "keyword": "机器人",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
-      "neutral": 6
+      "neutral": 8
     },
     {
       "date": "2025-09-26",
       "keyword": "算力",
       "positive": 2,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-26",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-09-26",
@@ -47,13 +54,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-09-26",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-09-26",
@@ -88,7 +88,7 @@
     ],
     [
       "小米",
-      17
+      18
     ],
     [
       "谷歌",
@@ -111,12 +111,12 @@
       7
     ],
     [
-      "上纬新材",
+      "TCL",
       5
     ],
     [
-      "TCL",
-      4
+      "上纬新材",
+      5
     ],
     [
       "比亚迪",
