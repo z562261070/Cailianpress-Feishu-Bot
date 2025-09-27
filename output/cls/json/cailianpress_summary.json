@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-27T17:16:44.918066",
-  "newsCount": 2127,
+  "lastUpdate": "2025-09-27T17:37:54.134176",
+  "newsCount": 2145,
   "dateRange": {
     "start": "2025-09-23",
     "end": "2025-09-27"
@@ -11,21 +11,21 @@
       "keyword": "新能源",
       "positive": 2,
       "negative": 0,
-      "neutral": 21
+      "neutral": 24
     },
     {
       "date": "2025-09-27",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2025-09-27",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-09-27",
