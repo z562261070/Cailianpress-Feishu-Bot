@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-28T14:17:03.877807",
-  "newsCount": 2046,
+  "lastUpdate": "2025-09-28T14:37:27.975951",
+  "newsCount": 2049,
   "dateRange": {
     "start": "2025-09-24",
     "end": "2025-09-28"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-28",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-28",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-28",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-09-28",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-09-28",
@@ -40,13 +47,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-09-28",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-28",
