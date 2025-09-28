@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-28T13:23:48.324809",
-  "newsCount": 2033,
+  "lastUpdate": "2025-09-28T13:38:55.334405",
+  "newsCount": 2035,
   "dateRange": {
     "start": "2025-09-24",
     "end": "2025-09-28"
@@ -11,7 +11,28 @@
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
+    },
+    {
+      "date": "2025-09-28",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-28",
+      "keyword": "新能源",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-28",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-09-28",
@@ -19,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-09-28",
-      "keyword": "新能源",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-09-28",
@@ -40,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-28",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-09-27",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 17
-    },
-    {
-      "date": "2025-09-27",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
@@ -95,6 +95,10 @@
       12
     ],
     [
+      "宁德时代",
+      8
+    ],
+    [
       "谷歌",
       8
     ],
@@ -103,8 +107,8 @@
       7
     ],
     [
-      "宁德时代",
-      7
+      "华为",
+      6
     ],
     [
       "理想汽车",
@@ -113,10 +117,6 @@
     [
       "腾讯",
       6
-    ],
-    [
-      "华为",
-      5
     ],
     [
       "TCL",
