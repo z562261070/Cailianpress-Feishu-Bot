@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-28T10:39:37.813429",
-  "newsCount": 1993,
+  "lastUpdate": "2025-09-28T11:16:07.732792",
+  "newsCount": 2007,
   "dateRange": {
     "start": "2025-09-24",
     "end": "2025-09-28"
@@ -11,7 +11,21 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2025-09-28",
+      "keyword": "新能源",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-28",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
     },
     {
       "date": "2025-09-28",
@@ -22,24 +36,10 @@
     },
     {
       "date": "2025-09-28",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-09-28",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-09-28",
-      "keyword": "新能源",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-09-28",
@@ -87,16 +87,20 @@
       19
     ],
     [
+      "京东",
+      12
+    ],
+    [
       "英伟达",
       12
     ],
     [
-      "京东",
-      11
-    ],
-    [
       "谷歌",
       8
+    ],
+    [
+      "上纬新材",
+      7
     ],
     [
       "宁德时代",
@@ -108,10 +112,6 @@
     ],
     [
       "腾讯",
-      6
-    ],
-    [
-      "上纬新材",
       6
     ],
     [
