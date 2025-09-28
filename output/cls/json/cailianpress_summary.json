@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-28T09:38:19.902431",
-  "newsCount": 1981,
+  "lastUpdate": "2025-09-28T10:20:21.727436",
+  "newsCount": 1992,
   "dateRange": {
     "start": "2025-09-24",
     "end": "2025-09-28"
@@ -11,7 +11,14 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-28",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-09-28",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-09-27",
-      "keyword": "算力",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 0
     }
   ],
   "topStocks": [
@@ -99,6 +99,10 @@
       8
     ],
     [
+      "宁德时代",
+      7
+    ],
+    [
       "理想汽车",
       6
     ],
@@ -108,10 +112,6 @@
     ],
     [
       "上纬新材",
-      6
-    ],
-    [
-      "宁德时代",
       6
     ],
     [
