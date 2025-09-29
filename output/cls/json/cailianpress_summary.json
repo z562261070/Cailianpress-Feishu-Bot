@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-29T01:46:30.561813",
-  "newsCount": 1761,
+  "lastUpdate": "2025-09-29T03:06:33.565008",
+  "newsCount": 1781,
   "dateRange": {
     "start": "2025-09-25",
     "end": "2025-09-29"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-09-29",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-09-29",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-29",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-29",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-09-29",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-29",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-09-28",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-09-28",
-      "keyword": "新能源",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
@@ -103,6 +103,10 @@
       6
     ],
     [
+      "中际旭创",
+      5
+    ],
+    [
       "上纬新材",
       5
     ],
@@ -112,10 +116,6 @@
     ],
     [
       "比亚迪",
-      4
-    ],
-    [
-      "中际旭创",
       4
     ],
     [
