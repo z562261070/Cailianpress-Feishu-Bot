@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-29T03:06:33.565008",
-  "newsCount": 1781,
+  "lastUpdate": "2025-09-29T03:51:03.828131",
+  "newsCount": 1800,
   "dateRange": {
     "start": "2025-09-25",
     "end": "2025-09-29"
@@ -9,9 +9,16 @@
     {
       "date": "2025-09-29",
       "keyword": "机器人",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 4
+    },
+    {
+      "date": "2025-09-29",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
     },
     {
       "date": "2025-09-29",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2025-09-28",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "京东",
-      9
+      10
     ],
     [
       "阿里巴巴",
