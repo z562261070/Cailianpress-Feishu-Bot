@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-09-29T12:49:11.656891",
-  "newsCount": 2029,
+  "lastUpdate": "2025-09-29T13:31:47.462836",
+  "newsCount": 2049,
   "dateRange": {
     "start": "2025-09-25",
     "end": "2025-09-29"
   },
   "topKeywords": [
+    {
+      "date": "2025-09-29",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-09-29",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
     {
       "date": "2025-09-29",
       "keyword": "机器人",
@@ -29,13 +43,6 @@
     },
     {
       "date": "2025-09-29",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-09-29",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
@@ -45,13 +52,6 @@
       "date": "2025-09-29",
       "keyword": "半导体",
       "positive": 2,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-09-29",
-      "keyword": "人工智能",
-      "positive": 1,
       "negative": 0,
       "neutral": 5
     },
@@ -91,6 +91,14 @@
       10
     ],
     [
+      "英伟达",
+      8
+    ],
+    [
+      "谷歌",
+      7
+    ],
+    [
       "宁德时代",
       7
     ],
@@ -99,15 +107,7 @@
       6
     ],
     [
-      "英伟达",
-      6
-    ],
-    [
       "理想汽车",
-      6
-    ],
-    [
-      "谷歌",
       6
     ],
     [
