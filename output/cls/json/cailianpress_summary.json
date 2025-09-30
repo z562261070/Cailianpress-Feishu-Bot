@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-30T16:28:01.259302",
-  "newsCount": 2069,
+  "lastUpdate": "2025-09-30T16:48:01.320721",
+  "newsCount": 2082,
   "dateRange": {
     "start": "2025-09-26",
     "end": "2025-09-30"
@@ -11,7 +11,7 @@
       "keyword": "半导体",
       "positive": 2,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
     },
     {
       "date": "2025-09-30",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      12
+      13
     ],
     [
       "华为",
