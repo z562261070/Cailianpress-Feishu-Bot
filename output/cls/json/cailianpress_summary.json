@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-09-30T01:41:32.029241",
-  "newsCount": 1733,
+  "lastUpdate": "2025-09-30T03:00:08.028265",
+  "newsCount": 1753,
   "dateRange": {
     "start": "2025-09-26",
     "end": "2025-09-30"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-09-30",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-09-30",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-09-30",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-09-30",
@@ -61,20 +75,6 @@
       "positive": 4,
       "negative": 0,
       "neutral": 17
-    },
-    {
-      "date": "2025-09-29",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-09-29",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
@@ -87,6 +87,10 @@
       8
     ],
     [
+      "京东",
+      7
+    ],
+    [
       "英伟达",
       7
     ],
@@ -95,8 +99,8 @@
       7
     ],
     [
-      "京东",
-      6
+      "宁德时代",
+      5
     ],
     [
       "比亚迪",
@@ -107,16 +111,16 @@
       4
     ],
     [
-      "宁德时代",
-      4
-    ],
-    [
       "中际旭创",
       4
     ],
     [
       "理想汽车",
       3
+    ],
+    [
+      "药明康德",
+      2
     ],
     [
       "腾讯",
@@ -133,10 +137,6 @@
     [
       "TCL",
       2
-    ],
-    [
-      "东杰智能",
-      1
     ]
   ]
 }
