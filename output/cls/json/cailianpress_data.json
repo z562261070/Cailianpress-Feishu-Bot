@@ -1,6 +1,18 @@
 {
-  "lastUpdate": "2025-10-01T10:23:33.690854",
+  "lastUpdate": "2025-10-01T10:43:40.162048",
   "newsData": [
+    {
+      "date": "2025-10-01",
+      "time": "18:38",
+      "type": "general",
+      "content": "[财联社10月1日电， 韩国总统办公室表示，OpenAI计划在2029年订购90万片存储芯片晶圆。]"
+    },
+    {
+      "date": "2025-10-01",
+      "time": "18:36",
+      "type": "general",
+      "content": "[财联社10月1日电，斯特兰蒂斯集团（Stellantis）宣布，启动创新实验室与转型学院，旨在共同开发解决方案并在全集团范围内推广人工智能应用。]"
+    },
     {
       "date": "2025-10-01",
       "time": "18:17",
@@ -10970,14 +10982,14 @@
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-10-01",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-10-01",
