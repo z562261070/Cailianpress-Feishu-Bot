@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-01T11:19:28.678203",
-  "newsCount": 1843,
+  "lastUpdate": "2025-10-01T11:38:55.919825",
+  "newsCount": 1846,
   "dateRange": {
     "start": "2025-09-27",
     "end": "2025-10-01"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-01",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-10-01",
       "keyword": "无人机",
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-10-01",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-09-30",
@@ -103,6 +103,10 @@
       4
     ],
     [
+      "比亚迪",
+      3
+    ],
+    [
       "京东",
       3
     ],
@@ -120,10 +124,6 @@
     ],
     [
       "中际旭创",
-      2
-    ],
-    [
-      "比亚迪",
       2
     ],
     [
