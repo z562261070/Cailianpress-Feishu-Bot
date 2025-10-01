@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-01T01:53:45.613265",
-  "newsCount": 1710,
+  "lastUpdate": "2025-10-01T03:13:35.651249",
+  "newsCount": 1723,
   "dateRange": {
     "start": "2025-09-27",
     "end": "2025-10-01"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-10-01",
-      "keyword": "人工智能",
+      "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-01",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-10-01",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-01",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-10-01",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-09-30",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-09-30",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -107,6 +107,10 @@
       3
     ],
     [
+      "理想汽车",
+      2
+    ],
+    [
       "腾讯",
       2
     ],
@@ -121,10 +125,6 @@
     [
       "比亚迪",
       2
-    ],
-    [
-      "理想汽车",
-      1
     ],
     [
       "上纬新材",
