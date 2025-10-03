@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-10-03T07:38:39.830660",
-  "newsCount": 1659,
+  "lastUpdate": "2025-10-03T08:28:20.857299",
+  "newsCount": 1672,
   "dateRange": {
     "start": "2025-09-29",
     "end": "2025-10-03"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-03",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-03",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-03",
       "keyword": "无人机",
@@ -16,13 +30,6 @@
     {
       "date": "2025-10-03",
       "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-10-03",
-      "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 3
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-10-01",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -95,11 +95,19 @@
       8
     ],
     [
-      "宁德时代",
+      "小米",
       5
     ],
     [
       "比亚迪",
+      5
+    ],
+    [
+      "宁德时代",
+      5
+    ],
+    [
+      "理想汽车",
       4
     ],
     [
@@ -107,11 +115,7 @@
       4
     ],
     [
-      "小米",
-      4
-    ],
-    [
-      "理想汽车",
+      "京东",
       3
     ],
     [
@@ -123,8 +127,8 @@
       2
     ],
     [
-      "京东",
-      2
+      "网易",
+      1
     ]
   ]
 }
