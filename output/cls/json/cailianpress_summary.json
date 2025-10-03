@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-10-02T23:38:43.063880",
-  "newsCount": 1846,
+  "lastUpdate": "2025-10-03T01:41:38.747088",
+  "newsCount": 1577,
   "dateRange": {
-    "start": "2025-09-28",
-    "end": "2025-10-02"
+    "start": "2025-09-29",
+    "end": "2025-10-03"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-03",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-03",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-03",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-02",
       "keyword": "无人机",
@@ -54,27 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-01",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-10-01",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-10-01",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
@@ -87,23 +87,19 @@
       12
     ],
     [
-      "华为",
+      "谷歌",
       9
     ],
     [
-      "谷歌",
+      "华为",
       8
     ],
     [
       "宁德时代",
-      7
+      5
     ],
     [
       "腾讯",
-      4
-    ],
-    [
-      "比亚迪",
       4
     ],
     [
@@ -111,7 +107,7 @@
       4
     ],
     [
-      "京东",
+      "比亚迪",
       3
     ],
     [
@@ -127,8 +123,8 @@
       2
     ],
     [
-      "上纬新材",
-      1
+      "京东",
+      2
     ]
   ]
 }
