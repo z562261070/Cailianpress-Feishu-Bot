@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-10-05T23:38:15.027508",
-  "newsCount": 1583,
+  "lastUpdate": "2025-10-06T01:44:56.221633",
+  "newsCount": 1315,
   "dateRange": {
-    "start": "2025-10-01",
-    "end": "2025-10-05"
+    "start": "2025-10-02",
+    "end": "2025-10-06"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-06",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-06",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-05",
       "keyword": "无人机",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-04",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-10-04",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
@@ -87,31 +87,31 @@
       12
     ],
     [
-      "英伟达",
-      8
+      "阿里巴巴",
+      6
     ],
     [
       "谷歌",
-      8
+      5
     ],
     [
-      "阿里巴巴",
-      8
-    ],
-    [
-      "比亚迪",
+      "英伟达",
       4
     ],
     [
-      "理想汽车",
+      "比亚迪",
       3
     ],
     [
-      "小米",
+      "理想汽车",
       2
     ],
     [
       "京东",
+      1
+    ],
+    [
+      "小米",
       1
     ],
     [
