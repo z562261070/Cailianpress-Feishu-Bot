@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-06T14:44:06.961665",
-  "newsCount": 1444,
+  "lastUpdate": "2025-10-06T15:22:57.394081",
+  "newsCount": 1451,
   "dateRange": {
     "start": "2025-10-02",
     "end": "2025-10-06"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-10-06",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-10-06",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-06",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-10-06",
@@ -107,11 +107,11 @@
       3
     ],
     [
-      "TCL",
-      1
+      "京东",
+      2
     ],
     [
-      "京东",
+      "TCL",
       1
     ],
     [
