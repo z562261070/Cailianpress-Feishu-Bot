@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-07T14:45:22.280226",
-  "newsCount": 1419,
+  "lastUpdate": "2025-10-07T15:24:31.205571",
+  "newsCount": 1429,
   "dateRange": {
     "start": "2025-10-03",
     "end": "2025-10-07"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-10-07",
-      "keyword": "无人机",
-      "positive": 0,
+      "keyword": "人工智能",
+      "positive": 1,
       "negative": 0,
       "neutral": 6
     },
     {
       "date": "2025-10-07",
-      "keyword": "人工智能",
-      "positive": 1,
+      "keyword": "无人机",
+      "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 6
     },
     {
       "date": "2025-10-07",
@@ -88,7 +88,7 @@
     ],
     [
       "英伟达",
-      6
+      7
     ],
     [
       "京东",
