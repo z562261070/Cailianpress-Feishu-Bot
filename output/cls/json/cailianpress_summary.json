@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-10-06T23:38:30.608431",
-  "newsCount": 1508,
+  "lastUpdate": "2025-10-07T01:42:28.796149",
+  "newsCount": 1276,
   "dateRange": {
-    "start": "2025-10-02",
-    "end": "2025-10-06"
+    "start": "2025-10-03",
+    "end": "2025-10-07"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-07",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-07",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-07",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-06",
       "keyword": "半导体",
@@ -54,44 +75,19 @@
       "positive": 1,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-10-05",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-05",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2025-10-04",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 18
     }
   ],
   "topStocks": [
     [
       "腾讯",
-      17
+      15
     ],
     [
       "宁德时代",
-      12
+      10
     ],
     [
       "英伟达",
-      8
-    ],
-    [
-      "阿里巴巴",
       6
     ],
     [
@@ -100,7 +96,7 @@
     ],
     [
       "谷歌",
-      5
+      4
     ],
     [
       "理想汽车",
@@ -108,7 +104,7 @@
     ],
     [
       "比亚迪",
-      3
+      2
     ],
     [
       "TCL",
