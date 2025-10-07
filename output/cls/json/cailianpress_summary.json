@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-07T07:39:09.236406",
-  "newsCount": 1327,
+  "lastUpdate": "2025-10-07T08:29:45.530296",
+  "newsCount": 1343,
   "dateRange": {
     "start": "2025-10-03",
     "end": "2025-10-07"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-07",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-07",
       "keyword": "算力",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 18
-    },
-    {
-      "date": "2025-10-05",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 15
     }
   ],
   "topStocks": [
