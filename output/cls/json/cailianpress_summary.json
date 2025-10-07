@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-07T10:43:09.579997",
-  "newsCount": 1366,
+  "lastUpdate": "2025-10-07T11:18:18.487801",
+  "newsCount": 1378,
   "dateRange": {
     "start": "2025-10-03",
     "end": "2025-10-07"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-07",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-10-07",
       "keyword": "无人机",
@@ -24,13 +31,6 @@
       "date": "2025-10-07",
       "keyword": "算力",
       "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-07",
-      "keyword": "人工智能",
-      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
