@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-10-07T23:38:32.894640",
-  "newsCount": 1488,
+  "lastUpdate": "2025-10-08T01:42:37.688558",
+  "newsCount": 1235,
   "dateRange": {
-    "start": "2025-10-03",
-    "end": "2025-10-07"
+    "start": "2025-10-04",
+    "end": "2025-10-08"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-08",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-08",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-08",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-08",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-07",
       "keyword": "人工智能",
@@ -47,75 +75,35 @@
       "positive": 0,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2025-10-06",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-10-06",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-06",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-05",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 18
     }
   ],
   "topStocks": [
     [
       "腾讯",
-      15
+      14
+    ],
+    [
+      "英伟达",
+      10
     ],
     [
       "宁德时代",
       10
     ],
     [
-      "英伟达",
-      9
-    ],
-    [
       "京东",
-      5
-    ],
-    [
-      "谷歌",
       4
     ],
     [
-      "理想汽车",
+      "谷歌",
       3
     ],
     [
-      "比亚迪",
-      2
+      "理想汽车",
+      1
     ],
     [
       "TCL",
-      1
-    ],
-    [
-      "小米",
-      1
-    ],
-    [
-      "网易",
       1
     ]
   ]
