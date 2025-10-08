@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-08T12:47:41.323991",
-  "newsCount": 1385,
+  "lastUpdate": "2025-10-08T13:31:54.071320",
+  "newsCount": 1392,
   "dateRange": {
     "start": "2025-10-04",
     "end": "2025-10-08"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-10-08",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-10-08",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-08",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2025-10-08",
@@ -19,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-10-08",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-10-08",
@@ -37,13 +44,6 @@
     {
       "date": "2025-10-08",
       "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-08",
-      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -97,6 +97,10 @@
     [
       "谷歌",
       3
+    ],
+    [
+      "华为",
+      1
     ],
     [
       "比亚迪",
