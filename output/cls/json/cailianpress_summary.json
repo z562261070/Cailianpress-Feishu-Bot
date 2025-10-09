@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-09T11:39:16.739555",
-  "newsCount": 1437,
+  "lastUpdate": "2025-10-09T12:47:46.847071",
+  "newsCount": 1457,
   "dateRange": {
     "start": "2025-10-05",
     "end": "2025-10-09"
@@ -11,7 +11,14 @@
       "keyword": "芯片",
       "positive": 3,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
+    },
+    {
+      "date": "2025-10-09",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-10-09",
@@ -19,13 +26,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-09",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-10-09",
@@ -96,7 +96,7 @@
     ],
     [
       "谷歌",
-      3
+      4
     ],
     [
       "TCL",
