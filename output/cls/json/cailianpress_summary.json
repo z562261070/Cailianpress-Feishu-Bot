@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-09T10:44:26.874955",
-  "newsCount": 1399,
+  "lastUpdate": "2025-10-09T11:18:40.989539",
+  "newsCount": 1419,
   "dateRange": {
     "start": "2025-10-05",
     "end": "2025-10-09"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-09",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-10-09",
       "keyword": "军工",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-10-09",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-10-09",
@@ -105,6 +105,10 @@
     [
       "比亚迪",
       2
+    ],
+    [
+      "药明康德",
+      1
     ],
     [
       "网易",
