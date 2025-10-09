@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-10-08T23:38:37.181699",
-  "newsCount": 1472,
+  "lastUpdate": "2025-10-09T01:43:25.161526",
+  "newsCount": 1187,
   "dateRange": {
-    "start": "2025-10-04",
-    "end": "2025-10-08"
+    "start": "2025-10-05",
+    "end": "2025-10-09"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-09",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-10-09",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-09",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-08",
       "keyword": "新能源",
@@ -54,27 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-10-07",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 17
-    },
-    {
-      "date": "2025-10-07",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-10-07",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
@@ -88,11 +88,11 @@
     ],
     [
       "宁德时代",
-      11
+      12
     ],
     [
       "京东",
-      4
+      5
     ],
     [
       "谷歌",
