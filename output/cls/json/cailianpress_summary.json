@@ -1,11 +1,46 @@
 {
-  "lastUpdate": "2025-10-09T23:38:19.741008",
-  "newsCount": 1541,
+  "lastUpdate": "2025-10-10T01:44:06.395785",
+  "newsCount": 1358,
   "dateRange": {
-    "start": "2025-10-05",
-    "end": "2025-10-09"
+    "start": "2025-10-06",
+    "end": "2025-10-10"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-10",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-10",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-10",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-10",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-10",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-09",
       "keyword": "人工智能",
@@ -40,59 +75,16 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-10-09",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-10-09",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-09",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-08",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 11
-    },
-    {
-      "date": "2025-10-08",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      17
-    ],
-    [
-      "腾讯",
-      16
-    ],
-    [
-      "宁德时代",
-      12
+      18
     ],
     [
       "谷歌",
-      6
+      7
     ],
     [
       "京东",
@@ -107,11 +99,19 @@
       3
     ],
     [
+      "腾讯",
+      3
+    ],
+    [
       "药明康德",
       2
     ],
     [
       "TCL",
+      2
+    ],
+    [
+      "宁德时代",
       2
     ],
     [
