@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-10T01:44:06.395785",
-  "newsCount": 1358,
+  "lastUpdate": "2025-10-10T03:02:23.298759",
+  "newsCount": 1378,
   "dateRange": {
     "start": "2025-10-06",
     "end": "2025-10-10"
@@ -8,21 +8,28 @@
   "topKeywords": [
     {
       "date": "2025-10-10",
-      "keyword": "算力",
+      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 3
     },
     {
       "date": "2025-10-10",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-10",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
       "neutral": 1
     },
     {
       "date": "2025-10-10",
-      "keyword": "半导体",
+      "keyword": "算力",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -68,13 +75,6 @@
       "positive": 5,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-10-09",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
@@ -95,6 +95,10 @@
       4
     ],
     [
+      "宁德时代",
+      3
+    ],
+    [
       "比亚迪",
       3
     ],
@@ -111,8 +115,8 @@
       2
     ],
     [
-      "宁德时代",
-      2
+      "长城军工",
+      1
     ],
     [
       "阿里巴巴",
