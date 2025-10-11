@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-11T03:45:38.933574",
-  "newsCount": 1590,
+  "lastUpdate": "2025-10-11T04:24:26.311454",
+  "newsCount": 1597,
   "dateRange": {
     "start": "2025-10-07",
     "end": "2025-10-11"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-11",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-11",
       "keyword": "算力",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-10",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 9
     }
   ],
   "topStocks": [
