@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-11T01:39:49.488898",
-  "newsCount": 1558,
+  "lastUpdate": "2025-10-11T02:55:46.736235",
+  "newsCount": 1578,
   "dateRange": {
     "start": "2025-10-07",
     "end": "2025-10-11"
@@ -8,7 +8,7 @@
   "topKeywords": [
     {
       "date": "2025-10-11",
-      "keyword": "芯片",
+      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -18,7 +18,14 @@
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-11",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-10-11",
@@ -68,19 +75,12 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-10-10",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      18
+      19
     ],
     [
       "谷歌",
