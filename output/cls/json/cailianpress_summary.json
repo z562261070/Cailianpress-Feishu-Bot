@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-11T07:37:57.558581",
-  "newsCount": 1626,
+  "lastUpdate": "2025-10-11T08:25:41.980215",
+  "newsCount": 1641,
   "dateRange": {
     "start": "2025-10-07",
     "end": "2025-10-11"
@@ -8,7 +8,21 @@
   "topKeywords": [
     {
       "date": "2025-10-11",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-11",
       "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-11",
+      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -29,24 +43,10 @@
     },
     {
       "date": "2025-10-11",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-11",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-11",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-10-11",
@@ -91,15 +91,15 @@
       7
     ],
     [
+      "宁德时代",
+      6
+    ],
+    [
       "比亚迪",
       5
     ],
     [
       "华为",
-      5
-    ],
-    [
-      "宁德时代",
       5
     ],
     [
