@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-11T23:19:01.119140",
-  "newsCount": 1941,
+  "lastUpdate": "2025-10-11T23:38:39.849112",
+  "newsCount": 1946,
   "dateRange": {
     "start": "2025-10-07",
     "end": "2025-10-11"
@@ -11,7 +11,7 @@
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 17
+      "neutral": 18
     },
     {
       "date": "2025-10-11",
