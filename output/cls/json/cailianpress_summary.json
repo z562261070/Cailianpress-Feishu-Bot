@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-10-10T23:38:15.758764",
-  "newsCount": 1720,
+  "lastUpdate": "2025-10-11T01:39:49.488898",
+  "newsCount": 1558,
   "dateRange": {
-    "start": "2025-10-06",
-    "end": "2025-10-10"
+    "start": "2025-10-07",
+    "end": "2025-10-11"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-11",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-11",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-11",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-11",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-10",
       "keyword": "芯片",
@@ -47,44 +75,12 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-10-10",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-10",
-      "keyword": "军工",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-09",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-10-09",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 16
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      19
-    ],
-    [
-      "京东",
-      8
+      18
     ],
     [
       "谷歌",
@@ -92,6 +88,10 @@
     ],
     [
       "阿里巴巴",
+      7
+    ],
+    [
+      "华为",
       5
     ],
     [
@@ -99,11 +99,15 @@
       5
     ],
     [
-      "腾讯",
-      5
+      "比亚迪",
+      4
     ],
     [
-      "华为",
+      "京东",
+      4
+    ],
+    [
+      "腾讯",
       4
     ],
     [
@@ -111,15 +115,7 @@
       3
     ],
     [
-      "比亚迪",
-      3
-    ],
-    [
       "长城军工",
-      2
-    ],
-    [
-      "TCL",
       2
     ],
     [
@@ -127,11 +123,11 @@
       1
     ],
     [
-      "网易",
+      "TCL",
       1
     ],
     [
-      "理想汽车",
+      "网易",
       1
     ]
   ]
