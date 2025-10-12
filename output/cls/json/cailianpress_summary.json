@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-12T17:37:44.930203",
-  "newsCount": 1880,
+  "lastUpdate": "2025-10-12T18:27:59.170292",
+  "newsCount": 1893,
   "dateRange": {
     "start": "2025-10-08",
     "end": "2025-10-12"
@@ -11,21 +11,21 @@
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 13
+      "neutral": 15
     },
     {
       "date": "2025-10-12",
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-10-12",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-10-12",
@@ -80,23 +80,23 @@
   "topStocks": [
     [
       "英伟达",
-      21
-    ],
-    [
-      "比亚迪",
-      11
-    ],
-    [
-      "华为",
-      11
+      22
     ],
     [
       "中际旭创",
-      10
+      12
+    ],
+    [
+      "比亚迪",
+      12
+    ],
+    [
+      "华为",
+      12
     ],
     [
       "药明康德",
-      8
+      9
     ],
     [
       "谷歌",
