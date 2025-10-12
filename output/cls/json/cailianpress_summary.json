@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-12T07:38:15.199141",
-  "newsCount": 1726,
+  "lastUpdate": "2025-10-12T08:26:01.637604",
+  "newsCount": 1746,
   "dateRange": {
     "start": "2025-10-08",
     "end": "2025-10-12"
@@ -8,14 +8,28 @@
   "topKeywords": [
     {
       "date": "2025-10-12",
-      "keyword": "半导体",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-12",
+      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 1
     },
     {
       "date": "2025-10-12",
-      "keyword": "无人机",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-12",
+      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-10-11",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-10-11",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -91,12 +91,12 @@
       7
     ],
     [
-      "宁德时代",
+      "比亚迪",
       6
     ],
     [
-      "比亚迪",
-      5
+      "宁德时代",
+      6
     ],
     [
       "华为",
