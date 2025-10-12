@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-12T08:42:46.432999",
-  "newsCount": 1752,
+  "lastUpdate": "2025-10-12T09:19:49.658901",
+  "newsCount": 1763,
   "dateRange": {
     "start": "2025-10-08",
     "end": "2025-10-12"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-12",
+      "keyword": "人工智能",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2025-10-12",
       "keyword": "新能源",
@@ -49,13 +56,6 @@
       "neutral": 0
     },
     {
-      "date": "2025-10-12",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
       "date": "2025-10-11",
       "keyword": "机器人",
       "positive": 0,
@@ -91,16 +91,16 @@
       7
     ],
     [
+      "华为",
+      6
+    ],
+    [
       "比亚迪",
       6
     ],
     [
       "宁德时代",
       6
-    ],
-    [
-      "华为",
-      5
     ],
     [
       "京东",
