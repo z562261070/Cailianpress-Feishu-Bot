@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-12T10:20:12.957183",
-  "newsCount": 1772,
+  "lastUpdate": "2025-10-12T10:40:19.667440",
+  "newsCount": 1775,
   "dateRange": {
     "start": "2025-10-08",
     "end": "2025-10-12"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-12",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-10-12",
       "keyword": "新能源",
@@ -19,13 +26,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-10-12",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-10-12",
