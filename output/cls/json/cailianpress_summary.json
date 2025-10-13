@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-13T09:27:19.220134",
-  "newsCount": 1881,
+  "lastUpdate": "2025-10-13T09:45:17.167652",
+  "newsCount": 1901,
   "dateRange": {
     "start": "2025-10-09",
     "end": "2025-10-13"
@@ -8,21 +8,21 @@
   "topKeywords": [
     {
       "date": "2025-10-13",
-      "keyword": "机器人",
+      "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-10-13",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 8
     },
     {
       "date": "2025-10-13",
-      "keyword": "芯片",
+      "keyword": "机器人",
       "positive": 1,
       "negative": 0,
       "neutral": 2
@@ -111,16 +111,16 @@
       6
     ],
     [
+      "腾讯",
+      5
+    ],
+    [
       "小米",
       5
     ],
     [
       "宁德时代",
       5
-    ],
-    [
-      "腾讯",
-      4
     ],
     [
       "长城军工",
