@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-10-13T01:50:46.212019",
-  "newsCount": 1714,
+  "lastUpdate": "2025-10-13T03:12:20.176366",
+  "newsCount": 1734,
   "dateRange": {
     "start": "2025-10-09",
     "end": "2025-10-13"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-13",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-13",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-13",
       "keyword": "半导体",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-12",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-10-12",
-      "keyword": "人工智能",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 0
     }
   ],
   "topStocks": [
@@ -88,7 +88,7 @@
     ],
     [
       "比亚迪",
-      16
+      17
     ],
     [
       "华为",
