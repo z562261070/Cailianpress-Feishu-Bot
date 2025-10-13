@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-13T07:40:51.964823",
-  "newsCount": 1841,
+  "lastUpdate": "2025-10-13T08:32:28.468465",
+  "newsCount": 1861,
   "dateRange": {
     "start": "2025-10-09",
     "end": "2025-10-13"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-10-13",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-10-13",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-13",
+      "keyword": "半导体",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-10-13",
@@ -19,20 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-10-13",
-      "keyword": "半导体",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-10-13",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-10-13",
@@ -111,16 +111,16 @@
       6
     ],
     [
+      "小米",
+      5
+    ],
+    [
       "宁德时代",
       5
     ],
     [
       "腾讯",
       4
-    ],
-    [
-      "小米",
-      3
     ],
     [
       "长城军工",
