@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-13T04:27:05.729688",
-  "newsCount": 1761,
+  "lastUpdate": "2025-10-13T04:45:08.232216",
+  "newsCount": 1768,
   "dateRange": {
     "start": "2025-10-09",
     "end": "2025-10-13"
@@ -8,10 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-10-13",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-13",
       "keyword": "半导体",
       "positive": 3,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-10-13",
@@ -56,13 +63,6 @@
       "neutral": 1
     },
     {
-      "date": "2025-10-13",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
       "date": "2025-10-12",
       "keyword": "半导体",
       "positive": 0,
@@ -92,7 +92,7 @@
     ],
     [
       "华为",
-      15
+      16
     ],
     [
       "药明康德",
