@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-13T05:42:28.835802",
-  "newsCount": 1785,
+  "lastUpdate": "2025-10-13T06:35:15.160758",
+  "newsCount": 1805,
   "dateRange": {
     "start": "2025-10-09",
     "end": "2025-10-13"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-13",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-10-13",
       "keyword": "半导体",
@@ -50,13 +57,6 @@
     },
     {
       "date": "2025-10-13",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-10-13",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 1,
@@ -88,7 +88,7 @@
     ],
     [
       "比亚迪",
-      17
+      18
     ],
     [
       "华为",
