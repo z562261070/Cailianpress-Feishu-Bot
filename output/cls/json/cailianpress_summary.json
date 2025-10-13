@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-13T03:12:20.176366",
-  "newsCount": 1734,
+  "lastUpdate": "2025-10-13T03:54:26.363800",
+  "newsCount": 1751,
   "dateRange": {
     "start": "2025-10-09",
     "end": "2025-10-13"
@@ -8,14 +8,7 @@
   "topKeywords": [
     {
       "date": "2025-10-13",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-10-13",
-      "keyword": "机器人",
+      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -23,9 +16,30 @@
     {
       "date": "2025-10-13",
       "keyword": "半导体",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
-      "neutral": 0
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-13",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-13",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-13",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-10-13",
@@ -37,13 +51,6 @@
     {
       "date": "2025-10-13",
       "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-13",
-      "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 11
-    },
-    {
-      "date": "2025-10-12",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -115,12 +115,12 @@
       4
     ],
     [
-      "腾讯",
+      "长城军工",
       3
     ],
     [
-      "长城军工",
-      2
+      "腾讯",
+      3
     ],
     [
       "上纬新材",
