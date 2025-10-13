@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-13T15:23:28.744197",
-  "newsCount": 2042,
+  "lastUpdate": "2025-10-13T15:41:29.488715",
+  "newsCount": 2048,
   "dateRange": {
     "start": "2025-10-09",
     "end": "2025-10-13"
@@ -11,7 +11,7 @@
       "keyword": "人工智能",
       "positive": 0,
       "negative": 1,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-10-13",
