@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-14T14:23:56.842409",
-  "newsCount": 2082,
+  "lastUpdate": "2025-10-14T14:45:32.444645",
+  "newsCount": 2089,
   "dateRange": {
     "start": "2025-10-10",
     "end": "2025-10-14"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-14",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-10-14",
       "keyword": "机器人",
@@ -56,13 +63,6 @@
       "neutral": 5
     },
     {
-      "date": "2025-10-14",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
       "date": "2025-10-13",
       "keyword": "人工智能",
       "positive": 0,
@@ -111,12 +111,12 @@
       9
     ],
     [
-      "宁德时代",
+      "小米",
       7
     ],
     [
-      "小米",
-      6
+      "宁德时代",
+      7
     ],
     [
       "腾讯",
