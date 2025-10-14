@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-10-14T07:22:27.507915",
-  "newsCount": 1863,
+  "lastUpdate": "2025-10-14T07:40:05.109621",
+  "newsCount": 1878,
   "dateRange": {
     "start": "2025-10-10",
     "end": "2025-10-14"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-14",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-14",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-10-14",
       "keyword": "芯片",
@@ -26,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-10-14",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-10-14",
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-10-13",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
@@ -108,7 +108,7 @@
     ],
     [
       "京东",
-      6
+      7
     ],
     [
       "宁德时代",
