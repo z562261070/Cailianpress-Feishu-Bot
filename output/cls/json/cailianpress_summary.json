@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-14T09:42:57.999094",
-  "newsCount": 1955,
+  "lastUpdate": "2025-10-14T10:24:31.712317",
+  "newsCount": 1975,
   "dateRange": {
     "start": "2025-10-10",
     "end": "2025-10-14"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-10-14",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-10-14",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-14",
+      "keyword": "芯片",
+      "positive": 6,
+      "negative": 0,
+      "neutral": 8
     },
     {
       "date": "2025-10-14",
@@ -19,20 +33,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-10-14",
-      "keyword": "芯片",
-      "positive": 6,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-10-14",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-10-14",
