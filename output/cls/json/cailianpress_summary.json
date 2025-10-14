@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-14T05:20:52.415992",
-  "newsCount": 1815,
+  "lastUpdate": "2025-10-14T05:40:57.355316",
+  "newsCount": 1823,
   "dateRange": {
     "start": "2025-10-10",
     "end": "2025-10-14"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-10-14",
+      "keyword": "半导体",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-10-14",
       "keyword": "军工",
       "positive": 1,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-10-14",
-      "keyword": "半导体",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-10-14",
