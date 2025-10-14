@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-14T01:44:24.106502",
-  "newsCount": 1743,
+  "lastUpdate": "2025-10-14T03:02:47.433994",
+  "newsCount": 1763,
   "dateRange": {
     "start": "2025-10-10",
     "end": "2025-10-14"
@@ -9,7 +9,7 @@
     {
       "date": "2025-10-14",
       "keyword": "半导体",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 4
     },
@@ -18,7 +18,7 @@
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-10-14",
@@ -88,7 +88,7 @@
     ],
     [
       "比亚迪",
-      17
+      18
     ],
     [
       "华为",
