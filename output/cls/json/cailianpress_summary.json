@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-15T04:44:39.484453",
-  "newsCount": 1803,
+  "lastUpdate": "2025-10-15T05:21:41.444246",
+  "newsCount": 1819,
   "dateRange": {
     "start": "2025-10-11",
     "end": "2025-10-15"
@@ -8,17 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-10-15",
-      "keyword": "机器人",
+      "keyword": "算力",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-15",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-15",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-15",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-10-15",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-10-15",
@@ -29,29 +50,8 @@
     },
     {
       "date": "2025-10-15",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-15",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-10-15",
       "keyword": "新能源",
       "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-15",
-      "keyword": "人工智能",
-      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      28
+      29
     ],
     [
       "中际旭创",
