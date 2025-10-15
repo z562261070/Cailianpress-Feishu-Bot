@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-15T14:23:49.618261",
-  "newsCount": 2080,
+  "lastUpdate": "2025-10-15T14:46:23.032243",
+  "newsCount": 2085,
   "dateRange": {
     "start": "2025-10-11",
     "end": "2025-10-15"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-10-15",
-      "keyword": "无人机",
-      "positive": 1,
+      "keyword": "新能源",
+      "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-10-15",
       "keyword": "机器人",
       "positive": 5,
       "negative": 0,
-      "neutral": 15
+      "neutral": 16
+    },
+    {
+      "date": "2025-10-15",
+      "keyword": "无人机",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2025-10-15",
@@ -56,13 +63,6 @@
       "neutral": 8
     },
     {
-      "date": "2025-10-15",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
       "date": "2025-10-14",
       "keyword": "新能源",
       "positive": 0,
@@ -96,7 +96,7 @@
     ],
     [
       "京东",
-      12
+      13
     ],
     [
       "药明康德",
