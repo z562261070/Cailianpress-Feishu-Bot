@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-10-15T05:41:38.505286",
-  "newsCount": 1839,
+  "lastUpdate": "2025-10-15T06:33:41.953407",
+  "newsCount": 1859,
   "dateRange": {
     "start": "2025-10-11",
     "end": "2025-10-15"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-15",
+      "keyword": "军工",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-15",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-10-15",
       "keyword": "算力",
@@ -33,20 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-10-15",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-10-15",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-10-15",
