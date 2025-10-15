@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-15T09:43:00.828875",
-  "newsCount": 1953,
+  "lastUpdate": "2025-10-15T10:25:36.997202",
+  "newsCount": 1973,
   "dateRange": {
     "start": "2025-10-11",
     "end": "2025-10-15"
@@ -11,7 +11,7 @@
       "keyword": "人工智能",
       "positive": 2,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-10-15",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      29
+      30
     ],
     [
       "中际旭创",
