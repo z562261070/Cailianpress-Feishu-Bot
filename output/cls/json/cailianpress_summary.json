@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-16T13:33:58.661473",
-  "newsCount": 2051,
+  "lastUpdate": "2025-10-16T14:22:55.171155",
+  "newsCount": 2071,
   "dateRange": {
     "start": "2025-10-12",
     "end": "2025-10-16"
@@ -8,17 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-10-16",
-      "keyword": "半导体",
-      "positive": 3,
+      "keyword": "机器人",
+      "positive": 2,
       "negative": 0,
-      "neutral": 5
+      "neutral": 12
     },
     {
       "date": "2025-10-16",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
+    },
+    {
+      "date": "2025-10-16",
+      "keyword": "芯片",
+      "positive": 7,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-10-16",
+      "keyword": "新能源",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2025-10-16",
+      "keyword": "半导体",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2025-10-16",
@@ -36,31 +57,10 @@
     },
     {
       "date": "2025-10-16",
-      "keyword": "芯片",
-      "positive": 7,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-10-16",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-10-16",
       "keyword": "军工",
       "positive": 1,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-10-16",
-      "keyword": "新能源",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 8
     },
     {
       "date": "2025-10-15",
@@ -80,31 +80,31 @@
   "topStocks": [
     [
       "英伟达",
-      31
+      32
     ],
     [
       "中际旭创",
       27
     ],
     [
-      "比亚迪",
+      "华为",
       19
     ],
     [
-      "华为",
-      18
+      "比亚迪",
+      19
     ],
     [
       "京东",
       17
     ],
     [
-      "小米",
+      "谷歌",
       14
     ],
     [
-      "谷歌",
-      13
+      "小米",
+      14
     ],
     [
       "药明康德",
