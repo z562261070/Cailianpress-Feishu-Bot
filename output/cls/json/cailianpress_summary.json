@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-16T09:25:31.546492",
-  "newsCount": 1927,
+  "lastUpdate": "2025-10-16T09:43:15.334717",
+  "newsCount": 1939,
   "dateRange": {
     "start": "2025-10-12",
     "end": "2025-10-16"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-10-16",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-16",
       "keyword": "半导体",
       "positive": 3,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-16",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-10-16",
@@ -19,13 +33,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-10-16",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-10-16",
@@ -47,13 +54,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-10-16",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-10-16",
@@ -99,16 +99,16 @@
       17
     ],
     [
+      "小米",
+      12
+    ],
+    [
       "谷歌",
       12
     ],
     [
       "药明康德",
       12
-    ],
-    [
-      "小米",
-      11
     ],
     [
       "宁德时代",
