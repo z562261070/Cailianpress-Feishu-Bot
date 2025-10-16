@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-16T03:05:17.215746",
-  "newsCount": 1767,
+  "lastUpdate": "2025-10-16T03:51:36.410679",
+  "newsCount": 1787,
   "dateRange": {
     "start": "2025-10-12",
     "end": "2025-10-16"
@@ -8,22 +8,22 @@
   "topKeywords": [
     {
       "date": "2025-10-16",
-      "keyword": "芯片",
-      "positive": 3,
+      "keyword": "人工智能",
+      "positive": 2,
       "negative": 0,
-      "neutral": 2
+      "neutral": 5
     },
     {
       "date": "2025-10-16",
-      "keyword": "人工智能",
-      "positive": 1,
+      "keyword": "芯片",
+      "positive": 5,
       "negative": 0,
-      "neutral": 4
+      "neutral": 3
     },
     {
       "date": "2025-10-16",
       "keyword": "半导体",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 0
     },
@@ -32,12 +32,19 @@
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-16",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-10-16",
       "keyword": "新能源",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
       "neutral": 1
     },
@@ -68,27 +75,20 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-10-15",
-      "keyword": "机器人",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 16
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      30
+      31
     ],
     [
       "中际旭创",
-      25
+      26
     ],
     [
       "比亚迪",
-      18
+      19
     ],
     [
       "华为",
