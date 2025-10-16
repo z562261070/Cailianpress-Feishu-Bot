@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-16T01:46:01.377680",
-  "newsCount": 1747,
+  "lastUpdate": "2025-10-16T03:05:17.215746",
+  "newsCount": 1767,
   "dateRange": {
     "start": "2025-10-12",
     "end": "2025-10-16"
@@ -9,13 +9,20 @@
     {
       "date": "2025-10-16",
       "keyword": "芯片",
-      "positive": 1,
+      "positive": 3,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-10-16",
-      "keyword": "军工",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-16",
+      "keyword": "半导体",
       "positive": 1,
       "negative": 0,
       "neutral": 0
@@ -25,21 +32,21 @@
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-10-16",
       "keyword": "新能源",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
-      "neutral": 0
+      "neutral": 1
     },
     {
       "date": "2025-10-16",
-      "keyword": "人工智能",
-      "positive": 0,
+      "keyword": "军工",
+      "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 0
     },
     {
       "date": "2025-10-16",
@@ -68,13 +75,6 @@
       "positive": 5,
       "negative": 0,
       "neutral": 16
-    },
-    {
-      "date": "2025-10-15",
-      "keyword": "无人机",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
@@ -96,7 +96,7 @@
     ],
     [
       "京东",
-      15
+      16
     ],
     [
       "谷歌",
