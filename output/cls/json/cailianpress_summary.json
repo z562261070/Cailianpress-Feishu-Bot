@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-16T04:44:13.800452",
-  "newsCount": 1802,
+  "lastUpdate": "2025-10-16T05:21:21.350651",
+  "newsCount": 1812,
   "dateRange": {
     "start": "2025-10-12",
     "end": "2025-10-16"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-10-16",
-      "keyword": "半导体",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2025-10-16",
       "keyword": "新能源",
       "positive": 3,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-16",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-16",
+      "keyword": "芯片",
+      "positive": 6,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-16",
+      "keyword": "半导体",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-10-16",
@@ -26,20 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-10-16",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-10-16",
-      "keyword": "芯片",
-      "positive": 6,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-10-16",
@@ -108,7 +108,7 @@
     ],
     [
       "小米",
-      10
+      11
     ],
     [
       "阿里巴巴",
