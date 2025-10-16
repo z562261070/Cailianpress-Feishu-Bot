@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-16T11:39:03.841767",
-  "newsCount": 2011,
+  "lastUpdate": "2025-10-16T12:49:33.876681",
+  "newsCount": 2031,
   "dateRange": {
     "start": "2025-10-12",
     "end": "2025-10-16"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-10-16",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-10-16",
+      "keyword": "芯片",
+      "positive": 7,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-10-16",
+      "keyword": "人工智能",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-10-16",
       "keyword": "机器人",
       "positive": 2,
       "negative": 0,
       "neutral": 10
-    },
-    {
-      "date": "2025-10-16",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-10-16",
@@ -33,20 +47,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-10-16",
-      "keyword": "芯片",
-      "positive": 7,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-10-16",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 10
     },
     {
       "date": "2025-10-16",
@@ -104,7 +104,7 @@
     ],
     [
       "谷歌",
-      12
+      13
     ],
     [
       "药明康德",
