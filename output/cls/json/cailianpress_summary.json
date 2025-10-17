@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-17T14:21:54.390175",
-  "newsCount": 2210,
+  "lastUpdate": "2025-10-17T14:43:03.445208",
+  "newsCount": 2215,
   "dateRange": {
     "start": "2025-10-13",
     "end": "2025-10-17"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-10-17",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-10-17",
       "keyword": "芯片",
       "positive": 3,
       "negative": 0,
       "neutral": 13
-    },
-    {
-      "date": "2025-10-17",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 10
     },
     {
       "date": "2025-10-17",
@@ -88,7 +88,7 @@
     ],
     [
       "小米",
-      16
+      17
     ],
     [
       "谷歌",
