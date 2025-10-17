@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-17T09:24:41.680280",
-  "newsCount": 2076,
+  "lastUpdate": "2025-10-17T09:41:49.019802",
+  "newsCount": 2092,
   "dateRange": {
     "start": "2025-10-13",
     "end": "2025-10-17"
@@ -8,8 +8,15 @@
   "topKeywords": [
     {
       "date": "2025-10-17",
-      "keyword": "半导体",
+      "keyword": "新能源",
       "positive": 1,
+      "negative": 1,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-17",
+      "keyword": "半导体",
+      "positive": 2,
       "negative": 0,
       "neutral": 9
     },
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-10-17",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 3
     },
     {
       "date": "2025-10-17",
@@ -96,7 +96,7 @@
     ],
     [
       "阿里巴巴",
-      11
+      12
     ],
     [
       "宁德时代",
