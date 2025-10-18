@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-18T05:40:25.359248",
-  "newsCount": 1923,
+  "lastUpdate": "2025-10-18T06:30:36.444101",
+  "newsCount": 1930,
   "dateRange": {
     "start": "2025-10-14",
     "end": "2025-10-18"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-18",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-18",
       "keyword": "人工智能",
@@ -68,13 +75,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 13
-    },
-    {
-      "date": "2025-10-17",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -125,6 +125,10 @@
     [
       "长城军工",
       2
+    ],
+    [
+      "TCL",
+      1
     ],
     [
       "上纬新材",
