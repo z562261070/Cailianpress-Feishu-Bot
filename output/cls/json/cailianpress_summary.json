@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-19T15:38:27.846976",
-  "newsCount": 1876,
+  "lastUpdate": "2025-10-19T16:25:25.206443",
+  "newsCount": 1895,
   "dateRange": {
     "start": "2025-10-15",
     "end": "2025-10-19"
@@ -9,37 +9,37 @@
     {
       "date": "2025-10-19",
       "keyword": "新能源",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 0
     },
     {
       "date": "2025-10-19",
       "keyword": "机器人",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
-      "neutral": 4
+      "neutral": 6
     },
     {
       "date": "2025-10-19",
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-10-19",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 7
     },
     {
       "date": "2025-10-19",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-10-19",
@@ -84,7 +84,7 @@
     ],
     [
       "华为",
-      11
+      12
     ],
     [
       "小米",
