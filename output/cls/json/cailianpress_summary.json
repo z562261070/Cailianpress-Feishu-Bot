@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-19T07:38:01.783302",
-  "newsCount": 1810,
+  "lastUpdate": "2025-10-19T08:25:38.337098",
+  "newsCount": 1827,
   "dateRange": {
     "start": "2025-10-15",
     "end": "2025-10-19"
@@ -8,10 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-10-19",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-19",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-19",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-19",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-10-19",
@@ -22,24 +43,10 @@
     },
     {
       "date": "2025-10-19",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-10-19",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-19",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-10-19",
@@ -68,19 +75,12 @@
       "positive": 0,
       "negative": 0,
       "neutral": 17
-    },
-    {
-      "date": "2025-10-18",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      15
+      16
     ],
     [
       "小米",
