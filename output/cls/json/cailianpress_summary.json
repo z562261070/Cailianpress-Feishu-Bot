@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-19T05:21:09.764874",
-  "newsCount": 1791,
+  "lastUpdate": "2025-10-19T05:41:23.709178",
+  "newsCount": 1794,
   "dateRange": {
     "start": "2025-10-15",
     "end": "2025-10-19"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-19",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-19",
       "keyword": "军工",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-10-17",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 3,
-      "neutral": 10
     }
   ],
   "topStocks": [
