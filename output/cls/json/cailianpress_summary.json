@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-10-20T05:41:58.473691",
-  "newsCount": 1674,
+  "lastUpdate": "2025-10-20T06:35:09.139243",
+  "newsCount": 1694,
   "dateRange": {
     "start": "2025-10-16",
     "end": "2025-10-20"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-20",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-10-20",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-10-20",
       "keyword": "机器人",
@@ -29,13 +43,6 @@
     },
     {
       "date": "2025-10-20",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-10-20",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
@@ -44,13 +51,6 @@
     {
       "date": "2025-10-20",
       "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-20",
-      "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -99,16 +99,16 @@
       7
     ],
     [
+      "中际旭创",
+      6
+    ],
+    [
       "宁德时代",
       6
     ],
     [
-      "中际旭创",
-      5
-    ],
-    [
       "比亚迪",
-      4
+      5
     ],
     [
       "谷歌",
