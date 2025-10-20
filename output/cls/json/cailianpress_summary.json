@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-10-20T03:59:21.807413",
-  "newsCount": 1640,
+  "lastUpdate": "2025-10-20T04:33:35.045677",
+  "newsCount": 1655,
   "dateRange": {
     "start": "2025-10-16",
     "end": "2025-10-20"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-20",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-20",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-10-20",
       "keyword": "新能源",
@@ -26,20 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-10-20",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-20",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-10-20",
@@ -91,15 +91,15 @@
       8
     ],
     [
-      "宁德时代",
-      6
+      "京东",
+      7
     ],
     [
       "阿里巴巴",
-      6
+      7
     ],
     [
-      "京东",
+      "宁德时代",
       6
     ],
     [
@@ -116,11 +116,11 @@
     ],
     [
       "腾讯",
-      2
+      3
     ],
     [
       "网易",
-      2
+      3
     ],
     [
       "TCL",
