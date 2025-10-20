@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-20T03:18:15.208937",
-  "newsCount": 1625,
+  "lastUpdate": "2025-10-20T03:59:21.807413",
+  "newsCount": 1640,
   "dateRange": {
     "start": "2025-10-16",
     "end": "2025-10-20"
@@ -8,31 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-10-20",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-10-20",
-      "keyword": "机器人",
+      "keyword": "新能源",
       "positive": 1,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2025-10-20",
-      "keyword": "芯片",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-20",
+      "keyword": "算力",
       "positive": 1,
       "negative": 0,
       "neutral": 0
     },
     {
       "date": "2025-10-20",
-      "keyword": "新能源",
-      "positive": 1,
+      "keyword": "芯片",
+      "positive": 2,
       "negative": 0,
       "neutral": 1
+    },
+    {
+      "date": "2025-10-20",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2025-10-20",
@@ -68,13 +75,6 @@
       "positive": 5,
       "negative": 0,
       "neutral": 21
-    },
-    {
-      "date": "2025-10-19",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 11
     }
   ],
   "topStocks": [
@@ -91,6 +91,10 @@
       8
     ],
     [
+      "宁德时代",
+      6
+    ],
+    [
       "阿里巴巴",
       6
     ],
@@ -100,10 +104,6 @@
     ],
     [
       "中际旭创",
-      5
-    ],
-    [
-      "宁德时代",
       5
     ],
     [
