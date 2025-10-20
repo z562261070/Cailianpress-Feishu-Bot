@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-20T01:53:45.843646",
-  "newsCount": 1605,
+  "lastUpdate": "2025-10-20T03:18:15.208937",
+  "newsCount": 1625,
   "dateRange": {
     "start": "2025-10-16",
     "end": "2025-10-20"
@@ -8,15 +8,15 @@
   "topKeywords": [
     {
       "date": "2025-10-20",
-      "keyword": "机器人",
-      "positive": 1,
+      "keyword": "半导体",
+      "positive": 0,
       "negative": 0,
-      "neutral": 0
+      "neutral": 4
     },
     {
       "date": "2025-10-20",
-      "keyword": "半导体",
-      "positive": 0,
+      "keyword": "机器人",
+      "positive": 1,
       "negative": 0,
       "neutral": 2
     },
@@ -99,12 +99,12 @@
       6
     ],
     [
-      "宁德时代",
+      "中际旭创",
       5
     ],
     [
-      "中际旭创",
-      4
+      "宁德时代",
+      5
     ],
     [
       "比亚迪",
