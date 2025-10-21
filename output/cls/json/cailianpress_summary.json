@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-21T08:32:52.578624",
-  "newsCount": 1741,
+  "lastUpdate": "2025-10-21T09:25:07.263039",
+  "newsCount": 1761,
   "dateRange": {
     "start": "2025-10-17",
     "end": "2025-10-21"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-21",
+      "keyword": "芯片",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-10-21",
       "keyword": "人工智能",
@@ -38,13 +45,6 @@
       "date": "2025-10-21",
       "keyword": "军工",
       "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-21",
-      "keyword": "芯片",
-      "positive": 5,
       "negative": 0,
       "neutral": 1
     },
@@ -83,12 +83,12 @@
       14
     ],
     [
-      "阿里巴巴",
+      "英伟达",
       11
     ],
     [
-      "英伟达",
-      10
+      "阿里巴巴",
+      11
     ],
     [
       "宁德时代",
