@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-10-21T03:08:20.852194",
-  "newsCount": 1621,
+  "lastUpdate": "2025-10-21T03:50:44.715063",
+  "newsCount": 1631,
   "dateRange": {
     "start": "2025-10-17",
     "end": "2025-10-21"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-21",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-21",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2025-10-21",
       "keyword": "半导体",
@@ -29,22 +43,8 @@
     },
     {
       "date": "2025-10-21",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2025-10-21",
       "keyword": "新能源",
       "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-21",
-      "keyword": "算力",
-      "positive": 0,
       "negative": 0,
       "neutral": 1
     },
@@ -123,11 +123,11 @@
       3
     ],
     [
-      "山河智能",
-      1
+      "TCL",
+      2
     ],
     [
-      "TCL",
+      "山河智能",
       1
     ],
     [
