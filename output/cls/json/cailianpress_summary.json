@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-21T04:44:53.014154",
-  "newsCount": 1649,
+  "lastUpdate": "2025-10-21T05:21:55.369262",
+  "newsCount": 1661,
   "dateRange": {
     "start": "2025-10-17",
     "end": "2025-10-21"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-21",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-21",
       "keyword": "半导体",
@@ -24,13 +31,6 @@
       "date": "2025-10-21",
       "keyword": "芯片",
       "positive": 3,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-21",
-      "keyword": "算力",
-      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
@@ -95,11 +95,11 @@
       7
     ],
     [
-      "比亚迪",
-      5
+      "中际旭创",
+      6
     ],
     [
-      "中际旭创",
+      "比亚迪",
       5
     ],
     [
