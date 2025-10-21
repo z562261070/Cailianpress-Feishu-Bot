@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-21T05:42:01.364932",
-  "newsCount": 1668,
+  "lastUpdate": "2025-10-21T06:34:02.089173",
+  "newsCount": 1688,
   "dateRange": {
     "start": "2025-10-17",
     "end": "2025-10-21"
@@ -11,7 +11,21 @@
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-21",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-21",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-10-21",
@@ -36,24 +50,10 @@
     },
     {
       "date": "2025-10-21",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-10-21",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-10-21",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-10-20",
@@ -92,11 +92,11 @@
     ],
     [
       "宁德时代",
-      7
+      8
     ],
     [
       "中际旭创",
-      6
+      7
     ],
     [
       "比亚迪",
