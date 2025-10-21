@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-10-21T10:44:40.842580",
-  "newsCount": 1809,
+  "lastUpdate": "2025-10-21T11:18:54.531447",
+  "newsCount": 1829,
   "dateRange": {
     "start": "2025-10-17",
     "end": "2025-10-21"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-21",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-21",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2025-10-21",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 11
+    },
     {
       "date": "2025-10-21",
       "keyword": "半导体",
@@ -15,31 +36,10 @@
     },
     {
       "date": "2025-10-21",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-10-21",
       "keyword": "新能源",
       "positive": 1,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-10-21",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-10-21",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 10
     },
     {
       "date": "2025-10-21",
@@ -92,7 +92,7 @@
     ],
     [
       "宁德时代",
-      9
+      10
     ],
     [
       "中际旭创",
