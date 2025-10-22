@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-22T17:20:09.932934",
-  "newsCount": 1985,
+  "lastUpdate": "2025-10-22T17:40:11.548202",
+  "newsCount": 1992,
   "dateRange": {
     "start": "2025-10-18",
     "end": "2025-10-22"
@@ -11,7 +11,7 @@
       "keyword": "人工智能",
       "positive": 3,
       "negative": 0,
-      "neutral": 14
+      "neutral": 15
     },
     {
       "date": "2025-10-22",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "谷歌",
-      16
+      17
     ],
     [
       "华为",
