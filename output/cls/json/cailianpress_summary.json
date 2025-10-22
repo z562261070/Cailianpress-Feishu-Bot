@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-22T06:34:52.933176",
-  "newsCount": 1731,
+  "lastUpdate": "2025-10-22T07:22:09.501075",
+  "newsCount": 1751,
   "dateRange": {
     "start": "2025-10-18",
     "end": "2025-10-22"
@@ -8,24 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-10-22",
-      "keyword": "半导体",
-      "positive": 0,
+      "keyword": "机器人",
+      "positive": 1,
       "negative": 0,
-      "neutral": 6
+      "neutral": 0
     },
     {
       "date": "2025-10-22",
       "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-10-22",
+      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-10-22",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-10-22",
@@ -68,13 +75,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-10-21",
-      "keyword": "芯片",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
@@ -104,7 +104,7 @@
     ],
     [
       "比亚迪",
-      4
+      5
     ],
     [
       "网易",
