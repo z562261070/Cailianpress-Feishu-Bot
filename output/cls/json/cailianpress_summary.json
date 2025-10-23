@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-23T06:33:48.343729",
-  "newsCount": 1814,
+  "lastUpdate": "2025-10-23T07:22:29.085456",
+  "newsCount": 1834,
   "dateRange": {
     "start": "2025-10-19",
     "end": "2025-10-23"
@@ -11,7 +11,7 @@
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-10-23",
