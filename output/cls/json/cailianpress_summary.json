@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-23T13:34:25.113993",
-  "newsCount": 2013,
+  "lastUpdate": "2025-10-23T14:24:05.021290",
+  "newsCount": 2030,
   "dateRange": {
     "start": "2025-10-19",
     "end": "2025-10-23"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-10-23",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 1,
+      "neutral": 8
+    },
+    {
+      "date": "2025-10-23",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2025-10-23",
       "keyword": "半导体",
       "positive": 2,
       "negative": 1,
-      "neutral": 11
+      "neutral": 13
     },
     {
       "date": "2025-10-23",
@@ -22,24 +36,10 @@
     },
     {
       "date": "2025-10-23",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-10-23",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-10-23",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 7
     },
     {
       "date": "2025-10-23",
@@ -84,15 +84,15 @@
     ],
     [
       "华为",
-      14
+      15
     ],
     [
       "阿里巴巴",
-      12
+      13
     ],
     [
       "宁德时代",
-      10
+      11
     ],
     [
       "比亚迪",
@@ -112,19 +112,19 @@
     ],
     [
       "京东",
-      4
+      5
     ],
     [
       "网易",
-      4
+      5
+    ],
+    [
+      "理想汽车",
+      2
     ],
     [
       "腾讯",
       2
-    ],
-    [
-      "理想汽车",
-      1
     ],
     [
       "TCL",
