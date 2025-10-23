@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-23T09:25:43.539027",
-  "newsCount": 1884,
+  "lastUpdate": "2025-10-23T09:43:04.157539",
+  "newsCount": 1898,
   "dateRange": {
     "start": "2025-10-19",
     "end": "2025-10-23"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-23",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 1,
+      "neutral": 8
+    },
     {
       "date": "2025-10-23",
       "keyword": "新能源",
@@ -19,13 +26,6 @@
       "positive": 1,
       "negative": 1,
       "neutral": 4
-    },
-    {
-      "date": "2025-10-23",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 6
     },
     {
       "date": "2025-10-23",
