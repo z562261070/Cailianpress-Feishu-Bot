@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-23T01:46:47.207111",
-  "newsCount": 1723,
+  "lastUpdate": "2025-10-23T03:05:53.439449",
+  "newsCount": 1743,
   "dateRange": {
     "start": "2025-10-19",
     "end": "2025-10-23"
@@ -8,7 +8,7 @@
   "topKeywords": [
     {
       "date": "2025-10-23",
-      "keyword": "芯片",
+      "keyword": "半导体",
       "positive": 1,
       "negative": 0,
       "neutral": 1
@@ -18,26 +18,26 @@
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-10-23",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
+      "neutral": 5
     },
     {
       "date": "2025-10-23",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-10-23",
-      "keyword": "半导体",
-      "positive": 0,
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-23",
+      "keyword": "芯片",
+      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
@@ -92,7 +92,11 @@
     ],
     [
       "宁德时代",
-      8
+      9
+    ],
+    [
+      "比亚迪",
+      6
     ],
     [
       "英伟达",
@@ -101,10 +105,6 @@
     [
       "中际旭创",
       6
-    ],
-    [
-      "比亚迪",
-      5
     ],
     [
       "网易",
