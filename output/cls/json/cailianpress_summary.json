@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-24T08:30:12.929278",
-  "newsCount": 2077,
+  "lastUpdate": "2025-10-24T08:50:43.622140",
+  "newsCount": 2097,
   "dateRange": {
     "start": "2025-10-20",
     "end": "2025-10-24"
@@ -10,6 +10,13 @@
       "date": "2025-10-24",
       "keyword": "机器人",
       "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-24",
+      "keyword": "新能源",
+      "positive": 0,
       "negative": 0,
       "neutral": 2
     },
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-10-24",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-10-24",
@@ -123,6 +123,10 @@
       3
     ],
     [
+      "山河智能",
+      2
+    ],
+    [
       "腾讯",
       2
     ],
@@ -132,10 +136,6 @@
     ],
     [
       "TCL",
-      1
-    ],
-    [
-      "山河智能",
       1
     ]
   ]
