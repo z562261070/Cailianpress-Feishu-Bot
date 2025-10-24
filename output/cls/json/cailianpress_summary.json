@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-24T05:41:30.357770",
-  "newsCount": 2008,
+  "lastUpdate": "2025-10-24T06:32:55.699395",
+  "newsCount": 2027,
   "dateRange": {
     "start": "2025-10-20",
     "end": "2025-10-24"
@@ -8,17 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-10-24",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-24",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-10-24",
       "keyword": "算力",
       "positive": 2,
       "negative": 0,
-      "neutral": 2
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-24",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-10-24",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2025-10-24",
@@ -29,28 +50,7 @@
     },
     {
       "date": "2025-10-24",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-10-24",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-10-24",
       "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-24",
-      "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -95,12 +95,12 @@
       11
     ],
     [
-      "比亚迪",
+      "中际旭创",
       10
     ],
     [
-      "中际旭创",
-      9
+      "比亚迪",
+      10
     ],
     [
       "小米",
