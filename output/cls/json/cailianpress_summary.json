@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-24T06:32:55.699395",
-  "newsCount": 2027,
+  "lastUpdate": "2025-10-24T07:21:29.800245",
+  "newsCount": 2047,
   "dateRange": {
     "start": "2025-10-20",
     "end": "2025-10-24"
@@ -8,45 +8,45 @@
   "topKeywords": [
     {
       "date": "2025-10-24",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-10-24",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-10-24",
-      "keyword": "算力",
+      "keyword": "机器人",
       "positive": 2,
       "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-10-24",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 7
+      "neutral": 1
     },
     {
       "date": "2025-10-24",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-10-24",
-      "keyword": "机器人",
+      "keyword": "算力",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-24",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-10-24",
+      "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 0
+      "neutral": 7
+    },
+    {
+      "date": "2025-10-24",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-10-24",
@@ -87,16 +87,16 @@
       14
     ],
     [
+      "中际旭创",
+      11
+    ],
+    [
       "英伟达",
       11
     ],
     [
       "宁德时代",
       11
-    ],
-    [
-      "中际旭创",
-      10
     ],
     [
       "比亚迪",
