@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-24T13:33:21.709275",
-  "newsCount": 2248,
+  "lastUpdate": "2025-10-24T14:23:20.386996",
+  "newsCount": 2268,
   "dateRange": {
     "start": "2025-10-20",
     "end": "2025-10-24"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-10-24",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-10-24",
       "keyword": "算力",
       "positive": 3,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-10-24",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 10
     },
     {
       "date": "2025-10-24",
@@ -87,11 +87,11 @@
       14
     ],
     [
-      "中际旭创",
-      11
+      "英伟达",
+      12
     ],
     [
-      "英伟达",
+      "中际旭创",
       11
     ],
     [
