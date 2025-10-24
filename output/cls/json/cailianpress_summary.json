@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-24T03:48:34.043157",
-  "newsCount": 1975,
+  "lastUpdate": "2025-10-24T04:26:36.578511",
+  "newsCount": 1986,
   "dateRange": {
     "start": "2025-10-20",
     "end": "2025-10-24"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-10-24",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-10-24",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-24",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-10-24",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-10-24",
@@ -33,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-10-24",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-10-24",
@@ -96,11 +96,15 @@
     ],
     [
       "比亚迪",
-      9
+      10
     ],
     [
       "中际旭创",
       8
+    ],
+    [
+      "小米",
+      7
     ],
     [
       "京东",
@@ -112,10 +116,6 @@
     ],
     [
       "华为",
-      6
-    ],
-    [
-      "小米",
       6
     ],
     [
