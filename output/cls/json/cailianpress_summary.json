@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-24T04:43:28.490183",
-  "newsCount": 1993,
+  "lastUpdate": "2025-10-24T05:21:56.754710",
+  "newsCount": 2007,
   "dateRange": {
     "start": "2025-10-20",
     "end": "2025-10-24"
@@ -11,21 +11,28 @@
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
+    },
+    {
+      "date": "2025-10-24",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-24",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
     },
     {
       "date": "2025-10-24",
       "keyword": "芯片",
       "positive": 2,
       "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-10-24",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
+      "neutral": 6
     },
     {
       "date": "2025-10-24",
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 1,
       "neutral": 8
-    },
-    {
-      "date": "2025-10-23",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 9
     }
   ],
   "topStocks": [
@@ -99,11 +99,11 @@
       10
     ],
     [
-      "小米",
-      8
+      "中际旭创",
+      9
     ],
     [
-      "中际旭创",
+      "小米",
       8
     ],
     [
