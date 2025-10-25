@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-25T19:16:33.141727",
-  "newsCount": 2177,
+  "lastUpdate": "2025-10-25T19:38:43.994026",
+  "newsCount": 2194,
   "dateRange": {
     "start": "2025-10-21",
     "end": "2025-10-25"
@@ -9,16 +9,16 @@
     {
       "date": "2025-10-25",
       "keyword": "芯片",
-      "positive": 8,
+      "positive": 9,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
     },
     {
       "date": "2025-10-25",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 1,
-      "neutral": 12
+      "neutral": 13
     },
     {
       "date": "2025-10-25",
