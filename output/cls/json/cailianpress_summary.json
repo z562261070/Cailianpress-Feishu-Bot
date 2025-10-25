@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-25T01:44:25.560084",
-  "newsCount": 1954,
+  "lastUpdate": "2025-10-25T03:04:41.802869",
+  "newsCount": 1968,
   "dateRange": {
     "start": "2025-10-21",
     "end": "2025-10-25"
@@ -11,7 +11,14 @@
       "keyword": "新能源",
       "positive": 1,
       "negative": 0,
-      "neutral": 0
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-25",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-10-25",
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-10-24",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
