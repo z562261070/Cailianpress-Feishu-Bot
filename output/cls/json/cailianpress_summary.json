@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-26T13:40:44.418627",
-  "newsCount": 2001,
+  "lastUpdate": "2025-10-26T14:19:06.036188",
+  "newsCount": 2006,
   "dateRange": {
     "start": "2025-10-22",
     "end": "2025-10-26"
@@ -8,21 +8,21 @@
   "topKeywords": [
     {
       "date": "2025-10-26",
-      "keyword": "算力",
+      "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-10-26",
-      "keyword": "半导体",
-      "positive": 2,
+      "keyword": "军工",
+      "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-10-26",
-      "keyword": "机器人",
+      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -32,11 +32,18 @@
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-10-26",
-      "keyword": "军工",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-26",
+      "keyword": "算力",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-10-25",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -99,20 +99,20 @@
       7
     ],
     [
+      "华为",
+      6
+    ],
+    [
+      "宁德时代",
+      6
+    ],
+    [
       "中际旭创",
       6
     ],
     [
       "京东",
       6
-    ],
-    [
-      "华为",
-      5
-    ],
-    [
-      "宁德时代",
-      5
     ],
     [
       "网易",
