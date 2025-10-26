@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-26T07:38:18.180036",
-  "newsCount": 1917,
+  "lastUpdate": "2025-10-26T08:26:46.156211",
+  "newsCount": 1937,
   "dateRange": {
     "start": "2025-10-22",
     "end": "2025-10-26"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-26",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-26",
       "keyword": "人工智能",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-24",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 11
     }
   ],
   "topStocks": [
@@ -119,6 +119,10 @@
       4
     ],
     [
+      "药明康德",
+      3
+    ],
+    [
       "理想汽车",
       3
     ],
@@ -132,10 +136,6 @@
     ],
     [
       "山河智能",
-      1
-    ],
-    [
-      "药明康德",
       1
     ]
   ]
