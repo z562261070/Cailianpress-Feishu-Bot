@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-27T03:24:15.157095",
-  "newsCount": 1736,
+  "lastUpdate": "2025-10-27T04:03:56.116827",
+  "newsCount": 1753,
   "dateRange": {
     "start": "2025-10-23",
     "end": "2025-10-27"
@@ -8,14 +8,28 @@
   "topKeywords": [
     {
       "date": "2025-10-27",
-      "keyword": "半导体",
+      "keyword": "机器人",
       "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-27",
+      "keyword": "算力",
+      "positive": 1,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2025-10-27",
-      "keyword": "机器人",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-27",
+      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 3
@@ -31,13 +45,6 @@
       "date": "2025-10-27",
       "keyword": "人工智能",
       "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-10-27",
-      "keyword": "算力",
-      "positive": 0,
       "negative": 0,
       "neutral": 3
     },
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-10-26",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
@@ -83,12 +83,16 @@
       10
     ],
     [
+      "中际旭创",
+      8
+    ],
+    [
       "英伟达",
       8
     ],
     [
-      "中际旭创",
-      7
+      "京东",
+      6
     ],
     [
       "宁德时代",
@@ -103,11 +107,11 @@
       6
     ],
     [
-      "比亚迪",
+      "阿里巴巴",
       5
     ],
     [
-      "京东",
+      "比亚迪",
       5
     ],
     [
@@ -115,16 +119,12 @@
       4
     ],
     [
-      "阿里巴巴",
-      4
+      "腾讯",
+      3
     ],
     [
       "网易",
       3
-    ],
-    [
-      "腾讯",
-      2
     ],
     [
       "理想汽车",
