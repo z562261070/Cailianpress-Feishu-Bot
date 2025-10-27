@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-10-27T06:37:36.644152",
-  "newsCount": 1793,
+  "lastUpdate": "2025-10-27T07:22:39.541734",
+  "newsCount": 1813,
   "dateRange": {
     "start": "2025-10-23",
     "end": "2025-10-27"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-27",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-27",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-10-27",
       "keyword": "无人机",
@@ -22,24 +36,10 @@
     },
     {
       "date": "2025-10-27",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-10-27",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-10-27",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-10-27",
@@ -83,12 +83,12 @@
       10
     ],
     [
-      "英伟达",
+      "中际旭创",
       9
     ],
     [
-      "中际旭创",
-      8
+      "英伟达",
+      9
     ],
     [
       "宁德时代",
