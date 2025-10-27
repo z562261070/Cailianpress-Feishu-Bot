@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-10-27T05:44:05.650421",
-  "newsCount": 1773,
+  "lastUpdate": "2025-10-27T06:37:36.644152",
+  "newsCount": 1793,
   "dateRange": {
     "start": "2025-10-23",
     "end": "2025-10-27"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-27",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-27",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-10-27",
       "keyword": "芯片",
@@ -36,13 +50,6 @@
     },
     {
       "date": "2025-10-27",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-10-27",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-26",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
@@ -83,19 +83,19 @@
       10
     ],
     [
+      "英伟达",
+      9
+    ],
+    [
       "中际旭创",
       8
     ],
     [
-      "英伟达",
-      8
+      "宁德时代",
+      7
     ],
     [
       "京东",
-      6
-    ],
-    [
-      "宁德时代",
       6
     ],
     [
