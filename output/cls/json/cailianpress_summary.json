@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-27T11:19:50.957648",
-  "newsCount": 1941,
+  "lastUpdate": "2025-10-27T11:40:17.857138",
+  "newsCount": 1952,
   "dateRange": {
     "start": "2025-10-23",
     "end": "2025-10-27"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-27",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
     {
       "date": "2025-10-27",
       "keyword": "半导体",
@@ -40,13 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-10-27",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-10-27",
@@ -92,6 +92,10 @@
     ],
     [
       "京东",
+      8
+    ],
+    [
+      "华为",
       7
     ],
     [
@@ -100,10 +104,6 @@
     ],
     [
       "阿里巴巴",
-      6
-    ],
-    [
-      "华为",
       6
     ],
     [
