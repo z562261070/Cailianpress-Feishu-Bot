@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-10-28T08:31:38.910761",
-  "newsCount": 1806,
+  "lastUpdate": "2025-10-28T09:25:16.539079",
+  "newsCount": 1826,
   "dateRange": {
     "start": "2025-10-24",
     "end": "2025-10-28"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-28",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-10-28",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 13
+    },
     {
       "date": "2025-10-28",
       "keyword": "芯片",
@@ -26,20 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-10-28",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-10-28",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 12
     },
     {
       "date": "2025-10-28",
@@ -103,6 +103,10 @@
       6
     ],
     [
+      "药明康德",
+      5
+    ],
+    [
       "小米",
       4
     ],
@@ -112,10 +116,6 @@
     ],
     [
       "腾讯",
-      4
-    ],
-    [
-      "药明康德",
       4
     ],
     [
