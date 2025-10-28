@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-28T14:24:19.708711",
-  "newsCount": 1974,
+  "lastUpdate": "2025-10-28T14:46:56.476867",
+  "newsCount": 1982,
   "dateRange": {
     "start": "2025-10-24",
     "end": "2025-10-28"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-28",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 14
+    },
     {
       "date": "2025-10-28",
       "keyword": "机器人",
@@ -19,13 +26,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-28",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 13
     },
     {
       "date": "2025-10-28",
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      13
+      14
     ],
     [
       "中际旭创",
