@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-28T13:33:12.759527",
-  "newsCount": 1954,
+  "lastUpdate": "2025-10-28T14:24:19.708711",
+  "newsCount": 1974,
   "dateRange": {
     "start": "2025-10-24",
     "end": "2025-10-28"
@@ -8,8 +8,22 @@
   "topKeywords": [
     {
       "date": "2025-10-28",
-      "keyword": "半导体",
-      "positive": 2,
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-10-28",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-28",
+      "keyword": "芯片",
+      "positive": 3,
       "negative": 0,
       "neutral": 13
     },
@@ -18,14 +32,14 @@
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 15
+      "neutral": 16
     },
     {
       "date": "2025-10-28",
-      "keyword": "机器人",
-      "positive": 3,
+      "keyword": "半导体",
+      "positive": 2,
       "negative": 0,
-      "neutral": 3
+      "neutral": 13
     },
     {
       "date": "2025-10-28",
@@ -36,24 +50,10 @@
     },
     {
       "date": "2025-10-28",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 11
-    },
-    {
-      "date": "2025-10-28",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-10-28",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-10-27",
@@ -91,16 +91,16 @@
       10
     ],
     [
-      "京东",
+      "华为",
       8
     ],
     [
-      "华为",
-      7
+      "宁德时代",
+      8
     ],
     [
-      "宁德时代",
-      7
+      "京东",
+      8
     ],
     [
       "药明康德",
@@ -119,15 +119,15 @@
       4
     ],
     [
+      "TCL",
+      3
+    ],
+    [
       "比亚迪",
       3
     ],
     [
       "上纬新材",
-      2
-    ],
-    [
-      "TCL",
       2
     ],
     [
