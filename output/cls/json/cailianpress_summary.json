@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-28T10:25:59.434872",
-  "newsCount": 1856,
+  "lastUpdate": "2025-10-28T10:47:20.271837",
+  "newsCount": 1874,
   "dateRange": {
     "start": "2025-10-24",
     "end": "2025-10-28"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-10-28",
-      "keyword": "算力",
-      "positive": 2,
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 12
+    },
+    {
+      "date": "2025-10-28",
+      "keyword": "新能源",
+      "positive": 0,
       "negative": 0,
       "neutral": 8
     },
     {
       "date": "2025-10-28",
-      "keyword": "半导体",
-      "positive": 1,
+      "keyword": "算力",
+      "positive": 2,
       "negative": 0,
-      "neutral": 10
+      "neutral": 8
     },
     {
       "date": "2025-10-28",
@@ -33,13 +40,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-10-28",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-10-28",
@@ -95,12 +95,12 @@
       8
     ],
     [
-      "宁德时代",
+      "华为",
       7
     ],
     [
-      "华为",
-      6
+      "宁德时代",
+      7
     ],
     [
       "药明康德",
