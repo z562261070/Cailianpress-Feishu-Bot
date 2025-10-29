@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-29T12:50:40.091107",
-  "newsCount": 1906,
+  "lastUpdate": "2025-10-29T13:35:28.564399",
+  "newsCount": 1926,
   "dateRange": {
     "start": "2025-10-25",
     "end": "2025-10-29"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-10-29",
-      "keyword": "算力",
-      "positive": 1,
+      "keyword": "芯片",
+      "positive": 3,
       "negative": 0,
       "neutral": 11
     },
     {
       "date": "2025-10-29",
       "keyword": "人工智能",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 18
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 16
+      "neutral": 11
     },
     {
       "date": "2025-10-29",
@@ -36,24 +50,10 @@
     },
     {
       "date": "2025-10-29",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-10-29",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 10
     },
     {
       "date": "2025-10-29",
@@ -80,11 +80,11 @@
   "topStocks": [
     [
       "英伟达",
-      43
+      46
     ],
     [
       "宁德时代",
-      12
+      13
     ],
     [
       "华为",
@@ -95,11 +95,11 @@
       9
     ],
     [
-      "中际旭创",
-      7
+      "京东",
+      8
     ],
     [
-      "京东",
+      "中际旭创",
       7
     ],
     [
