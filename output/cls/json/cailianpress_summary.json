@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-29T11:40:03.220451",
-  "newsCount": 1886,
+  "lastUpdate": "2025-10-29T12:50:40.091107",
+  "newsCount": 1906,
   "dateRange": {
     "start": "2025-10-25",
     "end": "2025-10-29"
@@ -8,35 +8,42 @@
   "topKeywords": [
     {
       "date": "2025-10-29",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-10-29",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 14
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 9
+      "neutral": 16
     },
     {
       "date": "2025-10-29",
       "keyword": "机器人",
       "positive": 2,
       "negative": 0,
-      "neutral": 13
+      "neutral": 14
     },
     {
       "date": "2025-10-29",
-      "keyword": "算力",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 10
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "半导体",
       "positive": 1,
       "negative": 0,
       "neutral": 7
@@ -68,13 +75,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-10-28",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -111,6 +111,10 @@
       5
     ],
     [
+      "TCL",
+      4
+    ],
+    [
       "比亚迪",
       4
     ],
@@ -121,10 +125,6 @@
     [
       "腾讯",
       4
-    ],
-    [
-      "TCL",
-      3
     ],
     [
       "福元医药",
