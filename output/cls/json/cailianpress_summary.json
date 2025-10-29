@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-29T05:44:01.889243",
-  "newsCount": 1703,
+  "lastUpdate": "2025-10-29T06:35:51.207450",
+  "newsCount": 1723,
   "dateRange": {
     "start": "2025-10-25",
     "end": "2025-10-29"
@@ -8,14 +8,21 @@
   "topKeywords": [
     {
       "date": "2025-10-29",
-      "keyword": "芯片",
+      "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 5
+      "neutral": 4
     },
     {
       "date": "2025-10-29",
       "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "芯片",
       "positive": 1,
       "negative": 0,
       "neutral": 6
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-10-29",
@@ -107,6 +107,10 @@
       5
     ],
     [
+      "比亚迪",
+      4
+    ],
+    [
       "小米",
       4
     ],
@@ -117,10 +121,6 @@
     [
       "药明康德",
       4
-    ],
-    [
-      "比亚迪",
-      3
     ],
     [
       "TCL",
