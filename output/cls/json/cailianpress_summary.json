@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-10-29T01:53:50.825018",
-  "newsCount": 1629,
+  "lastUpdate": "2025-10-29T03:18:26.236761",
+  "newsCount": 1649,
   "dateRange": {
     "start": "2025-10-25",
     "end": "2025-10-29"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-29",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-10-29",
       "keyword": "新能源",
@@ -22,31 +43,10 @@
     },
     {
       "date": "2025-10-29",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-29",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-10-28",
@@ -84,7 +84,7 @@
     ],
     [
       "宁德时代",
-      10
+      11
     ],
     [
       "谷歌",
@@ -107,16 +107,16 @@
       5
     ],
     [
+      "小米",
+      4
+    ],
+    [
       "腾讯",
       4
     ],
     [
       "药明康德",
       4
-    ],
-    [
-      "小米",
-      3
     ],
     [
       "TCL",
