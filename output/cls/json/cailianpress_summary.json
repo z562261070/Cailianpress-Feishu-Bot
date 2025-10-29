@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-29T05:23:31.829529",
-  "newsCount": 1694,
+  "lastUpdate": "2025-10-29T05:44:01.889243",
+  "newsCount": 1703,
   "dateRange": {
     "start": "2025-10-25",
     "end": "2025-10-29"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-10-29",
-      "keyword": "机器人",
+      "keyword": "芯片",
       "positive": 1,
       "negative": 0,
       "neutral": 5
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 11
     },
     {
       "date": "2025-10-29",
@@ -22,24 +36,10 @@
     },
     {
       "date": "2025-10-29",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-10-29",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-10-29",
@@ -80,15 +80,15 @@
   "topStocks": [
     [
       "英伟达",
-      41
+      42
     ],
     [
       "宁德时代",
-      11
+      12
     ],
     [
       "华为",
-      10
+      11
     ],
     [
       "谷歌",
@@ -119,12 +119,12 @@
       4
     ],
     [
-      "TCL",
+      "比亚迪",
       3
     ],
     [
-      "比亚迪",
-      2
+      "TCL",
+      3
     ],
     [
       "上纬新材",
