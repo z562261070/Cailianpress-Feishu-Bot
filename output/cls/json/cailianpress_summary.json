@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-29T10:25:49.781994",
-  "newsCount": 1826,
+  "lastUpdate": "2025-10-29T10:46:46.499839",
+  "newsCount": 1846,
   "dateRange": {
     "start": "2025-10-25",
     "end": "2025-10-29"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-10-29",
-      "keyword": "新能源",
-      "positive": 0,
+      "keyword": "机器人",
+      "positive": 2,
       "negative": 0,
-      "neutral": 8
+      "neutral": 13
     },
     {
       "date": "2025-10-29",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
     },
     {
       "date": "2025-10-29",
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 11
     },
     {
       "date": "2025-10-29",
@@ -125,6 +125,10 @@
     [
       "TCL",
       3
+    ],
+    [
+      "福元医药",
+      1
     ],
     [
       "上纬新材",
