@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-10-29T09:42:34.604376",
-  "newsCount": 1806,
+  "lastUpdate": "2025-10-29T10:25:49.781994",
+  "newsCount": 1826,
   "dateRange": {
     "start": "2025-10-25",
     "end": "2025-10-29"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-29",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 10
+    },
+    {
+      "date": "2025-10-29",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
+    },
     {
       "date": "2025-10-29",
       "keyword": "机器人",
@@ -15,38 +43,10 @@
     },
     {
       "date": "2025-10-29",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-10-29",
       "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-10-29",
@@ -103,6 +103,10 @@
       7
     ],
     [
+      "药明康德",
+      5
+    ],
+    [
       "阿里巴巴",
       5
     ],
@@ -116,10 +120,6 @@
     ],
     [
       "腾讯",
-      4
-    ],
-    [
-      "药明康德",
       4
     ],
     [
