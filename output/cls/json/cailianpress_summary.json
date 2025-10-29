@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-29T16:31:29.443914",
-  "newsCount": 1996,
+  "lastUpdate": "2025-10-29T17:21:28.057052",
+  "newsCount": 2005,
   "dateRange": {
     "start": "2025-10-25",
     "end": "2025-10-29"
@@ -11,7 +11,7 @@
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 13
+      "neutral": 14
     },
     {
       "date": "2025-10-29",
