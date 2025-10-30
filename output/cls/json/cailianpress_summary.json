@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-10-30T09:43:35.485355",
-  "newsCount": 1913,
+  "lastUpdate": "2025-10-30T10:25:11.441900",
+  "newsCount": 1933,
   "dateRange": {
     "start": "2025-10-26",
     "end": "2025-10-30"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-30",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-10-30",
       "keyword": "新能源",
@@ -26,13 +33,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-10-30",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-10-30",
@@ -127,11 +127,11 @@
       4
     ],
     [
-      "理想汽车",
-      2
+      "上纬新材",
+      3
     ],
     [
-      "上纬新材",
+      "理想汽车",
       2
     ],
     [
