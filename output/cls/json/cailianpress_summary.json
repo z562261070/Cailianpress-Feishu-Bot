@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-30T04:26:41.403280",
-  "newsCount": 1774,
+  "lastUpdate": "2025-10-30T04:45:09.274640",
+  "newsCount": 1780,
   "dateRange": {
     "start": "2025-10-26",
     "end": "2025-10-30"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-10-30",
-      "keyword": "机器人",
+      "keyword": "算力",
       "positive": 1,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2025-10-30",
-      "keyword": "算力",
+      "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-10-30",
