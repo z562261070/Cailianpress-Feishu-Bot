@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-10-30T03:14:08.638866",
-  "newsCount": 1743,
+  "lastUpdate": "2025-10-30T03:54:55.355687",
+  "newsCount": 1763,
   "dateRange": {
     "start": "2025-10-26",
     "end": "2025-10-30"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-30",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-10-30",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-30",
       "keyword": "无人机",
@@ -26,20 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-10-30",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-30",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-10-29",
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      14
+      15
     ],
     [
       "宁德时代",
