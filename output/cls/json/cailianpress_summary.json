@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-30T08:30:41.322879",
-  "newsCount": 1873,
+  "lastUpdate": "2025-10-30T09:25:48.065356",
+  "newsCount": 1893,
   "dateRange": {
     "start": "2025-10-26",
     "end": "2025-10-30"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-10-30",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-10-30",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
+    },
+    {
+      "date": "2025-10-30",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-10-30",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-10-30",
@@ -68,13 +75,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 16
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 11
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      16
+      18
     ],
     [
       "宁德时代",
