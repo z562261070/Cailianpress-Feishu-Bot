@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-30T14:45:50.857981",
-  "newsCount": 2057,
+  "lastUpdate": "2025-10-30T15:26:59.623539",
+  "newsCount": 2069,
   "dateRange": {
     "start": "2025-10-26",
     "end": "2025-10-30"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-10-30",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-10-30",
       "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-10-30",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-10-30",
