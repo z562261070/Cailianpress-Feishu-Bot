@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-30T12:49:10.165930",
-  "newsCount": 2010,
+  "lastUpdate": "2025-10-30T13:33:32.895218",
+  "newsCount": 2030,
   "dateRange": {
     "start": "2025-10-26",
     "end": "2025-10-30"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-10-30",
-      "keyword": "机器人",
-      "positive": 2,
+      "keyword": "新能源",
+      "positive": 0,
       "negative": 0,
-      "neutral": 7
+      "neutral": 3
     },
     {
       "date": "2025-10-30",
       "keyword": "算力",
       "positive": 2,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2025-10-30",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 7
     },
     {
       "date": "2025-10-30",
@@ -33,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-10-30",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-10-30",
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      19
+      20
     ],
     [
       "宁德时代",
