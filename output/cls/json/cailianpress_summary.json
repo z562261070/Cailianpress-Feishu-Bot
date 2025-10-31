@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-31T01:49:58.600990",
-  "newsCount": 1955,
+  "lastUpdate": "2025-10-31T03:13:21.647989",
+  "newsCount": 1975,
   "dateRange": {
     "start": "2025-10-27",
     "end": "2025-10-31"
@@ -8,31 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-10-31",
-      "keyword": "芯片",
-      "positive": 0,
+      "keyword": "机器人",
+      "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 1
+    },
+    {
+      "date": "2025-10-31",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-10-31",
       "keyword": "人工智能",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 6
     },
     {
       "date": "2025-10-31",
-      "keyword": "机器人",
-      "positive": 1,
+      "keyword": "芯片",
+      "positive": 0,
       "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2025-10-31",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
+      "neutral": 3
     },
     {
       "date": "2025-10-30",
@@ -103,12 +103,12 @@
       8
     ],
     [
-      "比亚迪",
+      "中际旭创",
       7
     ],
     [
-      "中际旭创",
-      6
+      "比亚迪",
+      7
     ],
     [
       "药明康德",
