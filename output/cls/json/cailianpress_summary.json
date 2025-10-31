@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-31T16:29:03.288794",
-  "newsCount": 2323,
+  "lastUpdate": "2025-10-31T16:50:28.669086",
+  "newsCount": 2334,
   "dateRange": {
     "start": "2025-10-27",
     "end": "2025-10-31"
@@ -11,7 +11,7 @@
       "keyword": "人工智能",
       "positive": 2,
       "negative": 0,
-      "neutral": 17
+      "neutral": 18
     },
     {
       "date": "2025-10-31",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      72
+      73
     ],
     [
       "谷歌",
