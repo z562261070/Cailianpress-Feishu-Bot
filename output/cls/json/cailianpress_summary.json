@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-10-30T23:39:12.933404",
-  "newsCount": 2107,
+  "lastUpdate": "2025-10-31T01:49:58.600990",
+  "newsCount": 1955,
   "dateRange": {
-    "start": "2025-10-26",
-    "end": "2025-10-30"
+    "start": "2025-10-27",
+    "end": "2025-10-31"
   },
   "topKeywords": [
+    {
+      "date": "2025-10-31",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-10-31",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-10-31",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-10-31",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-10-30",
       "keyword": "芯片",
@@ -47,72 +75,44 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-10-30",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-10-30",
-      "keyword": "无人机",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 15
-    },
-    {
-      "date": "2025-10-29",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 15
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      56
+      57
     ],
     [
       "谷歌",
-      20
-    ],
-    [
-      "宁德时代",
-      14
-    ],
-    [
-      "华为",
-      13
+      21
     ],
     [
       "京东",
-      11
+      12
+    ],
+    [
+      "宁德时代",
+      12
+    ],
+    [
+      "华为",
+      9
+    ],
+    [
+      "阿里巴巴",
+      8
     ],
     [
       "比亚迪",
       7
     ],
     [
-      "阿里巴巴",
-      7
+      "中际旭创",
+      6
     ],
     [
       "药明康德",
-      7
-    ],
-    [
-      "中际旭创",
-      7
+      5
     ],
     [
       "腾讯",
@@ -135,7 +135,7 @@
       2
     ],
     [
-      "福元医药",
+      "网易",
       1
     ]
   ]
