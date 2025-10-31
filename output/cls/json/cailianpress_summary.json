@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-10-31T08:50:20.762879",
-  "newsCount": 2128,
+  "lastUpdate": "2025-10-31T09:25:22.729384",
+  "newsCount": 2148,
   "dateRange": {
     "start": "2025-10-27",
     "end": "2025-10-31"
@@ -8,24 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-10-31",
-      "keyword": "机器人",
-      "positive": 2,
+      "keyword": "新能源",
+      "positive": 0,
       "negative": 0,
       "neutral": 4
+    },
+    {
+      "date": "2025-10-31",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-10-31",
       "keyword": "人工智能",
       "positive": 2,
       "negative": 0,
-      "neutral": 12
+      "neutral": 13
     },
     {
       "date": "2025-10-31",
-      "keyword": "新能源",
-      "positive": 0,
+      "keyword": "机器人",
+      "positive": 2,
       "negative": 0,
-      "neutral": 2
+      "neutral": 4
     },
     {
       "date": "2025-10-31",
@@ -40,13 +47,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-10-31",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-10-30",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      64
+      65
     ],
     [
       "谷歌",
@@ -127,12 +127,12 @@
       4
     ],
     [
-      "上纬新材",
+      "理想汽车",
       3
     ],
     [
-      "理想汽车",
-      2
+      "上纬新材",
+      3
     ],
     [
       "网易",
