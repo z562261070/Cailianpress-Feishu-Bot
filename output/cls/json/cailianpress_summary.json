@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-01T07:38:04.242142",
-  "newsCount": 2060,
+  "lastUpdate": "2025-11-01T08:27:16.449959",
+  "newsCount": 2065,
   "dateRange": {
     "start": "2025-10-28",
     "end": "2025-11-01"
@@ -11,7 +11,7 @@
       "keyword": "新能源",
       "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-11-01",
