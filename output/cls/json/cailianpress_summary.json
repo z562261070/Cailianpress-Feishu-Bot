@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-11-01T01:53:28.197858",
-  "newsCount": 2024,
+  "lastUpdate": "2025-11-01T03:14:30.652887",
+  "newsCount": 2041,
   "dateRange": {
     "start": "2025-10-28",
     "end": "2025-11-01"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-01",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-11-01",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-01",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-11-01",
       "keyword": "半导体",
@@ -54,27 +75,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-10-30",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-10-30",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-10-30",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
@@ -88,7 +88,7 @@
     ],
     [
       "京东",
-      12
+      13
     ],
     [
       "宁德时代",
@@ -99,6 +99,10 @@
       9
     ],
     [
+      "小米",
+      7
+    ],
+    [
       "比亚迪",
       7
     ],
@@ -107,12 +111,12 @@
       7
     ],
     [
-      "小米",
+      "中际旭创",
       6
     ],
     [
-      "中际旭创",
-      6
+      "理想汽车",
+      4
     ],
     [
       "腾讯",
@@ -125,10 +129,6 @@
     [
       "TCL",
       4
-    ],
-    [
-      "理想汽车",
-      3
     ],
     [
       "上纬新材",
