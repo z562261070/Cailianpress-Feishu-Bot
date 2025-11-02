@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-02T07:20:18.172126",
-  "newsCount": 1906,
+  "lastUpdate": "2025-11-02T07:38:20.074124",
+  "newsCount": 1909,
   "dateRange": {
     "start": "2025-10-29",
     "end": "2025-11-02"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-02",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-11-02",
       "keyword": "无人机",
@@ -40,13 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-11-02",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-11-02",
