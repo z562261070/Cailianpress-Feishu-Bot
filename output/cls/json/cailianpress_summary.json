@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-03T09:28:18.082377",
-  "newsCount": 1835,
+  "lastUpdate": "2025-11-03T09:47:07.364137",
+  "newsCount": 1850,
   "dateRange": {
     "start": "2025-10-30",
     "end": "2025-11-03"
@@ -8,15 +8,15 @@
   "topKeywords": [
     {
       "date": "2025-11-03",
-      "keyword": "半导体",
-      "positive": 0,
+      "keyword": "人工智能",
+      "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 6
     },
     {
       "date": "2025-11-03",
-      "keyword": "人工智能",
-      "positive": 1,
+      "keyword": "半导体",
+      "positive": 0,
       "negative": 0,
       "neutral": 4
     },
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      13
+      14
     ],
     [
       "比亚迪",
@@ -100,7 +100,7 @@
     ],
     [
       "小米",
-      5
+      6
     ],
     [
       "理想汽车",
