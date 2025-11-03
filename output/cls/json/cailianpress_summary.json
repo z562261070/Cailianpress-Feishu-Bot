@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-11-03T14:23:34.797711",
-  "newsCount": 1964,
+  "lastUpdate": "2025-11-03T14:45:16.683210",
+  "newsCount": 1973,
   "dateRange": {
     "start": "2025-10-30",
     "end": "2025-11-03"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-03",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-11-03",
+      "keyword": "芯片",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 10
+    },
     {
       "date": "2025-11-03",
       "keyword": "机器人",
@@ -19,20 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-11-03",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-11-03",
-      "keyword": "芯片",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 9
     },
     {
       "date": "2025-11-03",
@@ -80,11 +80,11 @@
   "topStocks": [
     [
       "英伟达",
-      33
+      34
     ],
     [
       "谷歌",
-      16
+      17
     ],
     [
       "京东",
@@ -96,7 +96,7 @@
     ],
     [
       "阿里巴巴",
-      7
+      8
     ],
     [
       "小米",
@@ -123,6 +123,10 @@
       3
     ],
     [
+      "网易",
+      2
+    ],
+    [
       "TCL",
       2
     ],
@@ -133,10 +137,6 @@
     [
       "药明康德",
       2
-    ],
-    [
-      "网易",
-      1
     ]
   ]
 }
