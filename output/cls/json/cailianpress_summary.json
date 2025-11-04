@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-04T01:50:34.873542",
-  "newsCount": 1616,
+  "lastUpdate": "2025-11-04T03:12:38.013644",
+  "newsCount": 1636,
   "dateRange": {
     "start": "2025-10-31",
     "end": "2025-11-04"
@@ -8,24 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-11-04",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-04",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-11-04",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 0
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-04",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-11-04",
@@ -99,16 +99,16 @@
       6
     ],
     [
+      "中际旭创",
+      5
+    ],
+    [
       "小米",
       5
     ],
     [
-      "中际旭创",
-      4
-    ],
-    [
       "华为",
-      3
+      4
     ],
     [
       "理想汽车",
