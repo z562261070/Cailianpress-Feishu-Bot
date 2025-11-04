@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-04T05:42:52.928873",
-  "newsCount": 1691,
+  "lastUpdate": "2025-11-04T06:35:42.116078",
+  "newsCount": 1711,
   "dateRange": {
     "start": "2025-10-31",
     "end": "2025-11-04"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-04",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-11-04",
       "keyword": "人工智能",
@@ -33,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-11-04",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-11-04",
@@ -80,15 +80,15 @@
   "topStocks": [
     [
       "英伟达",
-      29
+      30
+    ],
+    [
+      "谷歌",
+      8
     ],
     [
       "京东",
       8
-    ],
-    [
-      "谷歌",
-      7
     ],
     [
       "比亚迪",
