@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-05T14:24:18.579186",
-  "newsCount": 1864,
+  "lastUpdate": "2025-11-05T14:46:46.018441",
+  "newsCount": 1875,
   "dateRange": {
     "start": "2025-11-01",
     "end": "2025-11-05"
@@ -11,7 +11,7 @@
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 14
+      "neutral": 15
     },
     {
       "date": "2025-11-05",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      19
+      20
     ],
     [
       "谷歌",
