@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-05T11:20:39.191243",
-  "newsCount": 1793,
+  "lastUpdate": "2025-11-05T11:40:10.159175",
+  "newsCount": 1804,
   "dateRange": {
     "start": "2025-11-01",
     "end": "2025-11-05"
@@ -11,7 +11,7 @@
       "keyword": "新能源",
       "positive": 2,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-11-05",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      18
+      19
     ],
     [
       "谷歌",
