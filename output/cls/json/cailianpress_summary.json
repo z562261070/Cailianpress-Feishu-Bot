@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-05T05:43:35.687938",
-  "newsCount": 1641,
+  "lastUpdate": "2025-11-05T06:35:14.744779",
+  "newsCount": 1661,
   "dateRange": {
     "start": "2025-11-01",
     "end": "2025-11-05"
@@ -8,10 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-11-05",
-      "keyword": "算力",
+      "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 2
+    },
+    {
+      "date": "2025-11-05",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-11-05",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-11-05",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-11-05",
@@ -19,27 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-11-05",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-11-05",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-05",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-11-05",
@@ -88,7 +88,7 @@
     ],
     [
       "比亚迪",
-      9
+      10
     ],
     [
       "京东",
@@ -107,12 +107,12 @@
       4
     ],
     [
-      "理想汽车",
+      "宁德时代",
       3
     ],
     [
-      "宁德时代",
-      2
+      "理想汽车",
+      3
     ],
     [
       "中际旭创",
