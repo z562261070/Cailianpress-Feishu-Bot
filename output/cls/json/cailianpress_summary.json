@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-06T06:35:33.175930",
-  "newsCount": 1755,
+  "lastUpdate": "2025-11-06T07:22:10.354403",
+  "newsCount": 1775,
   "dateRange": {
     "start": "2025-11-02",
     "end": "2025-11-06"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-06",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-11-06",
       "keyword": "机器人",
@@ -19,13 +26,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-11-06",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-11-06",
@@ -111,11 +111,11 @@
       4
     ],
     [
-      "腾讯",
-      2
+      "理想汽车",
+      3
     ],
     [
-      "理想汽车",
+      "腾讯",
       2
     ],
     [
