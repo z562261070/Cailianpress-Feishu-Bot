@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-11-06T12:49:39.140519",
-  "newsCount": 1919,
+  "lastUpdate": "2025-11-06T13:34:09.479104",
+  "newsCount": 1939,
   "dateRange": {
     "start": "2025-11-02",
     "end": "2025-11-06"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-06",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2025-11-06",
+      "keyword": "芯片",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2025-11-06",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 14
+    },
     {
       "date": "2025-11-06",
       "keyword": "新能源",
@@ -15,31 +36,10 @@
     },
     {
       "date": "2025-11-06",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 12
-    },
-    {
-      "date": "2025-11-06",
-      "keyword": "芯片",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-11-06",
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
       "neutral": 10
-    },
-    {
-      "date": "2025-11-06",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 8
     },
     {
       "date": "2025-11-06",
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      17
+      18
     ],
     [
       "比亚迪",
