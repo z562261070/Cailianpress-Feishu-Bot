@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-06T10:26:21.918258",
-  "newsCount": 1859,
+  "lastUpdate": "2025-11-06T10:47:11.977681",
+  "newsCount": 1870,
   "dateRange": {
     "start": "2025-11-02",
     "end": "2025-11-06"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-06",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 11
+    },
     {
       "date": "2025-11-06",
       "keyword": "芯片",
@@ -19,13 +26,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-11-06",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 9
     },
     {
       "date": "2025-11-06",
@@ -115,12 +115,12 @@
       4
     ],
     [
-      "理想汽车",
+      "中际旭创",
       3
     ],
     [
-      "中际旭创",
-      2
+      "理想汽车",
+      3
     ],
     [
       "TCL",
