@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-06T14:46:15.446548",
-  "newsCount": 1958,
+  "lastUpdate": "2025-11-06T15:26:34.998859",
+  "newsCount": 1968,
   "dateRange": {
     "start": "2025-11-02",
     "end": "2025-11-06"
@@ -8,24 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-11-06",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-06",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-11-06",
       "keyword": "芯片",
       "positive": 4,
       "negative": 0,
-      "neutral": 11
+      "neutral": 12
+    },
+    {
+      "date": "2025-11-06",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-11-06",
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      18
+      19
     ],
     [
       "比亚迪",
