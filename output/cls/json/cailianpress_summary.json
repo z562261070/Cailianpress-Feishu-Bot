@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-07T15:42:24.728799",
-  "newsCount": 2132,
+  "lastUpdate": "2025-11-07T16:26:29.211193",
+  "newsCount": 2148,
   "dateRange": {
     "start": "2025-11-03",
     "end": "2025-11-07"
@@ -9,7 +9,7 @@
     {
       "date": "2025-11-07",
       "keyword": "芯片",
-      "positive": 6,
+      "positive": 7,
       "negative": 0,
       "neutral": 8
     },
@@ -18,7 +18,7 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-11-07",
