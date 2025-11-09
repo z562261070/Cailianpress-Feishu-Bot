@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-09T15:38:59.917062",
-  "newsCount": 1851,
+  "lastUpdate": "2025-11-09T16:25:47.649133",
+  "newsCount": 1871,
   "dateRange": {
     "start": "2025-11-05",
     "end": "2025-11-09"
@@ -11,42 +11,42 @@
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 7
     },
     {
       "date": "2025-11-09",
       "keyword": "新能源",
       "positive": 1,
       "negative": 1,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-11-09",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 6
     },
     {
       "date": "2025-11-09",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-11-09",
       "keyword": "军工",
       "positive": 0,
       "negative": 1,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-11-09",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-11-09",
@@ -96,11 +96,15 @@
     ],
     [
       "比亚迪",
-      6
+      7
     ],
     [
       "腾讯",
       6
+    ],
+    [
+      "中际旭创",
+      4
     ],
     [
       "宁德时代",
@@ -109,10 +113,6 @@
     [
       "华为",
       4
-    ],
-    [
-      "中际旭创",
-      3
     ],
     [
       "小米",
