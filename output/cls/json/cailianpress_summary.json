@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-10T16:31:25.038755",
-  "newsCount": 1936,
+  "lastUpdate": "2025-11-10T17:21:33.897098",
+  "newsCount": 1944,
   "dateRange": {
     "start": "2025-11-06",
     "end": "2025-11-10"
@@ -9,7 +9,7 @@
     {
       "date": "2025-11-10",
       "keyword": "算力",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
       "neutral": 7
     },
@@ -18,14 +18,14 @@
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-11-10",
       "keyword": "新能源",
       "positive": 2,
       "negative": 0,
-      "neutral": 21
+      "neutral": 22
     },
     {
       "date": "2025-11-10",
