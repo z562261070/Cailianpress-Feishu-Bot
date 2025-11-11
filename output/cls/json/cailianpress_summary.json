@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-11T03:16:28.534037",
-  "newsCount": 1645,
+  "lastUpdate": "2025-11-11T03:57:47.711365",
+  "newsCount": 1662,
   "dateRange": {
     "start": "2025-11-07",
     "end": "2025-11-11"
@@ -8,22 +8,15 @@
   "topKeywords": [
     {
       "date": "2025-11-11",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 3
-    },
-    {
-      "date": "2025-11-11",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-11",
       "keyword": "人工智能",
-      "positive": 0,
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-11",
+      "keyword": "芯片",
+      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
@@ -32,14 +25,21 @@
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-11-11",
-      "keyword": "芯片",
-      "positive": 1,
+      "keyword": "机器人",
+      "positive": 0,
       "negative": 0,
-      "neutral": 0
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-11",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 1,
+      "neutral": 3
     },
     {
       "date": "2025-11-11",
@@ -83,20 +83,20 @@
       12
     ],
     [
+      "京东",
+      8
+    ],
+    [
       "比亚迪",
       8
     ],
     [
+      "谷歌",
+      7
+    ],
+    [
       "中际旭创",
       7
-    ],
-    [
-      "京东",
-      7
-    ],
-    [
-      "谷歌",
-      6
     ],
     [
       "阿里巴巴",
@@ -113,6 +113,10 @@
     [
       "腾讯",
       2
+    ],
+    [
+      "上纬新材",
+      1
     ],
     [
       "航天电子",
