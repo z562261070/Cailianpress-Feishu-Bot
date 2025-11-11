@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-11T04:32:53.362896",
-  "newsCount": 1673,
+  "lastUpdate": "2025-11-11T05:23:51.001101",
+  "newsCount": 1685,
   "dateRange": {
     "start": "2025-11-07",
     "end": "2025-11-11"
@@ -8,17 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-11-11",
-      "keyword": "机器人",
+      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 4
+    },
+    {
+      "date": "2025-11-11",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-11",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-11-11",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-11",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2025-11-11",
@@ -29,24 +50,10 @@
     },
     {
       "date": "2025-11-11",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-11-11",
       "keyword": "新能源",
       "positive": 1,
       "negative": 1,
       "neutral": 3
-    },
-    {
-      "date": "2025-11-11",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-11-10",
@@ -68,19 +75,16 @@
       "positive": 2,
       "negative": 0,
       "neutral": 22
-    },
-    {
-      "date": "2025-11-10",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
     [
       "英伟达",
       12
+    ],
+    [
+      "中际旭创",
+      8
     ],
     [
       "京东",
@@ -92,10 +96,6 @@
     ],
     [
       "谷歌",
-      7
-    ],
-    [
-      "中际旭创",
       7
     ],
     [
