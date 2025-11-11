@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-11T01:52:42.138877",
-  "newsCount": 1625,
+  "lastUpdate": "2025-11-11T03:16:28.534037",
+  "newsCount": 1645,
   "dateRange": {
     "start": "2025-11-07",
     "end": "2025-11-11"
@@ -8,21 +8,21 @@
   "topKeywords": [
     {
       "date": "2025-11-11",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2025-11-11",
       "keyword": "新能源",
       "positive": 1,
       "negative": 1,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-11-11",
       "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-11",
+      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -32,7 +32,14 @@
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-11",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
     },
     {
       "date": "2025-11-11",
@@ -68,13 +75,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-11-10",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
