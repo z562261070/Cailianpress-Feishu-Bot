@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-11T07:23:26.363824",
-  "newsCount": 1732,
+  "lastUpdate": "2025-11-11T07:41:35.981300",
+  "newsCount": 1752,
   "dateRange": {
     "start": "2025-11-07",
     "end": "2025-11-11"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-11",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 1,
+      "neutral": 7
+    },
     {
       "date": "2025-11-11",
       "keyword": "芯片",
@@ -26,13 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-11-11",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 5
     },
     {
       "date": "2025-11-11",
@@ -103,16 +103,16 @@
       5
     ],
     [
+      "华为",
+      3
+    ],
+    [
       "上纬新材",
       3
     ],
     [
       "小米",
       3
-    ],
-    [
-      "华为",
-      2
     ],
     [
       "腾讯",
