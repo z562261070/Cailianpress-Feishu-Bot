@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-11T05:43:31.039445",
-  "newsCount": 1692,
+  "lastUpdate": "2025-11-11T06:35:52.875035",
+  "newsCount": 1712,
   "dateRange": {
     "start": "2025-11-07",
     "end": "2025-11-11"
@@ -8,10 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-11-11",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-11-11",
       "keyword": "新能源",
       "positive": 1,
       "negative": 1,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2025-11-11",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-11",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-11",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-11-11",
@@ -22,38 +50,10 @@
     },
     {
       "date": "2025-11-11",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-11",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-11-11",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-11",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-11-11",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-11-10",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      12
+      13
     ],
     [
       "中际旭创",
@@ -103,6 +103,10 @@
       5
     ],
     [
+      "上纬新材",
+      3
+    ],
+    [
       "小米",
       3
     ],
@@ -113,10 +117,6 @@
     [
       "腾讯",
       2
-    ],
-    [
-      "上纬新材",
-      1
     ],
     [
       "航天电子",
