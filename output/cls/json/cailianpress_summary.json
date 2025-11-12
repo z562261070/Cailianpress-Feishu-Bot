@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-12T01:51:51.326179",
-  "newsCount": 1625,
+  "lastUpdate": "2025-11-12T03:15:11.793007",
+  "newsCount": 1645,
   "dateRange": {
     "start": "2025-11-08",
     "end": "2025-11-12"
@@ -8,24 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-11-12",
-      "keyword": "半导体",
-      "positive": 0,
+      "keyword": "芯片",
+      "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 3
     },
     {
       "date": "2025-11-12",
-      "keyword": "芯片",
-      "positive": 1,
+      "keyword": "半导体",
+      "positive": 0,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2025-11-12",
       "keyword": "机器人",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 2
+    },
+    {
+      "date": "2025-11-12",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
     },
     {
       "date": "2025-11-12",
@@ -68,13 +75,6 @@
       "positive": 4,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-11-11",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 9
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "中际旭创",
-      11
+      12
     ],
     [
       "谷歌",
@@ -111,12 +111,12 @@
       4
     ],
     [
-      "阿里巴巴",
+      "宁德时代",
       3
     ],
     [
-      "宁德时代",
-      2
+      "阿里巴巴",
+      3
     ],
     [
       "理想汽车",
