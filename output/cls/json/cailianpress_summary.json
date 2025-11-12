@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-12T13:35:08.221584",
-  "newsCount": 1907,
+  "lastUpdate": "2025-11-12T14:25:02.181729",
+  "newsCount": 1927,
   "dateRange": {
     "start": "2025-11-08",
     "end": "2025-11-12"
@@ -8,8 +8,43 @@
   "topKeywords": [
     {
       "date": "2025-11-12",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-11-12",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-11-12",
       "keyword": "机器人",
       "positive": 3,
+      "negative": 0,
+      "neutral": 13
+    },
+    {
+      "date": "2025-11-12",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-11-12",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 14
+    },
+    {
+      "date": "2025-11-12",
+      "keyword": "人工智能",
+      "positive": 0,
       "negative": 0,
       "neutral": 12
     },
@@ -19,41 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-11-12",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-11-12",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 11
-    },
-    {
-      "date": "2025-11-12",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 13
-    },
-    {
-      "date": "2025-11-12",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-11-12",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 9
     },
     {
       "date": "2025-11-11",
@@ -100,7 +100,7 @@
     ],
     [
       "宁德时代",
-      6
+      7
     ],
     [
       "阿里巴巴",
