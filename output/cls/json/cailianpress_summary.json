@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-12T14:46:42.059200",
-  "newsCount": 1938,
+  "lastUpdate": "2025-11-12T15:27:09.755585",
+  "newsCount": 1955,
   "dateRange": {
     "start": "2025-11-08",
     "end": "2025-11-12"
@@ -8,15 +8,22 @@
   "topKeywords": [
     {
       "date": "2025-11-12",
-      "keyword": "芯片",
-      "positive": 1,
+      "keyword": "人工智能",
+      "positive": 0,
       "negative": 0,
-      "neutral": 13
+      "neutral": 14
     },
     {
       "date": "2025-11-12",
-      "keyword": "人工智能",
+      "keyword": "无人机",
       "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-12",
+      "keyword": "芯片",
+      "positive": 1,
       "negative": 0,
       "neutral": 13
     },
@@ -47,13 +54,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 14
-    },
-    {
-      "date": "2025-11-12",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-11-11",
@@ -88,7 +88,7 @@
     ],
     [
       "谷歌",
-      11
+      12
     ],
     [
       "小米",
