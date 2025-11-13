@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-11-13T12:51:19.993940",
-  "newsCount": 1948,
+  "lastUpdate": "2025-11-13T13:35:12.847928",
+  "newsCount": 1968,
   "dateRange": {
     "start": "2025-11-09",
     "end": "2025-11-13"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-13",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-11-13",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
     {
       "date": "2025-11-13",
       "keyword": "新能源",
@@ -22,13 +36,6 @@
     },
     {
       "date": "2025-11-13",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-11-13",
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-11-13",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-11-13",
@@ -103,12 +103,12 @@
       12
     ],
     [
-      "比亚迪",
+      "腾讯",
       10
     ],
     [
-      "腾讯",
-      8
+      "比亚迪",
+      10
     ],
     [
       "京东",
