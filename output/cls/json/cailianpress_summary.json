@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-11-12T23:41:01.361567",
-  "newsCount": 1969,
+  "lastUpdate": "2025-11-13T01:53:21.759551",
+  "newsCount": 1690,
   "dateRange": {
-    "start": "2025-11-08",
-    "end": "2025-11-12"
+    "start": "2025-11-09",
+    "end": "2025-11-13"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-13",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-13",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-13",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-13",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-11-12",
       "keyword": "芯片",
@@ -47,34 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-11-12",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 14
-    },
-    {
-      "date": "2025-11-11",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 13
-    },
-    {
-      "date": "2025-11-11",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 20
-    },
-    {
-      "date": "2025-11-11",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
@@ -92,7 +92,7 @@
     ],
     [
       "小米",
-      10
+      11
     ],
     [
       "比亚迪",
@@ -104,18 +104,18 @@
     ],
     [
       "阿里巴巴",
-      5
-    ],
-    [
-      "华为",
-      5
-    ],
-    [
-      "上纬新材",
-      4
+      6
     ],
     [
       "京东",
+      4
+    ],
+    [
+      "华为",
+      4
+    ],
+    [
+      "上纬新材",
       4
     ],
     [
@@ -123,11 +123,11 @@
       3
     ],
     [
-      "利德曼",
-      1
+      "理想汽车",
+      2
     ],
     [
-      "理想汽车",
+      "利德曼",
       1
     ],
     [
