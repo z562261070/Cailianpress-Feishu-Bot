@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-11-14T06:35:32.235375",
-  "newsCount": 1957,
+  "lastUpdate": "2025-11-14T07:22:56.486089",
+  "newsCount": 1977,
   "dateRange": {
     "start": "2025-11-10",
     "end": "2025-11-14"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-14",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-11-14",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-11-14",
       "keyword": "军工",
@@ -22,13 +36,6 @@
     },
     {
       "date": "2025-11-14",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-14",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
@@ -38,13 +45,6 @@
       "date": "2025-11-14",
       "keyword": "人工智能",
       "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-14",
-      "keyword": "新能源",
-      "positive": 1,
       "negative": 0,
       "neutral": 2
     },
@@ -111,11 +111,11 @@
       8
     ],
     [
-      "华为",
-      5
+      "比亚迪",
+      6
     ],
     [
-      "比亚迪",
+      "华为",
       5
     ],
     [
