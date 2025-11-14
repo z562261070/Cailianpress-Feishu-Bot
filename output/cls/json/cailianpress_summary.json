@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-11-14T05:43:10.214500",
-  "newsCount": 1937,
+  "lastUpdate": "2025-11-14T06:35:32.235375",
+  "newsCount": 1957,
   "dateRange": {
     "start": "2025-11-10",
     "end": "2025-11-14"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-14",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-11-14",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-11-14",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-11-14",
       "keyword": "机器人",
@@ -16,27 +37,6 @@
     {
       "date": "2025-11-14",
       "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-14",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-14",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-11-14",
-      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      17
+      18
     ],
     [
       "阿里巴巴",
@@ -111,12 +111,12 @@
       8
     ],
     [
-      "比亚迪",
+      "华为",
       5
     ],
     [
-      "华为",
-      4
+      "比亚迪",
+      5
     ],
     [
       "上纬新材",
