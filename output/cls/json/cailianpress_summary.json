@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-15T15:40:01.128974",
-  "newsCount": 1967,
+  "lastUpdate": "2025-11-15T16:25:48.937004",
+  "newsCount": 1986,
   "dateRange": {
     "start": "2025-11-11",
     "end": "2025-11-15"
@@ -11,28 +11,28 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 6
     },
     {
       "date": "2025-11-15",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-11-15",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 4
     },
     {
       "date": "2025-11-15",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-11-15",
@@ -107,12 +107,12 @@
       10
     ],
     [
-      "中际旭创",
+      "比亚迪",
       7
     ],
     [
-      "比亚迪",
-      6
+      "中际旭创",
+      7
     ],
     [
       "华为",
