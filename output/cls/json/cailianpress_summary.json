@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-16T06:33:09.137615",
-  "newsCount": 1761,
+  "lastUpdate": "2025-11-16T07:21:22.266868",
+  "newsCount": 1767,
   "dateRange": {
     "start": "2025-11-12",
     "end": "2025-11-16"
@@ -11,7 +11,21 @@
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-16",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
       "neutral": 1
+    },
+    {
+      "date": "2025-11-16",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
     },
     {
       "date": "2025-11-16",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-11-15",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-14",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 13
     }
   ],
   "topStocks": [
@@ -96,7 +96,7 @@
     ],
     [
       "宁德时代",
-      14
+      15
     ],
     [
       "腾讯",
@@ -111,12 +111,12 @@
       9
     ],
     [
-      "中际旭创",
+      "华为",
       5
     ],
     [
-      "华为",
-      4
+      "中际旭创",
+      5
     ],
     [
       "利德曼",
