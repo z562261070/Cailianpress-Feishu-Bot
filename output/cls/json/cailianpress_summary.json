@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-16T13:27:00.311646",
-  "newsCount": 1827,
+  "lastUpdate": "2025-11-16T13:41:39.098142",
+  "newsCount": 1829,
   "dateRange": {
     "start": "2025-11-12",
     "end": "2025-11-16"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-16",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-11-16",
       "keyword": "军工",
@@ -38,13 +45,6 @@
       "date": "2025-11-16",
       "keyword": "半导体",
       "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-16",
-      "keyword": "算力",
-      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
@@ -112,7 +112,7 @@
     ],
     [
       "华为",
-      5
+      6
     ],
     [
       "中际旭创",
