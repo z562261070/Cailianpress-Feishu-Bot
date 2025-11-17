@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-17T10:27:32.177091",
-  "newsCount": 1783,
+  "lastUpdate": "2025-11-17T10:48:25.141791",
+  "newsCount": 1792,
   "dateRange": {
     "start": "2025-11-13",
     "end": "2025-11-17"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-17",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 7
+    },
     {
       "date": "2025-11-17",
       "keyword": "新能源",
@@ -24,13 +31,6 @@
       "date": "2025-11-17",
       "keyword": "人工智能",
       "positive": 1,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-11-17",
-      "keyword": "芯片",
-      "positive": 3,
       "negative": 0,
       "neutral": 6
     },
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      34
+      35
     ],
     [
       "比亚迪",
