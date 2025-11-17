@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-17T04:00:09.561740",
-  "newsCount": 1616,
+  "lastUpdate": "2025-11-17T04:35:39.367726",
+  "newsCount": 1629,
   "dateRange": {
     "start": "2025-11-13",
     "end": "2025-11-17"
@@ -8,24 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-11-17",
-      "keyword": "军工",
-      "positive": 3,
+      "keyword": "芯片",
+      "positive": 2,
       "negative": 0,
-      "neutral": 1
+      "neutral": 3
     },
     {
       "date": "2025-11-17",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-11-17",
-      "keyword": "芯片",
-      "positive": 2,
+      "keyword": "军工",
+      "positive": 3,
       "negative": 0,
-      "neutral": 2
+      "neutral": 1
     },
     {
       "date": "2025-11-17",
@@ -99,11 +99,11 @@
       12
     ],
     [
-      "华为",
-      9
+      "京东",
+      10
     ],
     [
-      "京东",
+      "华为",
       9
     ],
     [
@@ -121,6 +121,10 @@
     [
       "利德曼",
       2
+    ],
+    [
+      "网易",
+      1
     ],
     [
       "中际旭创",
