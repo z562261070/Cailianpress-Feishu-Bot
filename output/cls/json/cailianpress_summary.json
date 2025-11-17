@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-17T07:41:04.861094",
-  "newsCount": 1703,
+  "lastUpdate": "2025-11-17T08:34:00.427773",
+  "newsCount": 1723,
   "dateRange": {
     "start": "2025-11-13",
     "end": "2025-11-17"
@@ -11,7 +11,14 @@
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2025-11-17",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2025-11-17",
@@ -38,13 +45,6 @@
       "date": "2025-11-17",
       "keyword": "人工智能",
       "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-11-17",
-      "keyword": "半导体",
-      "positive": 0,
       "negative": 0,
       "neutral": 4
     },
@@ -119,6 +119,10 @@
       3
     ],
     [
+      "理想汽车",
+      2
+    ],
+    [
       "利德曼",
       2
     ],
@@ -132,10 +136,6 @@
     ],
     [
       "中际旭创",
-      1
-    ],
-    [
-      "胜通能源",
       1
     ]
   ]
