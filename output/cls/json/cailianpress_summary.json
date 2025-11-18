@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-18T03:56:26.482209",
-  "newsCount": 1572,
+  "lastUpdate": "2025-11-18T04:31:20.904705",
+  "newsCount": 1586,
   "dateRange": {
     "start": "2025-11-14",
     "end": "2025-11-18"
@@ -11,14 +11,21 @@
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2025-11-18",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-11-18",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-11-18",
@@ -26,13 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-11-18",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-11-18",
@@ -111,12 +111,16 @@
       4
     ],
     [
+      "网易",
+      3
+    ],
+    [
       "理想汽车",
       2
     ],
     [
-      "网易",
-      2
+      "小米",
+      1
     ],
     [
       "TCL",
@@ -132,10 +136,6 @@
     ],
     [
       "中际旭创",
-      1
-    ],
-    [
-      "胜通能源",
       1
     ]
   ]
