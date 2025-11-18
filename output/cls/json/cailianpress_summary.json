@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-18T06:34:57.629574",
-  "newsCount": 1621,
+  "lastUpdate": "2025-11-18T07:23:16.091379",
+  "newsCount": 1641,
   "dateRange": {
     "start": "2025-11-14",
     "end": "2025-11-18"
@@ -9,30 +9,30 @@
     {
       "date": "2025-11-18",
       "keyword": "芯片",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-11-18",
       "keyword": "机器人",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 7
+    },
+    {
+      "date": "2025-11-18",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2025-11-18",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-11-18",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
+      "neutral": 8
     },
     {
       "date": "2025-11-18",
@@ -115,6 +115,10 @@
       3
     ],
     [
+      "腾讯",
+      2
+    ],
+    [
       "理想汽车",
       2
     ],
@@ -128,10 +132,6 @@
     ],
     [
       "利德曼",
-      1
-    ],
-    [
-      "腾讯",
       1
     ],
     [
