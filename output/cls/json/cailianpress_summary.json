@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-18T10:48:34.233516",
-  "newsCount": 1751,
+  "lastUpdate": "2025-11-18T11:21:48.972760",
+  "newsCount": 1771,
   "dateRange": {
     "start": "2025-11-14",
     "end": "2025-11-18"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-11-18",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-18",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
       "neutral": 13
-    },
-    {
-      "date": "2025-11-18",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-11-18",
@@ -95,16 +95,16 @@
       16
     ],
     [
+      "小米",
+      12
+    ],
+    [
       "宁德时代",
-      11
+      12
     ],
     [
       "华为",
       11
-    ],
-    [
-      "小米",
-      9
     ],
     [
       "京东",
