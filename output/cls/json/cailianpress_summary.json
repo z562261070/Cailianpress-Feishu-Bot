@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-18T03:15:20.642626",
-  "newsCount": 1559,
+  "lastUpdate": "2025-11-18T03:56:26.482209",
+  "newsCount": 1572,
   "dateRange": {
     "start": "2025-11-14",
     "end": "2025-11-18"
@@ -8,7 +8,7 @@
   "topKeywords": [
     {
       "date": "2025-11-18",
-      "keyword": "人工智能",
+      "keyword": "机器人",
       "positive": 1,
       "negative": 0,
       "neutral": 4
@@ -16,14 +16,14 @@
     {
       "date": "2025-11-18",
       "keyword": "半导体",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2025-11-18",
-      "keyword": "机器人",
-      "positive": 0,
+      "keyword": "人工智能",
+      "positive": 1,
       "negative": 0,
       "neutral": 4
     },
@@ -96,7 +96,7 @@
     ],
     [
       "华为",
-      10
+      11
     ],
     [
       "宁德时代",
