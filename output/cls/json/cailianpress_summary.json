@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-19T13:34:16.424449",
-  "newsCount": 1783,
+  "lastUpdate": "2025-11-19T14:24:02.975661",
+  "newsCount": 1803,
   "dateRange": {
     "start": "2025-11-15",
     "end": "2025-11-19"
@@ -8,15 +8,29 @@
   "topKeywords": [
     {
       "date": "2025-11-19",
-      "keyword": "半导体",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-11-19",
+      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 14
     },
     {
       "date": "2025-11-19",
       "keyword": "机器人",
       "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-11-19",
+      "keyword": "半导体",
+      "positive": 0,
       "negative": 0,
       "neutral": 7
     },
@@ -26,20 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-11-19",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-11-19",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 13
     },
     {
       "date": "2025-11-19",
@@ -80,15 +80,15 @@
   "topStocks": [
     [
       "英伟达",
-      27
+      28
+    ],
+    [
+      "谷歌",
+      17
     ],
     [
       "小米",
       17
-    ],
-    [
-      "谷歌",
-      16
     ],
     [
       "比亚迪",
@@ -104,7 +104,7 @@
     ],
     [
       "华为",
-      9
+      10
     ],
     [
       "京东",
