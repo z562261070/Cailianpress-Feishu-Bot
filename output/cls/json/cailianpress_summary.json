@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-19T01:51:31.711964",
-  "newsCount": 1514,
+  "lastUpdate": "2025-11-19T03:14:41.669143",
+  "newsCount": 1534,
   "dateRange": {
     "start": "2025-11-15",
     "end": "2025-11-19"
@@ -8,14 +8,35 @@
   "topKeywords": [
     {
       "date": "2025-11-19",
-      "keyword": "新能源",
-      "positive": 0,
+      "keyword": "军工",
+      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
     {
       "date": "2025-11-19",
       "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-19",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-19",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-11-19",
+      "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -26,13 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-11-19",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-11-18",
@@ -61,20 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-11-18",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 12
-    },
-    {
-      "date": "2025-11-18",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
@@ -100,7 +100,7 @@
     ],
     [
       "宁德时代",
-      12
+      13
     ],
     [
       "华为",
