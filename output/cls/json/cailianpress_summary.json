@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-11-20T23:40:30.956197",
-  "newsCount": 1902,
+  "lastUpdate": "2025-11-21T01:50:58.818860",
+  "newsCount": 1752,
   "dateRange": {
-    "start": "2025-11-16",
-    "end": "2025-11-20"
+    "start": "2025-11-17",
+    "end": "2025-11-21"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-21",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-21",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-21",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-21",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-11-20",
       "keyword": "芯片",
@@ -47,59 +75,31 @@
       "positive": 4,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-11-20",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-11-20",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-19",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-11-19",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 9
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      57
+      52
     ],
     [
       "谷歌",
-      30
-    ],
-    [
-      "宁德时代",
-      19
+      33
     ],
     [
       "小米",
       18
     ],
     [
-      "华为",
-      15
+      "宁德时代",
+      17
     ],
     [
       "阿里巴巴",
+      13
+    ],
+    [
+      "华为",
       11
     ],
     [
@@ -132,10 +132,6 @@
     ],
     [
       "TCL",
-      1
-    ],
-    [
-      "利德曼",
       1
     ]
   ]
