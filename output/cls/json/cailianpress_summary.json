@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-21T10:25:06.755108",
-  "newsCount": 1934,
+  "lastUpdate": "2025-11-21T10:45:14.977520",
+  "newsCount": 1949,
   "dateRange": {
     "start": "2025-11-17",
     "end": "2025-11-21"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-21",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-11-21",
       "keyword": "人工智能",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 18
-    },
-    {
-      "date": "2025-11-20",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
@@ -88,7 +88,7 @@
     ],
     [
       "小米",
-      22
+      23
     ],
     [
       "宁德时代",
