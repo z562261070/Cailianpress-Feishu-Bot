@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-22T08:28:29.169941",
-  "newsCount": 1789,
+  "lastUpdate": "2025-11-22T08:47:10.422457",
+  "newsCount": 1792,
   "dateRange": {
     "start": "2025-11-18",
     "end": "2025-11-22"
@@ -9,14 +9,14 @@
     {
       "date": "2025-11-22",
       "keyword": "新能源",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-11-22",
       "keyword": "人工智能",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 2
     },
@@ -92,7 +92,7 @@
     ],
     [
       "宁德时代",
-      15
+      16
     ],
     [
       "华为",
