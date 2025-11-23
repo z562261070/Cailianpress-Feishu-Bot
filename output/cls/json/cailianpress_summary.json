@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-23T09:40:27.167932",
-  "newsCount": 1712,
+  "lastUpdate": "2025-11-23T10:22:41.619177",
+  "newsCount": 1718,
   "dateRange": {
     "start": "2025-11-19",
     "end": "2025-11-23"
@@ -8,10 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-11-23",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-23",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-23",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
       "neutral": 2
+    },
+    {
+      "date": "2025-11-23",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-11-23",
@@ -35,13 +56,6 @@
       "neutral": 2
     },
     {
-      "date": "2025-11-23",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
       "date": "2025-11-22",
       "keyword": "新能源",
       "positive": 2,
@@ -61,20 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-11-22",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-11-22",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      30
+      31
     ],
     [
       "小米",
