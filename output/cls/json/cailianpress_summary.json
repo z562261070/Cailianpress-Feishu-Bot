@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-23T05:42:17.536329",
-  "newsCount": 1673,
+  "lastUpdate": "2025-11-23T06:33:25.551930",
+  "newsCount": 1675,
   "dateRange": {
     "start": "2025-11-19",
     "end": "2025-11-23"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-23",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-11-23",
       "keyword": "无人机",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-11-21",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 10
     }
   ],
   "topStocks": [
