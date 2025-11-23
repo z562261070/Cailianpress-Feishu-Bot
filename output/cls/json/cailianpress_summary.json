@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-11-23T12:41:14.809077",
-  "newsCount": 1730,
+  "lastUpdate": "2025-11-23T13:26:00.970419",
+  "newsCount": 1737,
   "dateRange": {
     "start": "2025-11-19",
     "end": "2025-11-23"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-23",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-23",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-23",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-23",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-11-23",
       "keyword": "芯片",
@@ -15,35 +43,7 @@
     },
     {
       "date": "2025-11-23",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-23",
       "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-23",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-23",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-23",
-      "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -91,16 +91,16 @@
       11
     ],
     [
+      "京东",
+      9
+    ],
+    [
       "宁德时代",
       9
     ],
     [
       "华为",
       9
-    ],
-    [
-      "京东",
-      8
     ],
     [
       "腾讯",
