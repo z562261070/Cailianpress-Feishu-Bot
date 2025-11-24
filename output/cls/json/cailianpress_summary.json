@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-24T13:35:51.016852",
-  "newsCount": 1791,
+  "lastUpdate": "2025-11-24T14:24:59.948656",
+  "newsCount": 1811,
   "dateRange": {
     "start": "2025-11-20",
     "end": "2025-11-24"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-11-24",
-      "keyword": "人工智能",
+      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 10
+      "neutral": 7
     },
     {
       "date": "2025-11-24",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2025-11-24",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
       "neutral": 8
+    },
+    {
+      "date": "2025-11-24",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 11
     },
     {
       "date": "2025-11-24",
@@ -26,20 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-11-24",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-11-24",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-11-24",
@@ -84,23 +84,23 @@
     ],
     [
       "谷歌",
-      32
+      33
     ],
     [
       "华为",
-      12
+      13
+    ],
+    [
+      "京东",
+      10
+    ],
+    [
+      "宁德时代",
+      10
     ],
     [
       "小米",
       10
-    ],
-    [
-      "京东",
-      9
-    ],
-    [
-      "宁德时代",
-      9
     ],
     [
       "腾讯",
