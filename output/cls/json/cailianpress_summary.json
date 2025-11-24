@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-11-24T08:34:20.842731",
-  "newsCount": 1643,
+  "lastUpdate": "2025-11-24T09:29:39.692352",
+  "newsCount": 1663,
   "dateRange": {
     "start": "2025-11-20",
     "end": "2025-11-24"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-24",
+      "keyword": "军工",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-24",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-11-24",
       "keyword": "芯片",
@@ -43,13 +57,6 @@
     },
     {
       "date": "2025-11-24",
-      "keyword": "军工",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-24",
       "keyword": "算力",
       "positive": 2,
       "negative": 0,
@@ -68,23 +75,16 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-11-23",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      54
+      55
     ],
     [
       "谷歌",
-      28
+      29
     ],
     [
       "华为",
@@ -125,6 +125,10 @@
     [
       "理想汽车",
       2
+    ],
+    [
+      "长城军工",
+      1
     ]
   ]
 }
