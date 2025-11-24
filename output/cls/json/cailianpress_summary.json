@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-24T01:59:19.485382",
-  "newsCount": 1509,
+  "lastUpdate": "2025-11-24T03:38:40.564103",
+  "newsCount": 1529,
   "dateRange": {
     "start": "2025-11-20",
     "end": "2025-11-24"
@@ -8,29 +8,36 @@
   "topKeywords": [
     {
       "date": "2025-11-24",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-24",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-24",
       "keyword": "军工",
-      "positive": 1,
+      "positive": 3,
       "negative": 0,
       "neutral": 0
     },
     {
       "date": "2025-11-24",
       "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-24",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-24",
+      "keyword": "半导体",
       "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-24",
+      "keyword": "芯片",
+      "positive": 0,
       "negative": 0,
       "neutral": 2
     },
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-11-23",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -84,19 +84,19 @@
     ],
     [
       "谷歌",
-      26
+      27
     ],
     [
       "华为",
       11
     ],
     [
-      "小米",
+      "京东",
       8
     ],
     [
-      "京东",
-      7
+      "小米",
+      8
     ],
     [
       "宁德时代",
@@ -104,7 +104,7 @@
     ],
     [
       "腾讯",
-      5
+      6
     ],
     [
       "网易",
@@ -115,15 +115,15 @@
       4
     ],
     [
+      "中际旭创",
+      3
+    ],
+    [
       "比亚迪",
       3
     ],
     [
       "理想汽车",
-      2
-    ],
-    [
-      "中际旭创",
       2
     ]
   ]
