@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-24T10:49:02.611935",
-  "newsCount": 1715,
+  "lastUpdate": "2025-11-24T11:21:07.566632",
+  "newsCount": 1732,
   "dateRange": {
     "start": "2025-11-20",
     "end": "2025-11-24"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-24",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-11-24",
       "keyword": "无人机",
@@ -56,13 +63,6 @@
       "neutral": 5
     },
     {
-      "date": "2025-11-24",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
       "date": "2025-11-23",
       "keyword": "机器人",
       "positive": 0,
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      29
+      30
     ],
     [
       "华为",
