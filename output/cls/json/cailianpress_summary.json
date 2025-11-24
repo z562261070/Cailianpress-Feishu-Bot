@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-24T14:24:59.948656",
-  "newsCount": 1811,
+  "lastUpdate": "2025-11-24T14:47:12.300501",
+  "newsCount": 1821,
   "dateRange": {
     "start": "2025-11-20",
     "end": "2025-11-24"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-24",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 12
+    },
     {
       "date": "2025-11-24",
       "keyword": "芯片",
@@ -26,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-11-24",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 11
     },
     {
       "date": "2025-11-24",
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      33
+      35
     ],
     [
       "华为",
