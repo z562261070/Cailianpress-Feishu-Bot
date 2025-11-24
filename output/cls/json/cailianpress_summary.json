@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-11-24T11:40:57.427289",
-  "newsCount": 1751,
+  "lastUpdate": "2025-11-24T12:51:27.733180",
+  "newsCount": 1771,
   "dateRange": {
     "start": "2025-11-20",
     "end": "2025-11-24"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-24",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-11-24",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-11-24",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-11-24",
       "keyword": "芯片",
@@ -19,27 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-11-24",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-11-24",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-11-24",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-11-24",
@@ -88,7 +88,7 @@
     ],
     [
       "华为",
-      11
+      12
     ],
     [
       "小米",
@@ -125,6 +125,14 @@
     [
       "理想汽车",
       2
+    ],
+    [
+      "东杰智能",
+      1
+    ],
+    [
+      "航天电子",
+      1
     ],
     [
       "长城军工",
