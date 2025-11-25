@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-25T03:17:42.615734",
-  "newsCount": 1581,
+  "lastUpdate": "2025-11-25T03:59:32.107545",
+  "newsCount": 1595,
   "dateRange": {
     "start": "2025-11-21",
     "end": "2025-11-25"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-11-25",
+      "keyword": "算力",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-11-25",
       "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-11-25",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-11-25",
