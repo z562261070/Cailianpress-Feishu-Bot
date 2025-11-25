@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-25T09:47:25.196777",
-  "newsCount": 1744,
+  "lastUpdate": "2025-11-25T10:28:42.897315",
+  "newsCount": 1764,
   "dateRange": {
     "start": "2025-11-21",
     "end": "2025-11-25"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-25",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-11-25",
       "keyword": "算力",
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 11
-    },
-    {
-      "date": "2025-11-25",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-11-25",
@@ -87,11 +87,11 @@
       36
     ],
     [
-      "华为",
-      12
+      "小米",
+      13
     ],
     [
-      "小米",
+      "华为",
       12
     ],
     [
