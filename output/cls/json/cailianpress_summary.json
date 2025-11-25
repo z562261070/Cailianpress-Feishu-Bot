@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-25T07:23:24.081566",
-  "newsCount": 1673,
+  "lastUpdate": "2025-11-25T07:40:58.242752",
+  "newsCount": 1690,
   "dateRange": {
     "start": "2025-11-21",
     "end": "2025-11-25"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-11-25",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-25",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 7
+      "neutral": 9
+    },
+    {
+      "date": "2025-11-25",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-11-25",
@@ -19,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-11-25",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-11-25",
@@ -40,13 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-11-25",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-11-25",
@@ -84,15 +84,15 @@
     ],
     [
       "谷歌",
-      32
+      33
+    ],
+    [
+      "华为",
+      11
     ],
     [
       "小米",
       11
-    ],
-    [
-      "华为",
-      9
     ],
     [
       "阿里巴巴",
@@ -107,16 +107,16 @@
       9
     ],
     [
+      "宁德时代",
+      6
+    ],
+    [
       "中际旭创",
       6
     ],
     [
       "网易",
       6
-    ],
-    [
-      "宁德时代",
-      5
     ],
     [
       "比亚迪",
