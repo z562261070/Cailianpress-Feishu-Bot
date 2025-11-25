@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-11-25T05:44:40.603610",
-  "newsCount": 1633,
+  "lastUpdate": "2025-11-25T06:36:57.350877",
+  "newsCount": 1653,
   "dateRange": {
     "start": "2025-11-21",
     "end": "2025-11-25"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-25",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-11-25",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-11-25",
       "keyword": "无人机",
@@ -26,20 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-11-25",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-11-25",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-11-25",
@@ -91,6 +91,10 @@
       11
     ],
     [
+      "腾讯",
+      9
+    ],
+    [
       "京东",
       9
     ],
@@ -100,10 +104,6 @@
     ],
     [
       "华为",
-      8
-    ],
-    [
-      "腾讯",
       8
     ],
     [
