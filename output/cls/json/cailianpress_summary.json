@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-25T01:52:57.528772",
-  "newsCount": 1561,
+  "lastUpdate": "2025-11-25T03:17:42.615734",
+  "newsCount": 1581,
   "dateRange": {
     "start": "2025-11-21",
     "end": "2025-11-25"
@@ -8,8 +8,15 @@
   "topKeywords": [
     {
       "date": "2025-11-25",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-25",
       "keyword": "算力",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 0
     },
@@ -68,13 +75,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-11-24",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 9
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      31
+      32
     ],
     [
       "小米",
@@ -107,12 +107,12 @@
       8
     ],
     [
-      "网易",
+      "中际旭创",
       6
     ],
     [
-      "中际旭创",
-      5
+      "网易",
+      6
     ],
     [
       "宁德时代",
