@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-25T09:27:54.123115",
-  "newsCount": 1730,
+  "lastUpdate": "2025-11-25T09:47:25.196777",
+  "newsCount": 1744,
   "dateRange": {
     "start": "2025-11-21",
     "end": "2025-11-25"
@@ -8,31 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-11-25",
-      "keyword": "人工智能",
-      "positive": 1,
+      "keyword": "算力",
+      "positive": 5,
       "negative": 0,
-      "neutral": 11
+      "neutral": 2
     },
     {
       "date": "2025-11-25",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-11-25",
-      "keyword": "算力",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 1
+      "neutral": 6
     },
     {
       "date": "2025-11-25",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
+    },
+    {
+      "date": "2025-11-25",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 11
     },
     {
       "date": "2025-11-25",
@@ -79,12 +79,12 @@
   ],
   "topStocks": [
     [
-      "英伟达",
-      35
+      "谷歌",
+      37
     ],
     [
-      "谷歌",
-      35
+      "英伟达",
+      36
     ],
     [
       "华为",
@@ -96,15 +96,15 @@
     ],
     [
       "阿里巴巴",
+      11
+    ],
+    [
+      "腾讯",
       10
     ],
     [
       "京东",
       10
-    ],
-    [
-      "腾讯",
-      9
     ],
     [
       "宁德时代",
