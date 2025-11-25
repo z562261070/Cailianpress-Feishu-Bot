@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-25T03:59:32.107545",
-  "newsCount": 1595,
+  "lastUpdate": "2025-11-25T04:35:25.698497",
+  "newsCount": 1611,
   "dateRange": {
     "start": "2025-11-21",
     "end": "2025-11-25"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-25",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-11-25",
       "keyword": "算力",
@@ -17,13 +24,6 @@
       "date": "2025-11-25",
       "keyword": "军工",
       "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-25",
-      "keyword": "芯片",
-      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
@@ -88,7 +88,7 @@
     ],
     [
       "小米",
-      10
+      11
     ],
     [
       "京东",
