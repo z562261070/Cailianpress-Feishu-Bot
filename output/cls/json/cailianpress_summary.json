@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-25T11:41:23.885959",
-  "newsCount": 1807,
+  "lastUpdate": "2025-11-25T12:50:56.209857",
+  "newsCount": 1827,
   "dateRange": {
     "start": "2025-11-21",
     "end": "2025-11-25"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-11-25",
-      "keyword": "人工智能",
+      "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 12
+      "neutral": 5
     },
     {
       "date": "2025-11-25",
-      "keyword": "机器人",
-      "positive": 0,
+      "keyword": "人工智能",
+      "positive": 1,
       "negative": 0,
-      "neutral": 5
+      "neutral": 13
     },
     {
       "date": "2025-11-25",
@@ -123,6 +123,10 @@
       4
     ],
     [
+      "理想汽车",
+      2
+    ],
+    [
       "上纬新材",
       1
     ],
@@ -132,10 +136,6 @@
     ],
     [
       "航天电子",
-      1
-    ],
-    [
-      "长城军工",
       1
     ]
   ]
