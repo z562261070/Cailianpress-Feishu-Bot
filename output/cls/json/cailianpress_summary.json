@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-11-25T23:40:34.278388",
-  "newsCount": 1911,
+  "lastUpdate": "2025-11-26T01:52:58.833740",
+  "newsCount": 1577,
   "dateRange": {
-    "start": "2025-11-21",
-    "end": "2025-11-25"
+    "start": "2025-11-22",
+    "end": "2025-11-26"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-26",
+      "keyword": "人工智能",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-26",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-26",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-26",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-11-25",
       "keyword": "芯片",
@@ -47,44 +75,16 @@
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-11-25",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-11-25",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-11-24",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 11
-    },
-    {
-      "date": "2025-11-24",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 17
     }
   ],
   "topStocks": [
     [
       "谷歌",
-      43
+      41
     ],
     [
       "英伟达",
-      43
+      21
     ],
     [
       "阿里巴巴",
@@ -92,38 +92,38 @@
     ],
     [
       "华为",
-      13
+      12
     ],
     [
       "小米",
-      13
+      9
     ],
     [
       "腾讯",
-      10
+      7
     ],
     [
       "京东",
-      10
+      7
     ],
     [
       "宁德时代",
-      6
-    ],
-    [
-      "中际旭创",
-      6
+      5
     ],
     [
       "网易",
-      6
+      5
     ],
     [
-      "比亚迪",
+      "中际旭创",
       4
     ],
     [
       "理想汽车",
+      3
+    ],
+    [
+      "比亚迪",
       2
     ],
     [
