@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-11-26T10:49:31.446864",
-  "newsCount": 1785,
+  "lastUpdate": "2025-11-26T11:21:13.775944",
+  "newsCount": 1804,
   "dateRange": {
     "start": "2025-11-22",
     "end": "2025-11-26"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-26",
+      "keyword": "人工智能",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-11-26",
+      "keyword": "芯片",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 9
+    },
     {
       "date": "2025-11-26",
       "keyword": "算力",
@@ -15,24 +29,10 @@
     },
     {
       "date": "2025-11-26",
-      "keyword": "芯片",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-11-26",
       "keyword": "机器人",
       "positive": 3,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2025-11-26",
-      "keyword": "人工智能",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-11-26",
@@ -80,14 +80,14 @@
   "topStocks": [
     [
       "谷歌",
-      48
-    ],
-    [
-      "英伟达",
-      24
+      49
     ],
     [
       "阿里巴巴",
+      25
+    ],
+    [
+      "英伟达",
       24
     ],
     [
