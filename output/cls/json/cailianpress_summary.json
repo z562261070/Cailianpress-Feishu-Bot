@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-26T01:52:58.833740",
-  "newsCount": 1577,
+  "lastUpdate": "2025-11-26T03:17:50.853924",
+  "newsCount": 1597,
   "dateRange": {
     "start": "2025-11-22",
     "end": "2025-11-26"
@@ -8,10 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-11-26",
-      "keyword": "人工智能",
-      "positive": 3,
+      "keyword": "军工",
+      "positive": 0,
       "negative": 0,
       "neutral": 3
+    },
+    {
+      "date": "2025-11-26",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-26",
+      "keyword": "人工智能",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-26",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-11-26",
@@ -26,13 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-11-26",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-11-25",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-11-25",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-11-25",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
@@ -107,6 +107,10 @@
       7
     ],
     [
+      "中际旭创",
+      6
+    ],
+    [
       "宁德时代",
       5
     ],
@@ -115,8 +119,8 @@
       5
     ],
     [
-      "中际旭创",
-      4
+      "长城军工",
+      3
     ],
     [
       "理想汽车",
@@ -132,10 +136,6 @@
     ],
     [
       "东杰智能",
-      1
-    ],
-    [
-      "航天电子",
       1
     ]
   ]
