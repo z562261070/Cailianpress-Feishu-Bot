@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-26T07:41:12.406655",
-  "newsCount": 1696,
+  "lastUpdate": "2025-11-26T08:32:47.247270",
+  "newsCount": 1716,
   "dateRange": {
     "start": "2025-11-22",
     "end": "2025-11-26"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-11-26",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-11-26",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-11-26",
       "keyword": "算力",
       "positive": 2,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-11-26",
@@ -40,20 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-11-26",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-11-26",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-11-26",
@@ -96,7 +96,7 @@
     ],
     [
       "小米",
-      9
+      10
     ],
     [
       "京东",
