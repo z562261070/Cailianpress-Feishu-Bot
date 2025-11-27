@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-27T14:45:20.945220",
-  "newsCount": 1912,
+  "lastUpdate": "2025-11-27T15:25:05.244569",
+  "newsCount": 1922,
   "dateRange": {
     "start": "2025-11-23",
     "end": "2025-11-27"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-27",
+      "keyword": "算力",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 11
+    },
     {
       "date": "2025-11-27",
       "keyword": "机器人",
@@ -26,13 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2025-11-27",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 10
     },
     {
       "date": "2025-11-27",
