@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-11-27T10:47:48.495526",
-  "newsCount": 1818,
+  "lastUpdate": "2025-11-27T11:21:20.466226",
+  "newsCount": 1838,
   "dateRange": {
     "start": "2025-11-23",
     "end": "2025-11-27"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-27",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-27",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 7
+    },
     {
       "date": "2025-11-27",
       "keyword": "机器人",
@@ -22,13 +36,6 @@
     },
     {
       "date": "2025-11-27",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-11-27",
       "keyword": "新能源",
       "positive": 1,
       "negative": 0,
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-11-27",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-11-27",
@@ -103,12 +103,12 @@
       9
     ],
     [
-      "中际旭创",
+      "腾讯",
       8
     ],
     [
-      "腾讯",
-      7
+      "中际旭创",
+      8
     ],
     [
       "宁德时代",
