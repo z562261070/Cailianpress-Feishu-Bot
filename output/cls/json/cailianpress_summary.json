@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-27T01:50:43.595138",
-  "newsCount": 1620,
+  "lastUpdate": "2025-11-27T03:14:27.218040",
+  "newsCount": 1640,
   "dateRange": {
     "start": "2025-11-23",
     "end": "2025-11-27"
@@ -8,17 +8,45 @@
   "topKeywords": [
     {
       "date": "2025-11-27",
-      "keyword": "算力",
-      "positive": 1,
+      "keyword": "人工智能",
+      "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 4
     },
     {
       "date": "2025-11-27",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-11-27",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
       "neutral": 3
+    },
+    {
+      "date": "2025-11-27",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-27",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-27",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-11-27",
@@ -26,20 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-11-27",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-27",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-11-26",
@@ -61,20 +75,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 12
-    },
-    {
-      "date": "2025-11-26",
-      "keyword": "芯片",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 11
-    },
-    {
-      "date": "2025-11-26",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
@@ -131,11 +131,11 @@
       2
     ],
     [
-      "上纬新材",
+      "药明康德",
       1
     ],
     [
-      "东杰智能",
+      "上纬新材",
       1
     ]
   ]
