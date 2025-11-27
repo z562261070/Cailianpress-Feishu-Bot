@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-27T05:44:42.982043",
-  "newsCount": 1689,
+  "lastUpdate": "2025-11-27T06:36:53.465188",
+  "newsCount": 1709,
   "dateRange": {
     "start": "2025-11-23",
     "end": "2025-11-27"
@@ -8,21 +8,28 @@
   "topKeywords": [
     {
       "date": "2025-11-27",
-      "keyword": "新能源",
+      "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-11-27",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 6
     },
     {
       "date": "2025-11-27",
-      "keyword": "机器人",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-11-27",
+      "keyword": "新能源",
       "positive": 1,
       "negative": 0,
       "neutral": 2
@@ -33,13 +40,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-11-27",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-11-27",
@@ -103,11 +103,11 @@
       9
     ],
     [
-      "腾讯",
-      7
+      "中际旭创",
+      8
     ],
     [
-      "中际旭创",
+      "腾讯",
       7
     ],
     [
@@ -127,12 +127,12 @@
       3
     ],
     [
-      "比亚迪",
+      "药明康德",
       2
     ],
     [
-      "药明康德",
-      1
+      "比亚迪",
+      2
     ],
     [
       "上纬新材",
