@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-11-27T23:40:07.151906",
-  "newsCount": 1986,
+  "lastUpdate": "2025-11-28T01:50:32.759822",
+  "newsCount": 1829,
   "dateRange": {
-    "start": "2025-11-23",
-    "end": "2025-11-27"
+    "start": "2025-11-24",
+    "end": "2025-11-28"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-28",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-11-28",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-11-27",
       "keyword": "算力",
@@ -61,26 +75,12 @@
       "positive": 2,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-11-26",
-      "keyword": "算力",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-11-26",
-      "keyword": "人工智能",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 16
     }
   ],
   "topStocks": [
     [
       "谷歌",
-      52
+      51
     ],
     [
       "阿里巴巴",
@@ -92,15 +92,15 @@
     ],
     [
       "华为",
-      20
+      18
     ],
     [
       "小米",
-      16
+      15
     ],
     [
       "京东",
-      10
+      9
     ],
     [
       "腾讯",
