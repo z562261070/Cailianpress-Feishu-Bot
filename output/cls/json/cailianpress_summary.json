@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-28T05:44:25.274822",
-  "newsCount": 1903,
+  "lastUpdate": "2025-11-28T06:36:55.091514",
+  "newsCount": 1923,
   "dateRange": {
     "start": "2025-11-24",
     "end": "2025-11-28"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-28",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-11-28",
       "keyword": "算力",
@@ -31,13 +38,6 @@
       "date": "2025-11-28",
       "keyword": "新能源",
       "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-28",
-      "keyword": "半导体",
-      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "谷歌",
-      51
+      52
     ],
     [
       "阿里巴巴",
@@ -99,12 +99,12 @@
       15
     ],
     [
-      "京东",
+      "中际旭创",
       10
     ],
     [
-      "中际旭创",
-      9
+      "京东",
+      10
     ],
     [
       "腾讯",
