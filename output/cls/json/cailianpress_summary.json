@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-28T12:49:33.216480",
-  "newsCount": 2090,
+  "lastUpdate": "2025-11-28T13:32:59.756313",
+  "newsCount": 2110,
   "dateRange": {
     "start": "2025-11-24",
     "end": "2025-11-28"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-28",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 9
+    },
     {
       "date": "2025-11-28",
       "keyword": "机器人",
@@ -17,13 +24,6 @@
       "date": "2025-11-28",
       "keyword": "人工智能",
       "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-11-28",
-      "keyword": "半导体",
-      "positive": 2,
       "negative": 0,
       "neutral": 8
     },
@@ -99,12 +99,12 @@
       17
     ],
     [
-      "中际旭创",
+      "京东",
       11
     ],
     [
-      "京东",
-      10
+      "中际旭创",
+      11
     ],
     [
       "腾讯",
