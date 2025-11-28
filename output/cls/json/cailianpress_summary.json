@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-28T03:55:58.726667",
-  "newsCount": 1861,
+  "lastUpdate": "2025-11-28T04:30:52.007537",
+  "newsCount": 1874,
   "dateRange": {
     "start": "2025-11-24",
     "end": "2025-11-28"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-28",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-11-28",
       "keyword": "人工智能",
@@ -17,13 +24,6 @@
       "date": "2025-11-28",
       "keyword": "算力",
       "positive": 2,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-28",
-      "keyword": "芯片",
-      "positive": 0,
       "negative": 0,
       "neutral": 1
     },
@@ -99,11 +99,11 @@
       15
     ],
     [
-      "中际旭创",
-      9
+      "京东",
+      10
     ],
     [
-      "京东",
+      "中际旭创",
       9
     ],
     [
