@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-28T14:24:02.735009",
-  "newsCount": 2130,
+  "lastUpdate": "2025-11-28T14:44:15.636966",
+  "newsCount": 2141,
   "dateRange": {
     "start": "2025-11-24",
     "end": "2025-11-28"
@@ -11,7 +11,7 @@
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
     },
     {
       "date": "2025-11-28",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "谷歌",
-      53
+      54
     ],
     [
       "阿里巴巴",
