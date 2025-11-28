@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-11-28T03:14:15.003728",
-  "newsCount": 1849,
+  "lastUpdate": "2025-11-28T03:55:58.726667",
+  "newsCount": 1861,
   "dateRange": {
     "start": "2025-11-24",
     "end": "2025-11-28"
   },
   "topKeywords": [
+    {
+      "date": "2025-11-28",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-11-28",
       "keyword": "算力",
@@ -23,13 +30,6 @@
     {
       "date": "2025-11-28",
       "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-28",
-      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -88,11 +88,11 @@
     ],
     [
       "英伟达",
-      30
+      31
     ],
     [
       "华为",
-      18
+      19
     ],
     [
       "小米",
