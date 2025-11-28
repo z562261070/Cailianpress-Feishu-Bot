@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-28T07:40:47.791188",
-  "newsCount": 1953,
+  "lastUpdate": "2025-11-28T08:32:52.964475",
+  "newsCount": 1973,
   "dateRange": {
     "start": "2025-11-24",
     "end": "2025-11-28"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-11-28",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-11-28",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-11-28",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-11-28",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-11-28",
@@ -38,13 +45,6 @@
       "date": "2025-11-28",
       "keyword": "半导体",
       "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-28",
-      "keyword": "芯片",
-      "positive": 0,
       "negative": 0,
       "neutral": 2
     },
@@ -119,16 +119,16 @@
       5
     ],
     [
+      "药明康德",
+      3
+    ],
+    [
       "理想汽车",
       3
     ],
     [
       "长城军工",
       3
-    ],
-    [
-      "药明康德",
-      2
     ],
     [
       "比亚迪",
