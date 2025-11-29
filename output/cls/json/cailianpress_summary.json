@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-29T15:40:19.301473",
-  "newsCount": 1912,
+  "lastUpdate": "2025-11-29T16:27:57.611183",
+  "newsCount": 1932,
   "dateRange": {
     "start": "2025-11-25",
     "end": "2025-11-29"
@@ -11,21 +11,21 @@
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-11-29",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 11
+      "neutral": 13
     },
     {
       "date": "2025-11-29",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-11-29",
