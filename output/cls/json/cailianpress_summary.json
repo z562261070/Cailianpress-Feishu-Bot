@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-11-30T07:38:28.568504",
-  "newsCount": 1776,
+  "lastUpdate": "2025-11-30T08:28:12.927591",
+  "newsCount": 1795,
   "dateRange": {
     "start": "2025-11-26",
     "end": "2025-11-30"
@@ -8,21 +8,35 @@
   "topKeywords": [
     {
       "date": "2025-11-30",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-30",
-      "keyword": "机器人",
+      "keyword": "算力",
       "positive": 0,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2025-11-30",
-      "keyword": "算力",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-11-30",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-11-30",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-11-30",
+      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -33,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-11-30",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-11-29",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-11-29",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
@@ -99,12 +99,12 @@
       10
     ],
     [
-      "中际旭创",
+      "京东",
       8
     ],
     [
-      "京东",
-      7
+      "中际旭创",
+      8
     ],
     [
       "药明康德",
