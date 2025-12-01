@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-12-01T11:41:29.648491",
-  "newsCount": 1786,
+  "lastUpdate": "2025-12-01T12:52:16.694430",
+  "newsCount": 1806,
   "dateRange": {
     "start": "2025-11-27",
     "end": "2025-12-01"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-01",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-12-01",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-01",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
+    },
     {
       "date": "2025-12-01",
       "keyword": "新能源",
@@ -22,31 +43,10 @@
     },
     {
       "date": "2025-12-01",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-12-01",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-12-01",
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-01",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-12-01",
@@ -88,7 +88,7 @@
     ],
     [
       "阿里巴巴",
-      16
+      17
     ],
     [
       "英伟达",
@@ -99,16 +99,16 @@
       8
     ],
     [
+      "宁德时代",
+      6
+    ],
+    [
       "中际旭创",
       6
     ],
     [
       "京东",
       6
-    ],
-    [
-      "宁德时代",
-      5
     ],
     [
       "腾讯",
