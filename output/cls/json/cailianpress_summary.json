@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-01T08:36:27.310050",
-  "newsCount": 1699,
+  "lastUpdate": "2025-12-01T09:33:09.743057",
+  "newsCount": 1719,
   "dateRange": {
     "start": "2025-11-27",
     "end": "2025-12-01"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-12-01",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-12-01",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-01",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-01",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-01",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-12-01",
@@ -29,24 +43,10 @@
     },
     {
       "date": "2025-12-01",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-01",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-01",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-12-01",
@@ -92,7 +92,7 @@
     ],
     [
       "英伟达",
-      9
+      10
     ],
     [
       "小米",
@@ -108,7 +108,7 @@
     ],
     [
       "腾讯",
-      3
+      4
     ],
     [
       "药明康德",
