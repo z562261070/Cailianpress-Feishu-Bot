@@ -1,11 +1,60 @@
 {
-  "lastUpdate": "2025-11-30T23:40:49.039246",
-  "newsCount": 1934,
+  "lastUpdate": "2025-12-01T02:11:35.513558",
+  "newsCount": 1566,
   "dateRange": {
-    "start": "2025-11-26",
-    "end": "2025-11-30"
+    "start": "2025-11-27",
+    "end": "2025-12-01"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-01",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-01",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-01",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-01",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-01",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-01",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-01",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-11-30",
       "keyword": "机器人",
@@ -26,92 +75,39 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-11-30",
-      "keyword": "算力",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-11-30",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-11-30",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 17
-    },
-    {
-      "date": "2025-11-30",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-11-30",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-11-29",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 19
-    },
-    {
-      "date": "2025-11-29",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 38
     }
   ],
   "topStocks": [
     [
-      "谷歌",
-      33
-    ],
-    [
-      "阿里巴巴",
-      25
-    ],
-    [
       "华为",
-      19
+      18
     ],
     [
-      "英伟达",
+      "谷歌",
       17
     ],
     [
+      "阿里巴巴",
+      16
+    ],
+    [
+      "英伟达",
+      8
+    ],
+    [
       "小米",
-      11
+      7
     ],
     [
       "京东",
-      8
+      6
     ],
     [
       "中际旭创",
-      8
+      5
     ],
     [
       "药明康德",
-      3
-    ],
-    [
-      "腾讯",
       3
     ],
     [
@@ -119,11 +115,7 @@
       3
     ],
     [
-      "理想汽车",
-      2
-    ],
-    [
-      "长城军工",
+      "腾讯",
       2
     ],
     [
