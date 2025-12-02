@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-02T13:39:33.353089",
-  "newsCount": 1779,
+  "lastUpdate": "2025-12-02T14:27:28.867786",
+  "newsCount": 1799,
   "dateRange": {
     "start": "2025-11-28",
     "end": "2025-12-02"
@@ -8,17 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-12-02",
-      "keyword": "人工智能",
+      "keyword": "芯片",
       "positive": 0,
-      "negative": 1,
+      "negative": 0,
       "neutral": 14
     },
     {
       "date": "2025-12-02",
-      "keyword": "芯片",
+      "keyword": "军工",
       "positive": 0,
       "negative": 0,
-      "neutral": 10
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-02",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 12
+    },
+    {
+      "date": "2025-12-02",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2025-12-02",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 15
     },
     {
       "date": "2025-12-02",
@@ -29,31 +50,10 @@
     },
     {
       "date": "2025-12-02",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-12-02",
       "keyword": "新能源",
       "positive": 1,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-12-02",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 12
-    },
-    {
-      "date": "2025-12-02",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-01",
@@ -83,12 +83,12 @@
       23
     ],
     [
-      "阿里巴巴",
+      "英伟达",
       14
     ],
     [
-      "英伟达",
-      13
+      "阿里巴巴",
+      14
     ],
     [
       "华为",
@@ -96,7 +96,7 @@
     ],
     [
       "京东",
-      6
+      7
     ],
     [
       "宁德时代",
