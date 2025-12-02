@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-12-02T05:23:54.922115",
-  "newsCount": 1580,
+  "lastUpdate": "2025-12-02T05:44:29.431366",
+  "newsCount": 1589,
   "dateRange": {
     "start": "2025-11-28",
     "end": "2025-12-02"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-02",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-12-02",
       "keyword": "算力",
@@ -26,13 +33,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-02",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-02",
@@ -83,11 +83,11 @@
       21
     ],
     [
-      "华为",
-      13
+      "阿里巴巴",
+      14
     ],
     [
-      "阿里巴巴",
+      "华为",
       13
     ],
     [
