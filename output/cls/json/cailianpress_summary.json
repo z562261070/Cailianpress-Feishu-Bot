@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-12-02T09:30:36.427744",
-  "newsCount": 1678,
+  "lastUpdate": "2025-12-02T10:28:09.204184",
+  "newsCount": 1698,
   "dateRange": {
     "start": "2025-11-28",
     "end": "2025-12-02"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-02",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-02",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 10
+    },
+    {
+      "date": "2025-12-02",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-12-02",
       "keyword": "算力",
@@ -22,31 +43,10 @@
     },
     {
       "date": "2025-12-02",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 9
-    },
-    {
-      "date": "2025-12-02",
       "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-12-02",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-12-02",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-12-02",
@@ -99,6 +99,10 @@
       6
     ],
     [
+      "小米",
+      5
+    ],
+    [
       "中际旭创",
       5
     ],
@@ -111,15 +115,11 @@
       4
     ],
     [
-      "小米",
-      4
+      "腾讯",
+      3
     ],
     [
       "理想汽车",
-      2
-    ],
-    [
-      "腾讯",
       2
     ],
     [
