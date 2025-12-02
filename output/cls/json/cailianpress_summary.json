@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-02T04:51:27.063419",
-  "newsCount": 1573,
+  "lastUpdate": "2025-12-02T05:23:54.922115",
+  "newsCount": 1580,
   "dateRange": {
     "start": "2025-11-28",
     "end": "2025-12-02"
@@ -11,14 +11,14 @@
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2025-12-02",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-12-02",
