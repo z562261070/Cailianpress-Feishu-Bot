@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-03T01:54:36.672276",
-  "newsCount": 1505,
+  "lastUpdate": "2025-12-03T03:20:30.017283",
+  "newsCount": 1525,
   "dateRange": {
     "start": "2025-11-29",
     "end": "2025-12-03"
@@ -8,17 +8,45 @@
   "topKeywords": [
     {
       "date": "2025-12-03",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-03",
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 0
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-03",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-03",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-03",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2025-12-03",
       "keyword": "军工",
       "positive": 1,
       "negative": 0,
-      "neutral": 0
+      "neutral": 1
     },
     {
       "date": "2025-12-03",
@@ -33,20 +61,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-03",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-12-03",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-12-02",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-12-02",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 12
-    },
-    {
-      "date": "2025-12-02",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 9
     }
   ],
   "topStocks": [
@@ -103,12 +103,12 @@
       5
     ],
     [
-      "小米",
+      "腾讯",
       4
     ],
     [
-      "腾讯",
-      3
+      "小米",
+      4
     ],
     [
       "比亚迪",
