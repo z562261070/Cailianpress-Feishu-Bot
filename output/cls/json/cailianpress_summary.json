@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-03T11:42:01.742268",
-  "newsCount": 1752,
+  "lastUpdate": "2025-12-03T12:53:23.649996",
+  "newsCount": 1772,
   "dateRange": {
     "start": "2025-11-29",
     "end": "2025-12-03"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-12-03",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-12-03",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-12-03",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-12-03",
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-12-03",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 10
     },
     {
       "date": "2025-12-03",
@@ -40,20 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-12-03",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-12-03",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-12-03",
