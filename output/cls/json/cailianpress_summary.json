@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-03T09:48:27.355490",
-  "newsCount": 1685,
+  "lastUpdate": "2025-12-03T10:28:48.004388",
+  "newsCount": 1705,
   "dateRange": {
     "start": "2025-11-29",
     "end": "2025-12-03"
@@ -11,7 +11,21 @@
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-12-03",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
       "neutral": 6
+    },
+    {
+      "date": "2025-12-03",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2025-12-03",
@@ -19,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-03",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-12-03",
@@ -38,13 +45,6 @@
       "date": "2025-12-03",
       "keyword": "算力",
       "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-12-03",
-      "keyword": "机器人",
-      "positive": 1,
       "negative": 0,
       "neutral": 3
     },
@@ -92,18 +92,18 @@
     ],
     [
       "华为",
-      11
+      12
     ],
     [
       "京东",
       9
     ],
     [
-      "腾讯",
-      6
+      "小米",
+      7
     ],
     [
-      "小米",
+      "腾讯",
       6
     ],
     [
