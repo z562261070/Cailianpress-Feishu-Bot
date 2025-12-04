@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-12-04T08:34:36.046358",
-  "newsCount": 1702,
+  "lastUpdate": "2025-12-04T09:29:22.559530",
+  "newsCount": 1722,
   "dateRange": {
     "start": "2025-11-30",
     "end": "2025-12-04"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-04",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-04",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-04",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-12-04",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-12-04",
       "keyword": "机器人",
@@ -22,13 +50,6 @@
     },
     {
       "date": "2025-12-04",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-04",
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
@@ -36,28 +57,7 @@
     },
     {
       "date": "2025-12-04",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-12-04",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-12-04",
       "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-04",
-      "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -108,7 +108,7 @@
     ],
     [
       "腾讯",
-      6
+      7
     ],
     [
       "比亚迪",
