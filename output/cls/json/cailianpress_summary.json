@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-12-04T04:51:35.380182",
-  "newsCount": 1610,
+  "lastUpdate": "2025-12-04T05:24:03.328671",
+  "newsCount": 1624,
   "dateRange": {
     "start": "2025-11-30",
     "end": "2025-12-04"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-04",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-12-04",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-12-04",
       "keyword": "机器人",
@@ -36,13 +50,6 @@
     },
     {
       "date": "2025-12-04",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-12-04",
       "keyword": "新能源",
       "positive": 1,
       "negative": 0,
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 10
-    },
-    {
-      "date": "2025-12-03",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
@@ -104,7 +104,7 @@
     ],
     [
       "宁德时代",
-      7
+      8
     ],
     [
       "腾讯",
