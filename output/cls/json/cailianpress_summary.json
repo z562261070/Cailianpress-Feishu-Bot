@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-12-05T09:44:43.706829",
-  "newsCount": 1948,
+  "lastUpdate": "2025-12-05T10:26:37.284290",
+  "newsCount": 1968,
   "dateRange": {
     "start": "2025-12-01",
     "end": "2025-12-05"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-05",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-12-05",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 6
+    },
     {
       "date": "2025-12-05",
       "keyword": "新能源",
@@ -22,24 +36,10 @@
     },
     {
       "date": "2025-12-05",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-12-05",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-05",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-12-05",
@@ -125,6 +125,10 @@
     [
       "网易",
       2
+    ],
+    [
+      "上纬新材",
+      1
     ],
     [
       "航天电子",
