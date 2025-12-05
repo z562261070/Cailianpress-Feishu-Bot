@@ -1,11 +1,60 @@
 {
-  "lastUpdate": "2025-12-04T23:41:26.562732",
-  "newsCount": 1903,
+  "lastUpdate": "2025-12-05T01:56:02.162913",
+  "newsCount": 1772,
   "dateRange": {
-    "start": "2025-11-30",
-    "end": "2025-12-04"
+    "start": "2025-12-01",
+    "end": "2025-12-05"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-05",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-05",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-05",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-05",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-05",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-05",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-05",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-12-04",
       "keyword": "军工",
@@ -26,89 +75,40 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-12-04",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-12-04",
-      "keyword": "人工智能",
-      "positive": 3,
-      "negative": 1,
-      "neutral": 13
-    },
-    {
-      "date": "2025-12-04",
-      "keyword": "机器人",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 15
-    },
-    {
-      "date": "2025-12-04",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-12-04",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-12-03",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 17
-    },
-    {
-      "date": "2025-12-03",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 10
     }
   ],
   "topStocks": [
     [
-      "谷歌",
-      22
-    ],
-    [
       "英伟达",
-      19
+      20
     ],
     [
-      "阿里巴巴",
-      15
-    ],
-    [
-      "华为",
-      13
-    ],
-    [
-      "小米",
-      10
-    ],
-    [
-      "京东",
-      10
+      "谷歌",
+      14
     ],
     [
       "宁德时代",
       9
     ],
     [
+      "小米",
+      9
+    ],
+    [
+      "京东",
+      9
+    ],
+    [
+      "阿里巴巴",
+      9
+    ],
+    [
       "腾讯",
       8
+    ],
+    [
+      "华为",
+      7
     ],
     [
       "比亚迪",
