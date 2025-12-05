@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-05T07:41:31.850327",
-  "newsCount": 1888,
+  "lastUpdate": "2025-12-05T08:33:13.338896",
+  "newsCount": 1908,
   "dateRange": {
     "start": "2025-12-01",
     "end": "2025-12-05"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-12-05",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-12-05",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-05",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
     },
     {
       "date": "2025-12-05",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-12-05",
@@ -33,20 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-12-05",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-12-05",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-12-05",
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      15
+      16
     ],
     [
       "小米",
