@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-05T01:56:02.162913",
-  "newsCount": 1772,
+  "lastUpdate": "2025-12-05T03:22:46.854274",
+  "newsCount": 1792,
   "dateRange": {
     "start": "2025-12-01",
     "end": "2025-12-05"
@@ -8,14 +8,14 @@
   "topKeywords": [
     {
       "date": "2025-12-05",
-      "keyword": "半导体",
-      "positive": 0,
+      "keyword": "人工智能",
+      "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 4
     },
     {
       "date": "2025-12-05",
-      "keyword": "算力",
+      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -25,7 +25,14 @@
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-05",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-12-05",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-12-05",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-12-05",
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      14
+      15
     ],
     [
       "宁德时代",
@@ -115,12 +115,12 @@
       5
     ],
     [
-      "中际旭创",
+      "理想汽车",
       4
     ],
     [
-      "理想汽车",
-      3
+      "中际旭创",
+      4
     ],
     [
       "网易",
