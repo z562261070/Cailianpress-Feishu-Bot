@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-12-05T07:25:11.834456",
-  "newsCount": 1875,
+  "lastUpdate": "2025-12-05T07:41:31.850327",
+  "newsCount": 1888,
   "dateRange": {
     "start": "2025-12-01",
     "end": "2025-12-05"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-05",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-12-05",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-12-05",
       "keyword": "算力",
@@ -15,24 +29,10 @@
     },
     {
       "date": "2025-12-05",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-12-05",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-12-05",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-12-05",
@@ -88,7 +88,7 @@
     ],
     [
       "小米",
-      10
+      11
     ],
     [
       "宁德时代",
@@ -107,12 +107,12 @@
       8
     ],
     [
-      "华为",
+      "比亚迪",
       7
     ],
     [
-      "比亚迪",
-      6
+      "华为",
+      7
     ],
     [
       "理想汽车",
