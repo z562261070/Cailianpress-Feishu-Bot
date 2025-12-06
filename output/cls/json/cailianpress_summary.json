@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-12-06T12:45:42.404273",
-  "newsCount": 1886,
+  "lastUpdate": "2025-12-06T13:29:33.695999",
+  "newsCount": 1891,
   "dateRange": {
     "start": "2025-12-02",
     "end": "2025-12-06"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-06",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2025-12-06",
       "keyword": "无人机",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-04",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
