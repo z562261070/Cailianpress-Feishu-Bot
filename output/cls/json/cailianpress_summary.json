@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-06T18:31:34.054256",
-  "newsCount": 1981,
+  "lastUpdate": "2025-12-06T19:18:32.172159",
+  "newsCount": 1995,
   "dateRange": {
     "start": "2025-12-02",
     "end": "2025-12-06"
@@ -11,12 +11,12 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 9
+      "neutral": 10
     },
     {
       "date": "2025-12-06",
       "keyword": "新能源",
-      "positive": 6,
+      "positive": 7,
       "negative": 0,
       "neutral": 0
     },
