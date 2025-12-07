@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-07T19:38:38.793395",
-  "newsCount": 1938,
+  "lastUpdate": "2025-12-07T20:25:26.374495",
+  "newsCount": 1948,
   "dateRange": {
     "start": "2025-12-03",
     "end": "2025-12-07"
@@ -11,21 +11,21 @@
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 18
+      "neutral": 19
     },
     {
       "date": "2025-12-07",
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
-      "neutral": 16
+      "neutral": 17
     },
     {
       "date": "2025-12-07",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 12
+      "neutral": 13
     },
     {
       "date": "2025-12-07",
@@ -84,7 +84,7 @@
     ],
     [
       "华为",
-      12
+      13
     ],
     [
       "比亚迪",
