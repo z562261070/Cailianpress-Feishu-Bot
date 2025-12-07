@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-12-07T08:47:35.213904",
-  "newsCount": 1781,
+  "lastUpdate": "2025-12-07T09:22:28.640716",
+  "newsCount": 1793,
   "dateRange": {
     "start": "2025-12-03",
     "end": "2025-12-07"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-07",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-12-07",
       "keyword": "芯片",
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 11
-    },
-    {
-      "date": "2025-12-05",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
@@ -107,6 +107,10 @@
       5
     ],
     [
+      "中际旭创",
+      4
+    ],
+    [
       "华为",
       4
     ],
@@ -119,8 +123,8 @@
       3
     ],
     [
-      "中际旭创",
-      3
+      "TCL",
+      1
     ],
     [
       "上纬新材",
