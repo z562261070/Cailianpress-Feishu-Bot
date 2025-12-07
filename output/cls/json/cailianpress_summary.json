@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-12-06T23:40:21.388912",
-  "newsCount": 2087,
+  "lastUpdate": "2025-12-07T02:04:50.239143",
+  "newsCount": 1721,
   "dateRange": {
-    "start": "2025-12-02",
-    "end": "2025-12-06"
+    "start": "2025-12-03",
+    "end": "2025-12-07"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-07",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-07",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-07",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-07",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-12-06",
       "keyword": "无人机",
@@ -47,71 +75,39 @@
       "positive": 1,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-12-05",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-12-05",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-12-05",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-12-05",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
     [
       "谷歌",
-      17
-    ],
-    [
-      "英伟达",
-      13
-    ],
-    [
-      "小米",
       11
     ],
     [
-      "京东",
+      "小米",
       10
     ],
     [
-      "阿里巴巴",
-      9
-    ],
-    [
       "腾讯",
-      8
-    ],
-    [
-      "宁德时代",
       7
     ],
     [
-      "比亚迪",
+      "京东",
+      7
+    ],
+    [
+      "英伟达",
+      7
+    ],
+    [
+      "阿里巴巴",
       5
     ],
     [
-      "华为",
+      "宁德时代",
+      5
+    ],
+    [
+      "比亚迪",
       4
     ],
     [
@@ -120,6 +116,10 @@
     ],
     [
       "中际旭创",
+      3
+    ],
+    [
+      "华为",
       3
     ],
     [
