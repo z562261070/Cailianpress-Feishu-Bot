@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-12-08T05:47:40.120209",
-  "newsCount": 1646,
+  "lastUpdate": "2025-12-08T06:40:35.090903",
+  "newsCount": 1666,
   "dateRange": {
     "start": "2025-12-04",
     "end": "2025-12-08"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-08",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-08",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-12-08",
       "keyword": "算力",
@@ -30,13 +44,6 @@
     {
       "date": "2025-12-08",
       "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-08",
-      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 17
-    },
-    {
-      "date": "2025-12-07",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 13
     }
   ],
   "topStocks": [
@@ -111,12 +111,12 @@
       4
     ],
     [
-      "理想汽车",
+      "京东",
       3
     ],
     [
-      "京东",
-      2
+      "理想汽车",
+      3
     ],
     [
       "阿里巴巴",
