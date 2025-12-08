@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-08T17:23:51.289463",
-  "newsCount": 1919,
+  "lastUpdate": "2025-12-08T17:44:42.557468",
+  "newsCount": 1924,
   "dateRange": {
     "start": "2025-12-04",
     "end": "2025-12-08"
@@ -11,14 +11,14 @@
       "keyword": "机器人",
       "positive": 2,
       "negative": 0,
-      "neutral": 13
+      "neutral": 14
     },
     {
       "date": "2025-12-08",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2025-12-08",
@@ -83,12 +83,12 @@
       18
     ],
     [
-      "比亚迪",
+      "英伟达",
       12
     ],
     [
-      "英伟达",
-      11
+      "比亚迪",
+      12
     ],
     [
       "华为",
