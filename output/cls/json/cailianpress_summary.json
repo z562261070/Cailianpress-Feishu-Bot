@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-08T04:36:40.097346",
-  "newsCount": 1617,
+  "lastUpdate": "2025-12-08T05:26:51.394308",
+  "newsCount": 1636,
   "dateRange": {
     "start": "2025-12-04",
     "end": "2025-12-08"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-12-08",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-08",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-08",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-12-08",
@@ -33,20 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-08",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-08",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-12-08",
@@ -115,15 +115,15 @@
       3
     ],
     [
+      "京东",
+      2
+    ],
+    [
       "阿里巴巴",
       2
     ],
     [
       "TCL",
-      1
-    ],
-    [
-      "京东",
       1
     ],
     [
