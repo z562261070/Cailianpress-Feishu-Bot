@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-08T10:28:28.409648",
-  "newsCount": 1761,
+  "lastUpdate": "2025-12-08T10:51:16.617335",
+  "newsCount": 1781,
   "dateRange": {
     "start": "2025-12-04",
     "end": "2025-12-08"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-12-08",
-      "keyword": "芯片",
-      "positive": 0,
+      "keyword": "机器人",
+      "positive": 2,
       "negative": 0,
       "neutral": 7
     },
     {
       "date": "2025-12-08",
-      "keyword": "机器人",
-      "positive": 2,
+      "keyword": "算力",
+      "positive": 3,
       "negative": 0,
-      "neutral": 6
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-08",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
     },
     {
       "date": "2025-12-08",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-08",
-      "keyword": "算力",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-12-08",
@@ -95,11 +95,11 @@
       7
     ],
     [
-      "腾讯",
-      5
+      "英伟达",
+      6
     ],
     [
-      "英伟达",
+      "腾讯",
       5
     ],
     [
