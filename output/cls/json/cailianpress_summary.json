@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-08T01:56:46.344623",
-  "newsCount": 1584,
+  "lastUpdate": "2025-12-08T03:36:17.784149",
+  "newsCount": 1604,
   "dateRange": {
     "start": "2025-12-04",
     "end": "2025-12-08"
@@ -9,9 +9,16 @@
     {
       "date": "2025-12-08",
       "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-08",
+      "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-12-08",
@@ -23,13 +30,6 @@
     {
       "date": "2025-12-08",
       "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-08",
-      "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -99,16 +99,16 @@
       5
     ],
     [
+      "中际旭创",
+      4
+    ],
+    [
       "腾讯",
       4
     ],
     [
       "宁德时代",
       4
-    ],
-    [
-      "中际旭创",
-      3
     ],
     [
       "理想汽车",
