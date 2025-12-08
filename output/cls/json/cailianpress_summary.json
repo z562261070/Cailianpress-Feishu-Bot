@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-08T15:28:07.594456",
-  "newsCount": 1893,
+  "lastUpdate": "2025-12-08T15:45:41.495482",
+  "newsCount": 1899,
   "dateRange": {
     "start": "2025-12-04",
     "end": "2025-12-08"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-12-08",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-12-08",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-08",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 14
-    },
-    {
-      "date": "2025-12-08",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 10
     },
     {
       "date": "2025-12-08",
@@ -40,13 +47,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 10
-    },
-    {
-      "date": "2025-12-08",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-12-08",
@@ -92,7 +92,7 @@
     ],
     [
       "英伟达",
-      8
+      9
     ],
     [
       "小米",
