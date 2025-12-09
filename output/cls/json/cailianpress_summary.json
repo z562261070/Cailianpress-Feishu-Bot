@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-09T11:22:57.836927",
-  "newsCount": 1816,
+  "lastUpdate": "2025-12-09T11:41:37.512313",
+  "newsCount": 1826,
   "dateRange": {
     "start": "2025-12-05",
     "end": "2025-12-09"
@@ -10,6 +10,13 @@
       "date": "2025-12-09",
       "keyword": "芯片",
       "positive": 2,
+      "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2025-12-09",
+      "keyword": "半导体",
+      "positive": 0,
       "negative": 0,
       "neutral": 8
     },
@@ -33,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-09",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-12-09",
@@ -121,6 +121,10 @@
     [
       "阿里巴巴",
       2
+    ],
+    [
+      "药明康德",
+      1
     ],
     [
       "TCL",
