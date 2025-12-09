@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-09T07:43:24.436484",
-  "newsCount": 1703,
+  "lastUpdate": "2025-12-09T08:35:26.458933",
+  "newsCount": 1723,
   "dateRange": {
     "start": "2025-12-05",
     "end": "2025-12-09"
@@ -8,31 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-12-09",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-09",
-      "keyword": "半导体",
+      "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2025-12-09",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-12-09",
       "keyword": "人工智能",
       "positive": 2,
       "negative": 0,
-      "neutral": 9
+      "neutral": 11
+    },
+    {
+      "date": "2025-12-09",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-12-09",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-12-09",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-12-09",
@@ -47,13 +54,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-09",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-12-09",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "谷歌",
-      21
+      22
     ],
     [
       "英伟达",
