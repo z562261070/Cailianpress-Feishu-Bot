@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-09T03:22:28.213125",
-  "newsCount": 1591,
+  "lastUpdate": "2025-12-09T04:02:10.686287",
+  "newsCount": 1610,
   "dateRange": {
     "start": "2025-12-05",
     "end": "2025-12-09"
@@ -8,29 +8,29 @@
   "topKeywords": [
     {
       "date": "2025-12-09",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-12-09",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
+    },
+    {
+      "date": "2025-12-09",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
     },
     {
       "date": "2025-12-09",
       "keyword": "算力",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2025-12-09",
       "keyword": "芯片",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 4
     },
@@ -80,23 +80,31 @@
   "topStocks": [
     [
       "谷歌",
-      20
+      21
     ],
     [
       "英伟达",
-      12
+      13
+    ],
+    [
+      "比亚迪",
+      11
     ],
     [
       "华为",
       11
     ],
     [
-      "比亚迪",
-      10
+      "京东",
+      4
     ],
     [
       "小米",
       4
+    ],
+    [
+      "理想汽车",
+      3
     ],
     [
       "中际旭创",
@@ -107,11 +115,7 @@
       3
     ],
     [
-      "京东",
-      3
-    ],
-    [
-      "理想汽车",
+      "宁德时代",
       2
     ],
     [
@@ -124,10 +128,6 @@
     ],
     [
       "上纬新材",
-      1
-    ],
-    [
-      "宁德时代",
       1
     ]
   ]
