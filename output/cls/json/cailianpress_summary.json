@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-10T10:52:35.025166",
-  "newsCount": 1789,
+  "lastUpdate": "2025-12-10T11:22:31.947658",
+  "newsCount": 1809,
   "dateRange": {
     "start": "2025-12-06",
     "end": "2025-12-10"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-12-10",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2025-12-10",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-10",
       "keyword": "算力",
       "positive": 2,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-12-10",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-12-10",
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-10",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-12-09",
@@ -111,11 +111,11 @@
       4
     ],
     [
-      "阿里巴巴",
-      2
+      "宁德时代",
+      3
     ],
     [
-      "宁德时代",
+      "阿里巴巴",
       2
     ],
     [
