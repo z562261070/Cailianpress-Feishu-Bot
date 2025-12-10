@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-10T01:57:44.524333",
-  "newsCount": 1601,
+  "lastUpdate": "2025-12-10T03:37:10.090107",
+  "newsCount": 1621,
   "dateRange": {
     "start": "2025-12-06",
     "end": "2025-12-10"
@@ -8,10 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-12-10",
-      "keyword": "芯片",
+      "keyword": "机器人",
       "positive": 1,
       "negative": 0,
       "neutral": 1
+    },
+    {
+      "date": "2025-12-10",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-10",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-10",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-12-10",
@@ -19,20 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-10",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2025-12-10",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-10",
@@ -68,13 +75,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 11
-    },
-    {
-      "date": "2025-12-09",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 18
     }
   ],
   "topStocks": [
@@ -107,6 +107,10 @@
       3
     ],
     [
+      "宁德时代",
+      2
+    ],
+    [
       "理想汽车",
       2
     ],
@@ -120,10 +124,6 @@
     ],
     [
       "药明康德",
-      1
-    ],
-    [
-      "宁德时代",
       1
     ],
     [
