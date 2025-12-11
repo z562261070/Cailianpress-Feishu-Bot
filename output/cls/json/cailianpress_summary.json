@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-11T07:45:28.350893",
-  "newsCount": 1802,
+  "lastUpdate": "2025-12-11T08:35:08.581089",
+  "newsCount": 1822,
   "dateRange": {
     "start": "2025-12-07",
     "end": "2025-12-11"
@@ -8,15 +8,15 @@
   "topKeywords": [
     {
       "date": "2025-12-11",
-      "keyword": "半导体",
-      "positive": 2,
+      "keyword": "人工智能",
+      "positive": 1,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-12-11",
-      "keyword": "人工智能",
-      "positive": 1,
+      "keyword": "半导体",
+      "positive": 2,
       "negative": 0,
       "neutral": 5
     },
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      24
+      25
     ],
     [
       "华为",
