@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-12T04:36:31.377774",
-  "newsCount": 1864,
+  "lastUpdate": "2025-12-12T05:26:35.694534",
+  "newsCount": 1878,
   "dateRange": {
     "start": "2025-12-08",
     "end": "2025-12-12"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-12-12",
-      "keyword": "芯片",
-      "positive": 0,
+      "keyword": "半导体",
+      "positive": 3,
       "negative": 0,
-      "neutral": 5
+      "neutral": 0
     },
     {
       "date": "2025-12-12",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 0
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-12",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-12-12",
@@ -26,13 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-12",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-12-12",
@@ -84,7 +84,7 @@
     ],
     [
       "谷歌",
-      21
+      22
     ],
     [
       "京东",
