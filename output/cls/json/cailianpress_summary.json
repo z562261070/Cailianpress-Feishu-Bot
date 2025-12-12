@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-12T07:44:51.996262",
-  "newsCount": 1939,
+  "lastUpdate": "2025-12-12T08:35:04.934072",
+  "newsCount": 1959,
   "dateRange": {
     "start": "2025-12-08",
     "end": "2025-12-12"
@@ -11,14 +11,28 @@
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-12-12",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 9
+      "neutral": 10
+    },
+    {
+      "date": "2025-12-12",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-12",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-12-12",
@@ -33,20 +47,6 @@
       "positive": 4,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-12-12",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-12-12",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-11",
@@ -91,12 +91,12 @@
       9
     ],
     [
-      "比亚迪",
+      "腾讯",
       7
     ],
     [
-      "腾讯",
-      6
+      "比亚迪",
+      7
     ],
     [
       "小米",
@@ -120,7 +120,7 @@
     ],
     [
       "网易",
-      2
+      3
     ],
     [
       "理想汽车",
