@@ -1,6 +1,24 @@
 {
-  "lastUpdate": "2025-12-14T13:46:18.539306",
+  "lastUpdate": "2025-12-14T14:21:35.549208",
   "newsData": [
+    {
+      "date": "2025-12-14",
+      "time": "22:18",
+      "type": "general",
+      "content": "[财联社12月14日电，据新华社援引澳大利亚《悉尼先驱晨报》报道，14日悉尼邦迪滩发生枪击事件后，警方当晚逮捕两名与这起事件有关联的人员。]"
+    },
+    {
+      "date": "2025-12-14",
+      "time": "22:05",
+      "type": "general",
+      "content": "[①6G+商业航天+光刻机+存储芯片+CPO！这家公司产品已实现卫星柔性太阳翼领域的在轨应用；②商业航天+军工+低空经济+央企改革！这家公司参与“九天”无人机机体部件研制生产，开展大型火箭、航天飞船、卫星等相关复合材料零部件制造；③固态电池+储能+人工智能！公司拟收购锂电隔膜高新技术企业。]"
+    },
+    {
+      "date": "2025-12-14",
+      "time": "21:58",
+      "type": "important",
+      "content": "**[【下周资本市场大事提醒：中国11月经济数据将公布 美国非农数据、三大央行决议重磅登场】"
+    },
     {
       "date": "2025-12-14",
       "time": "21:45",
@@ -10919,6 +10937,34 @@
   "hotspotData": [
     {
       "date": "2025-12-14",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-14",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-14",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-14",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 1,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-14",
       "keyword": "机器人",
       "positive": 2,
       "negative": 0,
@@ -10937,34 +10983,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-14",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-14",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-14",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-14",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-13",
