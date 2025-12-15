@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-12-15T09:36:42.078751",
-  "newsCount": 1786,
+  "lastUpdate": "2025-12-15T10:31:36.491634",
+  "newsCount": 1806,
   "dateRange": {
     "start": "2025-12-11",
     "end": "2025-12-15"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-15",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-12-15",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
     {
       "date": "2025-12-15",
       "keyword": "芯片",
@@ -26,20 +40,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-15",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-12-15",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-12-15",
@@ -91,12 +91,12 @@
       7
     ],
     [
-      "京东",
+      "航天电子",
       5
     ],
     [
-      "航天电子",
-      4
+      "京东",
+      5
     ],
     [
       "比亚迪",
