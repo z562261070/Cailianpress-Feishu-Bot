@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-15T02:02:52.104908",
-  "newsCount": 1615,
+  "lastUpdate": "2025-12-15T03:52:54.940887",
+  "newsCount": 1635,
   "dateRange": {
     "start": "2025-12-11",
     "end": "2025-12-15"
@@ -8,17 +8,45 @@
   "topKeywords": [
     {
       "date": "2025-12-15",
-      "keyword": "新能源",
+      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-15",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-15",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-12-15",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 4
+    },
+    {
+      "date": "2025-12-15",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-12-15",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
     },
     {
       "date": "2025-12-15",
@@ -35,13 +63,6 @@
       "neutral": 1
     },
     {
-      "date": "2025-12-15",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
       "date": "2025-12-14",
       "keyword": "无人机",
       "positive": 0,
@@ -54,27 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 11
-    },
-    {
-      "date": "2025-12-14",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 11
-    },
-    {
-      "date": "2025-12-14",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 12
-    },
-    {
-      "date": "2025-12-14",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
@@ -97,6 +97,10 @@
     [
       "京东",
       4
+    ],
+    [
+      "航天电子",
+      3
     ],
     [
       "比亚迪",
@@ -128,10 +132,6 @@
     ],
     [
       "胜通能源",
-      1
-    ],
-    [
-      "航天电子",
       1
     ]
   ]
