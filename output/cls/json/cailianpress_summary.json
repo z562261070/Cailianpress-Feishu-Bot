@@ -1,11 +1,46 @@
 {
-  "lastUpdate": "2025-12-14T23:40:44.014450",
-  "newsCount": 1977,
+  "lastUpdate": "2025-12-15T02:02:52.104908",
+  "newsCount": 1615,
   "dateRange": {
-    "start": "2025-12-10",
-    "end": "2025-12-14"
+    "start": "2025-12-11",
+    "end": "2025-12-15"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-15",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-15",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-15",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-15",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-15",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-12-14",
       "keyword": "无人机",
@@ -40,58 +75,19 @@
       "positive": 2,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-12-14",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-12-14",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-12-13",
-      "keyword": "算力",
-      "positive": 15,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2025-12-13",
-      "keyword": "人工智能",
-      "positive": 16,
-      "negative": 0,
-      "neutral": 21
-    },
-    {
-      "date": "2025-12-13",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
     [
-      "英伟达",
-      17
+      "谷歌",
+      13
     ],
     [
-      "谷歌",
-      15
+      "英伟达",
+      12
     ],
     [
       "腾讯",
-      8
-    ],
-    [
-      "阿里巴巴",
       6
     ],
     [
@@ -99,23 +95,27 @@
       4
     ],
     [
-      "比亚迪",
-      4
-    ],
-    [
       "京东",
       4
     ],
     [
-      "小米",
-      4
+      "比亚迪",
+      3
     ],
     [
-      "宁德时代",
-      4
+      "阿里巴巴",
+      3
     ],
     [
       "华为",
+      2
+    ],
+    [
+      "小米",
+      2
+    ],
+    [
+      "宁德时代",
       2
     ],
     [
