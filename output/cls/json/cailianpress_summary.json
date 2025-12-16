@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-12-16T07:26:53.132093",
-  "newsCount": 1681,
+  "lastUpdate": "2025-12-16T07:44:58.932783",
+  "newsCount": 1693,
   "dateRange": {
     "start": "2025-12-12",
     "end": "2025-12-16"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-16",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-12-16",
       "keyword": "芯片",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 1,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-16",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-12-16",
