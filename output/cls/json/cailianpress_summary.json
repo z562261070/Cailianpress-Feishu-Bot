@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-17T11:24:28.976199",
-  "newsCount": 1780,
+  "lastUpdate": "2025-12-17T11:42:15.974506",
+  "newsCount": 1790,
   "dateRange": {
     "start": "2025-12-13",
     "end": "2025-12-17"
@@ -8,24 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-12-17",
-      "keyword": "人工智能",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 11
-    },
-    {
-      "date": "2025-12-17",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-12-17",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
+    },
+    {
+      "date": "2025-12-17",
+      "keyword": "人工智能",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 11
     },
     {
       "date": "2025-12-17",
@@ -95,6 +95,10 @@
       5
     ],
     [
+      "比亚迪",
+      4
+    ],
+    [
       "腾讯",
       4
     ],
@@ -104,10 +108,6 @@
     ],
     [
       "胜通能源",
-      3
-    ],
-    [
-      "比亚迪",
       3
     ],
     [
