@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-17T04:53:48.165711",
-  "newsCount": 1608,
+  "lastUpdate": "2025-12-17T05:27:13.705960",
+  "newsCount": 1621,
   "dateRange": {
     "start": "2025-12-13",
     "end": "2025-12-17"
@@ -8,50 +8,50 @@
   "topKeywords": [
     {
       "date": "2025-12-17",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-12-17",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-17",
-      "keyword": "半导体",
+      "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2025-12-17",
-      "keyword": "军工",
+      "keyword": "人工智能",
       "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-12-17",
+      "keyword": "算力",
+      "positive": 2,
       "negative": 0,
       "neutral": 1
     },
     {
       "date": "2025-12-17",
-      "keyword": "算力",
-      "positive": 1,
+      "keyword": "芯片",
+      "positive": 0,
       "negative": 0,
-      "neutral": 0
+      "neutral": 8
     },
     {
       "date": "2025-12-17",
-      "keyword": "人工智能",
+      "keyword": "新能源",
       "positive": 1,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2025-12-17",
-      "keyword": "机器人",
+      "keyword": "半导体",
       "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-17",
+      "keyword": "军工",
+      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
@@ -80,11 +80,11 @@
   "topStocks": [
     [
       "英伟达",
-      7
+      8
     ],
     [
       "谷歌",
-      7
+      8
     ],
     [
       "航天电子",
@@ -93,6 +93,10 @@
     [
       "京东",
       4
+    ],
+    [
+      "比亚迪",
+      3
     ],
     [
       "中际旭创",
@@ -108,10 +112,6 @@
     ],
     [
       "理想汽车",
-      2
-    ],
-    [
-      "比亚迪",
       2
     ],
     [
