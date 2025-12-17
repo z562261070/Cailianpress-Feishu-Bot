@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-17T01:54:46.589501",
-  "newsCount": 1557,
+  "lastUpdate": "2025-12-17T03:23:15.083099",
+  "newsCount": 1577,
   "dateRange": {
     "start": "2025-12-13",
     "end": "2025-12-17"
@@ -11,14 +11,28 @@
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-17",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-12-17",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2025-12-17",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-12-17",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2025-12-16",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-12-16",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -88,11 +88,15 @@
     ],
     [
       "航天电子",
-      5
+      6
     ],
     [
       "京东",
       4
+    ],
+    [
+      "中际旭创",
+      3
     ],
     [
       "阿里巴巴",
@@ -100,10 +104,6 @@
     ],
     [
       "理想汽车",
-      2
-    ],
-    [
-      "中际旭创",
       2
     ],
     [
