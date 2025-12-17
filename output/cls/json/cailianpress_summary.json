@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-12-17T04:06:31.052452",
-  "newsCount": 1590,
+  "lastUpdate": "2025-12-17T04:53:48.165711",
+  "newsCount": 1608,
   "dateRange": {
     "start": "2025-12-13",
     "end": "2025-12-17"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-17",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-12-17",
       "keyword": "新能源",
@@ -40,13 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-17",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-12-17",
@@ -117,6 +117,10 @@
     [
       "腾讯",
       2
+    ],
+    [
+      "药明康德",
+      1
     ],
     [
       "网易",
