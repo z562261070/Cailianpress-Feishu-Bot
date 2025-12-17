@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-17T06:38:56.129590",
-  "newsCount": 1651,
+  "lastUpdate": "2025-12-17T07:26:28.553705",
+  "newsCount": 1671,
   "dateRange": {
     "start": "2025-12-13",
     "end": "2025-12-17"
@@ -8,31 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-12-17",
-      "keyword": "军工",
-      "positive": 1,
+      "keyword": "算力",
+      "positive": 4,
       "negative": 0,
-      "neutral": 2
+      "neutral": 1
     },
     {
       "date": "2025-12-17",
       "keyword": "人工智能",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
       "neutral": 8
+    },
+    {
+      "date": "2025-12-17",
+      "keyword": "军工",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-12-17",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-17",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 1
+      "neutral": 3
     },
     {
       "date": "2025-12-17",
@@ -99,6 +99,10 @@
       4
     ],
     [
+      "胜通能源",
+      3
+    ],
+    [
       "腾讯",
       3
     ],
@@ -109,10 +113,6 @@
     [
       "阿里巴巴",
       3
-    ],
-    [
-      "胜通能源",
-      2
     ],
     [
       "理想汽车",
