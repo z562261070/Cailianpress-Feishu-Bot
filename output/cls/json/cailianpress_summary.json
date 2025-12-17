@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-17T13:35:47.406040",
-  "newsCount": 1830,
+  "lastUpdate": "2025-12-17T14:27:07.833024",
+  "newsCount": 1850,
   "dateRange": {
     "start": "2025-12-13",
     "end": "2025-12-17"
@@ -11,35 +11,42 @@
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
     },
     {
       "date": "2025-12-17",
-      "keyword": "人工智能",
-      "positive": 3,
+      "keyword": "无人机",
+      "positive": 0,
       "negative": 0,
-      "neutral": 12
+      "neutral": 1
     },
     {
       "date": "2025-12-17",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 13
+      "neutral": 15
+    },
+    {
+      "date": "2025-12-17",
+      "keyword": "人工智能",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 15
+    },
+    {
+      "date": "2025-12-17",
+      "keyword": "算力",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-12-17",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-12-17",
-      "keyword": "算力",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 3
+      "neutral": 9
     },
     {
       "date": "2025-12-17",
@@ -68,19 +75,12 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-16",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      9
+      10
     ],
     [
       "谷歌",
@@ -92,7 +92,7 @@
     ],
     [
       "京东",
-      5
+      6
     ],
     [
       "阿里巴巴",
