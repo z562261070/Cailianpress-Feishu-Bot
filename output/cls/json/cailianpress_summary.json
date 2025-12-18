@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-12-18T05:48:28.178898",
-  "newsCount": 1668,
+  "lastUpdate": "2025-12-18T06:38:40.963987",
+  "newsCount": 1688,
   "dateRange": {
     "start": "2025-12-14",
     "end": "2025-12-18"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-18",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-12-18",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-12-18",
       "keyword": "半导体",
@@ -36,24 +50,10 @@
     },
     {
       "date": "2025-12-18",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-12-18",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-18",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-12-17",
@@ -116,7 +116,7 @@
     ],
     [
       "宁德时代",
-      2
+      3
     ],
     [
       "药明康德",
