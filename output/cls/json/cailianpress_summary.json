@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-18T04:55:04.488262",
-  "newsCount": 1649,
+  "lastUpdate": "2025-12-18T05:27:04.494646",
+  "newsCount": 1662,
   "dateRange": {
     "start": "2025-12-14",
     "end": "2025-12-18"
@@ -11,7 +11,28 @@
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-18",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
       "neutral": 1
+    },
+    {
+      "date": "2025-12-18",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-18",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-12-18",
@@ -29,31 +50,10 @@
     },
     {
       "date": "2025-12-18",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-18",
       "keyword": "军工",
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-12-18",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-18",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-17",
@@ -95,6 +95,10 @@
       6
     ],
     [
+      "腾讯",
+      5
+    ],
+    [
       "胜通能源",
       5
     ],
@@ -108,10 +112,6 @@
     ],
     [
       "比亚迪",
-      4
-    ],
-    [
-      "腾讯",
       4
     ],
     [
