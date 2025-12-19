@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-12-19T06:37:29.339129",
-  "newsCount": 1820,
+  "lastUpdate": "2025-12-19T07:25:42.483438",
+  "newsCount": 1840,
   "dateRange": {
     "start": "2025-12-15",
     "end": "2025-12-19"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-19",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-19",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-12-19",
       "keyword": "半导体",
@@ -19,13 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-12-19",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-19",
@@ -47,13 +54,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-12-19",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-18",
@@ -88,7 +88,7 @@
     ],
     [
       "胜通能源",
-      8
+      9
     ],
     [
       "航天电子",
@@ -111,15 +111,19 @@
       5
     ],
     [
+      "宁德时代",
+      4
+    ],
+    [
       "比亚迪",
       4
     ],
     [
-      "网易",
+      "理想汽车",
       3
     ],
     [
-      "宁德时代",
+      "网易",
       3
     ],
     [
@@ -128,10 +132,6 @@
     ],
     [
       "药明康德",
-      2
-    ],
-    [
-      "理想汽车",
       2
     ],
     [
