@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-19T14:25:33.055799",
-  "newsCount": 2031,
+  "lastUpdate": "2025-12-19T14:47:47.391227",
+  "newsCount": 2042,
   "dateRange": {
     "start": "2025-12-15",
     "end": "2025-12-19"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-12-19",
-      "keyword": "人工智能",
+      "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 16
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-19",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-12-19",
       "keyword": "芯片",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 6
+    },
+    {
+      "date": "2025-12-19",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 16
     },
     {
       "date": "2025-12-19",
@@ -36,13 +50,6 @@
     },
     {
       "date": "2025-12-19",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-12-19",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
@@ -51,13 +58,6 @@
     {
       "date": "2025-12-19",
       "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-19",
-      "keyword": "算力",
       "positive": 1,
       "negative": 0,
       "neutral": 2
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      26
+      28
     ],
     [
       "谷歌",
