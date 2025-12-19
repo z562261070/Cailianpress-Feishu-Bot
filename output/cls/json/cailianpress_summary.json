@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-12-18T23:41:58.164183",
-  "newsCount": 1916,
+  "lastUpdate": "2025-12-19T01:58:16.744639",
+  "newsCount": 1733,
   "dateRange": {
-    "start": "2025-12-14",
-    "end": "2025-12-18"
+    "start": "2025-12-15",
+    "end": "2025-12-19"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-19",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-19",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-19",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-19",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-12-18",
       "keyword": "人工智能",
@@ -47,48 +75,24 @@
       "positive": 1,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-18",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-18",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-12-17",
-      "keyword": "算力",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-12-17",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 16
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      18
+      22
     ],
     [
       "谷歌",
-      16
+      17
     ],
     [
       "航天电子",
       8
+    ],
+    [
+      "胜通能源",
+      7
     ],
     [
       "京东",
@@ -100,11 +104,7 @@
     ],
     [
       "腾讯",
-      6
-    ],
-    [
-      "胜通能源",
-      6
+      5
     ],
     [
       "中际旭创",
@@ -115,12 +115,12 @@
       4
     ],
     [
-      "宁德时代",
+      "网易",
       3
     ],
     [
-      "网易",
-      2
+      "宁德时代",
+      3
     ],
     [
       "华为",
