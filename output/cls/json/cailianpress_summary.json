@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-20T16:28:21.107490",
-  "newsCount": 1886,
+  "lastUpdate": "2025-12-20T16:47:39.412625",
+  "newsCount": 1906,
   "dateRange": {
     "start": "2025-12-16",
     "end": "2025-12-20"
@@ -9,14 +9,14 @@
     {
       "date": "2025-12-20",
       "keyword": "算力",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2025-12-20",
       "keyword": "芯片",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
       "neutral": 1
     },
@@ -25,7 +25,7 @@
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-12-20",
@@ -103,6 +103,10 @@
       5
     ],
     [
+      "小米",
+      4
+    ],
+    [
       "京东",
       4
     ],
@@ -113,10 +117,6 @@
     [
       "航天电子",
       4
-    ],
-    [
-      "小米",
-      3
     ],
     [
       "理想汽车",
