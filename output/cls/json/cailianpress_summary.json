@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-20T19:38:25.720846",
-  "newsCount": 1993,
+  "lastUpdate": "2025-12-20T20:24:50.954382",
+  "newsCount": 2009,
   "dateRange": {
     "start": "2025-12-16",
     "end": "2025-12-20"
@@ -9,14 +9,14 @@
     {
       "date": "2025-12-20",
       "keyword": "算力",
-      "positive": 8,
+      "positive": 9,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2025-12-20",
       "keyword": "芯片",
-      "positive": 8,
+      "positive": 9,
       "negative": 0,
       "neutral": 1
     },
@@ -25,7 +25,7 @@
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
     },
     {
       "date": "2025-12-20",
@@ -88,7 +88,7 @@
     ],
     [
       "小米",
-      9
+      10
     ],
     [
       "胜通能源",
