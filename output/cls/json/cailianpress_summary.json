@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-21T08:31:00.299562",
-  "newsCount": 1741,
+  "lastUpdate": "2025-12-21T09:24:30.456796",
+  "newsCount": 1748,
   "dateRange": {
     "start": "2025-12-17",
     "end": "2025-12-21"
@@ -11,11 +11,11 @@
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-12-21",
-      "keyword": "算力",
+      "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -23,6 +23,13 @@
     {
       "date": "2025-12-21",
       "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-21",
+      "keyword": "算力",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-20",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
@@ -103,6 +103,10 @@
       6
     ],
     [
+      "中际旭创",
+      4
+    ],
+    [
       "京东",
       4
     ],
@@ -112,10 +116,6 @@
     ],
     [
       "航天电子",
-      3
-    ],
-    [
-      "中际旭创",
       3
     ],
     [
