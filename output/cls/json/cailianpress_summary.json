@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-12-22T11:22:08.198039",
-  "newsCount": 1721,
+  "lastUpdate": "2025-12-22T11:41:19.670122",
+  "newsCount": 1733,
   "dateRange": {
     "start": "2025-12-18",
     "end": "2025-12-22"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-22",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-12-22",
       "keyword": "新能源",
@@ -26,13 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-12-22",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-12-22",
@@ -87,11 +87,11 @@
       18
     ],
     [
-      "胜通能源",
-      8
+      "谷歌",
+      9
     ],
     [
-      "谷歌",
+      "胜通能源",
       8
     ],
     [
