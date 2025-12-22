@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-12-22T11:41:19.670122",
-  "newsCount": 1733,
+  "lastUpdate": "2025-12-22T12:52:10.689480",
+  "newsCount": 1753,
   "dateRange": {
     "start": "2025-12-18",
     "end": "2025-12-22"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-22",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2025-12-22",
       "keyword": "芯片",
@@ -19,13 +26,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-12-22",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-12-22",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      23
+      25
     ],
     [
       "小米",
