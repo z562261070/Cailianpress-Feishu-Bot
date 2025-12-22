@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-22T02:04:25.296548",
-  "newsCount": 1518,
+  "lastUpdate": "2025-12-22T03:53:33.215647",
+  "newsCount": 1538,
   "dateRange": {
     "start": "2025-12-18",
     "end": "2025-12-22"
@@ -9,16 +9,30 @@
     {
       "date": "2025-12-22",
       "keyword": "算力",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 3
+    },
+    {
+      "date": "2025-12-22",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-12-22",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2025-12-22",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-12-22",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-12-21",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-12-21",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
@@ -92,7 +92,7 @@
     ],
     [
       "胜通能源",
-      6
+      7
     ],
     [
       "阿里巴巴",
