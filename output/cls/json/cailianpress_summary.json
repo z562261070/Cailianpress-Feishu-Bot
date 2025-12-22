@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-12-22T06:40:27.398151",
-  "newsCount": 1594,
+  "lastUpdate": "2025-12-22T07:28:00.025489",
+  "newsCount": 1614,
   "dateRange": {
     "start": "2025-12-18",
     "end": "2025-12-22"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-22",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-22",
+      "keyword": "算力",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-12-22",
       "keyword": "军工",
@@ -19,20 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-12-22",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-12-22",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-22",
@@ -87,12 +87,12 @@
       17
     ],
     [
-      "谷歌",
+      "胜通能源",
       8
     ],
     [
-      "胜通能源",
-      7
+      "谷歌",
+      8
     ],
     [
       "阿里巴巴",
