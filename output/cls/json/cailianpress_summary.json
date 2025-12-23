@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-12-23T11:22:58.784947",
-  "newsCount": 1752,
+  "lastUpdate": "2025-12-23T11:41:58.851564",
+  "newsCount": 1762,
   "dateRange": {
     "start": "2025-12-19",
     "end": "2025-12-23"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-23",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-12-23",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 10
+    },
     {
       "date": "2025-12-23",
       "keyword": "半导体",
@@ -31,20 +45,6 @@
       "date": "2025-12-23",
       "keyword": "人工智能",
       "positive": 1,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-12-23",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2025-12-23",
-      "keyword": "机器人",
-      "positive": 0,
       "negative": 0,
       "neutral": 5
     },
@@ -88,7 +88,7 @@
     ],
     [
       "胜通能源",
-      8
+      9
     ],
     [
       "谷歌",
