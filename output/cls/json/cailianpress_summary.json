@@ -1,11 +1,53 @@
 {
-  "lastUpdate": "2025-12-23T01:59:44.848829",
-  "newsCount": 1526,
+  "lastUpdate": "2025-12-23T03:41:47.001547",
+  "newsCount": 1546,
   "dateRange": {
     "start": "2025-12-19",
     "end": "2025-12-23"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-23",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-23",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-23",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-12-23",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-12-23",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-23",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-12-23",
       "keyword": "无人机",
@@ -15,42 +57,7 @@
     },
     {
       "date": "2025-12-23",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-12-23",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-23",
       "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-23",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-12-23",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-23",
-      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-12-22",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 9
     }
   ],
   "topStocks": [
@@ -103,6 +103,10 @@
       3
     ],
     [
+      "宁德时代",
+      2
+    ],
+    [
       "京东",
       2
     ],
@@ -128,10 +132,6 @@
     ],
     [
       "TCL",
-      1
-    ],
-    [
-      "宁德时代",
       1
     ],
     [
