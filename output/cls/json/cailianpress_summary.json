@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-12-23T10:50:39.094483",
-  "newsCount": 1734,
+  "lastUpdate": "2025-12-23T11:22:58.784947",
+  "newsCount": 1752,
   "dateRange": {
     "start": "2025-12-19",
     "end": "2025-12-23"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-23",
+      "keyword": "半导体",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-12-23",
       "keyword": "芯片",
@@ -19,13 +26,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-12-23",
-      "keyword": "半导体",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-12-23",
@@ -99,12 +99,12 @@
       5
     ],
     [
-      "京东",
+      "腾讯",
       4
     ],
     [
-      "腾讯",
-      3
+      "京东",
+      4
     ],
     [
       "中际旭创",
