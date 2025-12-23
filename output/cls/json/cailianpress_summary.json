@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-12-23T05:49:38.409451",
-  "newsCount": 1584,
+  "lastUpdate": "2025-12-23T06:39:42.060975",
+  "newsCount": 1602,
   "dateRange": {
     "start": "2025-12-19",
     "end": "2025-12-23"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-23",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-23",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-23",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-23",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-12-23",
       "keyword": "半导体",
@@ -22,13 +50,6 @@
     },
     {
       "date": "2025-12-23",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-12-23",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
@@ -36,31 +57,10 @@
     },
     {
       "date": "2025-12-23",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-23",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-23",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-12-23",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-22",
@@ -103,6 +103,10 @@
       3
     ],
     [
+      "航天电子",
+      2
+    ],
+    [
       "宁德时代",
       2
     ],
@@ -120,10 +124,6 @@
     ],
     [
       "华为",
-      1
-    ],
-    [
-      "航天电子",
       1
     ],
     [
