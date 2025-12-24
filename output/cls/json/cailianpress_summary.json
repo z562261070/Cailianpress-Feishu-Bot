@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-24T07:45:28.432592",
-  "newsCount": 1637,
+  "lastUpdate": "2025-12-24T08:34:47.972317",
+  "newsCount": 1657,
   "dateRange": {
     "start": "2025-12-20",
     "end": "2025-12-24"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-12-24",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-24",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-12-24",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-12-24",
@@ -19,13 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-12-24",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2025-12-24",
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-12-24",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-24",
@@ -103,16 +103,16 @@
       4
     ],
     [
+      "腾讯",
+      3
+    ],
+    [
       "华为",
       3
     ],
     [
       "谷歌",
       3
-    ],
-    [
-      "腾讯",
-      2
     ],
     [
       "航天电子",
