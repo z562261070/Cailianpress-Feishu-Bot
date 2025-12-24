@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2025-12-24T03:38:33.566334",
-  "newsCount": 1546,
+  "lastUpdate": "2025-12-24T04:38:44.582243",
+  "newsCount": 1564,
   "dateRange": {
     "start": "2025-12-20",
     "end": "2025-12-24"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-24",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2025-12-24",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-24",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-24",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-12-24",
       "keyword": "机器人",
@@ -15,31 +43,10 @@
     },
     {
       "date": "2025-12-24",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-12-24",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-12-24",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-12-24",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-12-24",
@@ -68,19 +75,12 @@
       "positive": 1,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-12-23",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
     [
       "小米",
-      19
+      21
     ],
     [
       "英伟达",
@@ -88,18 +88,22 @@
     ],
     [
       "京东",
-      8
+      9
     ],
     [
       "胜通能源",
-      6
+      7
+    ],
+    [
+      "阿里巴巴",
+      4
     ],
     [
       "中际旭创",
       4
     ],
     [
-      "阿里巴巴",
+      "华为",
       3
     ],
     [
@@ -108,10 +112,6 @@
     ],
     [
       "腾讯",
-      2
-    ],
-    [
-      "华为",
       2
     ],
     [
