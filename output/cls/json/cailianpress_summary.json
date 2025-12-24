@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-24T01:57:42.902588",
-  "newsCount": 1526,
+  "lastUpdate": "2025-12-24T03:38:33.566334",
+  "newsCount": 1546,
   "dateRange": {
     "start": "2025-12-20",
     "end": "2025-12-24"
@@ -11,7 +11,28 @@
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-24",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-24",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-24",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-12-24",
@@ -19,20 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-24",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-24",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-12-24",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-23",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      13
+      14
     ],
     [
       "京东",
