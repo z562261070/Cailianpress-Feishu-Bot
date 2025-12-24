@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-24T06:39:39.378374",
-  "newsCount": 1601,
+  "lastUpdate": "2025-12-24T07:27:31.434693",
+  "newsCount": 1621,
   "dateRange": {
     "start": "2025-12-20",
     "end": "2025-12-24"
@@ -8,38 +8,45 @@
   "topKeywords": [
     {
       "date": "2025-12-24",
-      "keyword": "军工",
+      "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-24",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
+      "neutral": 4
     },
     {
       "date": "2025-12-24",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-24",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
     },
     {
       "date": "2025-12-24",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2025-12-24",
-      "keyword": "机器人",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2025-12-24",
+      "keyword": "军工",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 2
     },
     {
       "date": "2025-12-24",
@@ -68,19 +75,12 @@
       "positive": 3,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-12-23",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
     [
       "小米",
-      21
+      22
     ],
     [
       "英伟达",
@@ -92,7 +92,7 @@
     ],
     [
       "胜通能源",
-      7
+      8
     ],
     [
       "中际旭创",
