@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-12-24T14:23:50.868712",
-  "newsCount": 1803,
+  "lastUpdate": "2025-12-24T14:45:30.347231",
+  "newsCount": 1807,
   "dateRange": {
     "start": "2025-12-20",
     "end": "2025-12-24"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-24",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
     {
       "date": "2025-12-24",
       "keyword": "无人机",
@@ -56,13 +63,6 @@
       "neutral": 6
     },
     {
-      "date": "2025-12-24",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
       "date": "2025-12-23",
       "keyword": "算力",
       "positive": 1,
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      18
+      19
     ],
     [
       "京东",
