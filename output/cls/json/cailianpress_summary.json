@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-12-24T09:28:48.905645",
-  "newsCount": 1677,
+  "lastUpdate": "2025-12-24T09:47:30.823942",
+  "newsCount": 1689,
   "dateRange": {
     "start": "2025-12-20",
     "end": "2025-12-24"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-24",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-12-24",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 10
+    },
+    {
+      "date": "2025-12-24",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
+    },
     {
       "date": "2025-12-24",
       "keyword": "新能源",
@@ -15,31 +36,10 @@
     },
     {
       "date": "2025-12-24",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-12-24",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-12-24",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-12-24",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2025-12-24",
@@ -92,19 +92,19 @@
     ],
     [
       "胜通能源",
-      8
+      9
     ],
     [
-      "中际旭创",
+      "腾讯",
       5
     ],
     [
       "阿里巴巴",
-      4
+      5
     ],
     [
-      "腾讯",
-      3
+      "中际旭创",
+      5
     ],
     [
       "华为",
