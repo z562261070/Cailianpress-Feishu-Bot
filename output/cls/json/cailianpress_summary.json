@@ -1,11 +1,46 @@
 {
-  "lastUpdate": "2025-12-25T04:40:36.329024",
-  "newsCount": 1573,
+  "lastUpdate": "2025-12-25T05:28:05.045292",
+  "newsCount": 1591,
   "dateRange": {
     "start": "2025-12-21",
     "end": "2025-12-25"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-25",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "人工智能",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 7
+    },
     {
       "date": "2025-12-25",
       "keyword": "算力",
@@ -15,42 +50,7 @@
     },
     {
       "date": "2025-12-25",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-12-25",
       "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      22
+      23
     ],
     [
       "胜通能源",
