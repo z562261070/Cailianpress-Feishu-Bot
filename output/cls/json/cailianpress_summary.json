@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-12-25T03:41:55.841207",
-  "newsCount": 1558,
+  "lastUpdate": "2025-12-25T04:40:36.329024",
+  "newsCount": 1573,
   "dateRange": {
     "start": "2025-12-21",
     "end": "2025-12-25"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-25",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-12-25",
       "keyword": "机器人",
@@ -29,24 +50,10 @@
     },
     {
       "date": "2025-12-25",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2025-12-25",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-12-24",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2025-12-24",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "胜通能源",
-      9
+      10
     ],
     [
       "京东",
@@ -115,6 +115,10 @@
       3
     ],
     [
+      "比亚迪",
+      2
+    ],
+    [
       "宁德时代",
       2
     ],
@@ -124,10 +128,6 @@
     ],
     [
       "理想汽车",
-      1
-    ],
-    [
-      "比亚迪",
       1
     ],
     [
