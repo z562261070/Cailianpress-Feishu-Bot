@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-25T09:46:22.630746",
-  "newsCount": 1690,
+  "lastUpdate": "2025-12-25T10:26:37.336771",
+  "newsCount": 1710,
   "dateRange": {
     "start": "2025-12-21",
     "end": "2025-12-25"
@@ -11,7 +11,28 @@
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
       "neutral": 3
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "机器人",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2025-12-25",
@@ -19,20 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 10
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-12-25",
@@ -54,13 +61,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-12-24",
