@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-25T07:42:46.079059",
-  "newsCount": 1641,
+  "lastUpdate": "2025-12-25T08:33:30.297884",
+  "newsCount": 1661,
   "dateRange": {
     "start": "2025-12-21",
     "end": "2025-12-25"
@@ -8,31 +8,38 @@
   "topKeywords": [
     {
       "date": "2025-12-25",
-      "keyword": "半导体",
-      "positive": 2,
+      "keyword": "军工",
+      "positive": 0,
       "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 2
+      "neutral": 1
     },
     {
       "date": "2025-12-25",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "机器人",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-12-25",
       "keyword": "人工智能",
       "positive": 2,
       "negative": 0,
-      "neutral": 9
+      "neutral": 11
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2025-12-25",
@@ -68,19 +75,12 @@
       "positive": 4,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-12-24",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      23
+      24
     ],
     [
       "胜通能源",
@@ -91,16 +91,16 @@
       9
     ],
     [
+      "腾讯",
+      6
+    ],
+    [
       "中际旭创",
       6
     ],
     [
       "小米",
       6
-    ],
-    [
-      "腾讯",
-      5
     ],
     [
       "阿里巴巴",
