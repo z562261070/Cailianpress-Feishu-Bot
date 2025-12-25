@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-12-25T06:39:02.097276",
-  "newsCount": 1618,
+  "lastUpdate": "2025-12-25T07:25:35.497278",
+  "newsCount": 1635,
   "dateRange": {
     "start": "2025-12-21",
     "end": "2025-12-25"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-25",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "机器人",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
     {
       "date": "2025-12-25",
       "keyword": "人工智能",
@@ -19,27 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-12-25",
@@ -84,7 +84,7 @@
     ],
     [
       "胜通能源",
-      10
+      11
     ],
     [
       "京东",
