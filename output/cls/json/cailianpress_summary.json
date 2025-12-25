@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-25T10:47:42.200018",
-  "newsCount": 1715,
+  "lastUpdate": "2025-12-25T11:21:03.713448",
+  "newsCount": 1735,
   "dateRange": {
     "start": "2025-12-21",
     "end": "2025-12-25"
@@ -11,7 +11,35 @@
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "机器人",
+      "positive": 5,
+      "negative": 0,
       "neutral": 5
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "人工智能",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 12
+    },
+    {
+      "date": "2025-12-25",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2025-12-25",
@@ -29,38 +57,10 @@
     },
     {
       "date": "2025-12-25",
-      "keyword": "机器人",
-      "positive": 5,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2025-12-25",
       "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 11
-    },
-    {
-      "date": "2025-12-25",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-12-24",
@@ -103,15 +103,15 @@
       6
     ],
     [
+      "华为",
+      5
+    ],
+    [
       "阿里巴巴",
       5
     ],
     [
       "航天电子",
-      4
-    ],
-    [
-      "华为",
       4
     ],
     [
