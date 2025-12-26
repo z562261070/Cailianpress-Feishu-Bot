@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-26T06:38:16.865032",
-  "newsCount": 1784,
+  "lastUpdate": "2025-12-26T07:25:33.479433",
+  "newsCount": 1804,
   "dateRange": {
     "start": "2025-12-22",
     "end": "2025-12-26"
@@ -8,8 +8,8 @@
   "topKeywords": [
     {
       "date": "2025-12-26",
-      "keyword": "半导体",
-      "positive": 0,
+      "keyword": "算力",
+      "positive": 1,
       "negative": 0,
       "neutral": 4
     },
@@ -18,14 +18,14 @@
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-12-26",
-      "keyword": "算力",
-      "positive": 1,
+      "keyword": "半导体",
+      "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2025-12-26",
@@ -84,7 +84,7 @@
     ],
     [
       "胜通能源",
-      13
+      14
     ],
     [
       "京东",
