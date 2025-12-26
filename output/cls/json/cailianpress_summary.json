@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-26T10:26:34.991704",
-  "newsCount": 1892,
+  "lastUpdate": "2025-12-26T10:47:45.236368",
+  "newsCount": 1908,
   "dateRange": {
     "start": "2025-12-22",
     "end": "2025-12-26"
@@ -8,10 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-12-26",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 11
+    },
+    {
+      "date": "2025-12-26",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2025-12-26",
@@ -50,13 +57,6 @@
     },
     {
       "date": "2025-12-26",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-12-26",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
@@ -91,16 +91,16 @@
       9
     ],
     [
+      "华为",
+      7
+    ],
+    [
       "航天电子",
       7
     ],
     [
       "中际旭创",
       7
-    ],
-    [
-      "华为",
-      6
     ],
     [
       "小米",
