@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-12-26T03:39:30.411259",
-  "newsCount": 1741,
+  "lastUpdate": "2025-12-26T04:37:37.226962",
+  "newsCount": 1754,
   "dateRange": {
     "start": "2025-12-22",
     "end": "2025-12-26"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-26",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-26",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-12-26",
       "keyword": "算力",
@@ -33,20 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-26",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-26",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2025-12-26",
@@ -80,11 +80,11 @@
   "topStocks": [
     [
       "英伟达",
-      25
+      26
     ],
     [
       "胜通能源",
-      12
+      13
     ],
     [
       "京东",
