@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-27T03:36:30.039943",
-  "newsCount": 1754,
+  "lastUpdate": "2025-12-27T04:35:17.761254",
+  "newsCount": 1762,
   "dateRange": {
     "start": "2025-12-23",
     "end": "2025-12-27"
@@ -11,7 +11,14 @@
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-27",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2025-12-27",
@@ -19,13 +26,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-12-27",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2025-12-27",
