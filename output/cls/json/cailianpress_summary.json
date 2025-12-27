@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2025-12-27T06:36:41.146401",
-  "newsCount": 1776,
+  "lastUpdate": "2025-12-27T07:22:20.595654",
+  "newsCount": 1783,
   "dateRange": {
     "start": "2025-12-23",
     "end": "2025-12-27"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-27",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 2,
+      "neutral": 6
+    },
+    {
+      "date": "2025-12-27",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2025-12-27",
       "keyword": "无人机",
@@ -19,20 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-12-27",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-27",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-12-27",
@@ -92,7 +92,7 @@
     ],
     [
       "华为",
-      6
+      7
     ],
     [
       "航天电子",
@@ -123,11 +123,11 @@
       3
     ],
     [
-      "TCL",
-      1
+      "理想汽车",
+      2
     ],
     [
-      "理想汽车",
+      "TCL",
       1
     ],
     [
