@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-12-28T05:49:50.248688",
-  "newsCount": 1672,
+  "lastUpdate": "2025-12-28T06:36:55.550131",
+  "newsCount": 1680,
   "dateRange": {
     "start": "2025-12-24",
     "end": "2025-12-28"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-28",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-12-28",
       "keyword": "新能源",
@@ -16,13 +23,6 @@
     {
       "date": "2025-12-28",
       "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-28",
-      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -125,6 +125,10 @@
     [
       "京东",
       2
+    ],
+    [
+      "上纬新材",
+      1
     ],
     [
       "TCL",
