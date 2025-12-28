@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-28T07:41:21.982415",
-  "newsCount": 1694,
+  "lastUpdate": "2025-12-28T08:31:59.715934",
+  "newsCount": 1707,
   "dateRange": {
     "start": "2025-12-24",
     "end": "2025-12-28"
@@ -8,10 +8,17 @@
   "topKeywords": [
     {
       "date": "2025-12-28",
-      "keyword": "机器人",
+      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 1
+    },
+    {
+      "date": "2025-12-28",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2025-12-28",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-27",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "胜通能源",
-      9
+      10
     ],
     [
       "华为",
