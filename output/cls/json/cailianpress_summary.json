@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-28T11:40:15.723383",
-  "newsCount": 1735,
+  "lastUpdate": "2025-12-28T12:49:26.547876",
+  "newsCount": 1746,
   "dateRange": {
     "start": "2025-12-24",
     "end": "2025-12-28"
@@ -8,36 +8,36 @@
   "topKeywords": [
     {
       "date": "2025-12-28",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2025-12-28",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-28",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-12-28",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2025-12-28",
       "keyword": "新能源",
       "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-28",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-28",
+      "keyword": "算力",
+      "positive": 0,
       "negative": 0,
       "neutral": 2
     },
@@ -84,7 +84,7 @@
     ],
     [
       "胜通能源",
-      10
+      11
     ],
     [
       "华为",
@@ -125,6 +125,10 @@
     [
       "京东",
       2
+    ],
+    [
+      "东杰智能",
+      1
     ],
     [
       "上纬新材",
