@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-29T03:59:53.276931",
-  "newsCount": 1511,
+  "lastUpdate": "2025-12-29T04:55:21.864147",
+  "newsCount": 1522,
   "dateRange": {
     "start": "2025-12-25",
     "end": "2025-12-29"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2025-12-29",
-      "keyword": "人工智能",
+      "keyword": "机器人",
       "positive": 1,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2025-12-29",
-      "keyword": "机器人",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-29",
+      "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-12-29",
@@ -47,13 +54,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2025-12-29",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-28",
@@ -91,12 +91,12 @@
       6
     ],
     [
-      "航天电子",
+      "比亚迪",
       5
     ],
     [
-      "比亚迪",
-      4
+      "航天电子",
+      5
     ],
     [
       "宁德时代",
@@ -105,6 +105,10 @@
     [
       "中际旭创",
       3
+    ],
+    [
+      "理想汽车",
+      2
     ],
     [
       "上纬新材",
@@ -120,10 +124,6 @@
     ],
     [
       "东杰智能",
-      1
-    ],
-    [
-      "理想汽车",
       1
     ],
     [
