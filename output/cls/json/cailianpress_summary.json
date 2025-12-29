@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-12-29T06:41:17.849827",
-  "newsCount": 1550,
+  "lastUpdate": "2025-12-29T07:29:48.385179",
+  "newsCount": 1570,
   "dateRange": {
     "start": "2025-12-25",
     "end": "2025-12-29"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-29",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-29",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2025-12-29",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2025-12-29",
       "keyword": "算力",
@@ -19,27 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2025-12-29",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2025-12-29",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-29",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2025-12-29",
@@ -79,12 +79,12 @@
   ],
   "topStocks": [
     [
-      "英伟达",
+      "胜通能源",
       10
     ],
     [
-      "胜通能源",
-      9
+      "英伟达",
+      10
     ],
     [
       "华为",
@@ -107,11 +107,11 @@
       4
     ],
     [
-      "理想汽车",
-      2
+      "上纬新材",
+      3
     ],
     [
-      "上纬新材",
+      "理想汽车",
       2
     ],
     [
