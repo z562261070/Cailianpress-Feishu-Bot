@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-29T13:40:02.534435",
-  "newsCount": 1726,
+  "lastUpdate": "2025-12-29T14:26:00.052023",
+  "newsCount": 1743,
   "dateRange": {
     "start": "2025-12-25",
     "end": "2025-12-29"
@@ -8,38 +8,45 @@
   "topKeywords": [
     {
       "date": "2025-12-29",
-      "keyword": "半导体",
-      "positive": 0,
+      "keyword": "机器人",
+      "positive": 2,
       "negative": 0,
-      "neutral": 7
+      "neutral": 11
     },
     {
       "date": "2025-12-29",
-      "keyword": "人工智能",
-      "positive": 1,
+      "keyword": "军工",
+      "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-29",
+      "keyword": "算力",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 7
     },
     {
       "date": "2025-12-29",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2025-12-29",
-      "keyword": "机器人",
+      "keyword": "人工智能",
       "positive": 2,
       "negative": 0,
-      "neutral": 10
+      "neutral": 6
     },
     {
       "date": "2025-12-29",
-      "keyword": "算力",
-      "positive": 3,
+      "keyword": "半导体",
+      "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 8
     },
     {
       "date": "2025-12-29",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2025-12-28",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
