@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-29T02:08:54.117667",
-  "newsCount": 1491,
+  "lastUpdate": "2025-12-29T03:59:53.276931",
+  "newsCount": 1511,
   "dateRange": {
     "start": "2025-12-25",
     "end": "2025-12-29"
@@ -8,21 +8,21 @@
   "topKeywords": [
     {
       "date": "2025-12-29",
-      "keyword": "新能源",
-      "positive": 0,
+      "keyword": "人工智能",
+      "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2025-12-29",
-      "keyword": "人工智能",
+      "keyword": "机器人",
       "positive": 1,
       "negative": 0,
       "neutral": 1
     },
     {
       "date": "2025-12-29",
-      "keyword": "机器人",
+      "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -30,7 +30,14 @@
     {
       "date": "2025-12-29",
       "keyword": "算力",
-      "positive": 1,
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2025-12-29",
+      "keyword": "新能源",
+      "positive": 0,
       "negative": 0,
       "neutral": 1
     },
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2025-12-28",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
@@ -84,15 +84,19 @@
     ],
     [
       "胜通能源",
-      8
+      9
     ],
     [
       "华为",
-      5
+      6
     ],
     [
       "航天电子",
       5
+    ],
+    [
+      "比亚迪",
+      4
     ],
     [
       "宁德时代",
@@ -103,16 +107,16 @@
       3
     ],
     [
-      "比亚迪",
-      3
-    ],
-    [
       "上纬新材",
       2
     ],
     [
       "小米",
       2
+    ],
+    [
+      "谷歌",
+      1
     ],
     [
       "东杰智能",
