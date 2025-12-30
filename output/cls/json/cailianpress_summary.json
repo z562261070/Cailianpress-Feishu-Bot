@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-30T04:42:21.249616",
-  "newsCount": 1540,
+  "lastUpdate": "2025-12-30T05:27:34.160552",
+  "newsCount": 1560,
   "dateRange": {
     "start": "2025-12-26",
     "end": "2025-12-30"
@@ -9,7 +9,21 @@
     {
       "date": "2025-12-30",
       "keyword": "机器人",
-      "positive": 3,
+      "positive": 4,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-30",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-30",
+      "keyword": "芯片",
+      "positive": 0,
       "negative": 0,
       "neutral": 3
     },
@@ -40,20 +54,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-12-30",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-30",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-30",
@@ -111,6 +111,10 @@
       3
     ],
     [
+      "京东",
+      2
+    ],
+    [
       "谷歌",
       2
     ],
@@ -125,10 +129,6 @@
     [
       "理想汽车",
       2
-    ],
-    [
-      "京东",
-      1
     ],
     [
       "东杰智能",
