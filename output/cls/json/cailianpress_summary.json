@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-30T08:34:36.559092",
-  "newsCount": 1650,
+  "lastUpdate": "2025-12-30T09:29:51.728364",
+  "newsCount": 1670,
   "dateRange": {
     "start": "2025-12-26",
     "end": "2025-12-30"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2025-12-30",
-      "keyword": "芯片",
-      "positive": 0,
+      "keyword": "算力",
+      "positive": 2,
       "negative": 0,
-      "neutral": 6
+      "neutral": 2
     },
     {
       "date": "2025-12-30",
       "keyword": "机器人",
       "positive": 9,
       "negative": 0,
-      "neutral": 10
+      "neutral": 12
+    },
+    {
+      "date": "2025-12-30",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-12-30",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2025-12-30",
@@ -43,21 +57,7 @@
     },
     {
       "date": "2025-12-30",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2025-12-30",
       "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2025-12-30",
-      "keyword": "算力",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -131,11 +131,11 @@
       2
     ],
     [
-      "东杰智能",
+      "腾讯",
       1
     ],
     [
-      "TCL",
+      "东杰智能",
       1
     ]
   ]
