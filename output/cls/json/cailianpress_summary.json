@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2025-12-31T11:22:36.370518",
-  "newsCount": 1755,
+  "lastUpdate": "2025-12-31T11:41:18.777271",
+  "newsCount": 1765,
   "dateRange": {
     "start": "2025-12-27",
     "end": "2025-12-31"
@@ -9,7 +9,21 @@
     {
       "date": "2025-12-31",
       "keyword": "机器人",
-      "positive": 5,
+      "positive": 6,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2025-12-31",
+      "keyword": "人工智能",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 10
+    },
+    {
+      "date": "2025-12-31",
+      "keyword": "算力",
+      "positive": 0,
       "negative": 0,
       "neutral": 5
     },
@@ -19,13 +33,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-31",
-      "keyword": "人工智能",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 9
     },
     {
       "date": "2025-12-31",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2025-12-31",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2025-12-31",
@@ -79,19 +79,19 @@
   ],
   "topStocks": [
     [
+      "胜通能源",
+      7
+    ],
+    [
+      "上纬新材",
+      7
+    ],
+    [
       "京东",
       6
     ],
     [
       "小米",
-      6
-    ],
-    [
-      "上纬新材",
-      6
-    ],
-    [
-      "胜通能源",
       6
     ],
     [
