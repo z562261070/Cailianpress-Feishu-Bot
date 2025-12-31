@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2025-12-31T06:38:58.404630",
-  "newsCount": 1609,
+  "lastUpdate": "2025-12-31T07:27:26.751572",
+  "newsCount": 1629,
   "dateRange": {
     "start": "2025-12-27",
     "end": "2025-12-31"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-31",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2025-12-31",
       "keyword": "人工智能",
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-31",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2025-12-31",
@@ -115,6 +115,10 @@
       3
     ],
     [
+      "中际旭创",
+      2
+    ],
+    [
       "航天电子",
       2
     ],
@@ -132,10 +136,6 @@
     ],
     [
       "理想汽车",
-      2
-    ],
-    [
-      "比亚迪",
       2
     ]
   ]
