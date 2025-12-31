@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2025-12-31T05:51:02.563267",
-  "newsCount": 1590,
+  "lastUpdate": "2025-12-31T06:38:58.404630",
+  "newsCount": 1609,
   "dateRange": {
     "start": "2025-12-27",
     "end": "2025-12-31"
   },
   "topKeywords": [
+    {
+      "date": "2025-12-31",
+      "keyword": "人工智能",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2025-12-31",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2025-12-31",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2025-12-31",
       "keyword": "算力",
@@ -22,31 +43,10 @@
     },
     {
       "date": "2025-12-31",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-31",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-31",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2025-12-31",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2025-12-31",
@@ -115,6 +115,10 @@
       3
     ],
     [
+      "航天电子",
+      2
+    ],
+    [
       "英伟达",
       2
     ],
@@ -133,10 +137,6 @@
     [
       "比亚迪",
       2
-    ],
-    [
-      "航天电子",
-      1
     ]
   ]
 }
