@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-01T02:11:16.136936",
-  "newsCount": 1595,
+  "lastUpdate": "2026-01-01T04:00:47.953605",
+  "newsCount": 1615,
   "dateRange": {
     "start": "2025-12-28",
     "end": "2026-01-01"
@@ -11,7 +11,14 @@
       "keyword": "新能源",
       "positive": 1,
       "negative": 0,
-      "neutral": 0
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-01",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2026-01-01",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2025-12-31",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
@@ -83,12 +83,12 @@
       9
     ],
     [
-      "京东",
+      "小米",
       8
     ],
     [
-      "小米",
-      7
+      "京东",
+      8
     ],
     [
       "胜通能源",
