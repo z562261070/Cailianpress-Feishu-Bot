@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-01T23:42:54.366788",
-  "newsCount": 1803,
+  "lastUpdate": "2026-01-02T02:02:33.609747",
+  "newsCount": 1598,
   "dateRange": {
-    "start": "2025-12-28",
-    "end": "2026-01-01"
+    "start": "2025-12-29",
+    "end": "2026-01-02"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-02",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-02",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-01",
       "keyword": "机器人",
@@ -61,26 +75,12 @@
       "positive": 1,
       "negative": 0,
       "neutral": 11
-    },
-    {
-      "date": "2025-12-31",
-      "keyword": "机器人",
-      "positive": 6,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2025-12-31",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
     [
       "小米",
-      18
+      17
     ],
     [
       "英伟达",
@@ -91,19 +91,15 @@
       8
     ],
     [
-      "胜通能源",
-      7
-    ],
-    [
-      "上纬新材",
-      7
-    ],
-    [
       "谷歌",
       6
     ],
     [
-      "宁德时代",
+      "上纬新材",
+      6
+    ],
+    [
+      "胜通能源",
       5
     ],
     [
@@ -112,6 +108,10 @@
     ],
     [
       "阿里巴巴",
+      4
+    ],
+    [
+      "宁德时代",
       4
     ],
     [
