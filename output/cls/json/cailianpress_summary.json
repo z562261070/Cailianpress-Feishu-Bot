@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-02T14:25:29.904261",
-  "newsCount": 1725,
+  "lastUpdate": "2026-01-02T14:46:47.509417",
+  "newsCount": 1735,
   "dateRange": {
     "start": "2025-12-29",
     "end": "2026-01-02"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-02",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-02",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-02",
       "keyword": "无人机",
@@ -19,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-01-02",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2026-01-02",
@@ -68,13 +75,6 @@
       "positive": 5,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-01-01",
-      "keyword": "新能源",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "京东",
-      9
+      10
     ],
     [
       "英伟达",
@@ -92,15 +92,15 @@
     ],
     [
       "腾讯",
-      7
+      8
     ],
     [
       "阿里巴巴",
-      6
+      7
     ],
     [
       "网易",
-      6
+      7
     ],
     [
       "谷歌",
@@ -128,7 +128,7 @@
     ],
     [
       "理想汽车",
-      2
+      3
     ],
     [
       "中际旭创",
