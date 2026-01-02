@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-02T02:02:33.609747",
-  "newsCount": 1598,
+  "lastUpdate": "2026-01-02T03:51:44.920438",
+  "newsCount": 1610,
   "dateRange": {
     "start": "2025-12-29",
     "end": "2026-01-02"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-02",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-02",
       "keyword": "算力",
@@ -68,13 +75,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2025-12-31",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 11
     }
   ],
   "topStocks": [
