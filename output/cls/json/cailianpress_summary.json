@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-04T04:01:58.381568",
-  "newsCount": 1330,
+  "lastUpdate": "2026-01-04T05:02:28.959094",
+  "newsCount": 1345,
   "dateRange": {
     "start": "2025-12-31",
     "end": "2026-01-04"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-04",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-04",
       "keyword": "芯片",
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-01-02",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
@@ -119,6 +119,10 @@
       3
     ],
     [
+      "宁德时代",
+      2
+    ],
+    [
       "华为",
       2
     ],
@@ -128,10 +132,6 @@
     ],
     [
       "药明康德",
-      1
-    ],
-    [
-      "宁德时代",
       1
     ],
     [
