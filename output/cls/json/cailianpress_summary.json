@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-04T16:50:30.120974",
-  "newsCount": 1539,
+  "lastUpdate": "2026-01-04T17:20:59.053173",
+  "newsCount": 1555,
   "dateRange": {
     "start": "2025-12-31",
     "end": "2026-01-04"
@@ -11,42 +11,42 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 10
+      "neutral": 13
     },
     {
       "date": "2026-01-04",
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 13
+      "neutral": 15
     },
     {
       "date": "2026-01-04",
       "keyword": "军工",
       "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2026-01-04",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2026-01-04",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2026-01-04",
       "keyword": "新能源",
       "positive": 1,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
     },
     {
       "date": "2026-01-04",
@@ -108,7 +108,7 @@
     ],
     [
       "华为",
-      5
+      6
     ],
     [
       "谷歌",
