@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-05T13:44:26.440092",
-  "newsCount": 1479,
+  "lastUpdate": "2026-01-05T14:29:04.725773",
+  "newsCount": 1499,
   "dateRange": {
     "start": "2026-01-01",
     "end": "2026-01-05"
@@ -8,10 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-01-05",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 10
+    },
+    {
+      "date": "2026-01-05",
       "keyword": "人工智能",
       "positive": 4,
       "negative": 0,
-      "neutral": 9
+      "neutral": 12
+    },
+    {
+      "date": "2026-01-05",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-05",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2026-01-05",
@@ -19,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-01-05",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2026-01-05",
@@ -49,20 +63,6 @@
       "neutral": 3
     },
     {
-      "date": "2026-01-05",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2026-01-05",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
       "date": "2026-01-04",
       "keyword": "无人机",
       "positive": 0,
@@ -80,10 +80,18 @@
   "topStocks": [
     [
       "小米",
-      34
+      35
     ],
     [
       "华为",
+      9
+    ],
+    [
+      "谷歌",
+      8
+    ],
+    [
+      "比亚迪",
       8
     ],
     [
@@ -93,14 +101,6 @@
     [
       "网易",
       7
-    ],
-    [
-      "比亚迪",
-      7
-    ],
-    [
-      "谷歌",
-      6
     ],
     [
       "英伟达",
