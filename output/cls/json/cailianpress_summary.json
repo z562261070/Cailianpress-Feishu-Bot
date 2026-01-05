@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-05T05:10:10.370721",
-  "newsCount": 1268,
+  "lastUpdate": "2026-01-05T05:57:28.840006",
+  "newsCount": 1288,
   "dateRange": {
     "start": "2026-01-01",
     "end": "2026-01-05"
@@ -8,21 +8,35 @@
   "topKeywords": [
     {
       "date": "2026-01-05",
-      "keyword": "无人机",
-      "positive": 0,
+      "keyword": "芯片",
+      "positive": 2,
       "negative": 0,
-      "neutral": 2
+      "neutral": 1
     },
     {
       "date": "2026-01-05",
       "keyword": "半导体",
       "positive": 2,
       "negative": 0,
-      "neutral": 2
+      "neutral": 5
     },
     {
       "date": "2026-01-05",
-      "keyword": "芯片",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-05",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-05",
+      "keyword": "军工",
       "positive": 1,
       "negative": 0,
       "neutral": 0
@@ -30,9 +44,16 @@
     {
       "date": "2026-01-05",
       "keyword": "人工智能",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 1
+    },
+    {
+      "date": "2026-01-05",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2026-01-05",
@@ -54,27 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 18
-    },
-    {
-      "date": "2026-01-04",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-01-04",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2026-01-04",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
@@ -121,6 +121,10 @@
     [
       "理想汽车",
       3
+    ],
+    [
+      "长城军工",
+      1
     ]
   ]
 }
