@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-05T10:54:19.017414",
-  "newsCount": 1408,
+  "lastUpdate": "2026-01-05T11:23:58.823298",
+  "newsCount": 1426,
   "dateRange": {
     "start": "2026-01-01",
     "end": "2026-01-05"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-05",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2026-01-05",
       "keyword": "芯片",
@@ -56,13 +63,6 @@
       "neutral": 0
     },
     {
-      "date": "2026-01-05",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
       "date": "2026-01-04",
       "keyword": "无人机",
       "positive": 0,
@@ -103,16 +103,16 @@
       6
     ],
     [
+      "英伟达",
+      5
+    ],
+    [
       "京东",
       5
     ],
     [
       "腾讯",
       5
-    ],
-    [
-      "英伟达",
-      4
     ],
     [
       "宁德时代",
