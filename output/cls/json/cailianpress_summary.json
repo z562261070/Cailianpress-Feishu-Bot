@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-06T14:27:17.373736",
-  "newsCount": 1648,
+  "lastUpdate": "2026-01-06T14:51:38.905405",
+  "newsCount": 1660,
   "dateRange": {
     "start": "2026-01-02",
     "end": "2026-01-06"
@@ -8,24 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-01-06",
-      "keyword": "算力",
+      "keyword": "芯片",
       "positive": 1,
-      "negative": 0,
-      "neutral": 8
+      "negative": 2,
+      "neutral": 12
     },
     {
       "date": "2026-01-06",
       "keyword": "机器人",
       "positive": 1,
       "negative": 1,
-      "neutral": 9
+      "neutral": 10
     },
     {
       "date": "2026-01-06",
-      "keyword": "芯片",
+      "keyword": "算力",
       "positive": 1,
-      "negative": 2,
-      "neutral": 10
+      "negative": 0,
+      "neutral": 8
     },
     {
       "date": "2026-01-06",
@@ -91,8 +91,16 @@
       11
     ],
     [
+      "网易",
+      8
+    ],
+    [
       "比亚迪",
       8
+    ],
+    [
+      "阿里巴巴",
+      7
     ],
     [
       "京东",
@@ -103,15 +111,7 @@
       7
     ],
     [
-      "网易",
-      7
-    ],
-    [
       "谷歌",
-      6
-    ],
-    [
-      "阿里巴巴",
       6
     ],
     [
