@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-06T03:50:09.474184",
-  "newsCount": 1369,
+  "lastUpdate": "2026-01-06T04:42:35.316913",
+  "newsCount": 1388,
   "dateRange": {
     "start": "2026-01-02",
     "end": "2026-01-06"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-06",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-01-06",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2026-01-06",
       "keyword": "芯片",
@@ -24,20 +38,6 @@
       "date": "2026-01-06",
       "keyword": "算力",
       "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-01-06",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2026-01-06",
-      "keyword": "新能源",
-      "positive": 0,
       "negative": 0,
       "neutral": 2
     },
@@ -99,16 +99,16 @@
       7
     ],
     [
+      "腾讯",
+      6
+    ],
+    [
       "谷歌",
       6
     ],
     [
       "阿里巴巴",
       6
-    ],
-    [
-      "腾讯",
-      5
     ],
     [
       "京东",
