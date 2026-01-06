@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-06T10:28:44.936795",
-  "newsCount": 1538,
+  "lastUpdate": "2026-01-06T10:52:24.421209",
+  "newsCount": 1557,
   "dateRange": {
     "start": "2026-01-02",
     "end": "2026-01-06"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-06",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-06",
       "keyword": "半导体",
@@ -68,13 +75,6 @@
       "positive": 4,
       "negative": 0,
       "neutral": 12
-    },
-    {
-      "date": "2026-01-05",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
