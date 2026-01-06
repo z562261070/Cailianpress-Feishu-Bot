@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-06T04:42:35.316913",
-  "newsCount": 1388,
+  "lastUpdate": "2026-01-06T05:29:03.336894",
+  "newsCount": 1408,
   "dateRange": {
     "start": "2026-01-02",
     "end": "2026-01-06"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-06",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2026-01-06",
       "keyword": "人工智能",
@@ -26,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-01-06",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-01-06",
