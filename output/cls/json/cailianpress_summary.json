@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-06T06:40:26.865200",
-  "newsCount": 1438,
+  "lastUpdate": "2026-01-06T07:29:42.834196",
+  "newsCount": 1458,
   "dateRange": {
     "start": "2026-01-02",
     "end": "2026-01-06"
@@ -8,22 +8,22 @@
   "topKeywords": [
     {
       "date": "2026-01-06",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 8
-    },
-    {
-      "date": "2026-01-06",
       "keyword": "芯片",
       "positive": 0,
       "negative": 1,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2026-01-06",
       "keyword": "半导体",
       "positive": 2,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-06",
+      "keyword": "机器人",
+      "positive": 0,
       "negative": 0,
       "neutral": 3
     },
@@ -32,7 +32,14 @@
       "keyword": "新能源",
       "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-06",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 8
     },
     {
       "date": "2026-01-06",
@@ -44,13 +51,6 @@
     {
       "date": "2026-01-06",
       "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-01-06",
-      "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      10
+      11
     ],
     [
       "华为",
@@ -116,7 +116,7 @@
     ],
     [
       "胜通能源",
-      3
+      4
     ],
     [
       "宁德时代",
