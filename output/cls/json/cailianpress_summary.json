@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-07T04:44:21.124492",
-  "newsCount": 1583,
+  "lastUpdate": "2026-01-07T05:29:18.720359",
+  "newsCount": 1603,
   "dateRange": {
     "start": "2026-01-03",
     "end": "2026-01-07"
@@ -8,10 +8,38 @@
   "topKeywords": [
     {
       "date": "2026-01-07",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-07",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2026-01-07",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-07",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-07",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2026-01-07",
@@ -19,27 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2026-01-06",
@@ -68,19 +75,12 @@
       "positive": 1,
       "negative": 1,
       "neutral": 14
-    },
-    {
-      "date": "2026-01-06",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      23
+      24
     ],
     [
       "小米",
@@ -92,7 +92,15 @@
     ],
     [
       "谷歌",
-      6
+      7
+    ],
+    [
+      "阿里巴巴",
+      5
+    ],
+    [
+      "网易",
+      5
     ],
     [
       "京东",
@@ -103,12 +111,8 @@
       5
     ],
     [
-      "阿里巴巴",
-      4
-    ],
-    [
-      "网易",
-      4
+      "腾讯",
+      3
     ],
     [
       "TCL",
@@ -120,10 +124,6 @@
     ],
     [
       "比亚迪",
-      2
-    ],
-    [
-      "腾讯",
       2
     ],
     [
