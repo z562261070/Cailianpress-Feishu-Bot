@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-01-07T03:50:43.112563",
-  "newsCount": 1564,
+  "lastUpdate": "2026-01-07T04:44:21.124492",
+  "newsCount": 1583,
   "dateRange": {
     "start": "2026-01-03",
     "end": "2026-01-07"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-07",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-07",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-07",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2026-01-07",
       "keyword": "半导体",
@@ -15,31 +36,10 @@
     },
     {
       "date": "2026-01-07",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-07",
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-01-06",
@@ -88,7 +88,7 @@
     ],
     [
       "华为",
-      11
+      12
     ],
     [
       "谷歌",
@@ -96,19 +96,19 @@
     ],
     [
       "京东",
-      4
+      5
     ],
     [
       "胜通能源",
-      4
+      5
     ],
     [
       "阿里巴巴",
-      3
+      4
     ],
     [
       "网易",
-      3
+      4
     ],
     [
       "TCL",
@@ -127,15 +127,15 @@
       2
     ],
     [
+      "理想汽车",
+      1
+    ],
+    [
       "中际旭创",
       1
     ],
     [
       "航天电子",
-      1
-    ],
-    [
-      "长城军工",
       1
     ]
   ]
