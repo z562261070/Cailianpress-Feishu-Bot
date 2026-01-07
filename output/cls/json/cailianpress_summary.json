@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-07T14:28:29.520746",
-  "newsCount": 1839,
+  "lastUpdate": "2026-01-07T14:53:05.395474",
+  "newsCount": 1851,
   "dateRange": {
     "start": "2026-01-03",
     "end": "2026-01-07"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-01-07",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 10
+    },
+    {
+      "date": "2026-01-07",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-07",
+      "keyword": "人工智能",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 15
+    },
+    {
+      "date": "2026-01-07",
       "keyword": "算力",
       "positive": 2,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 9
     },
     {
       "date": "2026-01-07",
@@ -36,24 +50,10 @@
     },
     {
       "date": "2026-01-07",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-01-07",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 14
     },
     {
       "date": "2026-01-06",
@@ -91,24 +91,24 @@
       13
     ],
     [
+      "京东",
+      7
+    ],
+    [
       "谷歌",
       7
     ],
     [
-      "京东",
+      "阿里巴巴",
+      6
+    ],
+    [
+      "网易",
       6
     ],
     [
       "胜通能源",
       6
-    ],
-    [
-      "阿里巴巴",
-      5
-    ],
-    [
-      "网易",
-      5
     ],
     [
       "腾讯",
