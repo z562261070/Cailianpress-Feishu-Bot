@@ -1,11 +1,46 @@
 {
-  "lastUpdate": "2026-01-07T13:42:28.168883",
-  "newsCount": 1820,
+  "lastUpdate": "2026-01-07T14:28:29.520746",
+  "newsCount": 1839,
   "dateRange": {
     "start": "2026-01-03",
     "end": "2026-01-07"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-07",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2026-01-07",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2026-01-07",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2026-01-07",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2026-01-07",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-01-07",
       "keyword": "新能源",
@@ -19,41 +54,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 14
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-01-06",
@@ -84,11 +84,11 @@
     ],
     [
       "小米",
-      23
+      24
     ],
     [
       "华为",
-      12
+      13
     ],
     [
       "谷歌",
@@ -115,16 +115,16 @@
       4
     ],
     [
+      "比亚迪",
+      3
+    ],
+    [
       "TCL",
       3
     ],
     [
       "宁德时代",
       3
-    ],
-    [
-      "比亚迪",
-      2
     ],
     [
       "理想汽车",
