@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-07T09:32:39.431786",
-  "newsCount": 1713,
+  "lastUpdate": "2026-01-07T10:29:25.781657",
+  "newsCount": 1733,
   "dateRange": {
     "start": "2026-01-03",
     "end": "2026-01-07"
@@ -11,7 +11,14 @@
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
+    },
+    {
+      "date": "2026-01-07",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 13
     },
     {
       "date": "2026-01-07",
@@ -26,13 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 10
     },
     {
       "date": "2026-01-07",
@@ -112,7 +112,7 @@
     ],
     [
       "腾讯",
-      3
+      4
     ],
     [
       "TCL",
