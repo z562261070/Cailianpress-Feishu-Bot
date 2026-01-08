@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-08T12:55:20.939633",
-  "newsCount": 1948,
+  "lastUpdate": "2026-01-08T13:43:37.555403",
+  "newsCount": 1968,
   "dateRange": {
     "start": "2026-01-04",
     "end": "2026-01-08"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-08",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
     {
       "date": "2026-01-08",
       "keyword": "新能源",
@@ -19,13 +26,6 @@
       "positive": 5,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2026-01-08",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2026-01-08",
@@ -84,7 +84,7 @@
     ],
     [
       "华为",
-      13
+      14
     ],
     [
       "阿里巴巴",
