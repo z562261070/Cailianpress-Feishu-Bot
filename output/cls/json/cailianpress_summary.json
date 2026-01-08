@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-08T11:43:50.131194",
-  "newsCount": 1928,
+  "lastUpdate": "2026-01-08T12:55:20.939633",
+  "newsCount": 1948,
   "dateRange": {
     "start": "2026-01-04",
     "end": "2026-01-08"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-08",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
     {
       "date": "2026-01-08",
       "keyword": "人工智能",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-01-08",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2026-01-08",
@@ -107,6 +107,10 @@
       6
     ],
     [
+      "比亚迪",
+      5
+    ],
+    [
       "小米",
       5
     ],
@@ -116,10 +120,6 @@
     ],
     [
       "宁德时代",
-      4
-    ],
-    [
-      "比亚迪",
       4
     ],
     [
