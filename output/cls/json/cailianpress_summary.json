@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-08T09:32:33.142883",
-  "newsCount": 1864,
+  "lastUpdate": "2026-01-08T10:29:19.866796",
+  "newsCount": 1884,
   "dateRange": {
     "start": "2026-01-04",
     "end": "2026-01-08"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-01-08",
-      "keyword": "机器人",
-      "positive": 1,
+      "keyword": "半导体",
+      "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 3
     },
     {
       "date": "2026-01-08",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-08",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2026-01-08",
@@ -33,13 +40,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-01-08",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-01-08",
@@ -111,23 +111,23 @@
       5
     ],
     [
+      "宁德时代",
+      4
+    ],
+    [
+      "比亚迪",
+      4
+    ],
+    [
       "小米",
-      3
+      4
     ],
     [
       "航天电子",
       3
     ],
     [
-      "比亚迪",
-      3
-    ],
-    [
       "TCL",
-      3
-    ],
-    [
-      "宁德时代",
       3
     ],
     [
