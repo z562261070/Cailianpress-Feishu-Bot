@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-08T08:36:34.735651",
-  "newsCount": 1844,
+  "lastUpdate": "2026-01-08T09:32:33.142883",
+  "newsCount": 1864,
   "dateRange": {
     "start": "2026-01-04",
     "end": "2026-01-08"
@@ -8,14 +8,21 @@
   "topKeywords": [
     {
       "date": "2026-01-08",
-      "keyword": "人工智能",
-      "positive": 5,
+      "keyword": "机器人",
+      "positive": 1,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2026-01-08",
       "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-08",
+      "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -25,7 +32,21 @@
       "keyword": "芯片",
       "positive": 2,
       "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-08",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
       "neutral": 2
+    },
+    {
+      "date": "2026-01-08",
+      "keyword": "人工智能",
+      "positive": 5,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2026-01-08",
@@ -33,27 +54,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-01-08",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-08",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-08",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-01-08",
@@ -87,6 +87,10 @@
       13
     ],
     [
+      "胜通能源",
+      7
+    ],
+    [
       "阿里巴巴",
       7
     ],
@@ -100,10 +104,6 @@
     ],
     [
       "腾讯",
-      6
-    ],
-    [
-      "胜通能源",
       6
     ],
     [
