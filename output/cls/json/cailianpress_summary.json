@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-01-08T10:53:06.226946",
-  "newsCount": 1898,
+  "lastUpdate": "2026-01-08T11:24:44.750227",
+  "newsCount": 1918,
   "dateRange": {
     "start": "2026-01-04",
     "end": "2026-01-08"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-08",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-01-08",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-08",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2026-01-08",
       "keyword": "半导体",
@@ -19,27 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-01-08",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-01-08",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-01-08",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-01-08",
@@ -87,15 +87,15 @@
       13
     ],
     [
-      "胜通能源",
-      7
-    ],
-    [
       "阿里巴巴",
-      7
+      8
     ],
     [
       "京东",
+      8
+    ],
+    [
+      "胜通能源",
       7
     ],
     [
