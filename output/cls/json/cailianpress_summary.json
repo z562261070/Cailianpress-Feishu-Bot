@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2026-01-08T23:41:30.032292",
-  "newsCount": 2035,
+  "lastUpdate": "2026-01-09T02:03:35.025205",
+  "newsCount": 1782,
   "dateRange": {
-    "start": "2026-01-04",
-    "end": "2026-01-08"
+    "start": "2026-01-05",
+    "end": "2026-01-09"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-09",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-09",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-09",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-09",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-08",
       "keyword": "军工",
@@ -47,48 +75,20 @@
       "positive": 5,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2026-01-08",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-01-08",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 17
-    },
-    {
-      "date": "2026-01-07",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 10
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      29
-    ],
-    [
-      "华为",
-      14
+      30
     ],
     [
       "京东",
       11
+    ],
+    [
+      "华为",
+      8
     ],
     [
       "阿里巴巴",
@@ -119,8 +119,8 @@
       5
     ],
     [
-      "宁德时代",
-      4
+      "中际旭创",
+      3
     ],
     [
       "航天电子",
@@ -131,7 +131,7 @@
       3
     ],
     [
-      "中际旭创",
+      "宁德时代",
       2
     ],
     [
