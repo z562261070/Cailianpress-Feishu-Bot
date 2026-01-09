@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-09T07:47:28.097639",
-  "newsCount": 1905,
+  "lastUpdate": "2026-01-09T08:36:33.050644",
+  "newsCount": 1925,
   "dateRange": {
     "start": "2026-01-05",
     "end": "2026-01-09"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-09",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-09",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-09",
       "keyword": "无人机",
@@ -43,13 +57,6 @@
     },
     {
       "date": "2026-01-09",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-09",
       "keyword": "军工",
       "positive": 0,
       "negative": 0,
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 10
-    },
-    {
-      "date": "2026-01-08",
-      "keyword": "无人机",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
