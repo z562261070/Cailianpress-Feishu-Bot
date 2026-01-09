@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-09T09:32:33.022938",
-  "newsCount": 1945,
+  "lastUpdate": "2026-01-09T10:28:21.665991",
+  "newsCount": 1965,
   "dateRange": {
     "start": "2026-01-05",
     "end": "2026-01-09"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-01-09",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-01-09",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-09",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-01-09",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2026-01-09",
@@ -33,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-01-09",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-01-09",
@@ -103,15 +103,15 @@
       7
     ],
     [
+      "小米",
+      6
+    ],
+    [
       "腾讯",
       6
     ],
     [
       "比亚迪",
-      5
-    ],
-    [
-      "小米",
       5
     ],
     [
