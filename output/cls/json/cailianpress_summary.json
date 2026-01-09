@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2026-01-09T10:28:21.665991",
-  "newsCount": 1965,
+  "lastUpdate": "2026-01-09T10:51:53.169388",
+  "newsCount": 1985,
   "dateRange": {
     "start": "2026-01-05",
     "end": "2026-01-09"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-09",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-09",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-09",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-09",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-01-09",
       "keyword": "机器人",
@@ -29,38 +57,10 @@
     },
     {
       "date": "2026-01-09",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-09",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-01-09",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-09",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-09",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-01-08",
@@ -88,7 +88,7 @@
     ],
     [
       "谷歌",
-      9
+      10
     ],
     [
       "阿里巴巴",
