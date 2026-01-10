@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-10T06:36:02.309790",
-  "newsCount": 1861,
+  "lastUpdate": "2026-01-10T07:22:41.620826",
+  "newsCount": 1865,
   "dateRange": {
     "start": "2026-01-06",
     "end": "2026-01-10"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-10",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2026-01-10",
       "keyword": "芯片",
@@ -26,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-01-10",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-01-09",
@@ -123,16 +123,16 @@
       4
     ],
     [
+      "宁德时代",
+      3
+    ],
+    [
       "航天电子",
       3
     ],
     [
       "TCL",
       3
-    ],
-    [
-      "宁德时代",
-      2
     ],
     [
       "理想汽车",
