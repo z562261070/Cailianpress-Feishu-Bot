@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-10T11:40:14.491813",
-  "newsCount": 1908,
+  "lastUpdate": "2026-01-10T12:49:17.201078",
+  "newsCount": 1919,
   "dateRange": {
     "start": "2026-01-06",
     "end": "2026-01-10"
@@ -8,7 +8,7 @@
   "topKeywords": [
     {
       "date": "2026-01-10",
-      "keyword": "人工智能",
+      "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 5
@@ -18,7 +18,14 @@
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-10",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2026-01-10",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-01-10",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2026-01-09",
