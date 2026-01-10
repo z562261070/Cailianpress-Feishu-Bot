@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-01-10T07:41:03.424898",
-  "newsCount": 1870,
+  "lastUpdate": "2026-01-10T08:31:49.480442",
+  "newsCount": 1882,
   "dateRange": {
     "start": "2026-01-06",
     "end": "2026-01-10"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-10",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-10",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-10",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-10",
       "keyword": "新能源",
@@ -19,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-01-10",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-01-10",
@@ -61,20 +75,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-01-09",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-01-09",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
@@ -95,6 +95,10 @@
       7
     ],
     [
+      "小米",
+      6
+    ],
+    [
       "胜通能源",
       6
     ],
@@ -104,10 +108,6 @@
     ],
     [
       "网易",
-      5
-    ],
-    [
-      "小米",
       5
     ],
     [
