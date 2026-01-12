@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-12T04:00:53.739994",
-  "newsCount": 1585,
+  "lastUpdate": "2026-01-12T05:04:34.928348",
+  "newsCount": 1602,
   "dateRange": {
     "start": "2026-01-08",
     "end": "2026-01-12"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-12",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-12",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-12",
       "keyword": "芯片",
@@ -35,13 +49,6 @@
       "neutral": 1
     },
     {
-      "date": "2026-01-12",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
       "date": "2026-01-11",
       "keyword": "机器人",
       "positive": 0,
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2026-01-11",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
@@ -107,16 +107,16 @@
       4
     ],
     [
+      "华为",
+      3
+    ],
+    [
       "宁德时代",
       3
     ],
     [
       "中际旭创",
       3
-    ],
-    [
-      "华为",
-      2
     ],
     [
       "胜通能源",
