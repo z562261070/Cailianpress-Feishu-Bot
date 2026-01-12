@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-12T07:31:15.516247",
-  "newsCount": 1658,
+  "lastUpdate": "2026-01-12T08:38:14.214872",
+  "newsCount": 1678,
   "dateRange": {
     "start": "2026-01-08",
     "end": "2026-01-12"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-12",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-12",
+      "keyword": "人工智能",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 6
+    },
     {
       "date": "2026-01-12",
       "keyword": "无人机",
@@ -22,24 +36,10 @@
     },
     {
       "date": "2026-01-12",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2026-01-12",
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-01-12",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-01-12",
@@ -87,15 +87,15 @@
       11
     ],
     [
+      "京东",
+      7
+    ],
+    [
       "阿里巴巴",
       6
     ],
     [
       "小米",
-      6
-    ],
-    [
-      "京东",
       6
     ],
     [
