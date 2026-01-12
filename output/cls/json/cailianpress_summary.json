@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-12T08:38:14.214872",
-  "newsCount": 1678,
+  "lastUpdate": "2026-01-12T09:36:51.416578",
+  "newsCount": 1698,
   "dateRange": {
     "start": "2026-01-08",
     "end": "2026-01-12"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2026-01-12",
+      "keyword": "人工智能",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-01-12",
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-01-12",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2026-01-12",
@@ -99,11 +99,11 @@
       6
     ],
     [
-      "比亚迪",
-      4
+      "腾讯",
+      5
     ],
     [
-      "腾讯",
+      "比亚迪",
       4
     ],
     [
