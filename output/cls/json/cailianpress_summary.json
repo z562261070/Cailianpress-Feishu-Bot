@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-13T01:59:53.729042",
-  "newsCount": 1546,
+  "lastUpdate": "2026-01-13T03:44:06.770839",
+  "newsCount": 1566,
   "dateRange": {
     "start": "2026-01-09",
     "end": "2026-01-13"
@@ -11,7 +11,28 @@
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-13",
+      "keyword": "芯片",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-13",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2026-01-13",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2026-01-13",
@@ -54,45 +75,24 @@
       "positive": 0,
       "negative": 1,
       "neutral": 0
-    },
-    {
-      "date": "2026-01-12",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-12",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-12",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
     [
       "谷歌",
-      30
+      31
+    ],
+    [
+      "英伟达",
+      7
     ],
     [
       "阿里巴巴",
       6
     ],
     [
-      "英伟达",
-      6
-    ],
-    [
       "华为",
-      4
+      5
     ],
     [
       "京东",
@@ -121,6 +121,10 @@
     [
       "宁德时代",
       2
+    ],
+    [
+      "航天电子",
+      1
     ],
     [
       "药明康德",
