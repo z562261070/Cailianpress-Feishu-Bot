@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-13T08:36:26.930866",
-  "newsCount": 1677,
+  "lastUpdate": "2026-01-13T09:32:47.805020",
+  "newsCount": 1697,
   "dateRange": {
     "start": "2026-01-09",
     "end": "2026-01-13"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-13",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2026-01-13",
       "keyword": "芯片",
@@ -19,13 +26,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2026-01-13",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-01-13",
@@ -95,6 +95,10 @@
       5
     ],
     [
+      "京东",
+      4
+    ],
+    [
       "小米",
       4
     ],
@@ -108,10 +112,6 @@
     ],
     [
       "宁德时代",
-      3
-    ],
-    [
-      "京东",
       3
     ],
     [
