@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-14T04:51:44.609063",
-  "newsCount": 1574,
+  "lastUpdate": "2026-01-14T05:29:03.213468",
+  "newsCount": 1589,
   "dateRange": {
     "start": "2026-01-10",
     "end": "2026-01-14"
@@ -9,9 +9,23 @@
     {
       "date": "2026-01-14",
       "keyword": "算力",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 3
+    },
+    {
+      "date": "2026-01-14",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-14",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2026-01-14",
@@ -19,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-01-14",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-01-14",
@@ -47,13 +54,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2026-01-14",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-01-14",
@@ -84,7 +84,7 @@
     ],
     [
       "华为",
-      7
+      8
     ],
     [
       "英伟达",
@@ -111,15 +111,15 @@
       5
     ],
     [
+      "小米",
+      4
+    ],
+    [
       "航天电子",
       4
     ],
     [
       "理想汽车",
-      3
-    ],
-    [
-      "小米",
       3
     ],
     [
