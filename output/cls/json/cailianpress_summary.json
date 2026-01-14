@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-14T02:06:59.927054",
-  "newsCount": 1539,
+  "lastUpdate": "2026-01-14T03:57:52.818064",
+  "newsCount": 1559,
   "dateRange": {
     "start": "2026-01-10",
     "end": "2026-01-14"
@@ -8,8 +8,22 @@
   "topKeywords": [
     {
       "date": "2026-01-14",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-14",
       "keyword": "半导体",
-      "positive": 1,
+      "positive": 2,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-14",
+      "keyword": "无人机",
+      "positive": 0,
       "negative": 0,
       "neutral": 1
     },
@@ -43,13 +57,6 @@
     },
     {
       "date": "2026-01-14",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-14",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 13
-    },
-    {
-      "date": "2026-01-13",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
@@ -83,16 +83,16 @@
       32
     ],
     [
+      "华为",
+      7
+    ],
+    [
       "英伟达",
       7
     ],
     [
       "京东",
       7
-    ],
-    [
-      "华为",
-      6
     ],
     [
       "宁德时代",
@@ -111,16 +111,20 @@
       5
     ],
     [
-      "理想汽车",
-      3
+      "航天电子",
+      4
     ],
     [
-      "航天电子",
+      "理想汽车",
       3
     ],
     [
       "小米",
       3
+    ],
+    [
+      "中际旭创",
+      2
     ],
     [
       "TCL",
@@ -132,10 +136,6 @@
     ],
     [
       "网易",
-      1
-    ],
-    [
-      "中际旭创",
       1
     ]
   ]
