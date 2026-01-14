@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-14T14:29:47.881143",
-  "newsCount": 1838,
+  "lastUpdate": "2026-01-14T14:55:09.673957",
+  "newsCount": 1856,
   "dateRange": {
     "start": "2026-01-10",
     "end": "2026-01-14"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-14",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-14",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2026-01-14",
       "keyword": "机器人",
@@ -26,20 +40,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2026-01-14",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-14",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2026-01-14",
@@ -104,7 +104,7 @@
     ],
     [
       "宁德时代",
-      5
+      6
     ],
     [
       "比亚迪",
