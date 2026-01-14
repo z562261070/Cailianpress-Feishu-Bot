@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-14T05:29:03.213468",
-  "newsCount": 1589,
+  "lastUpdate": "2026-01-14T05:52:09.892828",
+  "newsCount": 1599,
   "dateRange": {
     "start": "2026-01-10",
     "end": "2026-01-14"
@@ -11,7 +11,14 @@
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-14",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2026-01-14",
@@ -26,13 +33,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-01-14",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2026-01-14",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "谷歌",
-      32
+      33
     ],
     [
       "华为",
