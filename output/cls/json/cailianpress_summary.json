@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-15T05:51:40.288115",
-  "newsCount": 1755,
+  "lastUpdate": "2026-01-15T06:40:04.540495",
+  "newsCount": 1775,
   "dateRange": {
     "start": "2026-01-11",
     "end": "2026-01-15"
@@ -8,10 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-01-15",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2026-01-15",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-15",
       "keyword": "半导体",
       "positive": 2,
       "negative": 0,
-      "neutral": 3
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-15",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2026-01-15",
@@ -22,21 +43,7 @@
     },
     {
       "date": "2026-01-15",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-01-15",
       "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2026-01-15",
-      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 5
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2026-01-14",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
@@ -83,16 +83,16 @@
       33
     ],
     [
+      "英伟达",
+      11
+    ],
+    [
       "华为",
       11
     ],
     [
       "阿里巴巴",
       11
-    ],
-    [
-      "英伟达",
-      10
     ],
     [
       "京东",
@@ -115,16 +115,16 @@
       5
     ],
     [
+      "中际旭创",
+      4
+    ],
+    [
       "理想汽车",
       4
     ],
     [
       "小米",
       3
-    ],
-    [
-      "中际旭创",
-      2
     ],
     [
       "TCL",
