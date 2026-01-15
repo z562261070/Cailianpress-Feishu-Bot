@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-15T09:32:32.305010",
-  "newsCount": 1855,
+  "lastUpdate": "2026-01-15T10:29:45.409196",
+  "newsCount": 1875,
   "dateRange": {
     "start": "2026-01-11",
     "end": "2026-01-15"
@@ -9,30 +9,30 @@
     {
       "date": "2026-01-15",
       "keyword": "新能源",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-15",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
+      "neutral": 2
     },
     {
       "date": "2026-01-15",
       "keyword": "人工智能",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
-      "neutral": 9
+      "neutral": 10
     },
     {
       "date": "2026-01-15",
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-15",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2026-01-15",
@@ -107,16 +107,16 @@
       6
     ],
     [
+      "小米",
+      5
+    ],
+    [
       "宁德时代",
       5
     ],
     [
       "比亚迪",
       5
-    ],
-    [
-      "小米",
-      4
     ],
     [
       "中际旭创",
