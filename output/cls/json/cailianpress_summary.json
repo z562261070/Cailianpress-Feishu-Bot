@@ -1,11 +1,46 @@
 {
-  "lastUpdate": "2026-01-14T23:41:25.197936",
-  "newsCount": 1890,
+  "lastUpdate": "2026-01-15T02:01:47.231665",
+  "newsCount": 1684,
   "dateRange": {
-    "start": "2026-01-10",
-    "end": "2026-01-14"
+    "start": "2026-01-11",
+    "end": "2026-01-15"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-15",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-15",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-15",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-15",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-15",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-01-14",
       "keyword": "人工智能",
@@ -40,47 +75,12 @@
       "positive": 2,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2026-01-14",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-14",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-01-14",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-13",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-13",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 13
     }
   ],
   "topStocks": [
     [
       "谷歌",
-      34
+      33
     ],
     [
       "阿里巴巴",
@@ -95,31 +95,31 @@
       9
     ],
     [
-      "腾讯",
-      7
-    ],
-    [
       "京东",
       7
     ],
     [
-      "宁德时代",
+      "腾讯",
       6
+    ],
+    [
+      "航天电子",
+      5
+    ],
+    [
+      "宁德时代",
+      5
     ],
     [
       "比亚迪",
       5
     ],
     [
-      "小米",
-      4
-    ],
-    [
-      "航天电子",
-      4
-    ],
-    [
       "理想汽车",
+      4
+    ],
+    [
+      "小米",
       3
     ],
     [
