@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-01-16T05:51:18.221425",
-  "newsCount": 1891,
+  "lastUpdate": "2026-01-16T06:40:32.861654",
+  "newsCount": 1911,
   "dateRange": {
     "start": "2026-01-12",
     "end": "2026-01-16"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-16",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-01-16",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-16",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 6
+    },
     {
       "date": "2026-01-16",
       "keyword": "机器人",
@@ -22,31 +43,10 @@
     },
     {
       "date": "2026-01-16",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-16",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2026-01-16",
       "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-01-16",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-01-15",
@@ -87,16 +87,16 @@
       15
     ],
     [
+      "华为",
+      14
+    ],
+    [
       "阿里巴巴",
       12
     ],
     [
-      "华为",
-      12
-    ],
-    [
       "小米",
-      8
+      9
     ],
     [
       "京东",
