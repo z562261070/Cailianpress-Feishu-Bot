@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-16T10:52:42.578381",
-  "newsCount": 2022,
+  "lastUpdate": "2026-01-16T11:23:52.438477",
+  "newsCount": 2042,
   "dateRange": {
     "start": "2026-01-12",
     "end": "2026-01-16"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-16",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-01-16",
       "keyword": "人工智能",
@@ -47,13 +54,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-01-16",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-01-16",
@@ -128,7 +128,7 @@
     ],
     [
       "上纬新材",
-      2
+      3
     ],
     [
       "网易",
