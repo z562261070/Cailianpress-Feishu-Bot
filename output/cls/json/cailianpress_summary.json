@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-16T11:43:42.779692",
-  "newsCount": 2061,
+  "lastUpdate": "2026-01-16T12:54:37.726983",
+  "newsCount": 2081,
   "dateRange": {
     "start": "2026-01-12",
     "end": "2026-01-16"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-01-16",
-      "keyword": "人工智能",
+      "keyword": "算力",
       "positive": 1,
       "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-16",
+      "keyword": "芯片",
+      "positive": 6,
+      "negative": 1,
       "neutral": 7
     },
     {
       "date": "2026-01-16",
-      "keyword": "算力",
-      "positive": 0,
+      "keyword": "人工智能",
+      "positive": 2,
       "negative": 0,
-      "neutral": 2
+      "neutral": 8
     },
     {
       "date": "2026-01-16",
@@ -33,13 +40,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2026-01-16",
-      "keyword": "芯片",
-      "positive": 5,
-      "negative": 1,
-      "neutral": 7
     },
     {
       "date": "2026-01-16",
@@ -95,12 +95,12 @@
       12
     ],
     [
-      "小米",
+      "京东",
       9
     ],
     [
-      "京东",
-      8
+      "小米",
+      9
     ],
     [
       "宁德时代",
