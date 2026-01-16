@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-16T04:42:56.867402",
-  "newsCount": 1865,
+  "lastUpdate": "2026-01-16T05:29:19.421121",
+  "newsCount": 1882,
   "dateRange": {
     "start": "2026-01-12",
     "end": "2026-01-16"
@@ -8,17 +8,38 @@
   "topKeywords": [
     {
       "date": "2026-01-16",
-      "keyword": "新能源",
-      "positive": 0,
+      "keyword": "机器人",
+      "positive": 2,
       "negative": 0,
       "neutral": 2
+    },
+    {
+      "date": "2026-01-16",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2026-01-16",
       "keyword": "芯片",
       "positive": 2,
       "negative": 1,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-16",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-16",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2026-01-16",
@@ -26,20 +47,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-01-16",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-16",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-01-15",
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-01-15",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "英伟达",
-      14
+      15
     ],
     [
       "阿里巴巴",
