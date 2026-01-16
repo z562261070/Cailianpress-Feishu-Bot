@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-16T12:54:37.726983",
-  "newsCount": 2081,
+  "lastUpdate": "2026-01-16T13:40:47.801707",
+  "newsCount": 2101,
   "dateRange": {
     "start": "2026-01-12",
     "end": "2026-01-16"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-16",
+      "keyword": "机器人",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-16",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 10
+    },
     {
       "date": "2026-01-16",
       "keyword": "算力",
@@ -29,13 +43,6 @@
     },
     {
       "date": "2026-01-16",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2026-01-16",
       "keyword": "半导体",
       "positive": 3,
       "negative": 0,
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-01-16",
-      "keyword": "机器人",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-01-16",
@@ -127,15 +127,15 @@
       4
     ],
     [
+      "TCL",
+      3
+    ],
+    [
       "上纬新材",
       3
     ],
     [
       "网易",
-      2
-    ],
-    [
-      "TCL",
       2
     ]
   ]
