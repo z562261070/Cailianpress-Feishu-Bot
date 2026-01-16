@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-16T07:28:49.018652",
-  "newsCount": 1931,
+  "lastUpdate": "2026-01-16T07:47:34.196917",
+  "newsCount": 1951,
   "dateRange": {
     "start": "2026-01-12",
     "end": "2026-01-16"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-16",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
     {
       "date": "2026-01-16",
       "keyword": "半导体",
@@ -19,13 +26,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-01-16",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
     },
     {
       "date": "2026-01-16",
