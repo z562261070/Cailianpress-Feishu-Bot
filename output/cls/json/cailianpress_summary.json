@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-17T16:28:35.149196",
-  "newsCount": 2038,
+  "lastUpdate": "2026-01-17T16:48:36.393482",
+  "newsCount": 2056,
   "dateRange": {
     "start": "2026-01-13",
     "end": "2026-01-17"
@@ -11,21 +11,21 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2026-01-17",
       "keyword": "芯片",
-      "positive": 2,
+      "positive": 3,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2026-01-17",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2026-01-17",
