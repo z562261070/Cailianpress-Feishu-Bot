@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-18T10:46:15.691535",
-  "newsCount": 1826,
+  "lastUpdate": "2026-01-18T11:19:48.036127",
+  "newsCount": 1828,
   "dateRange": {
     "start": "2026-01-14",
     "end": "2026-01-18"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-18",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2026-01-18",
       "keyword": "新能源",
@@ -26,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-01-18",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-01-18",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      12
+      13
     ],
     [
       "华为",
