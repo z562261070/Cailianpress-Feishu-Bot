@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-18T07:23:54.046835",
-  "newsCount": 1772,
+  "lastUpdate": "2026-01-18T07:41:29.824141",
+  "newsCount": 1775,
   "dateRange": {
     "start": "2026-01-14",
     "end": "2026-01-18"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-18",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-18",
       "keyword": "人工智能",
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2026-01-16",
-      "keyword": "机器人",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
