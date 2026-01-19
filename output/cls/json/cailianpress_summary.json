@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-19T05:55:14.429707",
-  "newsCount": 1623,
+  "lastUpdate": "2026-01-19T06:45:31.996250",
+  "newsCount": 1643,
   "dateRange": {
     "start": "2026-01-15",
     "end": "2026-01-19"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-19",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-19",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-19",
       "keyword": "军工",
@@ -26,13 +40,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2026-01-19",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-01-19",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-01-18",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
@@ -92,10 +92,14 @@
     ],
     [
       "小米",
-      6
+      7
     ],
     [
       "宁德时代",
+      5
+    ],
+    [
+      "阿里巴巴",
       4
     ],
     [
@@ -112,10 +116,6 @@
     ],
     [
       "京东",
-      3
-    ],
-    [
-      "阿里巴巴",
       3
     ],
     [
