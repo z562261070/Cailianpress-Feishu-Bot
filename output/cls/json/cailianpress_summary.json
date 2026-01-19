@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-19T08:39:04.722005",
-  "newsCount": 1683,
+  "lastUpdate": "2026-01-19T09:39:07.209194",
+  "newsCount": 1703,
   "dateRange": {
     "start": "2026-01-15",
     "end": "2026-01-19"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-19",
+      "keyword": "人工智能",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 6
+    },
     {
       "date": "2026-01-19",
       "keyword": "芯片",
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-01-19",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2026-01-19",
@@ -95,12 +95,12 @@
       8
     ],
     [
-      "宁德时代",
+      "阿里巴巴",
       5
     ],
     [
-      "阿里巴巴",
-      4
+      "宁德时代",
+      5
     ],
     [
       "TCL",
