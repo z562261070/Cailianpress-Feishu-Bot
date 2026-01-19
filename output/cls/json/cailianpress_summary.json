@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-19T16:35:21.038800",
-  "newsCount": 1848,
+  "lastUpdate": "2026-01-19T17:27:20.771827",
+  "newsCount": 1855,
   "dateRange": {
     "start": "2026-01-15",
     "end": "2026-01-19"
@@ -11,7 +11,7 @@
       "keyword": "军工",
       "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2026-01-19",
