@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-20T11:27:11.298845",
-  "newsCount": 1673,
+  "lastUpdate": "2026-01-20T11:47:29.866731",
+  "newsCount": 1693,
   "dateRange": {
     "start": "2026-01-16",
     "end": "2026-01-20"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-20",
+      "keyword": "人工智能",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-01-20",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
     {
       "date": "2026-01-20",
       "keyword": "芯片",
@@ -17,20 +31,6 @@
       "date": "2026-01-20",
       "keyword": "机器人",
       "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-01-20",
-      "keyword": "人工智能",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2026-01-20",
-      "keyword": "半导体",
-      "positive": 1,
       "negative": 0,
       "neutral": 7
     },
@@ -111,6 +111,10 @@
       3
     ],
     [
+      "网易",
+      2
+    ],
+    [
       "比亚迪",
       2
     ],
@@ -128,10 +132,6 @@
     ],
     [
       "胜通能源",
-      1
-    ],
-    [
-      "网易",
       1
     ]
   ]
