@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-20T05:33:00.438580",
-  "newsCount": 1553,
+  "lastUpdate": "2026-01-20T06:42:47.466386",
+  "newsCount": 1573,
   "dateRange": {
     "start": "2026-01-16",
     "end": "2026-01-20"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-20",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-20",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-01-20",
       "keyword": "半导体",
@@ -35,13 +49,6 @@
       "neutral": 2
     },
     {
-      "date": "2026-01-20",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
       "date": "2026-01-19",
       "keyword": "军工",
       "positive": 1,
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 9
-    },
-    {
-      "date": "2026-01-19",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
@@ -99,16 +99,16 @@
       4
     ],
     [
+      "宁德时代",
+      3
+    ],
+    [
       "TCL",
       3
     ],
     [
       "京东",
       3
-    ],
-    [
-      "宁德时代",
-      2
     ],
     [
       "比亚迪",
@@ -121,6 +121,10 @@
     [
       "上纬新材",
       2
+    ],
+    [
+      "中际旭创",
+      1
     ],
     [
       "胜通能源",
