@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-20T11:47:29.866731",
-  "newsCount": 1693,
+  "lastUpdate": "2026-01-20T12:59:50.777004",
+  "newsCount": 1713,
   "dateRange": {
     "start": "2026-01-16",
     "end": "2026-01-20"
@@ -11,7 +11,14 @@
       "keyword": "人工智能",
       "positive": 4,
       "negative": 0,
-      "neutral": 7
+      "neutral": 10
+    },
+    {
+      "date": "2026-01-20",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2026-01-20",
@@ -68,13 +75,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2026-01-19",
-      "keyword": "人工智能",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 9
     }
   ],
   "topStocks": [
