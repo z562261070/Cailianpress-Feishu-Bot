@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-21T02:06:32.552142",
-  "newsCount": 1431,
+  "lastUpdate": "2026-01-21T03:54:27.178179",
+  "newsCount": 1451,
   "dateRange": {
     "start": "2026-01-17",
     "end": "2026-01-21"
@@ -8,28 +8,35 @@
   "topKeywords": [
     {
       "date": "2026-01-21",
-      "keyword": "半导体",
-      "positive": 1,
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-21",
+      "keyword": "芯片",
+      "positive": 4,
       "negative": 0,
       "neutral": 1
     },
     {
       "date": "2026-01-21",
-      "keyword": "机器人",
+      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2026-01-21",
-      "keyword": "算力",
+      "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2026-01-21",
-      "keyword": "芯片",
+      "keyword": "算力",
       "positive": 1,
       "negative": 0,
       "neutral": 1
@@ -44,13 +51,6 @@
     {
       "date": "2026-01-21",
       "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-21",
-      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -92,11 +92,15 @@
     ],
     [
       "阿里巴巴",
-      4
+      5
     ],
     [
       "宁德时代",
       4
+    ],
+    [
+      "比亚迪",
+      3
     ],
     [
       "小米",
@@ -111,12 +115,12 @@
       2
     ],
     [
-      "比亚迪",
+      "TCL",
       2
     ],
     [
-      "TCL",
-      2
+      "航天电子",
+      1
     ],
     [
       "网易",
