@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-21T04:48:57.647628",
-  "newsCount": 1471,
+  "lastUpdate": "2026-01-21T05:32:46.839104",
+  "newsCount": 1491,
   "dateRange": {
     "start": "2026-01-17",
     "end": "2026-01-21"
@@ -8,31 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-01-21",
-      "keyword": "芯片",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-01-21",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2026-01-21",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2026-01-21",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
+    },
+    {
+      "date": "2026-01-21",
+      "keyword": "芯片",
+      "positive": 4,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2026-01-21",
@@ -107,6 +107,10 @@
       3
     ],
     [
+      "航天电子",
+      2
+    ],
+    [
       "理想汽车",
       2
     ],
@@ -117,10 +121,6 @@
     [
       "TCL",
       2
-    ],
-    [
-      "航天电子",
-      1
     ],
     [
       "网易",
