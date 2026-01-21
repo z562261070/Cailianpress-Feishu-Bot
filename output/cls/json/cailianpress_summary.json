@@ -1,11 +1,60 @@
 {
-  "lastUpdate": "2026-01-20T23:46:51.767966",
-  "newsCount": 1785,
+  "lastUpdate": "2026-01-21T02:06:32.552142",
+  "newsCount": 1431,
   "dateRange": {
-    "start": "2026-01-16",
-    "end": "2026-01-20"
+    "start": "2026-01-17",
+    "end": "2026-01-21"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-21",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-21",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-21",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-21",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-21",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-21",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-21",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-20",
       "keyword": "无人机",
@@ -26,105 +75,52 @@
       "positive": 3,
       "negative": 0,
       "neutral": 10
-    },
-    {
-      "date": "2026-01-20",
-      "keyword": "人工智能",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 12
-    },
-    {
-      "date": "2026-01-20",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-01-20",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-20",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-01-20",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-19",
-      "keyword": "军工",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-19",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      13
+      12
     ],
     [
       "谷歌",
-      13
+      12
     ],
     [
       "华为",
-      9
-    ],
-    [
-      "小米",
-      5
-    ],
-    [
-      "宁德时代",
-      4
+      6
     ],
     [
       "阿里巴巴",
       4
     ],
     [
-      "比亚迪",
-      3
+      "宁德时代",
+      4
     ],
     [
-      "TCL",
+      "小米",
       3
-    ],
-    [
-      "京东",
-      3
-    ],
-    [
-      "网易",
-      2
     ],
     [
       "理想汽车",
       2
     ],
     [
-      "上纬新材",
+      "京东",
       2
+    ],
+    [
+      "比亚迪",
+      2
+    ],
+    [
+      "TCL",
+      2
+    ],
+    [
+      "网易",
+      1
     ],
     [
       "中际旭创",
