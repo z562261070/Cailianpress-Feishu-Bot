@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-21T09:37:17.155291",
-  "newsCount": 1571,
+  "lastUpdate": "2026-01-21T10:34:32.406932",
+  "newsCount": 1591,
   "dateRange": {
     "start": "2026-01-17",
     "end": "2026-01-21"
@@ -11,7 +11,14 @@
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 10
+      "neutral": 11
+    },
+    {
+      "date": "2026-01-21",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2026-01-21",
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-01-21",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-01-21",
@@ -95,15 +95,15 @@
       6
     ],
     [
+      "小米",
+      4
+    ],
+    [
       "宁德时代",
       4
     ],
     [
       "比亚迪",
-      3
-    ],
-    [
-      "小米",
       3
     ],
     [
