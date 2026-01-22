@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-22T09:37:16.904730",
-  "newsCount": 1606,
+  "lastUpdate": "2026-01-22T10:33:20.765048",
+  "newsCount": 1626,
   "dateRange": {
     "start": "2026-01-18",
     "end": "2026-01-22"
@@ -11,19 +11,26 @@
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2026-01-22",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
+    },
+    {
+      "date": "2026-01-22",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2026-01-22",
       "keyword": "半导体",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 5
     },
@@ -47,13 +54,6 @@
       "positive": 2,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-01-22",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2026-01-22",
@@ -95,12 +95,12 @@
       6
     ],
     [
-      "宁德时代",
+      "小米",
       5
     ],
     [
-      "小米",
-      4
+      "宁德时代",
+      5
     ],
     [
       "中际旭创",
