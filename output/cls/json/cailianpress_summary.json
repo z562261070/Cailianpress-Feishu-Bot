@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2026-01-22T23:45:26.648649",
-  "newsCount": 1741,
+  "lastUpdate": "2026-01-23T02:03:26.238563",
+  "newsCount": 1655,
   "dateRange": {
-    "start": "2026-01-18",
-    "end": "2026-01-22"
+    "start": "2026-01-19",
+    "end": "2026-01-23"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-23",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-23",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-23",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-23",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-01-22",
       "keyword": "机器人",
@@ -47,71 +75,47 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-01-22",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-01-22",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-21",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-21",
-      "keyword": "芯片",
-      "positive": 4,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      19
-    ],
-    [
-      "谷歌",
-      15
+      13
     ],
     [
       "阿里巴巴",
-      9
+      11
     ],
     [
-      "华为",
-      7
-    ],
-    [
-      "小米",
-      5
+      "谷歌",
+      10
     ],
     [
       "宁德时代",
       5
     ],
     [
+      "小米",
+      5
+    ],
+    [
       "理想汽车",
-      3
+      4
     ],
     [
       "中际旭创",
-      2
+      3
     ],
     [
       "京东",
+      3
+    ],
+    [
+      "腾讯",
+      2
+    ],
+    [
+      "华为",
       2
     ],
     [
@@ -121,14 +125,6 @@
     [
       "比亚迪",
       2
-    ],
-    [
-      "TCL",
-      2
-    ],
-    [
-      "腾讯",
-      1
     ],
     [
       "网易",
