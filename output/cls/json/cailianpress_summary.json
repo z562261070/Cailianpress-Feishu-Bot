@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-23T10:54:23.191166",
-  "newsCount": 1841,
+  "lastUpdate": "2026-01-23T11:25:32.564850",
+  "newsCount": 1859,
   "dateRange": {
     "start": "2026-01-19",
     "end": "2026-01-23"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-23",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2026-01-23",
       "keyword": "军工",
@@ -43,13 +50,6 @@
     },
     {
       "date": "2026-01-23",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-23",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      13
+      14
     ],
     [
       "谷歌",
