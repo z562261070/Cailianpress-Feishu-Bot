@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-23T02:03:26.238563",
-  "newsCount": 1655,
+  "lastUpdate": "2026-01-23T03:53:29.982408",
+  "newsCount": 1675,
   "dateRange": {
     "start": "2026-01-19",
     "end": "2026-01-23"
@@ -9,6 +9,13 @@
     {
       "date": "2026-01-23",
       "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-23",
+      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -66,13 +73,6 @@
       "date": "2026-01-22",
       "keyword": "新能源",
       "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-22",
-      "keyword": "军工",
-      "positive": 0,
       "negative": 0,
       "neutral": 3
     }
