@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-01-23T05:31:55.012089",
-  "newsCount": 1706,
+  "lastUpdate": "2026-01-23T06:40:54.632707",
+  "newsCount": 1726,
   "dateRange": {
     "start": "2026-01-19",
     "end": "2026-01-23"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-23",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-23",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-23",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-01-23",
       "keyword": "算力",
@@ -26,27 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-01-23",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-23",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-23",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-01-23",
@@ -99,11 +99,15 @@
       5
     ],
     [
+      "中际旭创",
+      4
+    ],
+    [
       "理想汽车",
       4
     ],
     [
-      "中际旭创",
+      "航天电子",
       3
     ],
     [
@@ -116,10 +120,6 @@
     ],
     [
       "华为",
-      2
-    ],
-    [
-      "航天电子",
       2
     ],
     [
