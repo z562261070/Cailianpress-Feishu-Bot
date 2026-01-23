@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-23T09:35:03.780416",
-  "newsCount": 1801,
+  "lastUpdate": "2026-01-23T10:30:13.678212",
+  "newsCount": 1821,
   "dateRange": {
     "start": "2026-01-19",
     "end": "2026-01-23"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-01-23",
+      "keyword": "军工",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2026-01-23",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-23",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2026-01-23",
@@ -19,13 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-01-23",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-01-23",
@@ -68,13 +75,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2026-01-22",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 9
     }
   ],
   "topStocks": [
@@ -99,16 +99,16 @@
       5
     ],
     [
+      "航天电子",
+      4
+    ],
+    [
       "中际旭创",
       4
     ],
     [
       "理想汽车",
       4
-    ],
-    [
-      "航天电子",
-      3
     ],
     [
       "京东",
@@ -125,6 +125,10 @@
     [
       "比亚迪",
       2
+    ],
+    [
+      "上纬新材",
+      1
     ],
     [
       "网易",
