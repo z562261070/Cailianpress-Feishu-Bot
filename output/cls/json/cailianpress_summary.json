@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2026-01-23T23:44:04.098504",
-  "newsCount": 1958,
+  "lastUpdate": "2026-01-24T01:59:53.735856",
+  "newsCount": 1673,
   "dateRange": {
-    "start": "2026-01-19",
-    "end": "2026-01-23"
+    "start": "2026-01-20",
+    "end": "2026-01-24"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-24",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-24",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2026-01-24",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-24",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-23",
       "keyword": "半导体",
@@ -47,56 +75,24 @@
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-01-23",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-23",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-22",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-01-22",
-      "keyword": "人工智能",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      17
+      16
     ],
     [
       "谷歌",
-      11
+      10
     ],
     [
       "阿里巴巴",
-      11
-    ],
-    [
-      "宁德时代",
-      5
+      10
     ],
     [
       "小米",
-      5
+      4
     ],
     [
       "航天电子",
@@ -107,16 +103,20 @@
       4
     ],
     [
+      "宁德时代",
+      4
+    ],
+    [
       "理想汽车",
       4
     ],
     [
-      "京东",
+      "腾讯",
       3
     ],
     [
-      "腾讯",
-      2
+      "京东",
+      3
     ],
     [
       "华为",
