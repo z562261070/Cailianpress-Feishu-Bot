@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-24T18:35:39.678767",
-  "newsCount": 1843,
+  "lastUpdate": "2026-01-24T19:19:54.499010",
+  "newsCount": 1860,
   "dateRange": {
     "start": "2026-01-20",
     "end": "2026-01-24"
@@ -11,7 +11,7 @@
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2026-01-24",
