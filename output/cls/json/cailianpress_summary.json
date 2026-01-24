@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-24T16:30:09.648952",
-  "newsCount": 1769,
+  "lastUpdate": "2026-01-24T16:51:39.761916",
+  "newsCount": 1788,
   "dateRange": {
     "start": "2026-01-20",
     "end": "2026-01-24"
@@ -11,7 +11,7 @@
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
     },
     {
       "date": "2026-01-24",
@@ -92,7 +92,7 @@
     ],
     [
       "宁德时代",
-      6
+      7
     ],
     [
       "小米",
