@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-25T11:41:09.646997",
-  "newsCount": 1725,
+  "lastUpdate": "2026-01-25T12:52:00.455981",
+  "newsCount": 1738,
   "dateRange": {
     "start": "2026-01-21",
     "end": "2026-01-25"
@@ -8,35 +8,42 @@
   "topKeywords": [
     {
       "date": "2026-01-25",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-25",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-25",
       "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-25",
+      "keyword": "算力",
       "positive": 0,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2026-01-25",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-25",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 5
     },
     {
       "date": "2026-01-25",
       "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-25",
-      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 4
@@ -52,13 +59,6 @@
       "date": "2026-01-25",
       "keyword": "军工",
       "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-25",
-      "keyword": "算力",
-      "positive": 0,
       "negative": 0,
       "neutral": 1
     },
