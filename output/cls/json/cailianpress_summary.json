@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-25T14:23:32.807162",
-  "newsCount": 1749,
+  "lastUpdate": "2026-01-25T14:45:15.527862",
+  "newsCount": 1751,
   "dateRange": {
     "start": "2026-01-21",
     "end": "2026-01-25"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-25",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-01-25",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2026-01-25",
       "keyword": "机器人",
@@ -22,13 +36,6 @@
     },
     {
       "date": "2026-01-25",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-01-25",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-01-25",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2026-01-25",
