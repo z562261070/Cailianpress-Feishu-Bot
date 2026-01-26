@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2026-01-26T13:50:45.059248",
-  "newsCount": 1748,
+  "lastUpdate": "2026-01-26T14:33:29.729519",
+  "newsCount": 1760,
   "dateRange": {
     "start": "2026-01-22",
     "end": "2026-01-26"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-26",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-26",
+      "keyword": "半导体",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-01-26",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2026-01-26",
+      "keyword": "机器人",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2026-01-26",
       "keyword": "算力",
@@ -22,38 +50,10 @@
     },
     {
       "date": "2026-01-26",
-      "keyword": "机器人",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-26",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2026-01-26",
-      "keyword": "芯片",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-26",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-01-26",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-01-25",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      13
+      15
     ],
     [
       "腾讯",
