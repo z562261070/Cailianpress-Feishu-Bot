@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-27T11:47:59.127759",
-  "newsCount": 1715,
+  "lastUpdate": "2026-01-27T13:00:17.878809",
+  "newsCount": 1735,
   "dateRange": {
     "start": "2026-01-23",
     "end": "2026-01-27"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2026-01-27",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-27",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2026-01-27",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2026-01-27",
