@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-27T05:31:38.119419",
-  "newsCount": 1578,
+  "lastUpdate": "2026-01-27T06:42:04.130045",
+  "newsCount": 1598,
   "dateRange": {
     "start": "2026-01-23",
     "end": "2026-01-27"
@@ -8,10 +8,17 @@
   "topKeywords": [
     {
       "date": "2026-01-27",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-27",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2026-01-27",
@@ -68,13 +75,6 @@
       "positive": 3,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-01-26",
-      "keyword": "半导体",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
@@ -103,6 +103,10 @@
       4
     ],
     [
+      "中际旭创",
+      3
+    ],
+    [
       "比亚迪",
       3
     ],
@@ -115,8 +119,8 @@
       2
     ],
     [
-      "中际旭创",
-      2
+      "华为",
+      1
     ],
     [
       "TCL",
