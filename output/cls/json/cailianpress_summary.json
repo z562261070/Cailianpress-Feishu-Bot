@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-27T10:33:19.205944",
-  "newsCount": 1678,
+  "lastUpdate": "2026-01-27T11:27:08.030403",
+  "newsCount": 1698,
   "dateRange": {
     "start": "2026-01-23",
     "end": "2026-01-27"
@@ -8,10 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-01-27",
-      "keyword": "人工智能",
+      "keyword": "算力",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-27",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-27",
+      "keyword": "半导体",
       "positive": 1,
       "negative": 0,
       "neutral": 6
+    },
+    {
+      "date": "2026-01-27",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
     },
     {
       "date": "2026-01-27",
@@ -26,27 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-01-27",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2026-01-27",
-      "keyword": "算力",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-27",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2026-01-27",
@@ -84,7 +84,7 @@
     ],
     [
       "腾讯",
-      10
+      11
     ],
     [
       "宁德时代",
@@ -111,16 +111,16 @@
       3
     ],
     [
+      "华为",
+      2
+    ],
+    [
       "理想汽车",
       2
     ],
     [
       "航天电子",
       2
-    ],
-    [
-      "华为",
-      1
     ],
     [
       "TCL",
