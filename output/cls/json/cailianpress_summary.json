@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-01-28T13:00:33.813481",
-  "newsCount": 1713,
+  "lastUpdate": "2026-01-28T14:02:17.394848",
+  "newsCount": 1733,
   "dateRange": {
     "start": "2026-01-24",
     "end": "2026-01-28"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-28",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    {
+      "date": "2026-01-28",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-01-28",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2026-01-28",
       "keyword": "人工智能",
@@ -19,27 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-01-28",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-01-28",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-28",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-01-28",
@@ -103,15 +103,15 @@
       5
     ],
     [
+      "华为",
+      4
+    ],
+    [
       "比亚迪",
       4
     ],
     [
       "理想汽车",
-      3
-    ],
-    [
-      "华为",
       3
     ],
     [
