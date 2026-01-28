@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2026-01-27T23:47:04.132534",
-  "newsCount": 1798,
+  "lastUpdate": "2026-01-28T02:06:24.255356",
+  "newsCount": 1496,
   "dateRange": {
-    "start": "2026-01-23",
-    "end": "2026-01-27"
+    "start": "2026-01-24",
+    "end": "2026-01-28"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-28",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-28",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-28",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-28",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-27",
       "keyword": "半导体",
@@ -47,91 +75,47 @@
       "positive": 1,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-01-27",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-01-26",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2026-01-26",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2026-01-26",
-      "keyword": "芯片",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
-    [
-      "英伟达",
-      15
-    ],
     [
       "腾讯",
       11
     ],
     [
+      "英伟达",
+      11
+    ],
+    [
       "宁德时代",
-      10
-    ],
-    [
-      "阿里巴巴",
-      7
-    ],
-    [
-      "谷歌",
-      6
+      9
     ],
     [
       "小米",
-      4
+      5
     ],
     [
-      "中际旭创",
-      3
+      "谷歌",
+      5
+    ],
+    [
+      "阿里巴巴",
+      5
     ],
     [
       "比亚迪",
       3
     ],
     [
-      "华为",
-      2
-    ],
-    [
       "理想汽车",
       2
     ],
     [
-      "航天电子",
+      "华为",
       2
     ],
     [
-      "TCL",
-      1
-    ],
-    [
-      "上纬新材",
-      1
-    ],
-    [
-      "京东",
+      "中际旭创",
       1
     ]
   ]
