@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2026-01-28T23:30:27.213713",
-  "newsCount": 1785,
+  "lastUpdate": "2026-01-29T02:28:14.444252",
+  "newsCount": 1517,
   "dateRange": {
-    "start": "2026-01-24",
-    "end": "2026-01-28"
+    "start": "2026-01-25",
+    "end": "2026-01-29"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-29",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-29",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-29",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-01-29",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-28",
       "keyword": "半导体",
@@ -47,64 +75,28 @@
       "positive": 1,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-01-27",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2026-01-27",
-      "keyword": "算力",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-01-27",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-27",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      13
-    ],
-    [
-      "腾讯",
       11
     ],
     [
-      "宁德时代",
-      9
-    ],
-    [
-      "谷歌",
-      7
+      "腾讯",
+      10
     ],
     [
       "阿里巴巴",
       6
     ],
     [
-      "小米",
+      "理想汽车",
       5
     ],
     [
-      "理想汽车",
-      4
+      "谷歌",
+      5
     ],
     [
       "华为",
@@ -113,6 +105,14 @@
     [
       "比亚迪",
       4
+    ],
+    [
+      "小米",
+      4
+    ],
+    [
+      "宁德时代",
+      3
     ],
     [
       "中际旭创",
