@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-29T13:07:09.914879",
-  "newsCount": 1717,
+  "lastUpdate": "2026-01-29T14:10:47.439545",
+  "newsCount": 1737,
   "dateRange": {
     "start": "2026-01-25",
     "end": "2026-01-29"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-01-29",
-      "keyword": "人工智能",
-      "positive": 1,
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-29",
+      "keyword": "机器人",
+      "positive": 0,
       "negative": 1,
-      "neutral": 6
+      "neutral": 7
     },
     {
       "date": "2026-01-29",
       "keyword": "芯片",
       "positive": 3,
       "negative": 0,
-      "neutral": 10
+      "neutral": 11
+    },
+    {
+      "date": "2026-01-29",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 1,
+      "neutral": 7
     },
     {
       "date": "2026-01-29",
@@ -29,24 +43,10 @@
     },
     {
       "date": "2026-01-29",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 6
-    },
-    {
-      "date": "2026-01-29",
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-01-29",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-01-28",
@@ -91,11 +91,11 @@
       7
     ],
     [
-      "比亚迪",
-      5
+      "华为",
+      6
     ],
     [
-      "华为",
+      "比亚迪",
       5
     ],
     [
