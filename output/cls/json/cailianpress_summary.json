@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-29T06:07:54.827186",
-  "newsCount": 1577,
+  "lastUpdate": "2026-01-29T07:25:06.386227",
+  "newsCount": 1597,
   "dateRange": {
     "start": "2026-01-25",
     "end": "2026-01-29"
@@ -9,9 +9,16 @@
     {
       "date": "2026-01-29",
       "keyword": "芯片",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
+    },
+    {
+      "date": "2026-01-29",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 5
     },
     {
       "date": "2026-01-29",
@@ -19,13 +26,6 @@
       "positive": 0,
       "negative": 1,
       "neutral": 5
-    },
-    {
-      "date": "2026-01-29",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 4
     },
     {
       "date": "2026-01-29",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      14
+      15
     ],
     [
       "腾讯",
@@ -91,16 +91,16 @@
       6
     ],
     [
+      "华为",
+      5
+    ],
+    [
       "理想汽车",
       5
     ],
     [
       "谷歌",
       5
-    ],
-    [
-      "华为",
-      4
     ],
     [
       "比亚迪",
