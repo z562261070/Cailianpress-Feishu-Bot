@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-30T05:33:03.672096",
-  "newsCount": 1685,
+  "lastUpdate": "2026-01-30T06:56:54.369815",
+  "newsCount": 1705,
   "dateRange": {
     "start": "2026-01-26",
     "end": "2026-01-30"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-30",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-01-30",
       "keyword": "算力",
@@ -68,13 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-01-29",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -84,11 +84,11 @@
     ],
     [
       "腾讯",
-      12
+      13
     ],
     [
       "阿里巴巴",
-      7
+      8
     ],
     [
       "华为",
@@ -107,11 +107,11 @@
       5
     ],
     [
-      "小米",
-      3
+      "宁德时代",
+      4
     ],
     [
-      "宁德时代",
+      "小米",
       3
     ],
     [
