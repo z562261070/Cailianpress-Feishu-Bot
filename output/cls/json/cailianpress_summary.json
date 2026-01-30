@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-01-29T23:31:16.915492",
-  "newsCount": 1784,
+  "lastUpdate": "2026-01-30T02:27:49.109460",
+  "newsCount": 1645,
   "dateRange": {
-    "start": "2026-01-25",
-    "end": "2026-01-29"
+    "start": "2026-01-26",
+    "end": "2026-01-30"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-30",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-01-30",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-01-29",
       "keyword": "机器人",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-01-28",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-01-28",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 10
     }
   ],
   "topStocks": [
@@ -87,11 +87,11 @@
       11
     ],
     [
-      "阿里巴巴",
+      "华为",
       7
     ],
     [
-      "华为",
+      "阿里巴巴",
       6
     ],
     [
@@ -108,19 +108,19 @@
     ],
     [
       "小米",
-      4
+      3
     ],
     [
       "宁德时代",
       3
     ],
     [
-      "中际旭创",
+      "网易",
       2
     ],
     [
-      "网易",
-      1
+      "中际旭创",
+      2
     ],
     [
       "TCL",
