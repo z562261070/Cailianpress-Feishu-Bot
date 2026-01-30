@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-30T11:32:50.450460",
-  "newsCount": 1805,
+  "lastUpdate": "2026-01-30T13:05:18.332011",
+  "newsCount": 1825,
   "dateRange": {
     "start": "2026-01-26",
     "end": "2026-01-30"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-30",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-01-30",
       "keyword": "新能源",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-01-30",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2026-01-29",
@@ -115,12 +115,16 @@
       4
     ],
     [
+      "中际旭创",
+      3
+    ],
+    [
       "网易",
       2
     ],
     [
-      "中际旭创",
-      2
+      "上纬新材",
+      1
     ],
     [
       "京东",
