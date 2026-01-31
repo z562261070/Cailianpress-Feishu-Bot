@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-01-31T08:36:31.245278",
-  "newsCount": 1715,
+  "lastUpdate": "2026-01-31T09:33:19.360978",
+  "newsCount": 1725,
   "dateRange": {
     "start": "2026-01-27",
     "end": "2026-01-31"
   },
   "topKeywords": [
+    {
+      "date": "2026-01-31",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2026-01-31",
       "keyword": "人工智能",
@@ -26,13 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-01-31",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2026-01-31",
