@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-31T02:23:47.380253",
-  "newsCount": 1659,
+  "lastUpdate": "2026-01-31T04:15:38.133698",
+  "newsCount": 1677,
   "dateRange": {
     "start": "2026-01-27",
     "end": "2026-01-31"
@@ -8,10 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-01-31",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2026-01-31",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2026-01-31",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2026-01-31",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
     },
     {
       "date": "2026-01-31",
@@ -54,27 +75,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-01-30",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-01-30",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-01-29",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 7
     }
   ],
   "topStocks": [
