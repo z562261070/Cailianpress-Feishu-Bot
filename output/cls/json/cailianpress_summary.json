@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-01-31T19:24:02.300866",
-  "newsCount": 1848,
+  "lastUpdate": "2026-01-31T19:43:14.475721",
+  "newsCount": 1861,
   "dateRange": {
     "start": "2026-01-27",
     "end": "2026-01-31"
@@ -9,30 +9,30 @@
     {
       "date": "2026-01-31",
       "keyword": "算力",
-      "positive": 8,
+      "positive": 9,
       "negative": 0,
-      "neutral": 16
+      "neutral": 17
     },
     {
       "date": "2026-01-31",
       "keyword": "芯片",
-      "positive": 7,
+      "positive": 8,
       "negative": 0,
       "neutral": 10
     },
     {
       "date": "2026-01-31",
       "keyword": "人工智能",
-      "positive": 6,
+      "positive": 7,
       "negative": 0,
-      "neutral": 26
+      "neutral": 28
     },
     {
       "date": "2026-01-31",
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 9
+      "neutral": 10
     },
     {
       "date": "2026-01-31",
