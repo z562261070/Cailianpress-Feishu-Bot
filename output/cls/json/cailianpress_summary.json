@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-02-02T08:51:24.938883",
-  "newsCount": 1472,
+  "lastUpdate": "2026-02-02T09:56:19.417795",
+  "newsCount": 1492,
   "dateRange": {
     "start": "2026-01-29",
     "end": "2026-02-02"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-02",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0
+    },
+    {
+      "date": "2026-02-02",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-02-02",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2026-02-02",
       "keyword": "芯片",
@@ -26,20 +47,6 @@
       "positive": 0,
       "negative": 1,
       "neutral": 2
-    },
-    {
-      "date": "2026-02-02",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-02-02",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-02-02",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-02-01",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -84,7 +84,7 @@
     ],
     [
       "腾讯",
-      9
+      10
     ],
     [
       "华为",
@@ -100,7 +100,7 @@
     ],
     [
       "小米",
-      4
+      5
     ],
     [
       "京东",
