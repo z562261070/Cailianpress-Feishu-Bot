@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-02T14:12:00.112684",
-  "newsCount": 1572,
+  "lastUpdate": "2026-02-02T15:08:34.123187",
+  "newsCount": 1592,
   "dateRange": {
     "start": "2026-01-29",
     "end": "2026-02-02"
@@ -11,7 +11,7 @@
       "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
     },
     {
       "date": "2026-02-02",
