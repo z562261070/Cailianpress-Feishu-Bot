@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-02-03T07:48:52.667106",
-  "newsCount": 1371,
+  "lastUpdate": "2026-02-03T08:43:32.398070",
+  "newsCount": 1391,
   "dateRange": {
     "start": "2026-01-30",
     "end": "2026-02-03"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-03",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
     {
       "date": "2026-02-03",
       "keyword": "芯片",
@@ -19,13 +26,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-02-03",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2026-02-03",
