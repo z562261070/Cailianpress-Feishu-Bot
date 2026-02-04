@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-04T08:50:11.741306",
-  "newsCount": 1393,
+  "lastUpdate": "2026-02-04T09:51:17.784409",
+  "newsCount": 1413,
   "dateRange": {
     "start": "2026-01-31",
     "end": "2026-02-04"
@@ -11,7 +11,14 @@
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 11
+      "neutral": 12
+    },
+    {
+      "date": "2026-02-04",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
     },
     {
       "date": "2026-02-04",
@@ -49,13 +56,6 @@
       "neutral": 1
     },
     {
-      "date": "2026-02-04",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
       "date": "2026-02-03",
       "keyword": "无人机",
       "positive": 0,
@@ -84,14 +84,14 @@
     ],
     [
       "腾讯",
-      16
-    ],
-    [
-      "谷歌",
-      10
+      17
     ],
     [
       "阿里巴巴",
+      11
+    ],
+    [
+      "谷歌",
       10
     ],
     [
