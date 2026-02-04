@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-02-04T09:51:17.784409",
-  "newsCount": 1413,
+  "lastUpdate": "2026-02-04T10:43:27.375727",
+  "newsCount": 1433,
   "dateRange": {
     "start": "2026-01-31",
     "end": "2026-02-04"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-04",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2026-02-04",
       "keyword": "人工智能",
@@ -31,13 +38,6 @@
       "date": "2026-02-04",
       "keyword": "芯片",
       "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-02-04",
-      "keyword": "算力",
-      "positive": 1,
       "negative": 0,
       "neutral": 3
     },
@@ -95,12 +95,12 @@
       10
     ],
     [
-      "华为",
+      "小米",
       7
     ],
     [
-      "小米",
-      6
+      "华为",
+      7
     ],
     [
       "中际旭创",
