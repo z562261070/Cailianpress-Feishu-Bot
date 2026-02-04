@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-04T05:32:17.556292",
-  "newsCount": 1333,
+  "lastUpdate": "2026-02-04T06:58:52.676285",
+  "newsCount": 1353,
   "dateRange": {
     "start": "2026-01-31",
     "end": "2026-02-04"
@@ -8,17 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-02-04",
-      "keyword": "算力",
-      "positive": 1,
+      "keyword": "芯片",
+      "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 2
     },
     {
       "date": "2026-02-04",
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 6
+      "neutral": 7
+    },
+    {
+      "date": "2026-02-04",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-02-04",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2026-02-04",
@@ -29,22 +43,8 @@
     },
     {
       "date": "2026-02-04",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-02-04",
       "keyword": "半导体",
       "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-02-04",
-      "keyword": "新能源",
-      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      19
+      20
     ],
     [
       "腾讯",
@@ -103,11 +103,15 @@
       6
     ],
     [
-      "京东",
+      "中际旭创",
+      5
+    ],
+    [
+      "网易",
       4
     ],
     [
-      "中际旭创",
+      "京东",
       4
     ],
     [
@@ -115,15 +119,15 @@
       3
     ],
     [
-      "网易",
-      3
+      "宁德时代",
+      2
     ],
     [
       "理想汽车",
       2
     ],
     [
-      "宁德时代",
+      "TCL",
       1
     ]
   ]
