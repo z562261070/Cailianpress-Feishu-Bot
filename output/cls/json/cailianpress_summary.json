@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-02-05T09:10:24.276052",
-  "newsCount": 1370,
+  "lastUpdate": "2026-02-05T10:08:57.049791",
+  "newsCount": 1390,
   "dateRange": {
     "start": "2026-02-01",
     "end": "2026-02-05"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-05",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
     {
       "date": "2026-02-05",
       "keyword": "人工智能",
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-02-05",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-02-05",
@@ -84,7 +84,7 @@
     ],
     [
       "腾讯",
-      17
+      18
     ],
     [
       "谷歌",
