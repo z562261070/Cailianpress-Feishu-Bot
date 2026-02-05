@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2026-02-05T02:31:00.520817",
-  "newsCount": 1270,
+  "lastUpdate": "2026-02-05T04:51:20.245205",
+  "newsCount": 1290,
   "dateRange": {
     "start": "2026-02-01",
     "end": "2026-02-05"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-05",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-02-05",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-02-05",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-02-05",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-02-05",
       "keyword": "算力",
@@ -19,34 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-02-05",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-02-05",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-02-05",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-02-05",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-02-04",
@@ -88,7 +88,7 @@
     ],
     [
       "谷歌",
-      14
+      15
     ],
     [
       "阿里巴巴",
