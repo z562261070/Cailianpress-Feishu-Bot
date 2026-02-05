@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-05T08:03:34.716839",
-  "newsCount": 1350,
+  "lastUpdate": "2026-02-05T09:10:24.276052",
+  "newsCount": 1370,
   "dateRange": {
     "start": "2026-02-01",
     "end": "2026-02-05"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2026-02-05",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-02-05",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2026-02-05",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-02-05",
@@ -96,7 +96,7 @@
     ],
     [
       "小米",
-      7
+      8
     ],
     [
       "华为",
