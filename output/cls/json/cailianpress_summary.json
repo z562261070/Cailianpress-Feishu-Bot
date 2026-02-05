@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-05T15:11:31.402026",
-  "newsCount": 1490,
+  "lastUpdate": "2026-02-05T16:08:52.488702",
+  "newsCount": 1509,
   "dateRange": {
     "start": "2026-02-01",
     "end": "2026-02-05"
@@ -11,7 +11,7 @@
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 12
+      "neutral": 13
     },
     {
       "date": "2026-02-05",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      21
+      22
     ],
     [
       "腾讯",
