@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-02-06T05:56:32.922939",
-  "newsCount": 1459,
+  "lastUpdate": "2026-02-06T07:03:57.984413",
+  "newsCount": 1479,
   "dateRange": {
     "start": "2026-02-02",
     "end": "2026-02-06"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-06",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-02-06",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-02-06",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 2
+    },
     {
       "date": "2026-02-06",
       "keyword": "半导体",
@@ -16,13 +37,6 @@
     {
       "date": "2026-02-06",
       "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-02-06",
-      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -40,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-02-06",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 1
     },
     {
       "date": "2026-02-05",
@@ -68,23 +75,16 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-02-05",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      18
+      19
     ],
     [
       "腾讯",
-      14
+      15
     ],
     [
       "谷歌",
@@ -103,12 +103,12 @@
       5
     ],
     [
-      "比亚迪",
+      "华为",
       4
     ],
     [
-      "华为",
-      3
+      "比亚迪",
+      4
     ],
     [
       "宁德时代",
