@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-06T02:31:27.021691",
-  "newsCount": 1419,
+  "lastUpdate": "2026-02-06T04:50:19.315813",
+  "newsCount": 1439,
   "dateRange": {
     "start": "2026-02-02",
     "end": "2026-02-06"
@@ -9,9 +9,30 @@
     {
       "date": "2026-02-06",
       "keyword": "机器人",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
-      "neutral": 0
+      "neutral": 2
+    },
+    {
+      "date": "2026-02-06",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-02-06",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 1
+    },
+    {
+      "date": "2026-02-06",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2026-02-06",
@@ -22,24 +43,10 @@
     },
     {
       "date": "2026-02-06",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-02-06",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-02-06",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 0
     },
     {
       "date": "2026-02-05",
@@ -65,13 +72,6 @@
     {
       "date": "2026-02-05",
       "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-02-05",
-      "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 6
@@ -111,6 +111,10 @@
       3
     ],
     [
+      "华为",
+      2
+    ],
+    [
       "宁德时代",
       2
     ],
@@ -119,11 +123,11 @@
       2
     ],
     [
-      "TCL",
+      "理想汽车",
       1
     ],
     [
-      "华为",
+      "TCL",
       1
     ]
   ]
