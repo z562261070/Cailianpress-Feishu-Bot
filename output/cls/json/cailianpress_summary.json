@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-06T10:08:07.360596",
-  "newsCount": 1539,
+  "lastUpdate": "2026-02-06T11:07:48.745277",
+  "newsCount": 1559,
   "dateRange": {
     "start": "2026-02-02",
     "end": "2026-02-06"
@@ -8,9 +8,9 @@
   "topKeywords": [
     {
       "date": "2026-02-06",
-      "keyword": "新能源",
+      "keyword": "人工智能",
       "positive": 0,
-      "negative": 0,
+      "negative": 1,
       "neutral": 3
     },
     {
@@ -18,7 +18,14 @@
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2026-02-06",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2026-02-06",
@@ -26,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-02-06",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 2
     },
     {
       "date": "2026-02-06",
@@ -96,7 +96,7 @@
     ],
     [
       "小米",
-      6
+      7
     ],
     [
       "中际旭创",
