@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-07T06:05:11.102335",
-  "newsCount": 1474,
+  "lastUpdate": "2026-02-07T07:08:53.957365",
+  "newsCount": 1480,
   "dateRange": {
     "start": "2026-02-03",
     "end": "2026-02-07"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2026-02-07",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-02-07",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-02-07",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2026-02-07",
