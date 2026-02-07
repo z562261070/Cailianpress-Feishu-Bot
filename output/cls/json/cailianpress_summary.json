@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-02-07T11:46:41.199355",
-  "newsCount": 1520,
+  "lastUpdate": "2026-02-07T12:58:39.785987",
+  "newsCount": 1529,
   "dateRange": {
     "start": "2026-02-03",
     "end": "2026-02-07"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-07",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2026-02-07",
       "keyword": "算力",
@@ -67,13 +74,6 @@
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-02-06",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 1,
       "neutral": 3
     }
   ],
