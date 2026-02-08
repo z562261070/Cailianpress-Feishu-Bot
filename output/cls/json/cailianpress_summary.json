@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-08T02:53:48.550674",
-  "newsCount": 1409,
+  "lastUpdate": "2026-02-08T05:07:09.151512",
+  "newsCount": 1422,
   "dateRange": {
     "start": "2026-02-04",
     "end": "2026-02-08"
@@ -9,7 +9,7 @@
     {
       "date": "2026-02-08",
       "keyword": "机器人",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 2
     },
@@ -84,7 +84,7 @@
     ],
     [
       "腾讯",
-      11
+      12
     ],
     [
       "谷歌",
