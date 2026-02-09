@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-02-09T14:35:08.694216",
-  "newsCount": 1454,
+  "lastUpdate": "2026-02-09T16:00:30.940646",
+  "newsCount": 1474,
   "dateRange": {
     "start": "2026-02-05",
     "end": "2026-02-09"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-09",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-02-09",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-02-09",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
     {
       "date": "2026-02-09",
       "keyword": "新能源",
@@ -15,28 +36,7 @@
     },
     {
       "date": "2026-02-09",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-02-09",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-02-09",
       "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-02-09",
-      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 6
@@ -87,15 +87,15 @@
       10
     ],
     [
+      "腾讯",
+      7
+    ],
+    [
       "宁德时代",
       7
     ],
     [
       "华为",
-      6
-    ],
-    [
-      "腾讯",
       6
     ],
     [
