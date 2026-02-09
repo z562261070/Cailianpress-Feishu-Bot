@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-09T02:38:38.789835",
-  "newsCount": 1294,
+  "lastUpdate": "2026-02-09T05:04:55.969069",
+  "newsCount": 1314,
   "dateRange": {
     "start": "2026-02-05",
     "end": "2026-02-09"
@@ -11,14 +11,21 @@
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2026-02-09",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2026-02-09",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2026-02-09",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-02-09",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-02-08",
@@ -103,16 +103,16 @@
       4
     ],
     [
+      "TCL",
+      3
+    ],
+    [
       "中际旭创",
       3
     ],
     [
       "阿里巴巴",
       3
-    ],
-    [
-      "TCL",
-      2
     ],
     [
       "网易",
