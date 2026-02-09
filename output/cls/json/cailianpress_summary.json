@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-09T13:19:15.402867",
-  "newsCount": 1434,
+  "lastUpdate": "2026-02-09T14:35:08.694216",
+  "newsCount": 1454,
   "dateRange": {
     "start": "2026-02-05",
     "end": "2026-02-09"
@@ -8,24 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-02-09",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-02-09",
-      "keyword": "算力",
+      "keyword": "新能源",
       "positive": 1,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2026-02-09",
-      "keyword": "新能源",
+      "keyword": "机器人",
       "positive": 1,
       "negative": 0,
-      "neutral": 2
+      "neutral": 7
+    },
+    {
+      "date": "2026-02-09",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-02-09",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2026-02-09",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-02-09",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2026-02-09",
@@ -100,7 +100,15 @@
     ],
     [
       "比亚迪",
+      5
+    ],
+    [
+      "中际旭创",
       4
+    ],
+    [
+      "理想汽车",
+      3
     ],
     [
       "小米",
@@ -108,10 +116,6 @@
     ],
     [
       "TCL",
-      3
-    ],
-    [
-      "中际旭创",
       3
     ],
     [
@@ -124,10 +128,6 @@
     ],
     [
       "京东",
-      2
-    ],
-    [
-      "理想汽车",
       2
     ]
   ]
