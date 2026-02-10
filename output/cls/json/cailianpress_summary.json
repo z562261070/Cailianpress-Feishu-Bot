@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-10T13:24:04.384044",
-  "newsCount": 1360,
+  "lastUpdate": "2026-02-10T14:42:46.833141",
+  "newsCount": 1380,
   "dateRange": {
     "start": "2026-02-06",
     "end": "2026-02-10"
@@ -8,31 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-02-10",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-02-10",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
     },
     {
       "date": "2026-02-10",
-      "keyword": "人工智能",
+      "keyword": "算力",
       "positive": 0,
-      "negative": 1,
-      "neutral": 11
+      "negative": 0,
+      "neutral": 8
     },
     {
       "date": "2026-02-10",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
+    },
+    {
+      "date": "2026-02-10",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 13
     },
     {
       "date": "2026-02-10",
@@ -88,27 +88,27 @@
     ],
     [
       "腾讯",
-      7
+      8
     ],
     [
       "谷歌",
-      6
+      7
     ],
     [
       "华为",
       6
     ],
     [
-      "中际旭创",
-      4
-    ],
-    [
       "比亚迪",
-      4
+      5
     ],
     [
       "理想汽车",
-      3
+      4
+    ],
+    [
+      "中际旭创",
+      4
     ],
     [
       "TCL",
