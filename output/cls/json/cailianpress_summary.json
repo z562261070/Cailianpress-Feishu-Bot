@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-11T00:03:05.760805",
-  "newsCount": 1135,
+  "lastUpdate": "2026-02-11T03:36:28.481307",
+  "newsCount": 1155,
   "dateRange": {
     "start": "2026-02-07",
     "end": "2026-02-11"
@@ -9,6 +9,20 @@
     {
       "date": "2026-02-11",
       "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-02-11",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-02-11",
+      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -19,13 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2026-02-11",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-02-10",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-02-10",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
@@ -95,15 +95,15 @@
       7
     ],
     [
+      "中际旭创",
+      5
+    ],
+    [
       "比亚迪",
       5
     ],
     [
       "理想汽车",
-      4
-    ],
-    [
-      "中际旭创",
       4
     ],
     [
