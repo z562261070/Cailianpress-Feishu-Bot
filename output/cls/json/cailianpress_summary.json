@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-02-10T23:09:46.341934",
-  "newsCount": 1399,
+  "lastUpdate": "2026-02-11T00:03:05.760805",
+  "newsCount": 1135,
   "dateRange": {
-    "start": "2026-02-06",
-    "end": "2026-02-10"
+    "start": "2026-02-07",
+    "end": "2026-02-11"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-11",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-02-11",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2026-02-11",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-02-10",
       "keyword": "机器人",
@@ -54,81 +75,60 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-02-09",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2026-02-09",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2026-02-09",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      18
+      15
     ],
     [
       "谷歌",
-      10
+      9
     ],
     [
       "腾讯",
-      9
+      7
     ],
     [
       "宁德时代",
-      9
-    ],
-    [
-      "华为",
-      6
-    ],
-    [
-      "理想汽车",
-      5
+      7
     ],
     [
       "比亚迪",
       5
     ],
     [
+      "理想汽车",
+      4
+    ],
+    [
       "中际旭创",
       4
     ],
     [
+      "京东",
+      2
+    ],
+    [
       "TCL",
-      3
+      2
+    ],
+    [
+      "华为",
+      2
     ],
     [
       "阿里巴巴",
-      3
+      1
     ],
     [
       "小米",
-      2
+      1
     ],
     [
       "网易",
-      2
-    ],
-    [
-      "京东",
-      2
+      1
     ]
   ]
 }
