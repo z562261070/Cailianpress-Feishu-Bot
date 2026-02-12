@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-02-12T09:55:55.034313",
-  "newsCount": 1239,
+  "lastUpdate": "2026-02-12T10:54:17.908286",
+  "newsCount": 1259,
   "dateRange": {
     "start": "2026-02-08",
     "end": "2026-02-12"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-12",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-02-12",
       "keyword": "芯片",
@@ -33,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-02-12",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 0
     },
     {
       "date": "2026-02-12",
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      13
+      14
     ],
     [
       "谷歌",
