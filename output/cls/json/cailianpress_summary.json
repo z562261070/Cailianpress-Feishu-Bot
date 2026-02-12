@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-02-12T05:01:15.851345",
-  "newsCount": 1159,
+  "lastUpdate": "2026-02-12T06:38:52.073345",
+  "newsCount": 1179,
   "dateRange": {
     "start": "2026-02-08",
     "end": "2026-02-12"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-12",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-02-12",
+      "keyword": "新能源",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2026-02-12",
       "keyword": "芯片",
@@ -26,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2026-02-12",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-02-12",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-02-11",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
@@ -87,6 +87,10 @@
       10
     ],
     [
+      "中际旭创",
+      7
+    ],
+    [
       "腾讯",
       7
     ],
@@ -95,24 +99,20 @@
       7
     ],
     [
-      "中际旭创",
+      "比亚迪",
       6
     ],
     [
-      "比亚迪",
+      "理想汽车",
       5
+    ],
+    [
+      "小米",
+      4
     ],
     [
       "华为",
       4
-    ],
-    [
-      "理想汽车",
-      4
-    ],
-    [
-      "小米",
-      2
     ],
     [
       "网易",
