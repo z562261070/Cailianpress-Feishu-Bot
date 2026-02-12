@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-12T10:54:17.908286",
-  "newsCount": 1259,
+  "lastUpdate": "2026-02-12T11:42:36.672376",
+  "newsCount": 1279,
   "dateRange": {
     "start": "2026-02-08",
     "end": "2026-02-12"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-02-12",
-      "keyword": "算力",
+      "keyword": "芯片",
       "positive": 2,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2026-02-12",
-      "keyword": "芯片",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-02-12",
+      "keyword": "算力",
       "positive": 2,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2026-02-12",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-02-12",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-02-11",
@@ -84,11 +84,15 @@
     ],
     [
       "谷歌",
-      10
+      11
     ],
     [
       "腾讯",
       8
+    ],
+    [
+      "比亚迪",
+      7
     ],
     [
       "中际旭创",
@@ -97,10 +101,6 @@
     [
       "宁德时代",
       7
-    ],
-    [
-      "比亚迪",
-      6
     ],
     [
       "小米",
