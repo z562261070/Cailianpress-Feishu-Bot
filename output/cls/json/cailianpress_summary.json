@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-13T14:23:51.695148",
-  "newsCount": 1437,
+  "lastUpdate": "2026-02-13T15:09:42.588900",
+  "newsCount": 1453,
   "dateRange": {
     "start": "2026-02-09",
     "end": "2026-02-13"
@@ -8,17 +8,17 @@
   "topKeywords": [
     {
       "date": "2026-02-13",
+      "keyword": "人工智能",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-02-13",
       "keyword": "机器人",
       "positive": 2,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-02-13",
-      "keyword": "人工智能",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2026-02-13",
@@ -95,6 +95,10 @@
       7
     ],
     [
+      "阿里巴巴",
+      6
+    ],
+    [
       "小米",
       6
     ],
@@ -109,10 +113,6 @@
     [
       "理想汽车",
       5
-    ],
-    [
-      "阿里巴巴",
-      4
     ],
     [
       "华为",
