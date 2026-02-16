@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-02-16T05:03:01.380045",
-  "newsCount": 1375,
+  "lastUpdate": "2026-02-16T06:40:57.538799",
+  "newsCount": 1386,
   "dateRange": {
     "start": "2026-02-12",
     "end": "2026-02-16"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-16",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2026-02-16",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2026-02-16",
       "keyword": "半导体",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-02-15",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-02-15",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
@@ -91,11 +91,11 @@
       8
     ],
     [
-      "阿里巴巴",
-      5
+      "小米",
+      6
     ],
     [
-      "小米",
+      "阿里巴巴",
       5
     ],
     [
