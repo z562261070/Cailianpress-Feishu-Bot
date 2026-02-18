@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-02-18T08:52:41.197325",
-  "newsCount": 1249,
+  "lastUpdate": "2026-02-18T09:54:45.425295",
+  "newsCount": 1261,
   "dateRange": {
     "start": "2026-02-14",
     "end": "2026-02-18"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-18",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2026-02-18",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2026-02-18",
       "keyword": "人工智能",
@@ -61,26 +75,12 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-02-17",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 10
-    },
-    {
-      "date": "2026-02-16",
-      "keyword": "机器人",
-      "positive": 6,
-      "negative": 0,
-      "neutral": 13
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      16
+      17
     ],
     [
       "谷歌",
