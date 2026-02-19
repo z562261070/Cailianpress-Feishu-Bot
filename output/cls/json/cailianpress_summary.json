@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-02-19T02:36:15.628585",
-  "newsCount": 1022,
+  "lastUpdate": "2026-02-19T04:56:24.265512",
+  "newsCount": 1040,
   "dateRange": {
     "start": "2026-02-15",
     "end": "2026-02-19"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-19",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-02-19",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-02-19",
       "keyword": "半导体",
@@ -33,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-02-19",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-02-18",
@@ -68,23 +75,16 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-02-18",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
     [
-      "谷歌",
+      "英伟达",
       17
     ],
     [
-      "英伟达",
-      16
+      "谷歌",
+      17
     ],
     [
       "京东",
