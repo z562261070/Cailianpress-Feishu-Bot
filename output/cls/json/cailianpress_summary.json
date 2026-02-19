@@ -1,11 +1,46 @@
 {
-  "lastUpdate": "2026-02-18T23:34:54.048112",
-  "newsCount": 1361,
+  "lastUpdate": "2026-02-19T02:36:15.628585",
+  "newsCount": 1022,
   "dateRange": {
-    "start": "2026-02-14",
-    "end": "2026-02-18"
+    "start": "2026-02-15",
+    "end": "2026-02-19"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-19",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-02-19",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-02-19",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-02-19",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-02-19",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-02-18",
       "keyword": "半导体",
@@ -40,62 +75,23 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-02-18",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-02-18",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-02-17",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-02-17",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2026-02-17",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
     [
-      "英伟达",
-      22
+      "谷歌",
+      17
     ],
     [
-      "谷歌",
-      21
+      "英伟达",
+      16
     ],
     [
       "京东",
-      8
+      7
     ],
     [
       "腾讯",
-      3
-    ],
-    [
-      "阿里巴巴",
       2
     ],
     [
@@ -103,19 +99,15 @@
       2
     ],
     [
+      "阿里巴巴",
+      1
+    ],
+    [
       "小米",
       1
     ],
     [
       "宁德时代",
-      1
-    ],
-    [
-      "比亚迪",
-      1
-    ],
-    [
-      "华为",
       1
     ]
   ]
