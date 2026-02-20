@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-02-20T11:54:25.504599",
-  "newsCount": 1084,
+  "lastUpdate": "2026-02-20T13:08:14.835167",
+  "newsCount": 1094,
   "dateRange": {
     "start": "2026-02-16",
     "end": "2026-02-20"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-20",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-02-20",
       "keyword": "军工",
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-02-20",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-02-20",
