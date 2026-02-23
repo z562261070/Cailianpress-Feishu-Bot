@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-23T13:38:14.590618",
-  "newsCount": 1178,
+  "lastUpdate": "2026-02-23T14:52:22.489714",
+  "newsCount": 1198,
   "dateRange": {
     "start": "2026-02-19",
     "end": "2026-02-23"
@@ -8,17 +8,38 @@
   "topKeywords": [
     {
       "date": "2026-02-23",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 8
+    },
+    {
+      "date": "2026-02-23",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-02-23",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-02-23",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-02-23",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-02-23",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 7
     },
     {
       "date": "2026-02-23",
@@ -33,13 +54,6 @@
       "positive": 0,
       "negative": 1,
       "neutral": 6
-    },
-    {
-      "date": "2026-02-23",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-02-22",
@@ -61,30 +75,16 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-02-22",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2026-02-22",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
     [
-      "谷歌",
-      7
+      "英伟达",
+      8
     ],
     [
-      "英伟达",
-      7
+      "谷歌",
+      8
     ],
     [
       "网易",
@@ -99,15 +99,15 @@
       3
     ],
     [
+      "比亚迪",
+      2
+    ],
+    [
       "京东",
       1
     ],
     [
       "中际旭创",
-      1
-    ],
-    [
-      "比亚迪",
       1
     ],
     [
