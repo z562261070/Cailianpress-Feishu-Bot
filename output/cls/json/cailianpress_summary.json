@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-24T13:16:35.829487",
-  "newsCount": 1230,
+  "lastUpdate": "2026-02-24T14:33:27.048996",
+  "newsCount": 1250,
   "dateRange": {
     "start": "2026-02-20",
     "end": "2026-02-24"
@@ -8,24 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-02-24",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2026-02-24",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 7
+    },
+    {
+      "date": "2026-02-24",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
     },
     {
       "date": "2026-02-24",
       "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 3
+    },
+    {
+      "date": "2026-02-24",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
     },
     {
       "date": "2026-02-24",
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-02-24",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2026-02-24",
@@ -80,11 +80,11 @@
   "topStocks": [
     [
       "谷歌",
-      8
+      10
     ],
     [
       "英伟达",
-      7
+      8
     ],
     [
       "网易",
@@ -95,6 +95,10 @@
       5
     ],
     [
+      "比亚迪",
+      4
+    ],
+    [
       "阿里巴巴",
       4
     ],
@@ -103,8 +107,8 @@
       3
     ],
     [
-      "比亚迪",
-      3
+      "华为",
+      1
     ],
     [
       "TCL",
