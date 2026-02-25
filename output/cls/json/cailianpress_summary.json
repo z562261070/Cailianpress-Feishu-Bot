@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-02-25T09:59:58.409497",
-  "newsCount": 1219,
+  "lastUpdate": "2026-02-25T11:02:33.362457",
+  "newsCount": 1239,
   "dateRange": {
     "start": "2026-02-21",
     "end": "2026-02-25"
@@ -8,21 +8,28 @@
   "topKeywords": [
     {
       "date": "2026-02-25",
-      "keyword": "算力",
-      "positive": 3,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-02-25",
       "keyword": "人工智能",
       "positive": 3,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
+    },
+    {
+      "date": "2026-02-25",
+      "keyword": "算力",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2026-02-25",
       "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-02-25",
+      "keyword": "半导体",
       "positive": 1,
       "negative": 0,
       "neutral": 2
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-02-25",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-02-24",
@@ -84,11 +84,15 @@
     ],
     [
       "英伟达",
-      6
+      7
     ],
     [
       "腾讯",
       5
+    ],
+    [
+      "小米",
+      4
     ],
     [
       "比亚迪",
@@ -96,10 +100,6 @@
     ],
     [
       "华为",
-      3
-    ],
-    [
-      "小米",
       3
     ],
     [
