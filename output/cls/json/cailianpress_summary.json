@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-02-27T05:36:49.323546",
-  "newsCount": 1248,
+  "lastUpdate": "2026-02-27T07:00:49.217202",
+  "newsCount": 1268,
   "dateRange": {
     "start": "2026-02-23",
     "end": "2026-02-27"
   },
   "topKeywords": [
+    {
+      "date": "2026-02-27",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-02-27",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2026-02-27",
       "keyword": "算力",
@@ -19,20 +33,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 0
-    },
-    {
-      "date": "2026-02-27",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-02-27",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-02-27",
