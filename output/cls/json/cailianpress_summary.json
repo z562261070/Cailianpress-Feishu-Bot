@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-02-28T23:46:16.560706",
-  "newsCount": 1591,
+  "lastUpdate": "2026-03-01T02:44:11.762889",
+  "newsCount": 1413,
   "dateRange": {
-    "start": "2026-02-24",
-    "end": "2026-02-28"
+    "start": "2026-02-25",
+    "end": "2026-03-01"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-01",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-01",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 14
+    },
+    {
+      "date": "2026-03-01",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-02-28",
       "keyword": "无人机",
@@ -54,61 +75,40 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-02-27",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-02-27",
-      "keyword": "新能源",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-02-27",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      27
+      24
     ],
     [
       "谷歌",
-      15
+      12
     ],
     [
       "腾讯",
-      9
-    ],
-    [
-      "小米",
-      8
+      7
     ],
     [
       "阿里巴巴",
-      8
+      7
+    ],
+    [
+      "小米",
+      6
     ],
     [
       "华为",
-      5
+      4
     ],
     [
       "网易",
-      3
+      2
     ],
     [
-      "比亚迪",
-      3
+      "理想汽车",
+      1
     ],
     [
       "上纬新材",
@@ -127,7 +127,7 @@
       1
     ],
     [
-      "TCL",
+      "比亚迪",
       1
     ]
   ]
