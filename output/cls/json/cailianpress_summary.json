@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-02T07:04:52.587825",
-  "newsCount": 1477,
+  "lastUpdate": "2026-03-02T08:02:15.880630",
+  "newsCount": 1497,
   "dateRange": {
     "start": "2026-02-26",
     "end": "2026-03-02"
@@ -11,7 +11,21 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 10
+      "neutral": 11
+    },
+    {
+      "date": "2026-03-02",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2026-03-02",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2026-03-02",
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-03-01",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-03-01",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 22
     }
   ],
   "topStocks": [
@@ -103,12 +103,12 @@
       4
     ],
     [
-      "比亚迪",
+      "中际旭创",
       2
     ],
     [
-      "中际旭创",
-      1
+      "比亚迪",
+      2
     ],
     [
       "理想汽车",
