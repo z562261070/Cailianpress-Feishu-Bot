@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-02T05:55:32.376220",
-  "newsCount": 1457,
+  "lastUpdate": "2026-03-02T07:04:52.587825",
+  "newsCount": 1477,
   "dateRange": {
     "start": "2026-02-26",
     "end": "2026-03-02"
@@ -11,7 +11,21 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 9
+      "neutral": 10
+    },
+    {
+      "date": "2026-03-02",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-02",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
     },
     {
       "date": "2026-03-02",
@@ -19,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-03-02",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-03-02",
@@ -68,19 +75,12 @@
       "positive": 0,
       "negative": 0,
       "neutral": 22
-    },
-    {
-      "date": "2026-03-01",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      23
+      24
     ],
     [
       "阿里巴巴",
