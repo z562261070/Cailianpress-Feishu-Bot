@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2026-03-01T23:50:08.399364",
-  "newsCount": 1628,
+  "lastUpdate": "2026-03-02T02:32:28.462888",
+  "newsCount": 1417,
   "dateRange": {
-    "start": "2026-02-25",
-    "end": "2026-03-01"
+    "start": "2026-02-26",
+    "end": "2026-03-02"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-02",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-02",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-03-02",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-02",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-03-01",
       "keyword": "算力",
@@ -47,72 +75,40 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-01",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-03-01",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-02-28",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 6
-    },
-    {
-      "date": "2026-02-28",
-      "keyword": "人工智能",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      25
-    ],
-    [
-      "谷歌",
-      12
-    ],
-    [
-      "腾讯",
-      10
-    ],
-    [
-      "华为",
-      9
+      23
     ],
     [
       "阿里巴巴",
+      8
+    ],
+    [
+      "腾讯",
+      8
+    ],
+    [
+      "谷歌",
+      8
+    ],
+    [
+      "华为",
       7
     ],
     [
       "小米",
-      6
+      4
     ],
     [
       "比亚迪",
-      2
+      1
     ],
     [
       "中际旭创",
-      2
-    ],
-    [
-      "网易",
-      2
+      1
     ],
     [
       "理想汽车",
@@ -124,6 +120,10 @@
     ],
     [
       "京东",
+      1
+    ],
+    [
+      "网易",
       1
     ],
     [
