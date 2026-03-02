@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-02T02:32:28.462888",
-  "newsCount": 1417,
+  "lastUpdate": "2026-03-02T04:51:24.433484",
+  "newsCount": 1437,
   "dateRange": {
     "start": "2026-02-26",
     "end": "2026-03-02"
@@ -8,28 +8,35 @@
   "topKeywords": [
     {
       "date": "2026-03-02",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-03-02",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2026-03-02",
-      "keyword": "军工",
+      "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 1
     },
     {
       "date": "2026-03-02",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2026-03-02",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-03-02",
       "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-02",
+      "keyword": "军工",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-01",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -104,7 +104,7 @@
     ],
     [
       "比亚迪",
-      1
+      2
     ],
     [
       "中际旭创",
