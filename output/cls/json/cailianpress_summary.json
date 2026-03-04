@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-03-04T14:09:27.796367",
-  "newsCount": 1668,
+  "lastUpdate": "2026-03-04T15:05:53.455421",
+  "newsCount": 1688,
   "dateRange": {
     "start": "2026-02-28",
     "end": "2026-03-04"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-04",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
     {
       "date": "2026-03-04",
       "keyword": "无人机",
@@ -26,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-04",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-03-04",
