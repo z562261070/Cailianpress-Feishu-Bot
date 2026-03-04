@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-03-04T04:20:20.851222",
-  "newsCount": 1469,
+  "lastUpdate": "2026-03-04T05:30:19.844906",
+  "newsCount": 1489,
   "dateRange": {
     "start": "2026-02-28",
     "end": "2026-03-04"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-04",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2026-03-04",
       "keyword": "无人机",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-03-03",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
@@ -103,16 +103,16 @@
       3
     ],
     [
+      "京东",
+      2
+    ],
+    [
       "中际旭创",
       2
     ],
     [
       "比亚迪",
       2
-    ],
-    [
-      "京东",
-      1
     ],
     [
       "理想汽车",
