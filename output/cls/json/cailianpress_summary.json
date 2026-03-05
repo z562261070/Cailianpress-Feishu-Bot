@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-05T09:51:16.329179",
-  "newsCount": 1557,
+  "lastUpdate": "2026-03-05T10:46:56.212977",
+  "newsCount": 1577,
   "dateRange": {
     "start": "2026-03-01",
     "end": "2026-03-05"
@@ -11,7 +11,21 @@
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 3
+    },
+    {
+      "date": "2026-03-05",
+      "keyword": "无人机",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-03-05",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
     },
     {
       "date": "2026-03-05",
@@ -19,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 11
-    },
-    {
-      "date": "2026-03-05",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-03-05",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-03-05",
-      "keyword": "无人机",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2026-03-05",
@@ -95,12 +95,12 @@
       5
     ],
     [
-      "谷歌",
+      "京东",
       4
     ],
     [
-      "京东",
-      3
+      "谷歌",
+      4
     ],
     [
       "中际旭创",
