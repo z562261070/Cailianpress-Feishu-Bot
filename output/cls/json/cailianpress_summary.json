@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-03-06T11:33:48.552814",
-  "newsCount": 1608,
+  "lastUpdate": "2026-03-06T13:05:51.395855",
+  "newsCount": 1628,
   "dateRange": {
     "start": "2026-03-02",
     "end": "2026-03-06"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-06",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-06",
+      "keyword": "无人机",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 10
+    },
     {
       "date": "2026-03-06",
       "keyword": "人工智能",
@@ -29,24 +43,10 @@
     },
     {
       "date": "2026-03-06",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-06",
       "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-06",
-      "keyword": "无人机",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
     },
     {
       "date": "2026-03-06",
@@ -95,12 +95,12 @@
       7
     ],
     [
-      "华为",
+      "腾讯",
       4
     ],
     [
-      "腾讯",
-      3
+      "华为",
+      4
     ],
     [
       "比亚迪",
