@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-06T04:21:14.718646",
-  "newsCount": 1468,
+  "lastUpdate": "2026-03-06T05:32:08.010229",
+  "newsCount": 1488,
   "dateRange": {
     "start": "2026-03-02",
     "end": "2026-03-06"
@@ -8,14 +8,35 @@
   "topKeywords": [
     {
       "date": "2026-03-06",
-      "keyword": "机器人",
-      "positive": 0,
+      "keyword": "无人机",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-03-06",
+      "keyword": "算力",
+      "positive": 1,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2026-03-06",
       "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-03-06",
+      "keyword": "军工",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-06",
+      "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 2
@@ -26,20 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-03-06",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-06",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
     },
     {
       "date": "2026-03-06",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-03-05",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
