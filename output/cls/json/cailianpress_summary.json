@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-08T10:29:55.883837",
-  "newsCount": 1448,
+  "lastUpdate": "2026-03-08T10:53:55.188334",
+  "newsCount": 1454,
   "dateRange": {
     "start": "2026-03-04",
     "end": "2026-03-08"
@@ -11,7 +11,7 @@
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 8
+      "neutral": 10
     },
     {
       "date": "2026-03-08",
