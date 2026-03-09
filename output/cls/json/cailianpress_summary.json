@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-09T02:35:22.523118",
-  "newsCount": 1267,
+  "lastUpdate": "2026-03-09T04:55:26.705242",
+  "newsCount": 1287,
   "dateRange": {
     "start": "2026-03-05",
     "end": "2026-03-09"
@@ -8,7 +8,28 @@
   "topKeywords": [
     {
       "date": "2026-03-09",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-09",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-09",
       "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-09",
+      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -54,49 +75,28 @@
       "positive": 0,
       "negative": 0,
       "neutral": 21
-    },
-    {
-      "date": "2026-03-07",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-03-07",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2026-03-07",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     }
   ],
   "topStocks": [
     [
       "京东",
-      7
+      8
+    ],
+    [
+      "英伟达",
+      5
+    ],
+    [
+      "阿里巴巴",
+      5
+    ],
+    [
+      "网易",
+      4
     ],
     [
       "谷歌",
       4
-    ],
-    [
-      "阿里巴巴",
-      4
-    ],
-    [
-      "英伟达",
-      4
-    ],
-    [
-      "网易",
-      3
     ],
     [
       "比亚迪",
