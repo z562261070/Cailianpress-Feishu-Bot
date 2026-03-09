@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-09T11:37:12.428046",
-  "newsCount": 1407,
+  "lastUpdate": "2026-03-09T13:13:33.665373",
+  "newsCount": 1427,
   "dateRange": {
     "start": "2026-03-05",
     "end": "2026-03-09"
@@ -8,15 +8,22 @@
   "topKeywords": [
     {
       "date": "2026-03-09",
-      "keyword": "无人机",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-03-09",
+      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 3
     },
     {
       "date": "2026-03-09",
-      "keyword": "算力",
-      "positive": 2,
+      "keyword": "无人机",
+      "positive": 0,
       "negative": 0,
       "neutral": 4
     },
@@ -33,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-09",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-03-08",
@@ -109,6 +109,10 @@
     [
       "比亚迪",
       2
+    ],
+    [
+      "宁德时代",
+      1
     ],
     [
       "小米",
