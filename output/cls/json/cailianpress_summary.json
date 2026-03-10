@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-10T10:45:59.489514",
-  "newsCount": 1390,
+  "lastUpdate": "2026-03-10T11:36:11.423643",
+  "newsCount": 1410,
   "dateRange": {
     "start": "2026-03-06",
     "end": "2026-03-10"
@@ -8,31 +8,38 @@
   "topKeywords": [
     {
       "date": "2026-03-10",
-      "keyword": "无人机",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 7
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2026-03-10",
-      "keyword": "算力",
-      "positive": 1,
+      "keyword": "芯片",
+      "positive": 2,
       "negative": 0,
-      "neutral": 6
+      "neutral": 11
+    },
+    {
+      "date": "2026-03-10",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2026-03-10",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2026-03-10",
-      "keyword": "芯片",
+      "keyword": "无人机",
       "positive": 1,
-      "negative": 0,
-      "neutral": 11
+      "negative": 1,
+      "neutral": 7
     },
     {
       "date": "2026-03-10",
@@ -45,13 +52,6 @@
       "date": "2026-03-10",
       "keyword": "半导体",
       "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-10",
-      "keyword": "机器人",
-      "positive": 0,
       "negative": 0,
       "neutral": 1
     },
@@ -92,7 +92,7 @@
     ],
     [
       "华为",
-      5
+      6
     ],
     [
       "阿里巴巴",
@@ -101,6 +101,10 @@
     [
       "网易",
       3
+    ],
+    [
+      "小米",
+      2
     ],
     [
       "比亚迪",
@@ -112,10 +116,6 @@
     ],
     [
       "宁德时代",
-      1
-    ],
-    [
-      "小米",
       1
     ],
     [
