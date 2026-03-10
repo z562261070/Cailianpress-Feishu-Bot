@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-10T04:21:56.721699",
-  "newsCount": 1270,
+  "lastUpdate": "2026-03-10T05:32:47.609259",
+  "newsCount": 1290,
   "dateRange": {
     "start": "2026-03-06",
     "end": "2026-03-10"
@@ -11,12 +11,26 @@
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2026-03-10",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
       "neutral": 3
     },
     {
       "date": "2026-03-10",
-      "keyword": "无人机",
+      "keyword": "人工智能",
       "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-10",
+      "keyword": "无人机",
+      "positive": 1,
       "negative": 1,
       "neutral": 5
     },
@@ -24,13 +38,6 @@
       "date": "2026-03-10",
       "keyword": "新能源",
       "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-10",
-      "keyword": "算力",
-      "positive": 1,
       "negative": 0,
       "neutral": 1
     },
@@ -44,13 +51,6 @@
     {
       "date": "2026-03-10",
       "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-10",
-      "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -103,15 +103,15 @@
       3
     ],
     [
+      "比亚迪",
+      2
+    ],
+    [
       "理想汽车",
       2
     ],
     [
       "宁德时代",
-      1
-    ],
-    [
-      "比亚迪",
       1
     ],
     [
