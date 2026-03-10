@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-10T06:57:12.791142",
-  "newsCount": 1310,
+  "lastUpdate": "2026-03-10T07:46:30.706216",
+  "newsCount": 1330,
   "dateRange": {
     "start": "2026-03-06",
     "end": "2026-03-10"
@@ -11,7 +11,14 @@
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 6
+      "neutral": 8
+    },
+    {
+      "date": "2026-03-10",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2026-03-10",
@@ -19,13 +26,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-10",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-03-10",
@@ -79,11 +79,11 @@
   ],
   "topStocks": [
     [
-      "京东",
-      7
+      "英伟达",
+      8
     ],
     [
-      "英伟达",
+      "京东",
       7
     ],
     [
