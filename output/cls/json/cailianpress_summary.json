@@ -1,11 +1,46 @@
 {
-  "lastUpdate": "2026-03-10T23:32:15.177779",
-  "newsCount": 1470,
+  "lastUpdate": "2026-03-11T02:26:31.774121",
+  "newsCount": 1252,
   "dateRange": {
-    "start": "2026-03-06",
-    "end": "2026-03-10"
+    "start": "2026-03-07",
+    "end": "2026-03-11"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-11",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-11",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-03-11",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-11",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-11",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-03-10",
       "keyword": "无人机",
@@ -40,62 +75,23 @@
       "positive": 0,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2026-03-10",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-10",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-09",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-03-09",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-03-09",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      10
+      9
     ],
     [
       "华为",
-      8
-    ],
-    [
-      "腾讯",
-      8
-    ],
-    [
-      "京东",
       7
     ],
     [
-      "比亚迪",
+      "腾讯",
+      6
+    ],
+    [
+      "谷歌",
       3
     ],
     [
@@ -103,11 +99,15 @@
       3
     ],
     [
-      "网易",
+      "比亚迪",
       3
     ],
     [
-      "谷歌",
+      "京东",
+      3
+    ],
+    [
+      "宁德时代",
       2
     ],
     [
@@ -123,7 +123,7 @@
       1
     ],
     [
-      "宁德时代",
+      "网易",
       1
     ]
   ]
