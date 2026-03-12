@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-03-11T23:31:03.340906",
-  "newsCount": 1480,
+  "lastUpdate": "2026-03-12T02:32:36.437435",
+  "newsCount": 1291,
   "dateRange": {
-    "start": "2026-03-07",
-    "end": "2026-03-11"
+    "start": "2026-03-08",
+    "end": "2026-03-12"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-12",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-12",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
     {
       "date": "2026-03-11",
       "keyword": "无人机",
@@ -61,30 +75,16 @@
       "positive": 1,
       "negative": 1,
       "neutral": 10
-    },
-    {
-      "date": "2026-03-10",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-03-10",
-      "keyword": "算力",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
     [
-      "英伟达",
-      11
+      "腾讯",
+      12
     ],
     [
-      "腾讯",
-      10
+      "英伟达",
+      12
     ],
     [
       "华为",
@@ -107,16 +107,16 @@
       4
     ],
     [
+      "理想汽车",
+      3
+    ],
+    [
       "小米",
       3
     ],
     [
       "京东",
       3
-    ],
-    [
-      "理想汽车",
-      2
     ],
     [
       "TCL",
