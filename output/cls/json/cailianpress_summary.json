@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-12T13:11:00.759057",
-  "newsCount": 1471,
+  "lastUpdate": "2026-03-12T14:27:08.940392",
+  "newsCount": 1491,
   "dateRange": {
     "start": "2026-03-08",
     "end": "2026-03-12"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-03-12",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-12",
       "keyword": "算力",
       "positive": 0,
       "negative": 1,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2026-03-12",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 8
     },
     {
       "date": "2026-03-12",
@@ -29,24 +43,10 @@
     },
     {
       "date": "2026-03-12",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-03-12",
       "keyword": "新能源",
       "positive": 1,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-03-12",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-03-12",
@@ -92,6 +92,10 @@
     ],
     [
       "宁德时代",
+      8
+    ],
+    [
+      "比亚迪",
       7
     ],
     [
@@ -100,10 +104,6 @@
     ],
     [
       "阿里巴巴",
-      6
-    ],
-    [
-      "比亚迪",
       6
     ],
     [
