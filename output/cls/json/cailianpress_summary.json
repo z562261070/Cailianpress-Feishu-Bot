@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-12T11:06:48.912762",
-  "newsCount": 1431,
+  "lastUpdate": "2026-03-12T11:50:04.134716",
+  "newsCount": 1451,
   "dateRange": {
     "start": "2026-03-08",
     "end": "2026-03-12"
@@ -8,38 +8,38 @@
   "topKeywords": [
     {
       "date": "2026-03-12",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 1,
-      "neutral": 7
-    },
-    {
-      "date": "2026-03-12",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2026-03-12",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
+      "neutral": 12
     },
     {
       "date": "2026-03-12",
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-12",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
     },
     {
       "date": "2026-03-12",
       "keyword": "新能源",
-      "positive": 0,
+      "positive": 1,
       "negative": 0,
       "neutral": 2
+    },
+    {
+      "date": "2026-03-12",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 1,
+      "neutral": 8
     },
     {
       "date": "2026-03-12",
@@ -88,7 +88,11 @@
     ],
     [
       "华为",
-      10
+      11
+    ],
+    [
+      "宁德时代",
+      7
     ],
     [
       "谷歌",
@@ -100,10 +104,6 @@
     ],
     [
       "比亚迪",
-      6
-    ],
-    [
-      "宁德时代",
       6
     ],
     [
