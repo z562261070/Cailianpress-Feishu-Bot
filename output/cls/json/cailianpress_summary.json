@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-13T15:10:02.530153",
-  "newsCount": 1621,
+  "lastUpdate": "2026-03-13T16:03:30.227743",
+  "newsCount": 1640,
   "dateRange": {
     "start": "2026-03-09",
     "end": "2026-03-13"
@@ -8,10 +8,17 @@
   "topKeywords": [
     {
       "date": "2026-03-13",
-      "keyword": "半导体",
+      "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 6
+    },
+    {
+      "date": "2026-03-13",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
     },
     {
       "date": "2026-03-13",
@@ -47,13 +54,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-13",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2026-03-12",
