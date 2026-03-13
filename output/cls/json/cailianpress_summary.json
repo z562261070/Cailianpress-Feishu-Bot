@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-03-13T05:52:32.463191",
-  "newsCount": 1442,
+  "lastUpdate": "2026-03-13T07:00:44.846955",
+  "newsCount": 1462,
   "dateRange": {
     "start": "2026-03-09",
     "end": "2026-03-13"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-13",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-13",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-13",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-03-13",
       "keyword": "算力",
@@ -35,13 +56,6 @@
       "neutral": 5
     },
     {
-      "date": "2026-03-13",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
       "date": "2026-03-12",
       "keyword": "新能源",
       "positive": 2,
@@ -61,20 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-03-12",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 5
-    },
-    {
-      "date": "2026-03-12",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
@@ -107,6 +107,10 @@
       6
     ],
     [
+      "京东",
+      4
+    ],
+    [
       "小米",
       3
     ],
@@ -115,8 +119,8 @@
       3
     ],
     [
-      "京东",
-      3
+      "航天电子",
+      1
     ],
     [
       "TCL",
