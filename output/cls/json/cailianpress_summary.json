@@ -1,11 +1,46 @@
 {
-  "lastUpdate": "2026-03-12T23:32:26.455060",
-  "newsCount": 1516,
+  "lastUpdate": "2026-03-13T02:30:29.127634",
+  "newsCount": 1402,
   "dateRange": {
-    "start": "2026-03-08",
-    "end": "2026-03-12"
+    "start": "2026-03-09",
+    "end": "2026-03-13"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-13",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-13",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-13",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-13",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-03-13",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-03-12",
       "keyword": "新能源",
@@ -40,51 +75,16 @@
       "positive": 0,
       "negative": 0,
       "neutral": 8
-    },
-    {
-      "date": "2026-03-12",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 12
-    },
-    {
-      "date": "2026-03-12",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-11",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 11
-    },
-    {
-      "date": "2026-03-11",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-03-11",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
     [
       "腾讯",
-      17
+      18
     ],
     [
       "英伟达",
-      14
+      16
     ],
     [
       "华为",
@@ -95,12 +95,12 @@
       8
     ],
     [
-      "比亚迪",
+      "谷歌",
       7
     ],
     [
-      "谷歌",
-      7
+      "比亚迪",
+      6
     ],
     [
       "阿里巴巴",
@@ -108,7 +108,7 @@
     ],
     [
       "小米",
-      4
+      3
     ],
     [
       "理想汽车",
