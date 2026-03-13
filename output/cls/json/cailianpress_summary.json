@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-13T07:00:44.846955",
-  "newsCount": 1462,
+  "lastUpdate": "2026-03-13T08:01:38.036769",
+  "newsCount": 1482,
   "dateRange": {
     "start": "2026-03-09",
     "end": "2026-03-13"
@@ -8,10 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-03-13",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-03-13",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-13",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-13",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2026-03-13",
@@ -22,31 +43,10 @@
     },
     {
       "date": "2026-03-13",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-03-13",
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-13",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-13",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-03-13",
@@ -91,12 +91,12 @@
       11
     ],
     [
-      "宁德时代",
+      "谷歌",
       8
     ],
     [
-      "谷歌",
-      7
+      "宁德时代",
+      8
     ],
     [
       "比亚迪",
@@ -107,15 +107,15 @@
       6
     ],
     [
+      "理想汽车",
+      4
+    ],
+    [
       "京东",
       4
     ],
     [
       "小米",
-      3
-    ],
-    [
-      "理想汽车",
       3
     ],
     [
