@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-03-14T02:28:24.294502",
-  "newsCount": 1459,
+  "lastUpdate": "2026-03-14T04:22:46.127752",
+  "newsCount": 1472,
   "dateRange": {
     "start": "2026-03-10",
     "end": "2026-03-14"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-14",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-03-14",
       "keyword": "人工智能",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-12",
-      "keyword": "新能源",
-      "positive": 2,
-      "negative": 0,
-      "neutral": 3
     }
   ],
   "topStocks": [
@@ -88,7 +88,7 @@
     ],
     [
       "华为",
-      10
+      11
     ],
     [
       "谷歌",
