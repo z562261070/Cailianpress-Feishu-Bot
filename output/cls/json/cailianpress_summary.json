@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-15T06:33:32.958693",
-  "newsCount": 1361,
+  "lastUpdate": "2026-03-15T07:47:56.871708",
+  "newsCount": 1379,
   "dateRange": {
     "start": "2026-03-11",
     "end": "2026-03-15"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-03-15",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
+    },
+    {
+      "date": "2026-03-15",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-15",
       "keyword": "人工智能",
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-15",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
     },
     {
       "date": "2026-03-15",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-14",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 5
     }
   ],
   "topStocks": [
@@ -108,7 +108,7 @@
     ],
     [
       "理想汽车",
-      2
+      3
     ],
     [
       "小米",
