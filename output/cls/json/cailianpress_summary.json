@@ -1,11 +1,32 @@
 {
-  "lastUpdate": "2026-03-16T02:49:21.275235",
-  "newsCount": 1263,
+  "lastUpdate": "2026-03-16T05:20:36.394911",
+  "newsCount": 1283,
   "dateRange": {
     "start": "2026-03-12",
     "end": "2026-03-16"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-16",
+      "keyword": "芯片",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-16",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-16",
+      "keyword": "算力",
+      "positive": 2,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2026-03-16",
       "keyword": "无人机",
@@ -22,28 +43,7 @@
     },
     {
       "date": "2026-03-16",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2026-03-16",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2026-03-16",
       "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-16",
-      "keyword": "半导体",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -87,12 +87,12 @@
       8
     ],
     [
-      "华为",
-      5
+      "阿里巴巴",
+      6
     ],
     [
-      "阿里巴巴",
-      4
+      "华为",
+      5
     ],
     [
       "宁德时代",
