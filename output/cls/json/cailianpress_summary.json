@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-16T11:52:39.060043",
-  "newsCount": 1383,
+  "lastUpdate": "2026-03-16T13:22:53.577924",
+  "newsCount": 1403,
   "dateRange": {
     "start": "2026-03-12",
     "end": "2026-03-16"
@@ -11,7 +11,7 @@
       "keyword": "半导体",
       "positive": 1,
       "negative": 0,
-      "neutral": 8
+      "neutral": 9
     },
     {
       "date": "2026-03-16",
