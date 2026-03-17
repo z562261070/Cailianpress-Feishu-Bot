@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-17T15:07:16.365694",
-  "newsCount": 1411,
+  "lastUpdate": "2026-03-17T16:40:34.230590",
+  "newsCount": 1424,
   "dateRange": {
     "start": "2026-03-13",
     "end": "2026-03-17"
@@ -8,10 +8,17 @@
   "topKeywords": [
     {
       "date": "2026-03-17",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 12
+    },
+    {
+      "date": "2026-03-17",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 11
+      "neutral": 12
     },
     {
       "date": "2026-03-17",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-03-17",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 10
     },
     {
       "date": "2026-03-17",
@@ -99,6 +99,10 @@
       4
     ],
     [
+      "谷歌",
+      3
+    ],
+    [
       "小米",
       3
     ],
@@ -112,10 +116,6 @@
     ],
     [
       "宁德时代",
-      2
-    ],
-    [
-      "谷歌",
       2
     ],
     [
