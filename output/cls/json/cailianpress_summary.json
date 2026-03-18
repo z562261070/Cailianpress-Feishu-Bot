@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-03-18T07:36:40.162988",
-  "newsCount": 1243,
+  "lastUpdate": "2026-03-18T08:55:41.198007",
+  "newsCount": 1263,
   "dateRange": {
     "start": "2026-03-14",
     "end": "2026-03-18"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-18",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-03-18",
       "keyword": "半导体",
@@ -33,13 +40,6 @@
       "positive": 1,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-18",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-03-18",
@@ -84,7 +84,7 @@
     ],
     [
       "腾讯",
-      20
+      26
     ],
     [
       "阿里巴巴",
