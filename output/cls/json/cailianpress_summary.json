@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-18T11:25:13.217187",
-  "newsCount": 1303,
+  "lastUpdate": "2026-03-18T12:05:34.739247",
+  "newsCount": 1323,
   "dateRange": {
     "start": "2026-03-14",
     "end": "2026-03-18"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-03-18",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 8
-    },
-    {
-      "date": "2026-03-18",
       "keyword": "无人机",
       "positive": 0,
       "negative": 1,
-      "neutral": 3
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-18",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-18",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 9
     },
     {
       "date": "2026-03-18",
@@ -30,13 +37,6 @@
     {
       "date": "2026-03-18",
       "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-03-18",
-      "keyword": "算力",
       "positive": 1,
       "negative": 0,
       "neutral": 3
@@ -84,7 +84,7 @@
     ],
     [
       "腾讯",
-      27
+      29
     ],
     [
       "阿里巴巴",
