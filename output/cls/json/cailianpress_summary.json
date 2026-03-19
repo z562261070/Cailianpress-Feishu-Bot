@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-03-19T13:15:20.993182",
-  "newsCount": 1396,
+  "lastUpdate": "2026-03-19T14:28:29.076805",
+  "newsCount": 1416,
   "dateRange": {
     "start": "2026-03-15",
     "end": "2026-03-19"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-19",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-19",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
     {
       "date": "2026-03-19",
       "keyword": "人工智能",
@@ -19,20 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-03-19",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-03-19",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-03-19",
@@ -95,11 +95,11 @@
       11
     ],
     [
-      "理想汽车",
-      5
+      "谷歌",
+      6
     ],
     [
-      "谷歌",
+      "理想汽车",
       5
     ],
     [
