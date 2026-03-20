@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-20T04:50:10.732802",
-  "newsCount": 1348,
+  "lastUpdate": "2026-03-20T05:55:31.230911",
+  "newsCount": 1368,
   "dateRange": {
     "start": "2026-03-16",
     "end": "2026-03-20"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-03-20",
-      "keyword": "半导体",
+      "keyword": "芯片",
       "positive": 0,
       "negative": 0,
-      "neutral": 3
+      "neutral": 2
     },
     {
       "date": "2026-03-20",
       "keyword": "算力",
       "positive": 1,
       "negative": 0,
-      "neutral": 4
+      "neutral": 5
+    },
+    {
+      "date": "2026-03-20",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
     },
     {
       "date": "2026-03-20",
@@ -40,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-03-20",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-03-20",
@@ -84,11 +84,11 @@
     ],
     [
       "腾讯",
-      28
+      30
     ],
     [
       "阿里巴巴",
-      19
+      20
     ],
     [
       "小米",
