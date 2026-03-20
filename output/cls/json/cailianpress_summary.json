@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-20T02:31:05.568837",
-  "newsCount": 1328,
+  "lastUpdate": "2026-03-20T04:50:10.732802",
+  "newsCount": 1348,
   "dateRange": {
     "start": "2026-03-16",
     "end": "2026-03-20"
@@ -8,24 +8,31 @@
   "topKeywords": [
     {
       "date": "2026-03-20",
-      "keyword": "人工智能",
+      "keyword": "半导体",
       "positive": 0,
-      "negative": 1,
+      "negative": 0,
       "neutral": 3
     },
     {
       "date": "2026-03-20",
-      "keyword": "半导体",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-20",
+      "keyword": "新能源",
       "positive": 0,
       "negative": 0,
       "neutral": 2
     },
     {
       "date": "2026-03-20",
-      "keyword": "算力",
+      "keyword": "人工智能",
       "positive": 0,
-      "negative": 0,
-      "neutral": 4
+      "negative": 1,
+      "neutral": 3
     },
     {
       "date": "2026-03-20",
@@ -46,13 +53,6 @@
       "keyword": "机器人",
       "positive": 0,
       "negative": 1,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-20",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
       "neutral": 1
     },
     {
@@ -80,7 +80,7 @@
   "topStocks": [
     [
       "英伟达",
-      39
+      40
     ],
     [
       "腾讯",
@@ -88,15 +88,19 @@
     ],
     [
       "阿里巴巴",
-      18
+      19
     ],
     [
       "小米",
-      11
+      12
     ],
     [
       "谷歌",
       6
+    ],
+    [
+      "京东",
+      4
     ],
     [
       "华为",
@@ -107,19 +111,15 @@
       4
     ],
     [
-      "京东",
+      "宁德时代",
       3
     ],
     [
-      "宁德时代",
-      2
+      "中际旭创",
+      3
     ],
     [
       "比亚迪",
-      2
-    ],
-    [
-      "中际旭创",
       2
     ],
     [
