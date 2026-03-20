@@ -1,11 +1,60 @@
 {
-  "lastUpdate": "2026-03-19T23:34:12.569836",
-  "newsCount": 1447,
+  "lastUpdate": "2026-03-20T02:31:05.568837",
+  "newsCount": 1328,
   "dateRange": {
-    "start": "2026-03-15",
-    "end": "2026-03-19"
+    "start": "2026-03-16",
+    "end": "2026-03-20"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-20",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 3
+    },
+    {
+      "date": "2026-03-20",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-20",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-20",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-20",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-20",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-20",
+      "keyword": "新能源",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-03-19",
       "keyword": "无人机",
@@ -26,69 +75,20 @@
       "positive": 0,
       "negative": 0,
       "neutral": 7
-    },
-    {
-      "date": "2026-03-19",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-03-19",
-      "keyword": "新能源",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
-    },
-    {
-      "date": "2026-03-19",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-03-19",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-18",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-03-18",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 10
-    },
-    {
-      "date": "2026-03-18",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4
     }
   ],
   "topStocks": [
     [
       "英伟达",
-      37
+      39
     ],
     [
       "腾讯",
-      30
+      28
     ],
     [
       "阿里巴巴",
-      17
+      18
     ],
     [
       "小米",
@@ -99,11 +99,11 @@
       6
     ],
     [
-      "理想汽车",
-      5
+      "华为",
+      4
     ],
     [
-      "华为",
+      "理想汽车",
       4
     ],
     [
