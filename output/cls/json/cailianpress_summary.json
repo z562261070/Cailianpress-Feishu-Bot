@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2026-03-21T23:52:32.459231",
-  "newsCount": 1640,
+  "lastUpdate": "2026-03-22T02:40:36.098028",
+  "newsCount": 1355,
   "dateRange": {
-    "start": "2026-03-17",
-    "end": "2026-03-21"
+    "start": "2026-03-18",
+    "end": "2026-03-22"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-22",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-22",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-22",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-22",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-03-21",
       "keyword": "人工智能",
@@ -47,60 +75,32 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-03-20",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 9
-    },
-    {
-      "date": "2026-03-20",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-03-20",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 7
-    },
-    {
-      "date": "2026-03-20",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 1,
-      "neutral": 6
     }
   ],
   "topStocks": [
     [
-      "英伟达",
-      39
-    ],
-    [
       "腾讯",
-      25
+      22
     ],
     [
       "阿里巴巴",
-      15
+      12
     ],
     [
-      "小米",
+      "英伟达",
       11
     ],
     [
+      "小米",
+      10
+    ],
+    [
       "华为",
-      7
+      5
     ],
     [
       "谷歌",
-      5
+      4
     ],
     [
       "京东",
@@ -108,18 +108,14 @@
     ],
     [
       "宁德时代",
-      3
+      2
     ],
     [
       "理想汽车",
-      3
+      2
     ],
     [
       "中际旭创",
-      1
-    ],
-    [
-      "比亚迪",
       1
     ]
   ]
