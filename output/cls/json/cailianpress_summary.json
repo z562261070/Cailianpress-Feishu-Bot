@@ -1,11 +1,18 @@
 {
-  "lastUpdate": "2026-03-22T09:37:44.070104",
-  "newsCount": 1431,
+  "lastUpdate": "2026-03-22T10:32:38.523261",
+  "newsCount": 1438,
   "dateRange": {
     "start": "2026-03-18",
     "end": "2026-03-22"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-22",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
     {
       "date": "2026-03-22",
       "keyword": "无人机",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-03-21",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 11
     }
   ],
   "topStocks": [
