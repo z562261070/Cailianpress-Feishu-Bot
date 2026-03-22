@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-22T07:01:40.368035",
-  "newsCount": 1383,
+  "lastUpdate": "2026-03-22T07:56:52.803652",
+  "newsCount": 1398,
   "dateRange": {
     "start": "2026-03-18",
     "end": "2026-03-22"
@@ -8,17 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-03-22",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-03-22",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 3
+    },
+    {
+      "date": "2026-03-22",
       "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-03-22",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-03-22",
@@ -33,13 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-03-22",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     },
     {
       "date": "2026-03-22",
@@ -83,12 +83,12 @@
       22
     ],
     [
-      "阿里巴巴",
+      "英伟达",
       12
     ],
     [
-      "英伟达",
-      11
+      "阿里巴巴",
+      12
     ],
     [
       "小米",
@@ -107,16 +107,16 @@
       3
     ],
     [
+      "中际旭创",
+      2
+    ],
+    [
       "宁德时代",
       2
     ],
     [
       "理想汽车",
       2
-    ],
-    [
-      "中际旭创",
-      1
     ]
   ]
 }
