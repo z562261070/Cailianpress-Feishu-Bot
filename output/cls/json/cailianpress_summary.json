@@ -1,11 +1,46 @@
 {
-  "lastUpdate": "2026-03-22T23:33:25.298051",
-  "newsCount": 1540,
+  "lastUpdate": "2026-03-23T02:40:55.127377",
+  "newsCount": 1318,
   "dateRange": {
-    "start": "2026-03-18",
-    "end": "2026-03-22"
+    "start": "2026-03-19",
+    "end": "2026-03-23"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-23",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-23",
+      "keyword": "新能源",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-23",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-23",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-23",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-03-22",
       "keyword": "算力",
@@ -40,66 +75,31 @@
       "positive": 0,
       "negative": 0,
       "neutral": 4
-    },
-    {
-      "date": "2026-03-22",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-22",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-21",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 12
-    },
-    {
-      "date": "2026-03-21",
-      "keyword": "芯片",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-03-21",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
     [
-      "腾讯",
-      22
-    ],
-    [
       "英伟达",
-      12
+      9
     ],
     [
       "阿里巴巴",
-      12
+      9
+    ],
+    [
+      "腾讯",
+      7
     ],
     [
       "小米",
-      10
-    ],
-    [
-      "华为",
-      5
+      7
     ],
     [
       "谷歌",
+      4
+    ],
+    [
+      "华为",
       4
     ],
     [
@@ -108,7 +108,7 @@
     ],
     [
       "京东",
-      3
+      2
     ],
     [
       "宁德时代",
@@ -116,7 +116,7 @@
     ],
     [
       "理想汽车",
-      2
+      1
     ]
   ]
 }
