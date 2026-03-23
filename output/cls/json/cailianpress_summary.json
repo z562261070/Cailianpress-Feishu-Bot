@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-23T09:37:36.556911",
-  "newsCount": 1398,
+  "lastUpdate": "2026-03-23T10:56:12.288244",
+  "newsCount": 1418,
   "dateRange": {
     "start": "2026-03-19",
     "end": "2026-03-23"
@@ -8,24 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-03-23",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-23",
       "keyword": "算力",
       "positive": 0,
       "negative": 0,
-      "neutral": 1
+      "neutral": 2
     },
     {
       "date": "2026-03-23",
       "keyword": "新能源",
       "positive": 2,
       "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-23",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
+      "neutral": 2
     },
     {
       "date": "2026-03-23",
@@ -113,6 +113,10 @@
     [
       "宁德时代",
       2
+    ],
+    [
+      "TCL",
+      1
     ],
     [
       "理想汽车",
