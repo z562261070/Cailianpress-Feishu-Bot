@@ -1,11 +1,25 @@
 {
-  "lastUpdate": "2026-03-24T06:05:20.282468",
-  "newsCount": 1323,
+  "lastUpdate": "2026-03-24T07:36:03.677906",
+  "newsCount": 1343,
   "dateRange": {
     "start": "2026-03-20",
     "end": "2026-03-24"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-24",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-24",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-03-24",
       "keyword": "算力",
@@ -19,13 +33,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-03-24",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-03-24",
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 3
-    },
-    {
-      "date": "2026-03-23",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2
     }
   ],
   "topStocks": [
@@ -84,11 +84,11 @@
     ],
     [
       "阿里巴巴",
-      6
+      8
     ],
     [
       "腾讯",
-      4
+      6
     ],
     [
       "华为",
@@ -113,6 +113,14 @@
     [
       "宁德时代",
       2
+    ],
+    [
+      "理想汽车",
+      1
+    ],
+    [
+      "比亚迪",
+      1
     ],
     [
       "上纬新材",
