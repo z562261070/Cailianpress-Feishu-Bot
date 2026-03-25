@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-25T12:03:25.480329",
-  "newsCount": 1383,
+  "lastUpdate": "2026-03-25T13:55:11.092641",
+  "newsCount": 1403,
   "dateRange": {
     "start": "2026-03-21",
     "end": "2026-03-25"
@@ -11,28 +11,28 @@
       "keyword": "人工智能",
       "positive": 1,
       "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-03-25",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
+      "neutral": 9
     },
     {
       "date": "2026-03-25",
       "keyword": "芯片",
       "positive": 1,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
     },
     {
       "date": "2026-03-25",
       "keyword": "半导体",
       "positive": 2,
       "negative": 0,
-      "neutral": 1
+      "neutral": 3
+    },
+    {
+      "date": "2026-03-25",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
     },
     {
       "date": "2026-03-25",
@@ -79,6 +79,10 @@
   ],
   "topStocks": [
     [
+      "英伟达",
+      7
+    ],
+    [
       "阿里巴巴",
       7
     ],
@@ -88,10 +92,6 @@
     ],
     [
       "小米",
-      6
-    ],
-    [
-      "英伟达",
       6
     ],
     [
