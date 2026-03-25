@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-25T10:00:39.672504",
-  "newsCount": 1343,
+  "lastUpdate": "2026-03-25T11:22:38.750745",
+  "newsCount": 1363,
   "dateRange": {
     "start": "2026-03-21",
     "end": "2026-03-25"
@@ -8,10 +8,24 @@
   "topKeywords": [
     {
       "date": "2026-03-25",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-25",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5
+    },
+    {
+      "date": "2026-03-25",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 7
+      "neutral": 8
     },
     {
       "date": "2026-03-25",
@@ -26,20 +40,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 5
-    },
-    {
-      "date": "2026-03-25",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-03-25",
-      "keyword": "人工智能",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 4
     },
     {
       "date": "2026-03-25",
@@ -99,6 +99,10 @@
       5
     ],
     [
+      "比亚迪",
+      3
+    ],
+    [
       "谷歌",
       3
     ],
@@ -108,10 +112,6 @@
     ],
     [
       "京东",
-      2
-    ],
-    [
-      "比亚迪",
       2
     ],
     [
