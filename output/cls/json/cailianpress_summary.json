@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-26T13:27:22.854617",
-  "newsCount": 1358,
+  "lastUpdate": "2026-03-26T14:48:58.293129",
+  "newsCount": 1378,
   "dateRange": {
     "start": "2026-03-22",
     "end": "2026-03-26"
@@ -8,10 +8,38 @@
   "topKeywords": [
     {
       "date": "2026-03-26",
-      "keyword": "芯片",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 7
+    },
+    {
+      "date": "2026-03-26",
+      "keyword": "人工智能",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    {
+      "date": "2026-03-26",
+      "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 2
+    },
+    {
+      "date": "2026-03-26",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 4
+    },
+    {
+      "date": "2026-03-26",
+      "keyword": "算力",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 6
     },
     {
       "date": "2026-03-26",
@@ -22,38 +50,10 @@
     },
     {
       "date": "2026-03-26",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 6
-    },
-    {
-      "date": "2026-03-26",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-03-26",
-      "keyword": "算力",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 5
-    },
-    {
-      "date": "2026-03-26",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
       "neutral": 6
-    },
-    {
-      "date": "2026-03-26",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
     },
     {
       "date": "2026-03-26",
@@ -88,7 +88,7 @@
     ],
     [
       "谷歌",
-      6
+      7
     ],
     [
       "理想汽车",
