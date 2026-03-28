@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-28T11:36:40.552443",
-  "newsCount": 1415,
+  "lastUpdate": "2026-03-28T13:04:05.270504",
+  "newsCount": 1426,
   "dateRange": {
     "start": "2026-03-24",
     "end": "2026-03-28"
@@ -8,15 +8,36 @@
   "topKeywords": [
     {
       "date": "2026-03-28",
+      "keyword": "算力",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2
+    },
+    {
+      "date": "2026-03-28",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 5
+      "neutral": 6
+    },
+    {
+      "date": "2026-03-28",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-28",
+      "keyword": "芯片",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
     },
     {
       "date": "2026-03-28",
       "keyword": "人工智能",
-      "positive": 1,
+      "positive": 2,
       "negative": 0,
       "neutral": 5
     },
@@ -29,21 +50,7 @@
     },
     {
       "date": "2026-03-28",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
-    },
-    {
-      "date": "2026-03-28",
       "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-28",
-      "keyword": "机器人",
       "positive": 0,
       "negative": 0,
       "neutral": 1
@@ -68,13 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 2
-    },
-    {
-      "date": "2026-03-27",
-      "keyword": "半导体",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7
     }
   ],
   "topStocks": [
@@ -95,15 +95,15 @@
       6
     ],
     [
+      "腾讯",
+      5
+    ],
+    [
       "小米",
       5
     ],
     [
       "比亚迪",
-      4
-    ],
-    [
-      "腾讯",
       4
     ],
     [
