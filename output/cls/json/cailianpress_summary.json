@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-28T18:49:04.803675",
-  "newsCount": 1494,
+  "lastUpdate": "2026-03-28T19:33:21.386646",
+  "newsCount": 1506,
   "dateRange": {
     "start": "2026-03-24",
     "end": "2026-03-28"
@@ -11,14 +11,14 @@
       "keyword": "人工智能",
       "positive": 2,
       "negative": 0,
-      "neutral": 9
+      "neutral": 10
     },
     {
       "date": "2026-03-28",
       "keyword": "无人机",
       "positive": 0,
       "negative": 0,
-      "neutral": 15
+      "neutral": 17
     },
     {
       "date": "2026-03-28",
