@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2026-03-27T23:37:45.203726",
-  "newsCount": 1507,
+  "lastUpdate": "2026-03-28T02:36:12.741700",
+  "newsCount": 1349,
   "dateRange": {
-    "start": "2026-03-23",
-    "end": "2026-03-27"
+    "start": "2026-03-24",
+    "end": "2026-03-28"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-28",
+      "keyword": "半导体",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-28",
+      "keyword": "机器人",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-28",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-28",
+      "keyword": "人工智能",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2
+    },
     {
       "date": "2026-03-27",
       "keyword": "无人机",
@@ -47,34 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-03-27",
-      "keyword": "机器人",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
-    },
-    {
-      "date": "2026-03-27",
-      "keyword": "军工",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-26",
-      "keyword": "半导体",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 7
-    },
-    {
-      "date": "2026-03-26",
-      "keyword": "人工智能",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
     }
   ],
   "topStocks": [
@@ -88,7 +88,7 @@
     ],
     [
       "英伟达",
-      8
+      6
     ],
     [
       "理想汽车",
@@ -96,10 +96,6 @@
     ],
     [
       "小米",
-      6
-    ],
-    [
-      "腾讯",
       5
     ],
     [
@@ -107,16 +103,16 @@
       4
     ],
     [
+      "腾讯",
+      4
+    ],
+    [
       "京东",
       3
     ],
     [
-      "华为",
-      2
-    ],
-    [
-      "TCL",
-      2
+      "宁德时代",
+      1
     ],
     [
       "长城军工",
@@ -124,6 +120,14 @@
     ],
     [
       "网易",
+      1
+    ],
+    [
+      "华为",
+      1
+    ],
+    [
+      "TCL",
       1
     ],
     [
