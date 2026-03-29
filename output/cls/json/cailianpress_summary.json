@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-29T08:47:48.857989",
-  "newsCount": 1310,
+  "lastUpdate": "2026-03-29T09:42:00.889389",
+  "newsCount": 1322,
   "dateRange": {
     "start": "2026-03-25",
     "end": "2026-03-29"
@@ -11,7 +11,7 @@
       "keyword": "新能源",
       "positive": 0,
       "negative": 0,
-      "neutral": 2
+      "neutral": 4
     },
     {
       "date": "2026-03-29",
