@@ -1,11 +1,39 @@
 {
-  "lastUpdate": "2026-03-29T02:51:02.555077",
-  "newsCount": 1252,
+  "lastUpdate": "2026-03-29T05:15:01.392999",
+  "newsCount": 1268,
   "dateRange": {
     "start": "2026-03-25",
     "end": "2026-03-29"
   },
   "topKeywords": [
+    {
+      "date": "2026-03-29",
+      "keyword": "无人机",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 5
+    },
+    {
+      "date": "2026-03-29",
+      "keyword": "半导体",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1
+    },
+    {
+      "date": "2026-03-29",
+      "keyword": "机器人",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    },
+    {
+      "date": "2026-03-29",
+      "keyword": "芯片",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1
+    },
     {
       "date": "2026-03-29",
       "keyword": "人工智能",
@@ -19,13 +47,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 1
-    },
-    {
-      "date": "2026-03-29",
-      "keyword": "无人机",
-      "positive": 0,
-      "negative": 0,
-      "neutral": 3
     },
     {
       "date": "2026-03-29",
@@ -54,27 +75,6 @@
       "positive": 0,
       "negative": 0,
       "neutral": 22
-    },
-    {
-      "date": "2026-03-28",
-      "keyword": "算力",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 2
-    },
-    {
-      "date": "2026-03-28",
-      "keyword": "机器人",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 1
-    },
-    {
-      "date": "2026-03-28",
-      "keyword": "芯片",
-      "positive": 1,
-      "negative": 0,
-      "neutral": 0
     }
   ],
   "topStocks": [
@@ -105,6 +105,10 @@
     [
       "理想汽车",
       2
+    ],
+    [
+      "TCL",
+      1
     ],
     [
       "宁德时代",
