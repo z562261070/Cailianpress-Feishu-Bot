@@ -1,13 +1,4 @@
-# 量化数据过滤
-*.json
-__pycache__/
-.pytest_cache/
-*.log
+# 策略禅师：应用户要求，移除所有过滤规则，允许全量同步
+# 所有的 JSON 数据和 Output 将被 Git 追踪
 
-# 输出报告需要保存到 GitHub 以供查看
-# 移除 output/ 屏蔽，允许同步
-!output/
-
-# 敏感信息忽略
-.env
-local_settings.py
+# 已移除过滤...
