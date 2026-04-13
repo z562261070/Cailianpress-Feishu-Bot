@@ -1,9 +1,12 @@
 # 量化数据过滤
 *.json
-output/
 __pycache__/
 .pytest_cache/
 *.log
+
+# 输出报告需要保存到 GitHub 以供查看
+# 移除 output/ 屏蔽，允许同步
+!output/
 
 # 敏感信息忽略
 .env

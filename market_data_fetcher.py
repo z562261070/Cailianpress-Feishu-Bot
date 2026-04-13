@@ -3,7 +3,7 @@ import requests
 import json
 import time
 import random
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 class MarketDataFetcher:
@@ -17,7 +17,9 @@ class MarketDataFetcher:
         }
         
     def _get_business_date(self):
-        return datetime.now().strftime("%Y%m%d")
+        # 💡 强制使用北京时间
+        tz_beijing = timezone(timedelta(hours=8))
+        return datetime.now(tz=tz_beijing).strftime("%Y%m%d")
 
     def fetch_pool_all_pages(self, base_url_pattern, filename, date_str):
         """循环抓取所有页面，确保数据完整"""
@@ -134,4 +136,5 @@ class MarketDataFetcher:
 
 if __name__ == "__main__":
     fetcher = MarketDataFetcher()
-    fetcher.run(date_target="20250509")
+    # 💡 移除硬编码，默认同步当天数据
+    fetcher.run()
