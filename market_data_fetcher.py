@@ -9,9 +9,6 @@ from pathlib import Path
 class MarketDataFetcher:
     def __init__(self, base_dir="."):
         self.base_dir = Path(base_dir)
-        # 💡 将原始数据归拢到缓存目录
-        self.output_dir = self.base_dir / "output" / "json_cache"
-        self.output_dir.mkdir(parents=True, exist_ok=True)
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "Referer": "https://data.10jqka.com.cn/datacenter/limitup/",
@@ -121,6 +118,12 @@ class MarketDataFetcher:
     def run(self, date_target=None):
         if not date_target:
             date_target = self._get_business_date()
+            
+        # 💡 创建日期子目录，如 output/json_cache/2026-04-13
+        # 统一格式为 YYYY-MM-DD
+        dir_name = date_target if '-' in date_target else f"{date_target[:4]}-{date_target[4:6]}-{date_target[6:]}"
+        self.output_dir = self.base_dir / "output" / "json_cache" / dir_name
+        self.output_dir.mkdir(parents=True, exist_ok=True)
             
         print(f"--- 开启同花顺数据同步法阵 [日期: {date_target}] ---")
         

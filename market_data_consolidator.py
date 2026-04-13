@@ -46,22 +46,19 @@ class MarketDataConsolidator:
     def process(self, business_date=None):
         """核心处理逻辑：读取JSON -> 整理表格 -> 生成研报"""
         try:
-            # 尝试从涨停池获取业务日期
-            zt_file = self.base_dir / "涨停池.json"
-            if not business_date and zt_file.exists():
-                try:
-                    with open(zt_file, 'r', encoding='utf-8') as f:
-                        data = json.load(f)
-                        business_date = data.get("data", {}).get("business_date")
-                except: pass
-            
+            # 1. 确定业务日期
             if not business_date:
-                # 💡 本地运行默认北京时间
                 tz_beijing = timezone(timedelta(hours=8))
                 business_date = datetime.now(tz=tz_beijing).strftime("%Y-%m-%d")
             else:
                 if len(business_date) == 8:
                     business_date = f"{business_date[:4]}-{business_date[4:6]}-{business_date[6:]}"
+            
+            # 💡 核心变动：根据日期定位 JSON 缓存目录
+            root_path = self.output_base.parent # 假设 output_base 是 root/output
+            self.base_dir = root_path / "output" / "json_cache" / business_date
+            
+            print(f"正在从 {self.base_dir} 读取原始数据...")
             
             # 归档老旧文件
             self._archive_old_files(business_date)
