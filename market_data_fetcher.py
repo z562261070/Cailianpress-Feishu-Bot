@@ -9,6 +9,9 @@ from pathlib import Path
 class MarketDataFetcher:
     def __init__(self, base_dir="."):
         self.base_dir = Path(base_dir)
+        # 💡 将原始数据归拢到缓存目录
+        self.output_dir = self.base_dir / "output" / "json_cache"
+        self.output_dir.mkdir(parents=True, exist_ok=True)
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "Referer": "https://data.10jqka.com.cn/datacenter/limitup/",
@@ -74,7 +77,7 @@ class MarketDataFetcher:
                     "business_date": date_str
                 }
             }
-            with open(self.base_dir / filename, 'w', encoding='utf-8') as f:
+            with open(self.output_dir / filename, 'w', encoding='utf-8') as f:
                 json.dump(output_data, f, ensure_ascii=False, indent=4)
             print(f"成功保存 {len(all_info)} 条数据到 {filename}")
             return True
@@ -89,7 +92,7 @@ class MarketDataFetcher:
                 res.raise_for_status()
                 data = res.json()
                 if data.get("status_code") == 0:
-                    with open(self.base_dir / filename, 'w', encoding='utf-8') as f:
+                    with open(self.output_dir / filename, 'w', encoding='utf-8') as f:
                         json.dump(data, f, ensure_ascii=False, indent=4)
                     print(f"成功同步最强风口数据")
                     return True
@@ -107,7 +110,7 @@ class MarketDataFetcher:
                 res.raise_for_status()
                 data = res.json()
                 if data.get("status_code") == 0:
-                    with open(self.base_dir / filename, 'w', encoding='utf-8') as f:
+                    with open(self.output_dir / filename, 'w', encoding='utf-8') as f:
                         json.dump(data, f, ensure_ascii=False, indent=4)
                     print(f"成功同步市场大局观数据")
                     return True

@@ -9,10 +9,15 @@ from collections import defaultdict, Counter
 
 class MarketDataConsolidator:
     def __init__(self, base_dir="."):
-        self.base_dir = Path(base_dir)
-        self.output_base = self.base_dir / "output"
+        root_path = Path(base_dir)
+        # 💡 数据源指向缓存目录，产出指向 date 目录
+        self.base_dir = root_path / "output" / "json_cache"
+        self.output_base = root_path / "output"
         self.date_dir = self.output_base / "date"
         self.history_dir = self.date_dir / "history"
+        
+        root_path.mkdir(parents=True, exist_ok=True) # 确保根路径
+        self.base_dir.mkdir(parents=True, exist_ok=True) # 确保缓存路径
         self.date_dir.mkdir(parents=True, exist_ok=True)
         self.history_dir.mkdir(parents=True, exist_ok=True)
         
