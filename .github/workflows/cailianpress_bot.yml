@@ -5,8 +5,8 @@ name: Hot News Crawler
 on:
   schedule:
     # 注意：GitHub Actions 的定时任务可能存在延迟
-    # Force re-registering the schedule by adding this comment
-    - cron: '*/10 * * * *'  # 每10分钟运行一次
+    # 每30分钟运行一次，配合90分钟的token发送周期
+    - cron: '*/30 * * * *'  # 每30分钟运行一次
   # 允许在 GitHub Actions 页面手动触发此工作流
   workflow_dispatch:
 
@@ -40,20 +40,28 @@ jobs:
       run: |
         # 升级 pip 工具
         python -m pip install --upgrade pip
-        # 安装脚本所需的库
-        pip install requests pytz
+        # 安装脚本所需的库，新增 pandas 供 consolidator 计算历史反馈数据
+        pip install requests pytz pandas
     
     # 第4步：运行爬虫脚本
     - name: Run crawler
       env:
         # 从仓库的 Secrets 中读取飞书 Webhook URL，确保安全
         FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+        # 飞书Bot相关配置
+        FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+        FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+        FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
+        ENABLE_FEISHU_BOT: ${{ secrets.ENABLE_FEISHU_BOT }}
         GITHUB_ACTIONS: true
         USE_PROXY: false
-      # ！！！核心修改！！！
-      # 此处的文件名已更新为您最新的脚本文件名。
-      # 如果您的文件名不同，请修改下面这一行。
-      run: python cls_to_feishu.py
+      run: |
+        # 保持原有的财联社推送
+        python cls_to_feishu.py
+        
+        # --- 新增：同花顺量化数据源 ---
+        python market_data_fetcher.py
+        python market_data_consolidator.01.py
     
     # 第5步：提交并推送更改
     - name: Commit and push if changes
