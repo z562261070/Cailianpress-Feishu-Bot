@@ -62,7 +62,7 @@ jobs:
         python market_data_fetcher.py || echo "Warning: market_data_fetcher.py execution failed"
         
         # 3. 数据整合与深度报告生成（依赖 pandas）
-        python market_data_consolidator.01.py || echo "Warning: market_data_consolidator.01.py execution failed"
+        python market_data_consolidator.py || echo "Warning: market_data_consolidator.py execution failed"
     
     # 第5步：提交并推送更改
     # 注意：由于我们在 .gitignore 中排除了 JSON 和 output/，
