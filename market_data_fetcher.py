@@ -128,24 +128,23 @@ class MarketDataFetcher:
         print(f"--- 开启同花顺数据同步法阵 [日期: {date_target}] ---")
         
         # 涨停池
-        url_zt = f"https://data.10jqka.com.cn/dataapi/limit_up/limit_up_pool?page=1&limit=15&field=10,19,48,9001,9002,9003,9004,133970,133971,199112,330323,330324,330325,330329,330333,330334,1968584,3475914,3541450&filter=HS,GEM2STAR,ST,NEW&order_field=330324&order_type=0&date={date_target}"
-        self.fetch_pool_all_pages(url_zt, "涨停池.json", date_target)
+        self.fetch_pool_all_pages(url_zt, f"{dir_name}_涨停池.json", date_target)
         
         # 炸板池
         url_zb = f"https://data.10jqka.com.cn/dataapi/limit_up/open_limit_pool?page=1&limit=15&field=10,19,48,9001,9002,9003,9004,133970,133971,199112,330323,330324,330325,330329,330333,330334,1968584,3475914,3541450&filter=HS,GEM2STAR,ST,NEW&order_field=199112&order_type=0&date={date_target}"
-        self.fetch_pool_all_pages(url_zb, "炸板池.json", date_target)
+        self.fetch_pool_all_pages(url_zb, f"{dir_name}_炸板池.json", date_target)
         
         # 跌停池
         url_dt = f"https://data.10jqka.com.cn/dataapi/limit_up/lower_limit_pool?page=1&limit=15&field=10,19,48,9001,9002,9003,9004,133970,133971,199112,330323,330324,330325,330329,330333,330334,1968584,3475914,3541450&filter=HS,GEM2STAR,ST,NEW&date={date_target}&order_field=330334&order_type=0"
-        self.fetch_pool_all_pages(url_dt, "跌停池.json", date_target)
+        self.fetch_pool_all_pages(url_dt, f"{dir_name}_跌停池.json", date_target)
         
         # 最强风口
         url_fk = f"https://data.10jqka.com.cn/dataapi/limit_up/block_top?filter=HS,GEM2STAR,ST,NEW&date={date_target}"
-        self.fetch_block_top(url_fk, "最强风口.json")
+        self.fetch_block_top(url_fk, f"{dir_name}_最强风口.json")
         
         # 市场大局观
         url_ov = f"https://data.10jqka.com.cn/mobileapi/hotspot_focus/market_state/v1/overview?date={date_target}"
-        self.fetch_market_overview(url_ov, "市场大局观.json")
+        self.fetch_market_overview(url_ov, f"{dir_name}_市场大局观.json")
         
         print(f"--- 同步完成 ---")
 

@@ -65,11 +65,11 @@ class MarketDataConsolidator:
             
             print(f"正在整合业务日期: {business_date} 的量化数据...")
             
-            # 文件池定义
+            # 文件池定义（💡 已加上日期前缀）
             files = {
-                "涨停池": "涨停池.json",
-                "炸板池": "炸板池.json",
-                "跌停池": "跌停池.json"
+                "涨停池": f"{business_date}_涨停池.json",
+                "炸板池": f"{business_date}_炸板池.json",
+                "跌停池": f"{business_date}_跌停池.json"
             }
             
             final_rows = []
@@ -163,7 +163,7 @@ class MarketDataConsolidator:
             print(f"归档过程出错: {e}")
 
     def _generate_market_summary(self, business_date, sector_mapping, final_rows):
-        overview_file = self.base_dir / "市场大局观.json"
+        overview_file = self.base_dir / f"{business_date}_市场大局观.json"
         
         # 💡 容错处理：即使没有大局观数据，也生成部分报告
         ov_data = {}
