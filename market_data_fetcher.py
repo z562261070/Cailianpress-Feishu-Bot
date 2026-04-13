@@ -128,6 +128,7 @@ class MarketDataFetcher:
         print(f"--- 开启同花顺数据同步法阵 [日期: {date_target}] ---")
         
         # 涨停池
+        url_zt = f"https://data.10jqka.com.cn/dataapi/limit_up/limit_up_pool?page=1&limit=15&field=10,19,48,9001,9002,9003,9004,133970,133971,199112,330323,330324,330325,330329,330333,330334,1968584,3475914,3541450&filter=HS,GEM2STAR,ST,NEW&order_field=330324&order_type=0&date={date_target}"
         self.fetch_pool_all_pages(url_zt, f"{dir_name}_涨停池.json", date_target)
         
         # 炸板池

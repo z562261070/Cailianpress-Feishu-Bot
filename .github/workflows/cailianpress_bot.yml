@@ -56,13 +56,13 @@ jobs:
         USE_PROXY: false
       run: |
         # 1. 财联社新闻推送（核心业务）
-        python cls_to_feishu.py || echo "Warning: cls_to_feishu.py execution failed"
+        python cls_to_feishu.py
         
         # 2. 同花顺量化数据抓取（外围数据）
-        python market_data_fetcher.py || echo "Warning: market_data_fetcher.py execution failed"
+        python market_data_fetcher.py
         
-        # 3. 数据整合与深度报告生成（依赖 pandas）
-        python market_data_consolidator.py || echo "Warning: market_data_consolidator.py execution failed"
+        # 3. 数据整合与深度报告生成（核心研报）
+        python market_data_consolidator.py
     
     # 第5步：提交并推送更改
     # 注意：由于我们在 .gitignore 中排除了 JSON 和 output/，
@@ -70,9 +70,14 @@ jobs:
     # 优点：仓库极简。 缺点：Actions 云端运行将失去“历史比对”能力。
     - name: Commit and push changes
       run: |
-        git config --global user.name 'GitHub Actions'
+        git config --global user.name 'GitHub Actions Binder'
         git config --global user.email 'actions@github.com'
-        # 仅暂存已被 Git 跟踪或符合规则的修改
+        # 强制暂存所有 output 目录下的数据变化
         git add .
-        # 检查是否有代码层面的更新（如脚本优化）
-        git diff --quiet && git diff --staged --quiet || (git commit -m "chore: optimize scripts/workflow at $(TZ=Asia/Shanghai date)" && git push)
+        # 如果有任何变动（无论是脚本还是数据），则提交存证
+        if [ -n "$(git status --porcelain)" ]; then
+          git commit -m "chore: sync market data and scripts [$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')]"
+          git push
+        else
+          echo "No changes detected, skipping commit."
+        fi
