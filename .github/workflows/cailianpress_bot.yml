@@ -55,14 +55,14 @@ jobs:
         GITHUB_ACTIONS: true
         USE_PROXY: false
       run: |
-        # 1. 财联社新闻推送（核心业务）
-        python cls_to_feishu.py
-        
-        # 2. 同花顺量化数据抓取（外围数据）
+        # 1. 同花顺量化数据抓取（外围数据）
         python market_data_fetcher.py
         
-        # 3. 数据整合与深度报告生成（核心研报）
+        # 2. 数据整合与深度报告生成（核心研报）
         python market_data_consolidator.py
+        
+        # 3. 财联社新闻推送与量化研报同步发送（核心业务）
+        python cls_to_feishu.py
     
     # 第5步：提交并推送更改
     # 注意：由于我们在 .gitignore 中排除了 JSON 和 output/，

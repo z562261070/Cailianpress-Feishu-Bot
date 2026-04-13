@@ -784,6 +784,15 @@ def main():
                     print(f"[{TimeHelper.format_datetime()}] 5天整合文件已推送到飞书群聊")
                 else:
                     print(f"[{TimeHelper.format_datetime()}] 5天整合文件推送失败")
+
+            # --- 💡 新增：发送同花顺量化复盘报告 ---
+            quant_summary_path = Path("./output/date") / f"{today_date_str}_market_summary.md"
+            if quant_summary_path.exists():
+                success = feishu_bot.upload_and_send_file(quant_summary_path)
+                if success:
+                    print(f"[{TimeHelper.format_datetime()}] 同花顺量化复盘研报已推送到飞书群聊")
+                else:
+                    print(f"[{TimeHelper.format_datetime()}] 量化复盘研报推送失败")
             
             # 发送汇总消息
             if new_telegrams:
@@ -791,7 +800,7 @@ def main():
                               f"🕐 更新时间: {TimeHelper.format_datetime()}\n" \
                               f"📊 新增电报: {len(new_telegrams)} 条\n" \
                               f"🔴 重要电报: {len([t for t in new_telegrams if t.get('is_red')])} 条\n" \
-                              f"📁 文件已上传，请查看群聊附件获取完整内容"
+                              f"📁 更多文件已上传，请查看群聊附件获取完整内容"
                 
                 feishu_bot.send_text_message(summary_text)
 
