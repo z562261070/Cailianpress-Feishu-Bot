@@ -203,15 +203,18 @@ class MarketDataConsolidator:
 
     def _generate_market_summary(self, business_date, sector_mapping, final_rows):
         overview_file = self.base_dir / "市场大局观.json"
-        if not overview_file.exists(): return
         
-        try:
-            with open(overview_file, 'r', encoding='utf-8') as f:
-                ov_data = json.load(f).get("data", {})
-            
-            turnover = ov_data.get("turnover", {})
-            rf = ov_data.get("rise_fall", {})
-            dt_count = rf.get('limit_down', 0)
+        # 💡 容错处理：即使没有大局观 JSON，也继续生成报告
+        ov_data = {}
+        if overview_file.exists():
+            try:
+                with open(overview_file, 'r', encoding='utf-8') as f:
+                    ov_data = json.load(f).get("data", {})
+            except: pass
+        
+        turnover = ov_data.get("turnover", {"now": "未知", "pre": "未知"})
+        rf = ov_data.get("rise_fall", {})
+        dt_count = rf.get('limit_down', 0)
             
             # --- 深度量化计算 ---
             zt_rows = [r for r in final_rows if "涨停池" in r.get("池类型", "")]

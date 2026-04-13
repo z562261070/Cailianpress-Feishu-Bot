@@ -81,30 +81,39 @@ class MarketDataFetcher:
         return False
 
     def fetch_block_top(self, url, filename):
-        """风口数据通常一页返回，无需分页"""
-        time.sleep(2)
-        try:
-            res = requests.get(url, headers=self.headers, timeout=15)
-            data = res.json()
-            if data.get("status_code") == 0:
-                with open(self.base_dir / filename, 'w', encoding='utf-8') as f:
-                    json.dump(data, f, ensure_ascii=False, indent=4)
-                print(f"成功同步最强风口数据")
-        except Exception as e:
-            print(f"抓取风口失败: {e}")
+        """风口数据通常一页返回，带有重试机制"""
+        for attempt in range(3):
+            try:
+                time.sleep(random.uniform(1, 2))
+                res = requests.get(url, headers=self.headers, timeout=20)
+                res.raise_for_status()
+                data = res.json()
+                if data.get("status_code") == 0:
+                    with open(self.base_dir / filename, 'w', encoding='utf-8') as f:
+                        json.dump(data, f, ensure_ascii=False, indent=4)
+                    print(f"成功同步最强风口数据")
+                    return True
+            except Exception as e:
+                print(f"抓取风口失败 (尝试 {attempt+1}): {e}")
+        return False
 
     def fetch_market_overview(self, url, filename):
-        """抓取市场大局观数据（涨跌分布、成交量等）"""
-        time.sleep(1)
-        try:
-            res = requests.get(url, headers=self.headers, timeout=15)
-            data = res.json()
-            if data.get("status_code") == 0:
-                with open(self.base_dir / filename, 'w', encoding='utf-8') as f:
-                    json.dump(data, f, ensure_ascii=False, indent=4)
-                print(f"成功同步市场大局观数据")
-        except Exception as e:
-            print(f"抓取大局观失败: {e}")
+        """抓取市场大局观数据，带有更强的重试机制"""
+        for attempt in range(3):
+            try:
+                time.sleep(random.uniform(1, 2))
+                # 💡 增加超时时间到 25 秒
+                res = requests.get(url, headers=self.headers, timeout=25)
+                res.raise_for_status()
+                data = res.json()
+                if data.get("status_code") == 0:
+                    with open(self.base_dir / filename, 'w', encoding='utf-8') as f:
+                        json.dump(data, f, ensure_ascii=False, indent=4)
+                    print(f"成功同步市场大局观数据")
+                    return True
+            except Exception as e:
+                print(f"抓取大盘数据失败 (尝试 {attempt+1}): {e}")
+        return False
 
     def run(self, date_target=None):
         if not date_target:
