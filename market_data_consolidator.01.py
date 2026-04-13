@@ -3,7 +3,7 @@ import json
 import os
 import csv
 import re
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from collections import defaultdict, Counter
 
@@ -31,7 +31,10 @@ class MarketDataConsolidator:
         if not ts or str(ts) in ["-60", "0", "None", "null"]:
             return ""
         try:
-            return datetime.fromtimestamp(int(float(ts))).strftime("%H:%M:%S")
+            # 💡 强制转换为北京时间 (UTC+8)
+            tz_beijing = timezone(timedelta(hours=8))
+            dt = datetime.fromtimestamp(int(float(ts)), tz=tz_beijing)
+            return dt.strftime("%H:%M:%S")
         except:
             return ""
 
@@ -66,7 +69,9 @@ class MarketDataConsolidator:
             except: pass
         
         if not business_date:
-            business_date = datetime.now().strftime("%Y-%m-%d")
+            # 💡 修正参数名，统一使用北京时间
+            tz_beijing = timezone(timedelta(hours=8))
+            business_date = datetime.now(tz=tz_beijing).strftime("%Y-%m-%d")
         else:
             if len(business_date) == 8:
                 business_date = f"{business_date[:4]}-{business_date[4:6]}-{business_date[6:]}"

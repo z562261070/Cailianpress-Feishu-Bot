@@ -17,7 +17,7 @@ import pytz
 
 # --- 1. 配置常量 ---
 CONFIG = {
-    "OUTPUT_DIR": "./output/cls",  # 输出目录
+    "OUTPUT_DIR": "./output/财联社电报",  # 输出目录已与量化报告目录对齐
     "FEISHU_WEBHOOK_URL": os.getenv("FEISHU_WEBHOOK_URL", ""),  # 飞书自动化 Webhook URL
     "MAX_TELEGRAMS_FETCH": 100,  # 每次API请求最大获取电报数量 (根据财联社API实际能力调整)
     "RED_KEYWORDS": ["利好", "利空", "重要", "突发", "紧急", "关注", "提醒", "涨停", "大跌", "突破"],  # 标红关键词，可扩展
@@ -119,7 +119,7 @@ class TelegramFileManager:
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
     def _get_file_path(self, date_str: str) -> Path:
-        return self.output_dir / f"cls_{date_str}.md"
+        return self.output_dir / f"财联社电报_{date_str}.md"
 
     def get_existing_ids_for_date(self, date_str: str) -> set:
         """仅用于获取文件中已存在的ID集合，用于去重。"""
@@ -230,7 +230,7 @@ class TelegramFileManager:
         """
         try:
             # 获取输出目录中所有的cls_*.md文件
-            pattern = "cls_*.md"
+            pattern = "财联社电报_*.md"
             files = list(self.output_dir.glob(pattern))
             
             if len(files) <= keep_count:
@@ -287,7 +287,7 @@ class FiveDaysSummaryManager:
         for day_offset in range(5):
             target_date = current_time - timedelta(days=day_offset)
             date_str = target_date.strftime("%Y-%m-%d")
-            file_path = self.base_output_dir / f"cls_{date_str}.md"
+            file_path = self.base_output_dir / f"财联社电报_{date_str}.md"
             
             summary_lines.append(f"## {target_date.strftime('%Y年%m月%d日')} ({target_date.strftime('%A')})")
             summary_lines.append(f"")
