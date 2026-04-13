@@ -29,8 +29,8 @@ jobs:
     
     # 第2步：设置 Python 环境
     - name: Set up Python
-      # 使用官方的 actions/setup-python@v4 来设置 Python 环境
-      uses: actions/setup-python@v4
+      # 升级到 v5 以支持最新的环境驱动，消除 Node.js 20 弃用警告
+      uses: actions/setup-python@v5
       with:
         # 指定使用的 Python 版本
         python-version: '3.9'
@@ -46,9 +46,8 @@ jobs:
     # 第4步：运行爬虫脚本
     - name: Run crawler
       env:
-        # 从仓库的 Secrets 中读取飞书 Webhook URL，确保安全
+        # 从仓库的 Secrets 中读取秘钥
         FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
-        # 飞书Bot相关配置
         FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
         FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
         FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
@@ -56,21 +55,24 @@ jobs:
         GITHUB_ACTIONS: true
         USE_PROXY: false
       run: |
-        # 保持原有的财联社推送
-        python cls_to_feishu.py
+        # 1. 财联社新闻推送（核心业务）
+        python cls_to_feishu.py || echo "Warning: cls_to_feishu.py execution failed"
         
-        # --- 新增：同花顺量化数据源 ---
-        python market_data_fetcher.py
-        python market_data_consolidator.01.py
+        # 2. 同花顺量化数据抓取（外围数据）
+        python market_data_fetcher.py || echo "Warning: market_data_fetcher.py execution failed"
+        
+        # 3. 数据整合与深度报告生成（依赖 pandas）
+        python market_data_consolidator.01.py || echo "Warning: market_data_consolidator.01.py execution failed"
     
     # 第5步：提交并推送更改
-    - name: Commit and push if changes
+    # 注意：由于我们在 .gitignore 中排除了 JSON 和 output/，
+    # 这里的提交只会同步代码（脚本）的修改，不会同步运行产生的历史数据。
+    # 优点：仓库极简。 缺点：Actions 云端运行将失去“历史比对”能力。
+    - name: Commit and push changes
       run: |
-        # 配置 git 用户名和邮箱
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
-        # 添加所有更改到暂存区
-        git add -A
-        # 检查是否有文件更改，只有在有更改时才执行提交和推送操作
-        # `TZ=Asia/Shanghai date` 用于生成带时区的提交信息
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update by GitHub Actions at $(TZ=Asia/Shanghai date)" && git push)
+        # 仅暂存已被 Git 跟踪或符合规则的修改
+        git add .
+        # 检查是否有代码层面的更新（如脚本优化）
+        git diff --quiet && git diff --staged --quiet || (git commit -m "chore: optimize scripts/workflow at $(TZ=Asia/Shanghai date)" && git push)

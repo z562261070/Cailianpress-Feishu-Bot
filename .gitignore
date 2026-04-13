@@ -1,0 +1,10 @@
+# 量化数据过滤
+*.json
+output/
+__pycache__/
+.pytest_cache/
+*.log
+
+# 敏感信息忽略
+.env
+local_settings.py
