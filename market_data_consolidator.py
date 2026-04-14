@@ -75,6 +75,19 @@ class MarketDataConsolidator:
             final_rows = []
             sector_mapping = defaultdict(list)
             
+            # 💡 增强逻辑：从“最强风口” JSON 中提取行业映射
+            code_to_industry = {}
+            fk_file = self.base_dir / f"{business_date}_最强风口.json"
+            if fk_file.exists():
+                try:
+                    with open(fk_file, 'r', encoding='utf-8') as f:
+                        fk_data = json.load(f).get("data", [])
+                        for block in fk_data:
+                            industry_name = block.get("name")
+                            for s in block.get("stock_list", []):
+                                code_to_industry[self._get_market_suffix(s.get("code"))] = industry_name
+                except: pass
+
             for pool_name, filename in files.items():
                 file_path = self.base_dir / filename
                 if not file_path.exists():
@@ -84,6 +97,19 @@ class MarketDataConsolidator:
                     data = json.load(f)
                     info = data.get("data", {}).get("info", [])
                     for item in info:
+                        # 💡 连板天数转换逻辑：将 "3天3板" 转换为 3，"首板" 转换为 1
+                        raw_high_days = str(item.get("high_days", "1"))
+                        if "首板" in raw_high_days:
+                            high_days_num = 1
+                        elif "天" in raw_high_days:
+                            try:
+                                high_days_num = int(re.search(r'(\d+)天', raw_high_days).group(1))
+                            except:
+                                high_days_num = 1
+                        else:
+                            high_days_num = item.get("limit_up_days", 1)
+
+                        raw_reason = item.get("reason_type", "")
                         # 核心清洗字段
                         row = {
                             "日期": business_date,
@@ -91,18 +117,15 @@ class MarketDataConsolidator:
                             "股票代码": self._get_market_suffix(item.get("code")),
                             "股票名称": item.get("name"),
                             "现价": item.get("latest"),
-                            "涨跌幅%": item.get("range"),
+                            "涨跌幅%": item.get("change_rate", item.get("range")), 
                             "换手率%": item.get("turnover_rate"),
-                            "连板天数": item.get("limit_up_days", 1),
+                            "连板天数": high_days_num, 
                             "最后封板时间": self._format_timestamp(item.get("last_limit_up_time")),
                             "首次封板时间": self._format_timestamp(item.get("first_limit_up_time")),
-                            "首次开板时间": self._format_timestamp(item.get("first_open_limit_time")),
-                            "最后开板时间": self._format_timestamp(item.get("last_open_limit_time")),
-                            "开板次数": item.get("open_limit_num", 0),
+                            "开板次数": item.get("open_num", item.get("open_limit_num", 0)), 
                             "封单额": item.get("order_amount", 0),
                             "流通市值": item.get("currency_value", 0),
-                            "涨停原因": item.get("reason_type", "未知"),
-                            "所属行业": item.get("order_field", "未知")
+                            "涨停原因": raw_reason if raw_reason else "未知"
                         }
                         final_rows.append(row)
                         # 记录题材
