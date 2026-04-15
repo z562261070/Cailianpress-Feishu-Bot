@@ -26,6 +26,7 @@
     - **题材持续性**：通过基因比对分析主流热点是否具有持续性。
     - **连板梯队**：自动梳理非 ST 连板身位，呈现清晰的梯队逻辑。
 - **禅师总结**：基于市场分位数的“禅外题话”，提供定性的情绪指引。
+- **情绪可视化**：自动生成 8 张核心情绪走势图，涵盖封板强度、板块轮动及情绪节奏。
 
 ### 3. 🤖 云端自动化 (GitHub Actions)
 - **全天候运行**：每 30 分钟自动执行一次，并在盘后生成最终总结。
@@ -46,7 +47,7 @@
 ### 2. 依赖安装
 
 ```bash
-pip install requests pytz pandas
+pip install requests pytz pandas matplotlib seaborn
 ```
 
 ### 3. 核心文件说明
@@ -60,13 +61,24 @@ pip install requests pytz pandas
 
 ---
 
-## 📈 产出物示例
+## 📈 情绪可视化周报（最新）
 
-生成的深度研报（`*_market_summary.md`）将包含：
-1. **核心情绪定性**：红绿灯进度条呈现胜率。
-2. **昨日反馈**：量化昨日涨停股的回撤与晋级情况。
-3. **题材持续性**：评估当红题材是“一日游”还是有主线潜质。
-4. **剔除噪点**：所有分析均自动剔除 ST 个股，聚焦主流活跃资金。
+系统每日收盘后自动更新以下微观结构看板：
+
+| 图 1：每日涨停家数统计 | 图 2：涨停概念板块分布 |
+| :--- | :--- |
+| ![每日涨停](output/date/5day/trend_charts/chart_01_daily_count.png) | ![概念分布](output/date/5day/trend_charts/chart_02_sector_dist.png) |
+
+| 图 4：每日市场情绪结构 | 图 5：热点概念轮动热力图 |
+| :--- | :--- |
+| ![池结构](output/date/5day/trend_charts/chart_04_pool_daily.png) | ![热力图](output/date/5day/trend_charts/chart_05_theme_heatmap.png) |
+
+| 图 7：尾盘封板比例趋势 | 图 8：市场情绪节奏 |
+| :--- | :--- |
+| ![尾盘封板](output/date/5day/trend_charts/chart_07_seal_timing_trend.png) | ![情绪节奏](output/date/5day/trend_charts/chart_08_rates_trend.png) |
+
+> [!TIP]
+> **尾盘封板比例**过高通常预示次日承接转弱；**炸板率与跌停率**的交织反映了短线博弈的惨烈程度。
 
 ---
 

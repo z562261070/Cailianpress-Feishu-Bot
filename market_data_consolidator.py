@@ -158,7 +158,7 @@ class MarketDataConsolidator:
             import traceback
             traceback.print_exc()
 
-    def _archive_old_files(self, current_date, keep_days=7):
+    def _archive_old_files(self, current_date, keep_days=5):
         """将非本日且超过保留期限的文件移入 history，保持主目录清空"""
         try:
             # 1. 获取所有类似 YYYY-MM-DD 的日期前缀文件
@@ -331,7 +331,7 @@ class MarketDataConsolidator:
         try:
             fiveday_dir = self.date_dir / "5day"
             fiveday_dir.mkdir(parents=True, exist_ok=True)
-            csv_files = sorted(list(self.date_dir.glob("????-??-??_market_pool.csv")), key=lambda x: x.name)
+            csv_files = sorted(list(self.date_dir.glob("????-??-??_market_pool.csv")), key=lambda x: x.name)[-5:]
             if not csv_files: return
             all_rows = []
             headers = None

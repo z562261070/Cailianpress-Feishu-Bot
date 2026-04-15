@@ -2,3 +2,9 @@
 # 所有的 JSON 数据和 Output 将被 Git 追踪
 
 # 已移除过滤...
+
+# --- 保护特定敏感文件 ---
+market_daily_report_ai.py
+市场早报_AI_*.docx
+市场早报_AI_*.txt
+SKILL.md

@@ -35,13 +35,18 @@ jobs:
         # 指定使用的 Python 版本
         python-version: '3.9'
     
-    # 第3步：安装 Python 依赖库
-    - name: Install dependencies
+    # 第3步：安装系统字体与 Python 依赖库
+    - name: Install system fonts and dependencies
       run: |
+        # 安装中文字体（文泉驿微米黑）
+        sudo apt-get update
+        sudo apt-get install -y fonts-wqy-microhei
         # 升级 pip 工具
         python -m pip install --upgrade pip
-        # 安装脚本所需的库，新增 pandas 供 consolidator 计算历史反馈数据
-        pip install requests pytz pandas
+        # 安装脚本所需的库：
+        # requests (API请求), pytz (时区), pandas (数据处理), 
+        # matplotlib/seaborn (图表生成)
+        pip install requests pytz pandas matplotlib seaborn
     
     # 第4步：运行爬虫脚本
     - name: Run crawler
@@ -60,8 +65,11 @@ jobs:
         
         # 2. 数据整合与深度报告生成（核心研报）
         python market_data_consolidator.py
+
+        # 3. 生成量化图表（可视化情绪）
+        python gen_charts.py
         
-        # 3. 财联社新闻推送与量化研报同步发送（核心业务）
+        # 4. 财联社新闻推送与量化研报同步发送（核心业务）
         python cls_to_feishu.py
     
     # 第5步：提交并推送更改
