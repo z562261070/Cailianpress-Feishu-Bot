@@ -20,7 +20,7 @@
             "rise": 3973,
             "fall": 1403,
             "deuce": 86,
-            "limit_up": 120,
+            "limit_up": 119,
             "limit_down": 39
         },
         "hgt_market_status": null,
