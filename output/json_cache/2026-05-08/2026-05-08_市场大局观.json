@@ -17,10 +17,10 @@
             "flag": -1
         },
         "rise_fall": {
-            "rise": 3562,
-            "fall": 1775,
-            "deuce": 154,
-            "limit_up": 122,
+            "rise": 3637,
+            "fall": 1728,
+            "deuce": 126,
+            "limit_up": 126,
             "limit_down": 33
         },
         "hgt_market_status": null,
