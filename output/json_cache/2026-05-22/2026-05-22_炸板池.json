@@ -1,0 +1,40 @@
+{
+    "status_code": 0,
+    "data": {
+        "info": [
+            {
+                "first_limit_up_time": "1779413104",
+                "code": "605566",
+                "order_volume": 0.0,
+                "limit_up_suc_rate": 1.0,
+                "sum_market_value": 5466940000.0,
+                "461252": null,
+                "last_limit_down_time": null,
+                "order_amount": 0.0,
+                "first_limit_down_time": null,
+                "high_days_value": null,
+                "rise_rate": -0.822,
+                "turnover": 96200899.0,
+                "market_type": "HS",
+                "latest": 41.0,
+                "open_num": null,
+                "last_limit_up_time": "1779413407",
+                "limit_up_type": null,
+                "is_new": 0,
+                "currency_value": 5466940000.0,
+                "market_id": 17,
+                "is_again_limit": 0,
+                "change_rate": 9.1006,
+                "turnover_rate": 1.7457,
+                "reason_type": null,
+                "high_days": null,
+                "name": "福莱蒽特",
+                "change_tag": "LIMIT_FAILED",
+                "time_preview": [
+                    10.0053
+                ]
+            }
+        ],
+        "business_date": "20260522"
+    }
+}
