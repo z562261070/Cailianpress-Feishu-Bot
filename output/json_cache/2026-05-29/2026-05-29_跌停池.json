@@ -1,0 +1,41 @@
+{
+    "status_code": 0,
+    "data": {
+        "info": [
+            {
+                "first_limit_up_time": null,
+                "code": "603601",
+                "order_volume": 0.0,
+                "limit_up_suc_rate": 0.7931034482758621,
+                "sum_market_value": 24194782000.0,
+                "461252": null,
+                "last_limit_down_time": "1780018385",
+                "order_amount": 0.0,
+                "first_limit_down_time": "1780017902",
+                "high_days_value": null,
+                "rise_rate": 0.0,
+                "turnover": 1291535390.0,
+                "market_type": "HS",
+                "latest": 21.18,
+                "open_num": null,
+                "last_limit_up_time": null,
+                "limit_up_type": null,
+                "is_new": 0,
+                "currency_value": 24194782000.0,
+                "market_id": 17,
+                "is_again_limit": 0,
+                "change_rate": -9.9873,
+                "turnover_rate": 5.2993,
+                "reason_type": null,
+                "high_days": null,
+                "name": "再升科技",
+                "change_tag": "LIMIT_DOWN",
+                "time_preview": [
+                    -9.9873,
+                    -9.9873
+                ]
+            }
+        ],
+        "business_date": "20260529"
+    }
+}
