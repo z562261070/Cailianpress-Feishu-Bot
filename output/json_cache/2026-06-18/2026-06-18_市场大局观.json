@@ -20,8 +20,8 @@
             "rise": 2023,
             "fall": 3395,
             "deuce": 89,
-            "limit_up": 102,
-            "limit_down": 33
+            "limit_up": 101,
+            "limit_down": 34
         },
         "hgt_market_status": null,
         "config_start_date": "2021-06-18"
