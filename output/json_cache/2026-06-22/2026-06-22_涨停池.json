@@ -11884,7 +11884,7 @@
                 "code": "603906",
                 "order_volume": 3993700.0,
                 "limit_up_suc_rate": 0.75,
-                "sum_market_value": 20318610000.0,
+                "sum_market_value": 20711310000.0,
                 "461252": null,
                 "last_limit_down_time": null,
                 "order_amount": 104555066.0,
@@ -11991,7 +11991,7 @@
                 ]
             },
             {
-                "first_limit_up_time": "1782092118",
+                "first_limit_up_time": "1782092119",
                 "code": "600381",
                 "order_volume": 474900.0,
                 "limit_up_suc_rate": 0.8974358974358975,
