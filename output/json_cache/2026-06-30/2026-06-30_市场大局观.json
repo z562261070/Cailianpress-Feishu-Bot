@@ -2,8 +2,8 @@
     "status_code": 0,
     "data": {
         "turnover": {
-            "pre": "2.5万亿",
-            "now": "2.1万亿",
+            "pre": "3.5万亿",
+            "now": "3.3万亿",
             "flag": -1
         },
         "north_flow": {
@@ -17,11 +17,11 @@
             "flag": 0
         },
         "rise_fall": {
-            "rise": 2769,
-            "fall": 2648,
-            "deuce": 91,
-            "limit_up": 107,
-            "limit_down": 15
+            "rise": 3054,
+            "fall": 2364,
+            "deuce": 90,
+            "limit_up": 170,
+            "limit_down": 20
         },
         "hgt_market_status": null,
         "config_start_date": "2021-06-30"
