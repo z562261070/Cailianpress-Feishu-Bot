@@ -2,9 +2,9 @@
     "status_code": 0,
     "data": {
         "turnover": {
-            "pre": "0",
-            "now": "0",
-            "flag": 0
+            "pre": "1.1万亿",
+            "now": "1.2万亿",
+            "flag": 1
         },
         "north_flow": {
             "pre": null,
@@ -17,10 +17,10 @@
             "flag": -1
         },
         "rise_fall": {
-            "rise": 2627,
-            "fall": 1967,
-            "deuce": 875,
-            "limit_up": 5,
+            "rise": 3095,
+            "fall": 2234,
+            "deuce": 210,
+            "limit_up": 68,
             "limit_down": 1
         },
         "hgt_market_status": null,
