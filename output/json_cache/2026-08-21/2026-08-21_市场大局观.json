@@ -17,11 +17,11 @@
             "flag": -1
         },
         "rise_fall": {
-            "rise": 1833,
-            "fall": 3557,
-            "deuce": 153,
-            "limit_up": 47,
-            "limit_down": 9
+            "rise": 1750,
+            "fall": 3633,
+            "deuce": 160,
+            "limit_up": 46,
+            "limit_down": 10
         },
         "hgt_market_status": null,
         "config_start_date": "2021-08-21"
