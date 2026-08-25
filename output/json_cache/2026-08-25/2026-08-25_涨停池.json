@@ -558,7 +558,7 @@
                 ]
             },
             {
-                "first_limit_up_time": "1787639683",
+                "first_limit_up_time": "1787639659",
                 "code": "603912",
                 "order_volume": 4638837.0,
                 "limit_up_suc_rate": 1.0,
@@ -573,7 +573,7 @@
                 "market_type": "HS",
                 "latest": 9.08,
                 "open_num": null,
-                "last_limit_up_time": "1787639683",
+                "last_limit_up_time": "1787639659",
                 "limit_up_type": "换手板",
                 "is_new": 0,
                 "currency_value": 4924322700.0,
@@ -669,7 +669,7 @@
                 ]
             },
             {
-                "first_limit_up_time": "1787639607",
+                "first_limit_up_time": "1787639598",
                 "code": "002478",
                 "order_volume": 9684919.0,
                 "limit_up_suc_rate": 0.7692307692307693,
@@ -684,7 +684,7 @@
                 "market_type": "HS",
                 "latest": 6.92,
                 "open_num": null,
-                "last_limit_up_time": "1787639607",
+                "last_limit_up_time": "1787639598",
                 "limit_up_type": "换手板",
                 "is_new": 0,
                 "currency_value": 5002259500.0,
@@ -3684,7 +3684,7 @@
                 "last_limit_up_time": "1787625381",
                 "limit_up_type": "换手板",
                 "is_new": 0,
-                "currency_value": 4602420000.0,
+                "currency_value": 4602408000.0,
                 "market_id": 33,
                 "is_again_limit": 1,
                 "change_rate": 10.0543,
