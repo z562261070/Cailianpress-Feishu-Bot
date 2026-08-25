@@ -1,0 +1,38 @@
+{
+    "status_code": 0,
+    "data": {
+        "info": [
+            {
+                "first_limit_up_time": null,
+                "code": "301117",
+                "order_volume": 0.0,
+                "limit_up_suc_rate": 0.5714285714285714,
+                "sum_market_value": 2564255400.0,
+                "461252": null,
+                "last_limit_down_time": "1787621100",
+                "order_amount": 0.0,
+                "first_limit_down_time": "1787621100",
+                "high_days_value": null,
+                "rise_rate": 0.0,
+                "turnover": 11101522.0,
+                "market_type": "GEM",
+                "latest": 14.18,
+                "open_num": null,
+                "last_limit_up_time": null,
+                "limit_up_type": null,
+                "is_new": 0,
+                "currency_value": 1642823700.0,
+                "market_id": 33,
+                "is_again_limit": 0,
+                "change_rate": -19.9774,
+                "turnover_rate": 0.6758,
+                "reason_type": null,
+                "high_days": null,
+                "name": "ST佳缘",
+                "change_tag": "LIMIT_DOWN",
+                "time_preview": null
+            }
+        ],
+        "business_date": "20260825"
+    }
+}
