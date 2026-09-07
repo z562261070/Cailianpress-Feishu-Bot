@@ -2,9 +2,9 @@
     "status_code": 0,
     "data": {
         "turnover": {
-            "pre": "1.5万亿",
-            "now": "1.5万亿",
-            "flag": 1
+            "pre": "2万亿",
+            "now": "1.9万亿",
+            "flag": -1
         },
         "north_flow": {
             "pre": null,
@@ -17,9 +17,9 @@
             "flag": 1
         },
         "rise_fall": {
-            "rise": 3266,
-            "fall": 2094,
-            "deuce": 189,
+            "rise": 3167,
+            "fall": 2196,
+            "deuce": 186,
             "limit_up": 95,
             "limit_down": 2
         },
