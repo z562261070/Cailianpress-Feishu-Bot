@@ -1,0 +1,40 @@
+{
+    "status_code": 0,
+    "data": {
+        "info": [
+            {
+                "first_limit_up_time": null,
+                "code": "603378",
+                "order_volume": 0.0,
+                "limit_up_suc_rate": 0.72,
+                "sum_market_value": 2275848200.0,
+                "461252": null,
+                "last_limit_down_time": "1790040301",
+                "order_amount": 0.0,
+                "first_limit_down_time": "1790040301",
+                "high_days_value": null,
+                "rise_rate": 0.0,
+                "turnover": 13300488.0,
+                "market_type": "HS",
+                "latest": 5.31,
+                "open_num": null,
+                "last_limit_up_time": null,
+                "limit_up_type": null,
+                "is_new": 0,
+                "currency_value": 2275848200.0,
+                "market_id": 22,
+                "is_again_limit": 0,
+                "change_rate": -10.0,
+                "turnover_rate": 0.5844,
+                "reason_type": null,
+                "high_days": null,
+                "name": "*ST亚士",
+                "change_tag": "LIMIT_DOWN",
+                "time_preview": [
+                    -10.0
+                ]
+            }
+        ],
+        "business_date": "20260922"
+    }
+}
