@@ -21,7 +21,7 @@
             "fall": 3364,
             "deuce": 223,
             "limit_up": 50,
-            "limit_down": 4
+            "limit_down": 5
         },
         "hgt_market_status": null,
         "config_start_date": "2021-10-21"
